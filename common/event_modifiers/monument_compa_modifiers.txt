@@ -1,0 +1,721 @@
+ww_pharos1 = {
+	
+			mercantilism_cost = -0.1
+			global_ship_trade_power = 0.1
+			naval_attrition = -0.15
+		
+}
+
+ww_pharos2 = {
+	
+			mercantilism_cost = -0.15
+			global_ship_trade_power = 0.15
+			naval_attrition = -0.25
+		
+}
+
+ww_pharos3 = {
+	
+			mercantilism_cost = -0.2
+			global_ship_trade_power = 0.25
+			naval_attrition = -0.35
+		
+}
+
+ww_jebel_barkal1 = {
+	
+			global_autonomy = -0.01
+			global_tax_modifier = 0.1
+		
+}
+
+ww_jebel_barkal2 = {
+	
+			global_autonomy = -0.03
+			global_tax_modifier = 0.15
+		
+}
+
+ww_jebel_barkal3 = {
+	
+			global_autonomy = -0.05
+			global_tax_modifier = 0.2
+			possible_policy = 1
+		
+}
+
+ww_cothon_carthage1 = {
+	
+			galley_power = 0.1
+		
+}
+
+ww_cothon_carthage2 = {
+	
+			ship_durability = 0.05
+			galley_power = 0.15
+		
+}
+
+ww_cothon_carthage3 = {
+	
+			allowed_galleass_fraction = 0.1
+			has_galleass = yes
+			ship_durability = 0.1
+			galley_power = 0.2
+		
+}
+
+ww_loropeni1 = {
+	
+			global_prov_trade_power_modifier = 0.1
+		
+}
+
+ww_loropeni2 = {
+	
+			global_prov_trade_power_modifier = 0.15
+		
+}
+
+ww_loropeni3 = {
+	
+			global_prov_trade_power_modifier = 0.2
+		
+}
+
+ww_senegambian_circles1 = {
+	
+			global_heathen_missionary_strength = 0.01
+			culture_conversion_time = -0.1
+		
+}
+
+ww_senegambian_circles2 = {
+	
+			global_heathen_missionary_strength = 0.02
+			num_accepted_cultures = 1
+			culture_conversion_time = -0.15
+		
+}
+
+ww_senegambian_circles3 = {
+	
+			global_heathen_missionary_strength = 0.03
+			num_accepted_cultures = 2
+			culture_conversion_time = -0.2
+		
+}
+
+ww_ghadames1 = {
+	
+			caravan_power = 0.1
+			trade_efficiency = 0.05
+		
+}
+
+ww_ghadames2 = {
+	
+			caravan_power = 0.15
+			trade_efficiency = 0.1
+		
+}
+
+ww_ghadames3 = {
+	
+			caravan_power = 0.2
+			trade_efficiency = 0.15
+		
+}
+
+ww_ambohimanga1 = {
+	
+			governing_capacity_modifier = 0.1
+		
+}
+
+ww_ambohimanga2 = {
+	
+			governing_capacity_modifier = 0.15
+			discipline = 0.025
+		
+}
+
+ww_ambohimanga3 = {
+	
+			governing_capacity_modifier = 0.2
+			discipline = 0.05
+		
+}
+
+ww_table_mountain1 = {
+	
+			trade_steering = 0.1
+			naval_tradition_from_trade = 0.25
+		
+}
+
+ww_table_mountain2 = {
+	
+			trade_steering = 0.15
+			naval_tradition_from_trade = 0.35
+		
+}
+
+ww_table_mountain3 = {
+	
+			trade_steering = 0.25
+			naval_tradition_from_trade = 0.5
+		
+}
+
+ww_axum_obelisk1 = {
+	
+			monarch_lifespan = 0.1
+			land_morale = 0.05
+		
+}
+
+ww_axum_obelisk2 = {
+	
+			monarch_lifespan = 0.2
+			land_morale = 0.05
+			global_missionary_strength = 0.01
+		
+}
+
+ww_axum_obelisk3 = {
+	
+			monarch_lifespan = 0.3
+			land_morale = 0.1
+			global_missionary_strength = 0.02
+		
+}
+
+ww_victoria_buganda1 = {
+	
+		
+}
+
+ww_victoria_buganda2 = {
+	
+		
+}
+
+ww_victoria_buganda3 = {
+	
+			global_colonial_growth = 5
+		
+}
+
+ww_victoria_busoga1 = {
+	
+		
+}
+
+ww_victoria_busoga2 = {
+	
+		
+}
+
+ww_victoria_busoga3 = {
+	
+			global_colonial_growth = 5
+		
+}
+
+ww_victoria_karagwe1 = {
+	
+		
+}
+
+ww_victoria_karagwe2 = {
+	
+		
+}
+
+ww_victoria_karagwe3 = {
+	
+			global_colonial_growth = 5
+		
+}
+
+ww_victoria_buzinza1 = {
+	
+		
+}
+
+ww_victoria_buzinza2 = {
+	
+		
+}
+
+ww_victoria_buzinza3 = {
+	
+			global_colonial_growth = 5
+		
+}
+
+ww_victoria_shaga1 = {
+	
+		
+}
+
+ww_victoria_shaga2 = {
+	
+		
+}
+
+ww_victoria_shaga3 = {
+	
+			global_colonial_growth = 5
+		
+}
+
+ww_victoria_kuria1 = {
+	
+		
+}
+
+ww_victoria_kuria2 = {
+	
+		
+}
+
+ww_victoria_kuria3 = {
+	
+			global_colonial_growth = 5
+		
+}
+
+ww_crater_lake1 = {
+	
+			religious_unity = 0.1
+		
+}
+
+ww_crater_lake2 = {
+	
+			religious_unity = 0.15
+		
+}
+
+ww_crater_lake3 = {
+	
+			religious_unity = 0.2
+			monarch_military_power = 1
+		
+}
+
+ww_matho_thipila1 = {
+	
+			cavalry_power = 0.1
+		
+}
+
+ww_matho_thipila2 = {
+	
+			cavalry_power = 0.1
+			idea_cost = -0.05
+		
+}
+
+ww_matho_thipila3 = {
+	
+			cavalry_power = 0.15
+			idea_cost = -0.1
+		
+}
+
+ww_medicine_wheel1 = {
+	
+			tribal_development_growth = 0.01
+			tolerance_own = 1
+		
+}
+
+ww_medicine_wheel2 = {
+	
+			tribal_development_growth = 0.03
+			tolerance_own = 1.5
+		
+}
+
+ww_medicine_wheel3 = {
+	
+			missionaries = 1
+			tolerance_own = 2
+			tribal_development_growth = 0.05
+		
+}
+
+ww_tree_peace1 = {
+	
+			reform_progress_growth = 0.1
+			reverse_relation_with_same_religion = 10
+		
+}
+
+ww_tree_peace2 = {
+	
+			diplomatic_upkeep = 1
+			reform_progress_growth = 0.2
+			reverse_relation_with_same_religion = 15
+		
+}
+
+ww_tree_peace3 = {
+	
+			diplomatic_upkeep = 2
+			reform_progress_growth = 0.2
+			reverse_relation_with_same_religion = 20
+			no_stability_loss_on_monarch_death = yes
+		
+}
+
+ww_agustin_statues1 = {
+	
+			stability_cost_modifier = -0.1
+		
+}
+
+ww_agustin_statues2 = {
+	
+			stability_cost_modifier = -0.15
+			tolerance_own = 0.5
+		
+}
+
+ww_agustin_statues3 = {
+	
+			stability_cost_modifier = -0.2
+			tolerance_own = 1
+			prestige_from_land = 0.5
+		
+}
+
+ww_nazca_lines1 = {
+	
+			culture_conversion_cost = -0.1
+			tolerance_own = 1
+		
+}
+
+ww_nazca_lines2 = {
+	
+			culture_conversion_cost = -0.15
+			tolerance_own = 1.5
+			prestige_decay = -0.005
+		
+}
+
+ww_nazca_lines3 = {
+	
+			culture_conversion_cost = -0.2
+			tolerance_own = 2
+			prestige_decay = -0.01
+		
+}
+
+ww_qhapaq_cajamarca1 = {
+	
+		
+}
+
+ww_qhapaq_cajamarca2 = {
+	
+		
+}
+
+ww_qhapaq_cajamarca3 = {
+	
+			envoy_travel_time = -0.05
+		
+}
+
+ww_qhapaq_huanuco1 = {
+	
+		
+}
+
+ww_qhapaq_huanuco2 = {
+	
+		
+}
+
+ww_qhapaq_huanuco3 = {
+	
+			envoy_travel_time = -0.05
+		
+}
+
+ww_qhapaq_cuzco1 = {
+	
+		
+}
+
+ww_qhapaq_cuzco2 = {
+	
+		
+}
+
+ww_qhapaq_cuzco3 = {
+	
+			envoy_travel_time = -0.05
+		
+}
+
+ww_qhapaq_tiahuanaco1 = {
+	
+		
+}
+
+ww_qhapaq_tiahuanaco2 = {
+	
+		
+}
+
+ww_qhapaq_tiahuanaco3 = {
+	
+			envoy_travel_time = -0.05
+		
+}
+
+ww_qhapaq_potosi1 = {
+	
+		
+}
+
+ww_qhapaq_potosi2 = {
+	
+		
+}
+
+ww_qhapaq_potosi3 = {
+	
+			envoy_travel_time = -0.05
+		
+}
+
+ww_qhapaq_jujuy1 = {
+	
+		
+}
+
+ww_qhapaq_jujuy2 = {
+	
+		
+}
+
+ww_qhapaq_jujuy3 = {
+	
+			envoy_travel_time = -0.05
+		
+}
+
+ww_qhapaq_tucuman1 = {
+	
+		
+}
+
+ww_qhapaq_tucuman2 = {
+	
+		
+}
+
+ww_qhapaq_tucuman3 = {
+	
+			envoy_travel_time = -0.05
+		
+}
+
+ww_qhapaq_mendoza1 = {
+	
+		
+}
+
+ww_qhapaq_mendoza2 = {
+	
+		
+}
+
+ww_qhapaq_mendoza3 = {
+	
+			envoy_travel_time = -0.05
+		
+}
+
+ww_hanging_gardens1 = {
+	
+			great_project_upgrade_cost = -0.05
+		
+}
+
+ww_hanging_gardens2 = {
+	
+			prestige = 0.5
+			monthly_splendor = 1
+			great_project_upgrade_cost = -0.1
+		
+}
+
+ww_hanging_gardens3 = {
+	
+			prestige = 1
+			monthly_splendor = 2
+			great_project_upgrade_cost = -0.15
+		
+}
+
+ww_house_wisdom1 = {
+	
+			idea_cost = -0.05
+			reverse_relation_with_same_religion = 10
+		
+}
+
+ww_house_wisdom2 = {
+	
+			idea_cost = -0.1
+			reverse_relation_with_same_religion = 15
+		
+}
+
+ww_house_wisdom3 = {
+	
+			technology_cost = -0.05
+			idea_cost = -0.1
+			reverse_relation_with_same_religion = 20
+		
+}
+
+ww_apadana1 = {
+	
+			governing_capacity_modifier = 0.05
+			vassal_income = 0.1
+		
+}
+
+ww_apadana2 = {
+	
+			governing_capacity_modifier = 0.05
+			vassal_income = 0.2
+		
+}
+
+ww_apadana3 = {
+	
+			administrative_efficiency = 0.05
+			governing_capacity_modifier = 0.1
+			vassal_income = 0.3
+			can_fabricate_for_vassals = yes
+		
+}
+
+ww_gelati_monastery1 = {
+	
+			yearly_patriarch_authority = 0.001
+		
+}
+
+ww_gelati_monastery2 = {
+	
+			yearly_patriarch_authority = 0.005
+			technology_cost = -0.05
+			advisor_pool = 1
+		
+}
+
+ww_gelati_monastery3 = {
+	
+			yearly_patriarch_authority = 0.01
+			technology_cost = -0.1
+			advisor_pool = 2
+		
+}
+
+ww_acre1 = {
+	
+			prestige_from_land = 0.2
+		
+}
+
+ww_acre2 = {
+	
+			prestige_from_land = 0.33
+			global_trade_power = 0.1
+		
+}
+
+ww_acre3 = {
+	
+			prestige_from_land = 0.5
+			global_trade_power = 0.15
+		
+}
+
+ww_masjid_nabawi1 = {
+	
+			global_missionary_strength = 0.01
+			stability_cost_modifier = -0.05
+		
+}
+
+ww_masjid_nabawi2 = {
+	
+			adm_tech_cost_modifier = -0.05
+			global_missionary_strength = 0.02
+			stability_cost_modifier = -0.1
+		
+}
+
+ww_masjid_nabawi3 = {
+	
+			adm_tech_cost_modifier = -0.1
+			global_missionary_strength = 0.02
+			stability_cost_modifier = -0.15
+		
+}
+
+ww_fort_bahla1 = {
+	
+			caravan_power = 0.1
+		
+}
+
+ww_fort_bahla2 = {
+	
+			caravan_power = 0.2
+		
+}
+
+ww_fort_bahla3 = {
+	
+			caravan_power = 0.33
+		
+}
+
+ww_asha_mosque1 = {
+	
+			improve_relation_modifier = 0.1
+			idea_cost = -0.05
+			embracement_cost = -0.1
+		
+}
+
+ww_asha_mosque2 = {
+	
+			improve_relation_modifier = 0.15
+			idea_cost = -0.1
+			embracement_cost = -0.2
+		
+}
+
+ww_asha_mosque3 = {
+	
+			improve_relation_modifier = 0.2
+			idea_cost = -0.1
+			embracement_cost = -0.33
+		
+}
+

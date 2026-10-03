@@ -1,0 +1,3192 @@
+uzkulak_canal1 = {
+	
+			global_trade_power = 0.02
+		
+}
+
+uzkulak_canal2 = {
+	
+			global_trade_power = 0.03
+		
+}
+
+uzkulak_canal3 = {
+	
+			global_trade_power = 0.05
+		
+}
+
+nippon_imperial_palaces1 = {
+	
+			war_taxes_cost_modifier = -0.5
+			prestige_from_land = 0.5
+		
+}
+
+nippon_imperial_palaces2 = {
+	
+			war_taxes_cost_modifier = -0.5
+			prestige_from_land = 1
+			general_cost = -0.1
+		
+}
+
+nippon_imperial_palaces3 = {
+	
+			war_taxes_cost_modifier = -1
+			prestige_from_land = 1
+			general_cost = -0.1
+		
+}
+
+mount_jifu1 = {
+	
+		
+}
+
+mount_jifu2 = {
+	
+			
+		
+}
+
+mount_jifu3 = {
+	
+			prestige = 0.5
+		
+}
+
+jade_tower1 = {
+	
+			global_institution_spread = 0.1
+			technology_cost = -0.05
+		
+}
+
+jade_tower2 = {
+	
+			global_institution_spread = 0.2
+			embracement_cost = -0.1
+			technology_cost = -0.10
+		
+}
+
+jade_tower3 = {
+	
+			global_institution_spread = 0.3
+			embracement_cost = -0.15
+			technology_cost = -0.15
+		
+}
+
+shang_wu_river_district1 = {
+	
+			merchants = 1
+		
+}
+
+shang_wu_river_district2 = {
+	
+			merchants = 1
+			global_trade_power = 0.05
+		
+}
+
+shang_wu_river_district3 = {
+	
+			merchants = 2
+			global_trade_power = 0.1
+		
+}
+
+mei_wan_port_city1 = {
+	
+			prestige = 0.25
+			global_ship_trade_power = 0.1
+		
+}
+
+mei_wan_port_city2 = {
+	
+			prestige = 0.5
+			global_ship_trade_power = 0.2
+			placed_merchant_power = 2
+		
+}
+
+mei_wan_port_city3 = {
+	
+			prestige = 1
+			global_ship_trade_power = 0.3
+			placed_merchant_power = 4
+		
+}
+
+flaming_canals1 = {
+	
+			global_trade_goods_size_modifier = 0.05
+			burghers_loyalty_modifier = 0.05
+		
+}
+
+flaming_canals2 = {
+	
+			global_trade_goods_size_modifier = 0.05
+			burghers_loyalty_modifier = 0.1
+		
+}
+
+flaming_canals3 = {
+	
+			global_trade_goods_size_modifier = 0.1
+			burghers_loyalty_modifier = 0.15
+		
+}
+
+jade_pillar_port1 = {
+	
+			global_ship_trade_power = 0.1
+		
+}
+
+jade_pillar_port2 = {
+			
+			global_ship_trade_power = 0.2
+			prestige_from_naval = 0.5
+		
+}
+
+jade_pillar_port3 = {
+	
+			global_ship_trade_power = 0.3
+			prestige_from_naval = 1
+		
+}
+
+infinite_libraries_of_tien_chi1 = {
+	
+			global_institution_spread = 0.1
+		
+}
+
+infinite_libraries_of_tien_chi2 = {
+	
+			global_institution_spread = 0.2
+			embracement_cost = -0.05
+		
+}
+
+infinite_libraries_of_tien_chi3 = {
+	
+			global_institution_spread = 0.3
+			embracement_cost = -0.1
+			idea_cost = -0.05
+		
+}
+
+pagoda_of_feng_pei1 = {
+	
+			development_cost = -0.02
+			global_missionary_strength =  0.005
+		
+}
+
+pagoda_of_feng_pei2 = {
+	
+			development_cost = -0.05
+			global_missionary_strength = 0.01
+		
+}
+
+pagoda_of_feng_pei3 = {
+	
+			development_cost = -0.10
+			global_missionary_strength = 0.02
+			missionaries = 1
+		
+}
+
+theaters_of_the_monkey_court1 = {
+	
+			culture_conversion_cost = -0.05
+		
+}
+
+theaters_of_the_monkey_court2 = {
+	
+			culture_conversion_cost = -0.1
+			global_unrest = -1
+		
+}
+
+theaters_of_the_monkey_court3 = {
+	
+			culture_conversion_cost = -0.25
+			global_unrest = -2
+			num_accepted_cultures = 1
+			global_autonomy = -0.05
+		
+}
+
+port_of_fu_chow1 = {
+	
+			naval_tradition_from_trade = 0.25
+		
+}
+
+port_of_fu_chow2 = {
+	
+			naval_tradition_from_trade = 0.5
+		
+}
+
+port_of_fu_chow3 = {
+	
+			naval_tradition_from_trade = 1
+		
+}
+
+great_tea_fields1 = {
+	
+			religious_unity = 0.1			
+		
+}
+
+great_tea_fields2 = {
+	
+			prestige_decay = -0.005
+			religious_unity = 0.15
+		
+}
+
+great_tea_fields3 = {
+	
+			prestige_decay = -0.01
+			religious_unity = 0.25
+		
+}
+
+jadeblooded_mage_academy1 = {
+	
+			country_diplomatic_power = 1
+		
+}
+
+jadeblooded_mage_academy2 = {
+	
+			country_diplomatic_power = 2
+		
+}
+
+jadeblooded_mage_academy3 = {
+	
+			country_diplomatic_power = 3
+		
+}
+
+foundries_of_nan_gau1 = {
+	
+			global_regiment_recruit_speed = -0.1
+			artillery_cost = -0.10
+		
+}
+
+foundries_of_nan_gau2 = {
+	
+			global_regiment_recruit_speed = -0.3
+			artillery_cost = -0.15
+			artillery_power = 0.05
+		
+}
+
+foundries_of_nan_gau3 = {
+	
+			global_regiment_recruit_speed = -0.5
+			artillery_cost = -0.20
+			artillery_barrage_cost = -0.25
+			artillery_power = 0.05
+			can_recruit_cossacks = yes
+			allowed_cossack_fraction = 0.05
+			special_unit_cost_modifier = -0.05
+		
+}
+
+silk_road_nexus1 = {
+	
+			caravan_power = 0.1
+		
+}
+
+silk_road_nexus2 = {
+	
+			caravan_power = 0.2
+			trade_efficiency = 0.05
+		
+}
+
+silk_road_nexus3 = {
+	
+			caravan_power = 0.33
+			trade_efficiency = 0.10
+			global_trade_power = 0.05
+		
+}
+
+temple_of_the_moon_empress1 = {
+	
+			technology_cost = -0.05
+		
+}
+
+temple_of_the_moon_empress2 = {
+		
+			idea_cost = -0.05
+			technology_cost = -0.05
+		
+}
+
+temple_of_the_moon_empress3 = {
+	
+			idea_cost = -0.1
+			technology_cost = -0.1
+		
+}
+
+emperors_palace1 = {
+	
+			advisor_cost = -0.10
+			prestige = 0.25
+			legitimacy = 0.25
+			meritocracy = 0.25
+		
+}
+
+emperors_palace2 = {
+	
+			advisor_cost = -0.1
+			advisor_pool = 1
+			possible_policy = 1
+			prestige = 0.50
+			legitimacy = 0.50
+			meritocracy = 0.50
+		
+}
+
+emperors_palace3 = {
+	
+			advisor_cost = -0.2
+			advisor_pool = 1
+			yearly_corruption = -0.1
+			possible_policy = 1
+			free_policy = 1
+			prestige = 0.50
+			legitimacy = 0.50
+			meritocracy = 0.50
+		
+}
+
+great_bastion1 = {
+	
+		
+}
+
+great_bastion2 = {
+	
+		
+}
+
+great_bastion3 = {
+	
+		
+}
+
+fishguts_cove1 = {
+	
+			privateer_efficiency = 0.2
+			capture_ship_chance = 0.1
+		
+}
+
+fishguts_cove2 = {
+	
+			privateer_efficiency = 0.33
+			power_projection_from_insults = 0.5
+			capture_ship_chance = 0.2
+		
+}
+
+fishguts_cove3 = {
+	
+			privateer_efficiency = 0.5
+			power_projection_from_insults = 1
+			capture_ship_chance = 0.3
+		
+}
+
+ivory_pass1 = {
+	
+			merchants = 1
+			caravan_power = 0.1
+		
+}
+
+ivory_pass2 = {
+	
+			merchants = 1
+			caravan_power = 0.2
+		
+}
+
+ivory_pass3 = {
+	
+			merchants = 2
+			caravan_power = 0.25
+		
+}
+
+goldeater_mines1 = {
+	
+			gold_depletion_chance_modifier = -0.25
+		
+}
+
+goldeater_mines2 = {
+	
+			gold_depletion_chance_modifier = -0.50
+		
+		
+}
+
+goldeater_mines3 = {
+	
+			gold_depletion_chance_modifier = -0.75
+		
+}
+
+arena_of_the_mawbite_tribes1 = {
+	
+			general_cost = -0.50
+			free_leader_pool = 1
+		
+}
+
+arena_of_the_mawbite_tribes2 = {
+	
+			general_cost = -0.50
+			free_leader_pool = 1
+			leader_land_fire = 1
+			leader_land_manuever = 1
+		
+		
+}
+
+arena_of_the_mawbite_tribes3 = {
+	
+			general_cost = -0.50
+			free_leader_pool = 1
+			leader_land_fire = 1
+			leader_land_manuever = 1
+			leader_land_shock = 2
+		
+}
+
+firemouth_volcano1 = {
+	
+			country_military_power = 1
+		
+}
+
+firemouth_volcano2 = {
+	
+			country_military_power = 2
+		
+}
+
+firemouth_volcano3 = {
+	
+			country_military_power = 3
+		
+}
+
+sky_titan_ruins1 = {
+	
+			prestige = 0.5
+			shock_damage_received = -0.05
+		
+}
+
+sky_titan_ruins2 = {
+	
+			prestige = 1.0
+			legitimacy = 0.5
+			devotion = 0.5
+			horde_unity = 0.5
+			shock_damage_received = -0.05
+		
+}
+
+sky_titan_ruins3 = {
+	
+			prestige = 1.0
+			legitimacy = 1.0
+			devotion = 1.0
+			horde_unity = 1.0
+			shock_damage_received = -0.10
+		
+}
+
+the_great_maw1 = {
+	
+			religious_unity = 0.05
+			tolerance_own = 0.5
+			all_estate_loyalty_equilibrium = 0.05
+		
+}
+
+the_great_maw2 = {
+	
+			religious_unity = 0.10
+			tolerance_own = 1.0
+			all_estate_loyalty_equilibrium = 0.10
+		
+}
+
+the_great_maw3 = {
+	
+			religious_unity = 0.15
+			tolerance_own = 2.0
+			all_estate_loyalty_equilibrium = 0.15
+		
+}
+
+zharr_naggrund1 = {
+	
+		
+}
+
+zharr_naggrund2 = {
+	
+		
+}
+
+zharr_naggrund3 = {
+	
+		
+}
+
+tower_of_gorgoth1 = {
+	
+		
+}
+
+tower_of_gorgoth2 = {
+	
+		
+}
+
+tower_of_gorgoth3 = {
+	
+		
+}
+
+gates_of_zharr1 = {
+	
+		
+}
+
+gates_of_zharr2 = {
+	
+		
+}
+
+gates_of_zharr3 = {
+	
+		
+}
+
+black_fortress1 = {
+	
+			land_forcelimit = 5
+		
+}
+
+black_fortress2 = {
+	
+			land_forcelimit = 10
+			army_tradition_decay = -0.01
+		
+}
+
+black_fortress3 = {
+	
+			land_forcelimit = 15
+			army_tradition_decay = -0.02
+		
+}
+
+road_of_skulls1 = {
+	
+			caravan_power = 0.1
+		
+}
+
+road_of_skulls2 = {
+	
+			caravan_power = 0.2
+			trade_efficiency = 0.05
+		
+}
+
+road_of_skulls3 = {
+	
+			caravan_power = 0.33
+			trade_efficiency = 0.10
+			global_trade_power = 0.05
+		
+}
+
+daemons_stump1 = {
+	
+			drill_gain_modifier = 0.10
+			drill_decay_modifier = -0.10
+		
+}
+
+daemons_stump2 = {
+	
+			drill_gain_modifier = 0.25
+			drill_decay_modifier = -0.25
+		
+}
+
+daemons_stump3 = {
+	
+			drill_gain_modifier = 0.50
+			drill_decay_modifier = -0.50
+			yearly_army_professionalism = 0.01
+		
+}
+
+tower_of_skulls1 = {
+	
+			global_missionary_strength = 0.03
+			morale_damage = 0.025
+		
+}
+
+tower_of_skulls2 = {
+	
+			global_missionary_strength = 0.03
+			missionaries = 1
+			morale_damage = 0.025
+		
+}
+
+tower_of_skulls3 = {
+	
+			global_missionary_strength = 0.05
+			missionaries = 1
+			morale_damage = 0.025
+			monthly_everchosen_favor = 0.01
+		
+}
+
+temple_of_vaati_the_binder1 = {
+	
+			prestige = 0.25
+			monthly_splendor = 0.5			
+		
+}
+
+temple_of_vaati_the_binder2 = {
+	
+			prestige = 0.5
+			monthly_splendor = 1
+			monarch_lifespan = 0.05
+		
+}
+
+temple_of_vaati_the_binder3 = {
+	
+			prestige = 1
+			monthly_splendor = 1.5
+			monarch_lifespan = 0.1
+		
+}
+
+fortress_of_celestial_spears1 = {
+	
+			global_trade_power = 0.05
+		
+}
+
+fortress_of_celestial_spears2 = {
+	
+			global_trade_power = 0.1
+			global_sailors_modifier = 0.1
+		
+}
+
+fortress_of_celestial_spears3 = {
+	
+			global_trade_power = 0.15
+			global_sailors_modifier = 0.25
+		
+}
+
+pillars_of_dharasala1 = {
+	
+			discipline = 0.025
+			fire_damage_received = -0.05
+		
+}
+
+pillars_of_dharasala2 = {
+	
+			discipline = 0.025
+			fire_damage_received = -0.1
+			culture_conversion_cost = -0.05
+		
+}
+
+pillars_of_dharasala3 = {
+	
+			discipline = 0.05
+			fire_damage_received = -0.1
+			fire_damage = 0.05			
+			culture_conversion_cost = -0.1
+		
+}
+
+garden_of_the_eternal_peace1 = {
+	
+			num_accepted_cultures = 1
+		
+}
+
+garden_of_the_eternal_peace2 = {
+	
+			num_accepted_cultures = 1
+			same_culture_advisor_cost = -0.15
+		
+}
+
+garden_of_the_eternal_peace3 = {
+	
+			num_accepted_cultures = 2
+			same_culture_advisor_cost = -0.2
+			promote_culture_cost = -0.15
+		
+}
+
+grand_library_of_lashara1 = {
+	
+			development_cost = -0.02
+			global_missionary_strength =  0.005
+		
+}
+
+grand_library_of_lashara2 = {
+	
+			development_cost = -0.05
+			global_missionary_strength = 0.01
+		
+}
+
+grand_library_of_lashara3 = {
+	
+			development_cost = -0.10
+			global_missionary_strength = 0.02
+			missionaries = 1
+		
+}
+
+tower_of_kala_the_sage1 = {
+	
+			fabricate_claims_cost = -0.1
+		
+}
+
+tower_of_kala_the_sage2 = {
+	
+			technology_cost = -0.05
+			fabricate_claims_cost = -0.2
+		
+}
+
+tower_of_kala_the_sage3 = {
+	
+			technology_cost = -0.05
+			fabricate_claims_cost = -0.3
+		
+}
+
+shrine_of_the_lotus_king1 = {
+	
+			tolerance_heretic = 0.5
+			tolerance_heathen = 0.5	
+		
+}
+
+shrine_of_the_lotus_king2 = {
+	
+			tolerance_heretic = 0.5
+			tolerance_heathen = 0.5	
+			stability_cost_modifier = -0.1
+		
+}
+
+shrine_of_the_lotus_king3 = {
+	
+			tolerance_heretic = 1
+			tolerance_heathen = 1						
+			stability_cost_modifier = -0.25
+			global_missionary_strength = 0.01
+		
+}
+
+ziggurat_of_the_serpent_kings1 = {
+	
+			technology_cost = -0.05
+		
+}
+
+ziggurat_of_the_serpent_kings2 = {
+	
+			technology_cost = -0.1
+		
+}
+
+ziggurat_of_the_serpent_kings3 = {
+	
+			technology_cost = -0.10
+		
+}
+
+temple_of_the_coiled_sun1 = {
+	
+			diplomatic_reputation = 1
+			envoy_travel_time = -0.20
+		
+}
+
+temple_of_the_coiled_sun2 = {
+	
+			diplomatic_reputation = 1
+			envoy_travel_time = -0.25
+			fabricate_claims_cost = -0.1
+		
+}
+
+temple_of_the_coiled_sun3 = {
+	
+			diplomatic_reputation = 2
+			envoy_travel_time = -0.33
+			diplomatic_upkeep = 1
+			fabricate_claims_cost = -0.2
+		
+}
+
+shadowfang_citadel1 = {
+	
+			naval_forcelimit_modifier = 0.1
+			naval_maintenance_modifier = -0.1
+		
+}
+
+shadowfang_citadel2 = {
+	
+			naval_forcelimit_modifier = 0.2
+			naval_maintenance_modifier = -0.15
+			navy_tradition = 0.5
+		
+}
+
+shadowfang_citadel3 = {
+	
+			naval_forcelimit_modifier = 0.3
+			naval_maintenance_modifier = -0.2
+			navy_tradition = 1
+			admiral_cost = -0.1
+		
+}
+
+sacred_grove_of_zhaqlah1 = {
+	
+			prestige_decay = -0.005
+			all_estate_loyalty_equilibrium = 0.05
+		
+}
+
+sacred_grove_of_zhaqlah2 = {
+		
+			prestige_decay = -0.01
+			all_estate_loyalty_equilibrium = 0.075
+		
+}
+
+sacred_grove_of_zhaqlah3 = {
+	
+			all_estate_loyalty_equilibrium = 0.1
+			prestige_decay = -0.015
+			no_stability_loss_on_monarch_death = yes
+		
+}
+
+temple_city_of_hexoatl1 = {
+	
+			global_tax_modifier = 0.1
+			improve_relation_modifier = 0.1
+			nobles_loyalty_modifier = 0.05
+			nobles_influence_modifier = 0.05
+		
+}
+
+temple_city_of_hexoatl2 = {
+	
+			global_tax_modifier = 0.15
+			improve_relation_modifier = 0.1
+			vassal_income = 0.1
+			nobles_loyalty_modifier = 0.1
+			nobles_influence_modifier = 0.1
+		
+}
+
+temple_city_of_hexoatl3 = {
+	
+			global_tax_modifier = 0.2
+			improve_relation_modifier = 0.15
+			vassal_income = 0.2
+			nobles_loyalty_modifier = 0.15
+			nobles_influence_modifier = 0.1
+		
+}
+
+great_pyramid_of_itza1 = {
+	
+			prestige = 0.1
+			religious_unity = 0.1
+		}	
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		
+}
+
+great_pyramid_of_itza2 = {
+	
+			prestige = 0.25
+			religious_unity = 0.15
+			warscore_cost_vs_other_religion = -0.05
+		
+}
+
+great_pyramid_of_itza3 = {
+	
+			prestige = 0.5
+			religious_unity = 0.2
+			warscore_cost_vs_other_religion = -0.1
+		}		
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		
+}
+
+altar_of_the_horned_rat1 = {
+	
+		
+}
+
+altar_of_the_horned_rat2 = {
+	
+		
+}
+
+altar_of_the_horned_rat3 = {
+	
+			global_regiment_cost = -0.1
+		
+}
+
+shrine_of_sotek1 = {
+	
+			manpower_recovery_speed = 0.1
+			global_regiment_recruit_speed = -0.1
+		
+}
+
+shrine_of_sotek2 = {
+	
+			manpower_recovery_speed = 0.15
+			global_regiment_recruit_speed = -0.3
+		
+}
+
+shrine_of_sotek3 = {
+	
+			manpower_recovery_speed = 0.2
+			global_regiment_recruit_speed = -0.5
+			infantry_cost = -0.10
+		
+}
+
+pyramid_of_xahutec1 = {
+	
+			technology_cost = -0.05
+		
+}
+
+pyramid_of_xahutec2 = {
+		
+			idea_cost = -0.05
+			technology_cost = -0.05
+		
+}
+
+pyramid_of_xahutec3 = {
+	
+			idea_cost = -0.1
+			technology_cost = -0.1
+		
+}
+
+citadel_of_dusk1 = {
+	
+			naval_forcelimit_modifier = 0.1
+		
+}
+
+citadel_of_dusk2 = {
+				
+			naval_forcelimit_modifier = 0.2
+		
+}
+
+citadel_of_dusk3 = {
+				
+			naval_forcelimit_modifier = 0.3
+		
+}
+
+monument_of_the_moon1 = {
+	 
+			church_loyalty_modifier = 0.1
+		
+}
+
+monument_of_the_moon2 = {
+	
+}
+
+monument_of_the_moon3 = {
+	 
+			church_loyalty_modifier = 0.15
+			free_mil_policy = 1
+			monthly_everchosen_favor = 0.01
+
+		
+}
+
+pyramid_of_the_world_serpent1 = {
+	
+			culture_conversion_cost = -0.1
+			global_missionary_strength = 0.01
+		
+}
+
+pyramid_of_the_world_serpent2 = {
+	
+			culture_conversion_cost = -0.10
+			global_missionary_strength = 0.01
+			missionaries = 1
+		
+}
+
+pyramid_of_the_world_serpent3 = {
+	
+			culture_conversion_cost = -0.25
+			global_missionary_strength = 0.01
+			missionaries = 1
+			idea_cost = -0.05
+		
+}
+
+obsidian_column1 = {
+	
+		
+}
+
+obsidian_column2 = {
+	
+			
+		
+}
+
+obsidian_column3 = {
+	
+			prestige = 0.5
+		
+}
+
+lost_city_of_tzetek1 = {
+	
+			development_cost = -0.02
+			global_missionary_strength =  0.005
+		
+}
+
+lost_city_of_tzetek2 = {
+	
+			development_cost = -0.05
+			global_missionary_strength = 0.01
+		
+}
+
+lost_city_of_tzetek3 = {
+	
+			development_cost = -0.10
+			global_missionary_strength = 0.02
+			missionaries = 1
+		
+}
+
+amaxonia_headwaters1 = {
+	
+			global_trade_power = 0.1
+			global_colonial_growth = 10
+		
+}
+
+amaxonia_headwaters2 = {
+	
+			global_trade_power = 0.15
+			global_colonial_growth = 15
+		
+}
+
+amaxonia_headwaters3 = {
+	
+			global_trade_power = 0.2
+			global_colonial_growth = 20
+		
+}
+
+great_temple_at_spektazuma1 = {
+	
+			institution_spread_from_true_faith = 0.2
+			reform_progress_growth = 0.1
+		
+}
+
+great_temple_at_spektazuma2 = {
+	
+			institution_spread_from_true_faith = 0.33
+			reform_progress_growth = 0.15
+			legitimacy = 0.5
+		
+}
+
+great_temple_at_spektazuma3 = {
+	
+			institution_spread_from_true_faith = 0.5
+			reform_progress_growth = 0.2
+			legitimacy = 1
+			allow_free_estate_privilege_revocation = yes
+		
+}
+
+chaul_crystal_reef1 = {
+	
+			global_colonial_growth = 10
+		
+}
+
+chaul_crystal_reef2 = {
+	
+			global_colonial_growth = 15
+			navy_tradition = 0.5
+		
+}
+
+chaul_crystal_reef3 = {
+	
+			global_colonial_growth = 25
+			navy_tradition = 1
+			colonist_placement_chance = 0.05
+		
+}
+
+city_of_the_dead1 = {
+	
+			discipline = 0.025
+			fire_damage_received = -0.05
+		
+}
+
+city_of_the_dead2 = {
+	
+			discipline = 0.025
+			fire_damage_received = -0.1
+			culture_conversion_cost = -0.05
+		
+}
+
+city_of_the_dead3 = {
+	
+			discipline = 0.05
+			fire_damage_received = -0.1
+			fire_damage = 0.05			
+			culture_conversion_cost = -0.1
+		
+}
+
+gilded_pit_of_the_old_ones1 = {
+	
+			reduced_liberty_desire = 5
+			legitimacy = 0.25
+		
+}
+
+gilded_pit_of_the_old_ones2 = {
+	
+			all_estate_loyalty_equilibrium = 0.05
+			reduced_liberty_desire = 10 
+			legitimacy = 0.5
+		}	
+		on_upgraded = {
+			center_of_trade = 1
+		
+}
+
+gilded_pit_of_the_old_ones3 = {
+	
+			all_estate_loyalty_equilibrium = 0.1
+			reduced_liberty_desire = 10
+			max_absolutism = 10
+			legitimacy = 1
+		
+}
+
+black_tower_of_malekith1 = {
+	
+			vassal_income = 0.1
+			reduced_liberty_desire = 5
+		
+}
+
+black_tower_of_malekith2 = {
+	
+			vassal_income = 0.1
+			reduced_liberty_desire = 5
+			diplomatic_reputation = 1
+		
+}
+
+black_tower_of_malekith3 = {
+	
+			administrative_efficiency = 0.05
+			vassal_income = 0.1
+			reduced_liberty_desire = 10
+			diplomatic_reputation = 1
+		
+}
+
+the_dark_crag1 = {
+	
+		
+}
+
+the_dark_crag2 = {
+	
+		
+}
+
+the_dark_crag3 = {
+	
+		
+}
+
+convent_of_sorcery1 = {
+	
+			advisor_pool = 1
+		
+}
+
+convent_of_sorcery2 = {
+	
+			advisor_pool = 2
+		
+}
+
+convent_of_sorcery3 = {
+	
+			all_power_cost = -0.025
+			advisor_pool = 3
+		
+}
+
+lairs_of_clar_karond1 = {
+	
+			cavalry_cost = -0.05
+			cav_to_inf_ratio = 0.05
+		
+}
+
+lairs_of_clar_karond2 = {
+	
+			cavalry_cost = -0.1
+			cav_to_inf_ratio = 0.10
+		
+}
+
+lairs_of_clar_karond3 = {
+	
+			cavalry_cost = -0.15
+			cav_to_inf_ratio = 0.15
+			leader_land_manuever = 1
+		
+}
+
+karond_kar1 = {
+	
+			spy_offence = 0.1
+			privateer_efficiency = 0.15
+			dip_advisor_cost = -0.1
+		
+}
+
+karond_kar2 = {
+	
+			spy_offence = 0.15
+			privateer_efficiency = 0.25
+			dip_advisor_cost = -0.15
+		
+}
+
+karond_kar3 = {
+	
+			spy_offence = 0.25
+			privateer_efficiency = 0.40
+			dip_advisor_cost = -0.25
+		
+}
+
+har_ganeth1 = {
+	
+			global_missionary_strength = 0.005
+			missionaries = 1
+			monarch_lifespan = 0.1
+		
+}
+
+har_ganeth2 = {
+	
+			global_missionary_strength = 0.01
+			missionaries = 1
+			monarch_lifespan = 0.25
+		
+}
+
+har_ganeth3 = {
+	
+			global_missionary_strength = 0.02
+			missionaries = 1
+			monarch_lifespan = 0.5
+		
+}
+
+ashward_slave_pits1 = {
+	
+			army_tradition = 0.25
+		
+}
+
+ashward_slave_pits2 = {
+	
+			army_tradition = 0.25
+			prestige = 0.25
+		
+}
+
+ashward_slave_pits3 = {
+	
+			army_tradition = 0.5
+			prestige = 0.5
+		
+}
+
+witchwood_monument1 = {
+	 
+			church_loyalty_modifier = 0.1
+		
+}
+
+witchwood_monument2 = {
+	
+}
+
+witchwood_monument3 = {
+	 
+			church_loyalty_modifier = 0.15
+		
+}
+
+imperial_gunnery_school1 = {
+	
+			artillery_cost = -0.05
+			artillery_fire = 0.1
+		
+}
+
+imperial_gunnery_school2 = {
+	
+			artillery_cost = -0.1
+			artillery_fire = 0.15
+		
+}
+
+imperial_gunnery_school3 = {
+	
+			artillery_cost = -0.15
+			artillery_fire = 0.25
+			artillery_levels_available_vs_fort = 1
+		
+}
+
+pfeildorf_wine_market1 = {
+	
+			merchants = 1
+		
+}
+
+pfeildorf_wine_market2 = {
+	
+			merchants = 1
+			global_trade_power = 0.05
+		
+}
+
+pfeildorf_wine_market3 = {
+	
+			merchants = 2
+			global_trade_power = 0.1
+		
+}
+
+grand_cauldron1 = {
+	
+			land_attrition = -0.05
+			global_prosperity_growth = 0.1
+			global_monthly_devastation = -0.05
+		
+}
+
+grand_cauldron2 = {
+	
+			land_attrition = -0.1
+			global_prosperity_growth = 0.3
+			global_monthly_devastation = -0.1
+		
+}
+
+grand_cauldron3 = {
+	
+			land_attrition = -0.15
+			global_prosperity_growth = 0.5
+			global_monthly_devastation = -0.15
+		
+}
+
+imperial_palace1 = {
+	
+			yearly_absolutism = 0.25
+			governing_capacity_modifier = 0.025
+		
+}
+
+imperial_palace2 = {
+	
+			yearly_absolutism = 0.5
+			max_absolutism = 5
+			governing_capacity_modifier = 0.05
+			administrative_efficiency = 0.025
+		
+}
+
+imperial_palace3 = {
+	
+			yearly_absolutism = 1
+			max_absolutism = 10
+			governing_capacity_modifier = 0.1
+			administrative_efficiency = 0.05
+		
+}
+
+holy_temple_of_sigmar1 = {
+	
+			global_missionary_strength = 0.005
+			tolerance_own = 1
+			church_power_modifier = 0.05
+		
+}
+
+holy_temple_of_sigmar2 = {
+	
+			global_missionary_strength = 0.01
+			tolerance_own = 2
+			church_power_modifier = 0.10
+		
+}
+
+holy_temple_of_sigmar3 = {
+	
+			global_missionary_strength = 0.015
+			tolerance_own = 3
+			missionaries = 1
+			church_power_modifier = 0.15
+		
+}
+
+altdorf_college_of_mages1 = {
+	
+		
+}
+
+altdorf_college_of_mages2 = {
+	
+		
+}
+
+altdorf_college_of_mages3 = {
+	
+			all_power_cost = -0.025
+		
+}
+
+averburg1 = {
+	
+			army_tradition = 0.25
+		
+}
+
+averburg2 = {
+	
+			army_tradition = 0.25
+			prestige = 0.25
+		
+}
+
+averburg3 = {
+	
+			army_tradition = 0.5
+			prestige = 0.5
+		
+}
+
+great_temple_of_taal_rhya1 = {
+	
+			improve_relation_modifier = 0.10
+			church_power_modifier = 0.05
+		
+}
+
+great_temple_of_taal_rhya2 = {
+	
+			diplomatic_reputation = 1
+			diplomatic_upkeep = 1
+			improve_relation_modifier = 0.10
+			church_power_modifier = 0.10
+		
+}
+
+great_temple_of_taal_rhya3 = {
+	
+			diplomatic_reputation = 2
+			diplomatic_upkeep = 2
+			improve_relation_modifier = 0.20
+			church_power_modifier = 0.15
+		
+}
+
+great_temple_ulric1 = {
+	
+			manpower_in_true_faith_provinces = 0.10
+			monthly_fervor_increase = 0.25
+		
+}
+
+great_temple_ulric2 = {
+	
+			general_cost = -0.15
+			manpower_in_true_faith_provinces = 0.15
+			monthly_fervor_increase = 0.5
+		
+}
+
+great_temple_ulric3 = {
+	
+			general_cost = -0.15
+			morale_damage = 0.05
+			manpower_in_true_faith_provinces = 0.20
+			monthly_fervor_increase = 1
+		
+}
+
+suiddock_gp1 = {
+	 
+}
+
+suiddock_gp2 = {
+	 
+}
+
+suiddock_gp3 = {
+	 
+}
+
+bokha_palace_gp1 = {
+	
+			legitimacy = 0.25
+			prestige = 0.25
+			yearly_absolutism = 0.25
+		
+}
+
+bokha_palace_gp2 = {
+	
+			legitimacy = 0.5
+			prestige = 0.5
+			yearly_absolutism = 0.5
+		
+}
+
+bokha_palace_gp3 = {
+	
+			legitimacy = 1
+			prestige = 1
+			yearly_absolutism = 1
+		
+}
+
+citadel_of_praag_gp1 = {
+	 
+			yearly_patriarch_authority = 0.01
+		
+}
+
+citadel_of_praag_gp2 = {
+		
+			yearly_patriarch_authority = 0.02
+		
+}
+
+citadel_of_praag_gp3 = {
+	
+			global_regiment_cost = -0.1
+			yearly_patriarch_authority = 0.03
+		
+}
+
+erengrad_port_gp1 = {
+	 
+}
+
+erengrad_port_gp2 = {
+	 
+}
+
+erengrad_port_gp3 = {
+	 
+}
+
+the_great_ogham1 = {
+	
+			religious_unity = 0.2
+			church_power_modifier = 0.05
+		
+}
+
+the_great_ogham2 = {
+	
+			global_unrest = -2
+			religious_unity = 0.2
+			church_power_modifier = 0.1
+		
+}
+
+the_great_ogham3 = {
+	
+			global_unrest = -2
+			religious_unity = 0.2
+			missionaries = 1
+			church_power_modifier = 0.15
+		
+}
+
+citadel_of_lead1 = {
+	
+			army_tradition = 0.25
+			max_absolutism = 5
+		
+}
+
+citadel_of_lead2 = {
+	
+			army_tradition = 0.25
+			prestige = 0.25
+			max_absolutism = 10
+			max_revolutionary_zeal = 5
+		
+}
+
+citadel_of_lead3 = {
+	
+			army_tradition = 0.5
+			prestige = 0.5
+			max_absolutism = 10
+			max_revolutionary_zeal = 10
+			monthly_everchosen_favor = 0.01
+
+		
+}
+
+abbey_of_the_grail_companions1 = {
+	
+			global_missionary_strength = 0.005
+			church_loyalty_modifier = 0.05
+			church_power_modifier = 0.05
+		
+}
+
+abbey_of_the_grail_companions2 = {
+	
+			global_missionary_strength = 0.01
+			tolerance_own = 1
+			church_loyalty_modifier = 0.1
+			church_power_modifier = 0.1
+		
+}
+
+abbey_of_the_grail_companions3 = {
+	
+			global_missionary_strength = 0.02
+			tolerance_own = 2
+			church_loyalty_modifier = 0.15
+			church_power_modifier = 0.15
+		
+}
+
+oak_of_ages1 = {
+	
+			country_admin_power = 1
+		
+}
+
+oak_of_ages2 = {
+	
+			country_admin_power = 1
+			country_diplomatic_power = 1
+		
+}
+
+oak_of_ages3 = {
+	
+			country_admin_power = 1
+			country_diplomatic_power = 1
+			country_military_power = 1
+		
+}
+
+kings_glade1 = {
+	
+			hostile_attrition = 1
+			max_hostile_attrition = 1
+			movement_speed = 0.10
+		
+}
+
+kings_glade2 = {
+	
+			hostile_attrition = 2
+			max_hostile_attrition = 2
+			movement_speed = 0.20
+		
+}
+
+kings_glade3 = {
+	
+			hostile_attrition = 3
+			max_hostile_attrition = 3
+			movement_speed = 0.3
+		
+}
+
+bells_of_luccini1 = {
+	
+			idea_cost = -0.05
+		
+}
+
+bells_of_luccini2 = {
+	
+			idea_cost = -0.1
+			reform_progress_growth = 0.1			
+		
+}
+
+bells_of_luccini3 = {
+	
+			idea_cost = -0.15
+			reform_progress_growth = 0.1
+			mercantilism_cost = -0.15
+		
+}
+
+cathedra_of_myrmidia1 = {
+	
+			stability_cost_modifier = -0.025
+			monthly_fervor_increase = 0.25
+		
+}
+
+cathedra_of_myrmidia2 = {
+	
+			stability_cost_modifier = -0.05
+			missionary_maintenance_cost = -0.1
+			missionaries = 1
+			monthly_fervor_increase = 0.5
+		
+}
+
+cathedra_of_myrmidia3 = {
+	
+			stability_cost_modifier = -0.1
+			missionary_maintenance_cost = -0.2
+			missionaries = 1
+			monthly_fervor_increase = 1
+		
+}
+
+the_estelian_citadel1 = {
+	
+			naval_tradition_from_trade = 0.25
+		
+}
+
+the_estelian_citadel2 = {
+	
+			naval_tradition_from_trade = 0.5
+		
+}
+
+the_estelian_citadel3 = {
+	
+			naval_tradition_from_trade = 1
+		
+}
+
+old_dwarf_road1 = {
+	
+			caravan_power = 0.1
+		
+}
+
+old_dwarf_road2 = {
+	
+			caravan_power = 0.2
+			trade_efficiency = 0.05
+		
+}
+
+old_dwarf_road3 = {
+	
+			caravan_power = 0.33
+			trade_efficiency = 0.10
+			global_trade_power = 0.05
+		
+}
+
+palazzo_della_virtu1 = {
+	
+			prestige = 0.25
+			monthly_splendor = 0.5			
+		
+}
+
+palazzo_della_virtu2 = {
+	
+			prestige = 0.5
+			monthly_splendor = 1
+			monarch_lifespan = 0.05
+		
+}
+
+palazzo_della_virtu3 = {
+	
+			prestige = 1
+			monthly_splendor = 1.5
+			monarch_lifespan = 0.1
+		
+}
+
+alcazar_of_magritta1 = {
+	
+			global_autonomy = -0.01	
+			global_tariffs = 0.05
+			treasure_fleet_income = 0.05			
+		
+}
+
+alcazar_of_magritta2 = {
+	
+			global_autonomy = -0.025
+			governing_capacity_modifier = 0.05
+			global_tariffs = 0.1
+			treasure_fleet_income = 0.1
+		
+}
+
+alcazar_of_magritta3 = {
+	
+			global_autonomy = -0.05
+			governing_capacity_modifier = 0.1
+			global_tariffs = 0.2
+			treasure_fleet_income = 0.2
+		
+}
+
+royal_university_of_bilbali1 = {
+	
+			global_institution_spread = 0.1
+		
+}
+
+royal_university_of_bilbali2 = {
+	
+			global_institution_spread = 0.2
+			embracement_cost = -0.05
+		
+}
+
+royal_university_of_bilbali3 = {
+	
+			global_institution_spread = 0.3
+			embracement_cost = -0.1
+			idea_cost = -0.05
+		
+}
+
+sagrada_hermandad_of_myrmidia1 = {
+	
+			army_tradition = 0.25
+		
+}
+
+sagrada_hermandad_of_myrmidia2 = {
+	
+			army_tradition = 0.25
+			prestige = 0.25
+		
+}
+
+sagrada_hermandad_of_myrmidia3 = {
+	
+			army_tradition = 0.5
+			prestige = 0.5
+		
+}
+
+el_torre_del_sol1 = {
+	
+			global_trade_power = 0.05
+		
+}
+
+el_torre_del_sol2 = {
+	
+			global_trade_power = 0.1
+			global_sailors_modifier = 0.1
+		
+}
+
+el_torre_del_sol3 = {
+	
+			global_trade_power = 0.15
+			global_sailors_modifier = 0.25
+		
+}
+
+barak_varr1 = {
+	
+			caravan_power = 0.1
+		
+}
+
+barak_varr2 = {
+	
+			caravan_power = 0.2
+			trade_efficiency = 0.05
+		
+}
+
+barak_varr3 = {
+	
+			caravan_power = 0.33
+			trade_efficiency = 0.10
+			global_trade_power = 0.05
+		
+}
+
+black_fire_pass1 = {
+	 
+			nobles_loyalty_modifier = 0.05
+		
+}
+
+black_fire_pass2 = {
+	
+}
+
+black_fire_pass3 = {
+	 
+			nobles_loyalty_modifier = 0.1
+		
+}
+
+forest_of_gloom1 = {
+
+}
+
+forest_of_gloom2 = {
+	
+}
+
+forest_of_gloom3 = {
+	
+}
+
+blackcliff_bay1 = {
+	
+			privateer_efficiency = 0.2
+			capture_ship_chance = 0.1
+		
+}
+
+blackcliff_bay2 = {
+	
+			privateer_efficiency = 0.33
+			power_projection_from_insults = 0.5
+			capture_ship_chance = 0.2
+		
+}
+
+blackcliff_bay3 = {
+	
+			privateer_efficiency = 0.5
+			power_projection_from_insults = 1
+			capture_ship_chance = 0.3
+		
+}
+
+mortensholm_marketplaces1 = {
+	
+			caravan_power = 0.1			
+		
+}
+
+mortensholm_marketplaces2 = {
+	
+			caravan_power = 0.2
+			merchants = 1
+		
+}
+
+mortensholm_marketplaces3 = {
+	
+			caravan_power = 0.4
+			merchants = 1
+		
+}
+
+monument_to_the_old_gods1 = {
+	
+			culture_conversion_cost = -0.1
+			global_missionary_strength = 0.01
+		
+}
+
+monument_to_the_old_gods2 = {
+	
+			culture_conversion_cost = -0.10
+			global_missionary_strength = 0.01
+			missionaries = 1
+		
+}
+
+monument_to_the_old_gods3 = {
+	
+			culture_conversion_cost = -0.25
+			global_missionary_strength = 0.01
+			missionaries = 1
+			idea_cost = -0.05
+		
+}
+
+skjold_fjords1 = {
+	
+			privateer_efficiency = 0.2
+			capture_ship_chance = 0.1
+		
+}
+
+skjold_fjords2 = {
+	
+			privateer_efficiency = 0.33
+			power_projection_from_insults = 0.5
+			capture_ship_chance = 0.2
+		
+}
+
+skjold_fjords3 = {
+	
+			privateer_efficiency = 0.5
+			power_projection_from_insults = 1
+			capture_ship_chance = 0.3
+		
+}
+
+uzkulak_caravan_stop1 = {
+	
+			caravan_power = 0.1
+		
+}
+
+uzkulak_caravan_stop2 = {
+	
+			caravan_power = 0.2
+			trade_efficiency = 0.05
+		
+}
+
+uzkulak_caravan_stop3 = {
+	
+			caravan_power = 0.33
+			trade_efficiency = 0.10
+			global_trade_power = 0.05
+		
+}
+
+zanbaijin_fallen_city1 = {
+	
+			monthly_reform_progress = 0.1
+			tribal_development_growth = 0.02
+		
+}
+
+zanbaijin_fallen_city2 = {
+	
+			monthly_reform_progress = 0.2
+			tribal_development_growth = 0.02
+		
+}
+
+zanbaijin_fallen_city3 = {
+	
+			monthly_reform_progress = 0.3
+			tribal_development_growth = 0.04
+		
+}
+
+the_inevitable_city1 = {
+	
+			idea_cost = -0.05
+			church_power_modifier = 0.05
+		
+}
+
+the_inevitable_city2 = {
+	
+			idea_cost = -0.1
+			reform_progress_growth = 0.1
+			church_power_modifier = 0.1			
+		
+}
+
+the_inevitable_city3 = {
+	
+			idea_cost = -0.15
+			reform_progress_growth = 0.1
+			monthly_everchosen_favor = 0.01
+			church_power_modifier = 0.15
+		
+}
+
+council_of_thirteen1 = {
+	
+			papal_influence = 0.5
+			monthly_fervor_increase = 0.25
+			church_power_modifier = 0.05
+			tolerance_own = 0.5
+		
+}
+
+council_of_thirteen2 = {
+	
+			papal_influence = 1
+			monthly_fervor_increase = 0.5
+			church_power_modifier = 0.1
+			tolerance_own = 1
+		
+}
+
+council_of_thirteen3 = {
+	
+			papal_influence = 2
+			monthly_fervor_increase = 1
+			church_power_modifier = 0.15
+			tolerance_own = 2
+			religious_unity = 0.1
+		
+}
+
+hellpit1 = {
+	 
+			nobles_loyalty_modifier = 0.1
+		
+}
+
+hellpit2 = {
+	
+}
+
+hellpit3 = {
+	 
+			nobles_loyalty_modifier = 0.15
+			free_mil_policy = 1
+		
+}
+
+under_alchemy_laboratories1 = {
+	
+			technology_cost = -0.05
+		
+}
+
+under_alchemy_laboratories2 = {
+		
+			idea_cost = -0.05
+			technology_cost = -0.05
+		
+}
+
+under_alchemy_laboratories3 = {
+	
+			idea_cost = -0.1
+			technology_cost = -0.1
+		
+}
+
+nest_of_corruption1 = {
+	
+			prestige = 0.25
+		
+}
+
+nest_of_corruption2 = {
+	
+			prestige = 0.5
+			advisor_cost = -0.1
+		
+}
+
+nest_of_corruption3 = {
+	
+			prestige = 1
+			advisor_cost = -0.2
+			allowed_cossack_fraction = 0.1
+		
+}
+
+castle_drakenhof1 = {
+	
+			war_exhaustion = -0.10
+			imperial_authority = 0.05
+		
+}
+
+castle_drakenhof2 = {
+	
+			hostile_attrition = 1
+			max_hostile_attrition = 1
+			diplomatic_reputation = 1
+			imperial_authority = 0.10
+		
+}
+
+castle_drakenhof3 = {
+	
+			hostile_attrition = 2
+			max_hostile_attrition = 2
+			diplomatic_reputation = 1
+			imperial_authority = 0.10
+		
+}
+
+karaz_a_karak1 = {
+	
+			reverse_relation_with_same_religion = 10
+			church_power_modifier = 0.05
+		
+}
+
+karaz_a_karak2 = {
+	
+			reverse_relation_with_same_religion = 10
+			diplomatic_reputation = 1
+			church_power_modifier = 0.1
+		
+}
+
+karaz_a_karak3 = {
+	
+			reverse_relation_with_same_religion = 25
+			diplomatic_reputation = 1
+			diplomatic_upkeep = 1
+			church_power_modifier = 0.15
+		
+}
+
+dwarven_mints1 = {
+	
+			monthly_gold_inflation_modifier = -0.1
+			gold_depletion_chance_modifier = -0.1
+		
+}
+
+dwarven_mints2 = {
+	
+			monthly_gold_inflation_modifier = -0.2
+			gold_depletion_chance_modifier = -0.2
+			interest = -0.5
+		
+}
+
+dwarven_mints3 = {
+	
+			monthly_gold_inflation_modifier = -0.33
+			gold_depletion_chance_modifier = -0.33
+			interest = -1
+		
+}
+
+black_crag1 = {
+	
+			discipline = 0.025
+			church_power_modifier = 0.05
+			monthly_piety_accelerator = -0.001
+		
+}
+
+black_crag2 = {
+	
+			discipline = 0.05
+			church_power_modifier = 0.1
+			monthly_piety_accelerator = -0.002
+		
+}
+
+black_crag3 = {
+	
+			discipline = 0.05
+			diplomatic_reputation = 1
+			reverse_relation_with_same_religion = 10
+			church_power_modifier = 0.15
+			monthly_piety_accelerator = -0.003
+		
+}
+
+orc_proving_pits1 = {
+	
+			general_cost = -0.50
+			free_leader_pool = 1
+		
+}
+
+orc_proving_pits2 = {
+	
+			general_cost = -0.50
+			free_leader_pool = 1
+			leader_land_fire = 1
+			leader_land_manuever = 1
+		
+		
+}
+
+orc_proving_pits3 = {
+	
+			general_cost = -0.50
+			free_leader_pool = 1
+			leader_land_fire = 1
+			leader_land_manuever = 1
+			leader_land_shock = 2
+		
+}
+
+mount_bloodhorn1 = {
+	
+			prestige = 0.25
+		
+}
+
+mount_bloodhorn2 = {
+	
+			prestige = 0.5
+			advisor_cost = -0.1
+		
+}
+
+mount_bloodhorn3 = {
+	
+			prestige = 1
+			advisor_cost = -0.2
+			special_unit_forcelimit = 0.1
+		
+}
+
+idol_of_gork1 = {
+	
+			monthly_piety_accelerator = 0.001
+			religious_unity = 0.1
+			church_loyalty_modifier = 0.05
+		
+}
+
+idol_of_gork2 = {
+	
+			monthly_piety_accelerator = 0.002
+			religious_unity = 0.1
+			church_loyalty_modifier = 0.1
+		
+}
+
+idol_of_gork3 = {
+	
+			monthly_piety_accelerator = 0.003
+			religious_unity = 0.25
+			church_loyalty_modifier = 0.15
+		
+}
+
+offices_of_karak_azul1 = {
+	
+			prestige = 0.25
+			reform_progress_growth = 0.05
+		
+}
+
+offices_of_karak_azul2 = {
+	
+			prestige = 0.5
+			reform_progress_growth = 0.1
+			governing_capacity = 50
+		
+}
+
+offices_of_karak_azul3 = {
+	
+			prestige = 1
+			reform_progress_growth = 0.15
+			governing_capacity = 100
+			administrative_efficiency = 0.05
+		
+}
+
+harbor_of_lashiek1 = {
+	
+			global_ship_trade_power = 0.2
+			privateer_efficiency = 0.2
+		
+}
+
+harbor_of_lashiek2 = {
+	
+			global_ship_trade_power = 0.4
+			privateer_efficiency = 0.4
+		
+}
+
+harbor_of_lashiek3 = {
+	
+			global_ship_trade_power = 0.5
+			privateer_efficiency = 0.5
+		
+}
+
+university_of_alshir1 = {
+	
+			may_explore = yes
+			range = 0.25
+		
+}
+
+university_of_alshir2 = {
+	
+			may_explore = yes
+			range = 0.25
+			colonists = 1
+		
+}
+
+university_of_alshir3 = {
+	
+			may_explore = yes
+			range = 0.25
+			colonists = 1
+			colony_development_boost = 1
+		
+}
+
+library_of_medes1 = {
+	
+			culture_conversion_cost = -0.1
+			global_missionary_strength = 0.01
+		
+}
+
+library_of_medes2 = {
+	
+			culture_conversion_cost = -0.10
+			global_missionary_strength = 0.01
+			missionaries = 1
+		
+}
+
+library_of_medes3 = {
+	
+			culture_conversion_cost = -0.25
+			global_missionary_strength = 0.01
+			missionaries = 1
+			idea_cost = -0.05
+		
+}
+
+palace_of_the_wizard_caliph1 = {
+	
+			country_admin_power = 1
+		
+}
+
+palace_of_the_wizard_caliph2 = {
+	
+		
+}
+
+palace_of_the_wizard_caliph3 = {
+	
+			country_admin_power = 3
+		
+}
+
+martek_pilgrimage1 = {
+	
+			warscore_cost_vs_other_religion = -0.10
+		
+}
+
+martek_pilgrimage2 = {
+	
+			warscore_cost_vs_other_religion = -0.2
+		
+}
+
+martek_pilgrimage3 = {
+	
+			warscore_cost_vs_other_religion = -0.3
+		
+}
+
+bay_of_zlatlan1 = {
+	
+			naval_forcelimit_modifier = 0.1
+			naval_maintenance_modifier = -0.1
+		
+}
+
+bay_of_zlatlan2 = {
+	
+			naval_forcelimit_modifier = 0.2
+			naval_maintenance_modifier = -0.15
+			navy_tradition = 0.5
+		
+}
+
+bay_of_zlatlan3 = {
+	
+			naval_forcelimit_modifier = 0.3
+			naval_maintenance_modifier = -0.2
+			navy_tradition = 1
+			admiral_cost = -0.1
+		
+}
+
+tomb_of_settra1 = {
+	
+			vassal_income = 0.1
+			reduced_liberty_desire = 5
+		
+}
+
+tomb_of_settra2 = {
+	
+			vassal_income = 0.1
+			reduced_liberty_desire = 5
+			diplomatic_reputation = 1
+		
+		
+}
+
+tomb_of_settra3 = {
+	
+			administrative_efficiency = 0.05
+			vassal_income = 0.1
+			reduced_liberty_desire = 10
+			diplomatic_reputation = 1
+			
+		
+}
+
+black_pyramid_of_nagash1 = {
+	
+			infantry_cost = -0.10
+			infantry_power = 0.05
+			global_unrest = 1
+		
+}
+
+black_pyramid_of_nagash2 = {
+	
+			infantry_cost = -0.15
+			infantry_power = 0.10
+			global_unrest = 2
+		
+}
+
+black_pyramid_of_nagash3 = {
+	
+			infantry_cost = -0.20
+			infantry_power = 0.15
+			all_power_cost = -0.025
+			global_unrest = 3
+		
+}
+
+great_necropolis_of_khemri1 = {
+	
+		
+}
+
+great_necropolis_of_khemri2 = {
+	
+			leader_land_fire = 1
+		
+		
+}
+
+great_necropolis_of_khemri3 = {
+	
+			leader_land_fire = 1
+			leader_land_shock = 1
+		
+}
+
+mortuary_temple_of_quaph1 = {
+	
+			global_missionary_strength = 0.005
+			church_loyalty_modifier = 0.05
+		
+}
+
+mortuary_temple_of_quaph2 = {
+	
+			global_missionary_strength = 0.01
+			tolerance_own = 1
+			church_loyalty_modifier = 0.1
+		
+}
+
+mortuary_temple_of_quaph3 = {
+	
+			global_missionary_strength = 0.02
+			tolerance_own = 2
+			church_loyalty_modifier = 0.15
+		
+}
+
+great_sphinx_of_numasis1 = {
+	
+			reduced_liberty_desire = 5
+			legitimacy = 0.25
+		
+}
+
+great_sphinx_of_numasis2 = {
+	
+			all_estate_loyalty_equilibrium = 0.05
+			reduced_liberty_desire = 10 
+			legitimacy = 0.5
+		}	
+		on_upgraded = {
+			center_of_trade = 1
+		
+}
+
+great_sphinx_of_numasis3 = {
+	
+			all_estate_loyalty_equilibrium = 0.1
+			reduced_liberty_desire = 10
+			max_absolutism = 10
+			legitimacy = 1
+		
+}
+
+oasis_of_the_gods1 = {
+	
+			land_attrition = -0.10
+			reinforce_speed = 0.10
+		
+}
+
+oasis_of_the_gods2 = {
+	
+			land_attrition = -0.15
+			reinforce_speed = 0.20
+		}	
+		on_upgraded = {
+			center_of_trade = 1
+		
+}
+
+oasis_of_the_gods3 = {
+	
+			land_attrition = -0.20
+			reinforce_speed = 0.30
+		
+}
+
+valley_of_kings1 = {
+	
+			reduced_liberty_desire = 5
+		
+}
+
+valley_of_kings2 = {
+	
+			reduced_liberty_desire = 5
+			legitimacy = 0.5
+			devotion = 0.5
+			diplomatic_reputation = 1
+		
+		
+}
+
+valley_of_kings3 = {
+	
+			legitimacy = 0.5
+			devotion = 0.5
+			reduced_liberty_desire = 10
+			diplomatic_reputation = 1
+		
+}
+
+obelisk_of_eternity1 = {
+	
+			all_power_cost = -0.01
+		
+}
+
+obelisk_of_eternity2 = {
+	
+			all_power_cost = -0.02
+			legitimacy = 0.5
+		
+}
+
+obelisk_of_eternity3 = {
+	
+			all_power_cost = -0.03
+			legitimacy = 1.0
+		
+}
+
+colossus_of_zandri1 = {
+	
+			global_trade_power = 0.05
+		
+}
+
+colossus_of_zandri2 = {
+	
+			global_trade_power = 0.1
+			global_sailors_modifier = 0.1
+		
+}
+
+colossus_of_zandri3 = {
+	
+			global_trade_power = 0.15
+			global_sailors_modifier = 0.25
+		
+}
+
+crater_ritual_site1 = {
+	
+			hostile_attrition = 1
+			max_hostile_attrition = 1
+		
+}
+
+crater_ritual_site2 = {
+	
+			hostile_attrition = 2
+			max_hostile_attrition = 2
+		
+}
+
+crater_ritual_site3 = {
+	
+			hostile_attrition = 3
+			max_hostile_attrition = 3
+		
+}
+
+the_maelstrom1 = {
+	
+			coast_raid_range = 2
+			naval_forcelimit = 10
+			may_explore = yes
+			governing_capacity = -100
+		
+}
+
+the_maelstrom2 = {
+	
+			coast_raid_range = 3
+			naval_forcelimit = 25
+			may_explore = yes
+			governing_capacity = -150
+		
+}
+
+the_maelstrom3 = {
+	
+			coast_raid_range = 4
+			naval_forcelimit = 50
+			may_explore = yes
+			governing_capacity = -200
+		
+}
+
+gp_court_of_the_phoenix_king1 = {
+	
+			inflation_reduction = 0.05
+			yearly_corruption = -0.05
+		
+}
+
+gp_court_of_the_phoenix_king2 = {
+	
+			inflation_reduction = 0.075
+			yearly_corruption = -0.075
+			administrative_efficiency = 0.025
+		
+}
+
+gp_court_of_the_phoenix_king3 = {
+	
+			inflation_reduction = 0.1
+			yearly_corruption = -0.1
+			administrative_efficiency = 0.05
+		
+}
+
+gp_court_of_the_everqueen1 = {
+	
+			tolerance_own = 0.25
+			diplomatic_reputation = 0.25
+		
+}
+
+gp_court_of_the_everqueen2 = {
+	
+			tolerance_own = 0.5
+			diplomatic_reputation = 0.5
+			diplomatic_upkeep = 1
+		
+}
+
+gp_court_of_the_everqueen3 = {
+	
+			tolerance_own = 1
+			diplomatic_reputation = 1
+			diplomatic_upkeep = 2
+		
+}
+
+gp_white_tower_of_hoeth1 = {
+	
+			all_power_cost = -0.01
+		
+}
+
+gp_white_tower_of_hoeth2 = {
+	
+			all_power_cost = -0.02
+		
+}
+
+gp_white_tower_of_hoeth3 = {
+	
+			all_power_cost = -0.03
+		
+}
+
+gp_amphitheatre_of_yvresse1 = {
+	
+			prestige = 0.1
+			spy_offence = 0.05
+			global_spy_defence = 0.06
+		
+}
+
+gp_amphitheatre_of_yvresse2 = {
+	
+			prestige = 0.25
+			spy_offence = 0.05
+			global_spy_defence = 0.10
+		
+}
+
+gp_amphitheatre_of_yvresse3 = {
+	
+			prestige = 0.5
+			global_unrest = -1
+			spy_offence = 0.15
+			global_spy_defence = 0.20
+		
+}
+
+gp_black_citadel_of_anlec1 = {
+	
+			prestige = 0.1
+			legitimacy = 0.25
+			governing_capacity_modifier = 0.05
+		
+}
+
+gp_black_citadel_of_anlec2 = {
+	
+			prestige = 0.25
+			legitimacy = 0.5
+			governing_capacity_modifier = 0.10
+			vassal_forcelimit_bonus = 0.25
+		
+}
+
+gp_black_citadel_of_anlec3 = {
+	
+			prestige = 0.5
+			legitimacy = 1
+			governing_capacity_modifier = 0.15
+			vassal_forcelimit_bonus = 0.5
+		
+}
+
+gp_hall_of_charioteers1 = {
+	
+
+		
+}
+
+gp_hall_of_charioteers2 = {
+	
+			movement_speed = 0.025
+			cavalry_flanking = 0.25
+		
+}
+
+gp_hall_of_charioteers3 = {
+	
+			movement_speed = 0.05
+			cavalry_flanking = 0.5
+			leader_land_manuever = 1
+		
+}
+
+gp_gates_of_lothern1 = {
+	
+			range = 0.1
+			transport_attrition = -0.1
+		
+}
+
+gp_gates_of_lothern2 = {
+	
+			range = 0.2
+			transport_attrition = -0.2
+			ship_durability = 0.025
+		
+}
+
+gp_gates_of_lothern3 = {
+	
+			range = 0.33
+			transport_attrition = -0.33
+			ship_durability = 0.075
+		
+}
+
+gp_hall_of_dragons1 = {
+	
+			army_tradition_from_battle = 0.25
+			drill_decay_modifier = -0.1
+			allowed_cossack_fraction = 0.05
+			special_unit_cost_modifier = -0.05
+		
+}
+
+gp_hall_of_dragons2 = {
+	
+			army_tradition_from_battle = 0.5
+			drill_decay_modifier = -0.2
+			allowed_cossack_fraction = 0.10
+			special_unit_cost_modifier = -0.10
+		
+}
+
+gp_hall_of_dragons3 = {
+	
+			army_tradition_from_battle = 0.50
+			drill_decay_modifier = -0.25
+			allowed_cossack_fraction = 0.15
+			special_unit_cost_modifier = -0.15
+		
+}
+
+gp_royal_ellyrian_stables1 = {
+	
+			cavalry_power = 0.05
+			cav_to_inf_ratio = 0.05
+		
+}
+
+gp_royal_ellyrian_stables2 = {
+	
+			cavalry_power = 0.1
+			cav_to_inf_ratio = 0.10
+		
+}
+
+gp_royal_ellyrian_stables3 = {
+	
+			cavalry_power = 0.15
+			cav_to_inf_ratio = 0.15
+		
+}
+
+gp_ancient_subterranean_palace1 = {
+	
+			trade_efficiency = 0.05
+		
+}
+
+gp_ancient_subterranean_palace2 = {
+	
+			trade_efficiency = 0.075
+			merchants = 1
+		
+}
+
+gp_ancient_subterranean_palace3 = {
+	
+			trade_efficiency = 0.1
+			merchants = 1
+		
+}
+
+gp_white_lion_hunting_grounds1 = {
+	
+			prestige_from_land = 0.5
+			army_tradition_from_battle = 0.25
+		
+}
+
+gp_white_lion_hunting_grounds2 = {
+	
+			prestige_from_land = 1
+			army_tradition_from_battle = 0.35
+			land_maintenance_modifier = -0.025
+		
+}
+
+gp_white_lion_hunting_grounds3 = {
+	
+			prestige_from_land = 1.5
+			army_tradition_from_battle = 0.50
+			land_maintenance_modifier = -0.05
+		
+}
+
+gp_great_vortex1 = {
+	
+			global_unrest = 1
+			all_power_cost = -0.01
+			yearly_corruption = 0.1
+			prestige = 0.5
+		
+}
+
+gp_great_vortex2 = {
+	
+			global_unrest = 2
+			all_power_cost = -0.02
+			yearly_corruption = 0.2
+			prestige = 1.0
+		
+}
+
+gp_great_vortex3 = {
+	
+			global_unrest = 3
+			all_power_cost = -0.03
+			yearly_corruption = 0.3
+			prestige = 1.0
+		
+}
+
+gp_great_vortex_corrupted1 = {
+	
+			global_unrest = 2
+			all_power_cost = -0.05
+			monthly_everchosen_favor = 0.05
+			global_missionary_strength = 0.05
+		
+}
+
+gp_great_vortex_corrupted2 = {
+	
+			global_unrest = 4
+			all_power_cost = -0.10
+			monthly_everchosen_favor = 0.10
+			global_missionary_strength = 0.10
+
+		
+}
+
+gp_great_vortex_corrupted3 = {
+	
+			global_unrest = 6
+			all_power_cost = -0.15
+			monthly_everchosen_favor = 0.15
+			global_missionary_strength = 0.15
+		
+}
+

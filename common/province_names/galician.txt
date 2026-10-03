@@ -1,0 +1,4 @@
+206 = "A Coruña"
+4554 = "Lugo"
+4555 = "Pontevedra"
+4558 = "Ourense"

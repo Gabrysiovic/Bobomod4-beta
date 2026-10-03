@@ -1,0 +1,118 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+#western_modifier = {
+#	potential = {
+#		technology_group = western
+#	}
+#
+#	trigger = {
+#		technology_group = western
+#	}
+#
+#	embracement_cost = -0.1
+#}
+#eastern_modifier = {
+#	potential = {
+#		technology_group = eastern	
+#	}
+#
+#	trigger = {
+#		technology_group = eastern
+#	}
+#	
+#	embracement_cost = 0.2
+#	global_institution_spread = -0.2
+#}
+#muslim_modifier = {
+#	potential = {
+#		OR = {
+#			technology_group = ottoman
+#			technology_group = muslim
+#		}
+#		
+#	}
+#
+#	trigger = {
+#		OR = {
+#			technology_group = ottoman
+#			technology_group = muslim
+#		}
+#	}
+#
+#	embracement_cost = 1.0
+#	global_institution_spread = -0.85
+#}
+#oriental_modifier = {
+#	potential = {
+#		OR = {
+#			technology_group = indian
+#			technology_group = chinese
+#			technology_group = nomad_group
+#		}
+#		
+#	}
+#
+#	trigger = {
+#		OR = {
+#			technology_group = indian
+#			technology_group = chinese
+#			technology_group = nomad_group
+#		}
+#	}
+#
+#	embracement_cost = 1.0
+#	global_institution_spread = -0.6
+#}
+#african_modifier = {
+#	potential = {
+#		OR = {
+#			technology_group = east_african
+#			technology_group = central_african
+#			technology_group = sub_saharan
+#		}
+#		
+#	}
+#
+#	trigger = {
+#		OR = {
+#			technology_group = east_african
+#			technology_group = central_african
+#			technology_group = sub_saharan
+#		}
+#	}
+#
+#	embracement_cost = 2.0
+#	global_institution_spread = -1.0
+#}
+#indigenous_modifier = {
+#	potential = {
+#		OR = {
+#			technology_group = north_american
+#			technology_group = mesoamerican
+#			technology_group = south_american
+#			technology_group = andean
+#			technology_group = aboriginal_tech
+#			technology_group = polynesian_tech
+#			technology_group = high_american
+#		}
+#		
+#	}
+#
+#	trigger = {
+#		OR = {
+#			technology_group = north_american
+#			technology_group = mesoamerican
+#			technology_group = south_american
+#			technology_group = andean
+#			technology_group = aboriginal_tech
+#			technology_group = polynesian_tech
+#			technology_group = high_american
+#		}
+#	}
+#
+#	embracement_cost = 5.0
+#	global_institution_spread = -1.25
+#}

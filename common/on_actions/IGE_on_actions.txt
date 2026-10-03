@@ -1,0 +1,27 @@
+on_monthly_pulse = { 
+	if = {
+		limit = {
+			AND = {
+				employed_advisor = {
+					category = ADM
+					skill = 5
+				}
+				employed_advisor = {
+					category = DIP
+					skill = 5
+				}
+				employed_advisor = {
+					category = MIL
+					skill = 5
+				}
+			}
+		}
+		add_country_modifier = {
+			name = IGE_efficient_bureaucracy
+			duration = -1
+		}
+	}
+	else = {
+		remove_country_modifier = IGE_efficient_bureaucracy
+	}
+}

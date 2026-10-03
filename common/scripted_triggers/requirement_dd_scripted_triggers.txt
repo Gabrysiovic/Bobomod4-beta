@@ -1,0 +1,76 @@
+DD_oxford_colloge_modifier_trigger = { 
+OR = {
+			culture_group = british
+			culture_group = scandinavian
+			culture_group = french
+		}
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+}
+
+DD_paris_colloge_modifier_trigger = { 
+culture_group = french
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+}
+
+DD_salamanca_colloge_modifier_trigger = { 
+OR = {
+			culture_group = iberian
+			culture_group = adulusian_cg
+			culture_group = maghrebi
+		}
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+}
+
+DD_cordoba_chruch_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = christian
+			}
+			province_is_or_accepts_religion_group = {
+				religion_group = muslim
+			}
+		}
+}
+
+DD_tunis_church_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+}
+
+DD_wisdom_house_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = muslim
+			}
+			owner = {
+				religion_group = DD_confucianism_group
+				has_harmonized_with = muslim
+			}
+			AND = {
+				custom_trigger_tooltip = {
+					tooltip = DD_has_enable_ttt
+					owner = {
+						has_country_flag = DD_wisdom_house
+					}
+				}
+				has_owner_religion = yes
+			}
+		}
+}
+
+DD_mecca_church_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+}
+

@@ -1,0 +1,172 @@
+has_alexiad_monument = { 
+	OR = {
+		has_great_project = {
+			type = Sumera_Monastery
+			tier = 1
+		}
+		has_great_project = {
+			type = Sumera_Monastery
+			tier = 2
+		}
+		has_great_project = {
+			type = Sumera_Monastery
+			tier = 3
+		}
+		has_great_project = {
+			type = Walls_of_Theodosius
+			tier = 1
+		}
+		has_great_project = {
+			type = Walls_of_Theodosius
+			tier = 2
+		}
+		has_great_project = {
+			type = Walls_of_Theodosius
+			tier = 3
+		}
+		has_great_project = {
+			type = Hanging_Church
+			tier = 1
+		}
+		has_great_project = {
+			type = Hanging_Church
+			tier = 2
+		}
+		has_great_project = {
+			type = Hanging_Church
+			tier = 3
+		}
+		has_great_project = {
+			type = Monastery_of_Saint_John
+			tier = 1
+		}
+		has_great_project = {
+			type = Monastery_of_Saint_John
+			tier = 2
+		}
+		has_great_project = {
+			type = Monastery_of_Saint_John
+			tier = 3
+		}
+		has_great_project = {
+			type = Saint_Mark_Cathedral
+			tier = 1
+		}
+		has_great_project = {
+			type = Saint_Mark_Cathedral
+			tier = 2
+		}
+		has_great_project = {
+			type = Saint_Mark_Cathedral
+			tier = 3
+		}
+		has_great_project = {
+			type = Neamt_Monastery
+			tier = 1
+		}
+		has_great_project = {
+			type = Neamt_Monastery
+			tier = 2
+		}
+		has_great_project = {
+			type = Neamt_Monastery
+			tier = 3
+		}
+		has_great_project = {
+			type = Mosque_of_Amr
+			tier = 1
+		}
+		has_great_project = {
+			type = Mosque_of_Amr
+			tier = 2
+		}
+		has_great_project = {
+			type = Mosque_of_Amr
+			tier = 3
+		}
+		has_great_project = {
+			type = Krak_des_Chevaliers
+			tier = 1
+		}
+		has_great_project = {
+			type = Krak_des_Chevaliers
+			tier = 2
+		}
+		has_great_project = {
+			type = Krak_des_Chevaliers
+			tier = 3
+		}
+		has_great_project = {
+			type = Trebizond_Hagia_Sophia
+			tier = 1
+		}
+		has_great_project = {
+			type = Trebizond_Hagia_Sophia
+			tier = 2
+		}
+		has_great_project = {
+			type = Trebizond_Hagia_Sophia
+			tier = 3
+		}
+		has_great_project = {
+			type = Gelati_Monastery
+			tier = 1
+		}
+		has_great_project = {
+			type = Gelati_Monastery
+			tier = 2
+		}
+		has_great_project = {
+			type = Gelati_Monastery
+			tier = 3
+		}
+		has_great_project = {
+			type = Sinop_Fortress
+			tier = 1
+		}
+		has_great_project = {
+			type = Sinop_Fortress
+			tier = 2
+		}
+		has_great_project = {
+			type = Sinop_Fortress
+			tier = 3
+		}
+		has_great_project = {
+			type = Hippodrome_of_Constantinople
+			tier = 1
+		}
+		has_great_project = {
+			type = Hippodrome_of_Constantinople
+			tier = 2
+		}
+		has_great_project = {
+			type = Hippodrome_of_Constantinople
+			tier = 3
+		}
+		has_great_project = {
+			type = St_Catherine_Monastery
+			tier = 1
+		}
+		has_great_project = {
+			type = St_Catherine_Monastery
+			tier = 2
+		}
+		has_great_project = {
+			type = St_Catherine_Monastery
+			tier = 3
+		}
+		has_great_project = {
+			type = Antioch_new_city
+			tier = 1
+		}
+		has_great_project = {
+			type = Antioch_new_city
+			tier = 2
+		}
+		has_great_project = {
+			type = Antioch_new_city
+			tier = 3
+		}
+	}
+}

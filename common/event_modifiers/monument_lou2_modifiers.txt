@@ -1,0 +1,1442 @@
+minas_tirith_monument1 = {
+	
+			yearly_patriarch_authority = 0.005
+			prestige_decay = -0.01
+			land_morale = 0.05
+			legitimacy = 0.5
+		
+}
+
+minas_tirith_monument2 = {
+	
+			yearly_patriarch_authority = 0.010
+			prestige_decay = -0.02
+			land_morale = 0.10
+			legitimacy = 1
+		
+}
+
+minas_tirith_monument3 = {
+	
+			yearly_patriarch_authority = 0.015
+			prestige_decay = -0.03
+			land_morale = 0.15
+			legitimacy = 1.5
+		
+}
+
+library_of_minas_tirith_monument1 = {
+	
+			governing_capacity = 100
+		
+}
+
+library_of_minas_tirith_monument2 = {
+	
+			governing_capacity = 200
+
+		
+}
+
+library_of_minas_tirith_monument3 = {
+	
+			governing_capacity = 250
+			technology_cost = -0.05
+		
+}
+
+amon_hen_monument1 = {
+	
+			spy_offence = 0.10
+		
+}
+
+amon_hen_monument2 = {
+	
+			spy_offence = 0.20
+		
+}
+
+amon_hen_monument3 = {
+	
+			spy_offence = 0.30
+		
+}
+
+amon_lhaw_monument1 = {
+	
+			global_spy_defence = 0.10
+		
+}
+
+amon_lhaw_monument2 = {
+	
+			global_spy_defence = 0.20
+		
+}
+
+amon_lhaw_monument3 = {
+	
+			global_spy_defence = 0.30
+		
+}
+
+dol_amroth_monument1 = {
+	
+			cavalry_shock = 0.1
+			cavalry_power = 0.05
+		
+}
+
+dol_amroth_monument2 = {
+	
+			cavalry_shock = 0.25
+			cavalry_power = 0.10
+		
+}
+
+dol_amroth_monument3 = {
+	
+			cavalry_shock = 0.5
+			cavalry_power = 0.15
+		
+}
+
+minas_morgul_monument1 = {
+	
+			war_taxes_cost_modifier = -0.25
+		
+}
+
+minas_morgul_monument2 = {
+	
+			war_taxes_cost_modifier = -0.5
+		
+}
+
+minas_morgul_monument3 = {
+	
+			war_taxes_cost_modifier = -1
+		
+}
+
+minas_ithil_monument1 = {
+	
+		
+}
+
+minas_ithil_monument2 = {
+	
+		
+}
+
+minas_ithil_monument3 = {
+	
+		
+}
+
+edhellond_monument1 = {
+	
+		
+}
+
+edhellond_monument2 = {
+	
+		
+}
+
+edhellond_monument3 = {
+	
+		
+}
+
+gobel_tolfalas_monument1 = {
+	
+			naval_forcelimit = 5
+		
+}
+
+gobel_tolfalas_monument2 = {
+	
+			naval_forcelimit = 10
+		
+}
+
+gobel_tolfalas_monument3 = {
+	
+			naval_forcelimit = 20
+			naval_forcelimit_modifier = 0.1
+		
+}
+
+imloth_melui_monument1 = {
+	
+		
+}
+
+imloth_melui_monument2 = {
+	
+		
+}
+
+imloth_melui_monument3 = {
+	
+			manpower_recovery_speed = 0.1
+		
+}
+
+argonath_monument1 = {
+	
+			yearly_corruption = -0.05
+		
+}
+
+argonath_monument2 = {
+	
+			yearly_corruption = -0.10
+		
+}
+
+argonath_monument3 = {
+	
+			yearly_corruption = -0.15
+		
+}
+
+henneth_annun_monument1 = {
+	
+		
+}
+
+henneth_annun_monument2 = {
+	
+		
+}
+
+henneth_annun_monument3 = {
+	
+		
+}
+
+calembel_monument1 = {
+	
+		
+}
+
+calembel_monument2 = {
+	
+		
+}
+
+calembel_monument3 = {
+	
+		
+}
+
+blackgate_monument1 = {
+	
+		
+}
+
+blackgate_monument2 = {
+	
+		
+}
+
+blackgate_monument3 = {
+	
+		
+}
+
+baraddur_monument1 = {
+	
+			core_creation = -0.1
+			country_admin_power = 1
+		
+}
+
+baraddur_monument2 = {
+	
+			core_creation = -0.15
+			country_admin_power = 1
+			country_diplomatic_power = 1
+		
+}
+
+baraddur_monument3 = {
+			
+			core_creation = -0.25
+			country_admin_power = 1
+			country_diplomatic_power = 1
+			country_military_power = 1
+		
+}
+
+cirithungol_monument1 = {
+	
+		
+}
+
+cirithungol_monument2 = {
+	
+		
+}
+
+cirithungol_monument3 = {
+	
+		
+}
+
+durthang_monument1 = {
+	
+		
+}
+
+durthang_monument2 = {
+	
+		
+}
+
+durthang_monument3 = {
+	
+		
+}
+
+ostigurth_monument1 = {
+	
+		
+}
+
+ostigurth_monument2 = {
+	
+		caravan_power = 0.1
+		
+}
+
+ostigurth_monument3 = {
+	
+		caravan_power = 0.2
+		
+}
+
+helmsdeep_monument1 = {
+	
+		
+}
+
+helmsdeep_monument2 = {
+	
+		
+}
+
+helmsdeep_monument3 = {
+	
+		
+}
+
+edoras_monument1 = {
+	
+		
+}
+
+edoras_monument2 = {
+	
+		cavalry_cost = -0.1
+		
+}
+
+edoras_monument3 = {
+	
+		cavalry_cost = -0.2
+		
+}
+
+isengard_monument1 = {
+	
+		
+}
+
+isengard_monument2 = {
+	
+		
+}
+
+isengard_monument3 = {
+	
+		free_policy = 1
+		mil_tech_cost_modifier = -0.1
+		
+}
+
+amrun_monument1 = {
+	
+		appoint_cardinal_cost = 0.9
+		curia_powers_cost = 0.9
+		
+}
+
+amrun_monument2 = {
+	
+		appoint_cardinal_cost = 0.75
+		curia_powers_cost = 0.75
+		
+}
+
+amrun_monument3 = {
+	
+		appoint_cardinal_cost = 0.5
+		curia_powers_cost = 0.5
+		
+}
+
+umbar_monument1 = {
+	
+		trade_range_modifier = 0.25
+		placed_merchant_power = 15
+		
+}
+
+umbar_monument2 = {
+	
+		trade_range_modifier = 0.25
+		placed_merchant_power = 30
+		
+}
+
+umbar_monument3 = {
+	
+		trade_range_modifier = 0.25
+		placed_merchant_power = 50
+		
+}
+
+pillar_of_umbar_monument1 = {
+	
+		
+}
+
+pillar_of_umbar_monument2 = {
+	
+		
+}
+
+pillar_of_umbar_monument3 = {
+	
+		
+}
+
+gobel_ancalimon_monument1 = {
+	
+		
+}
+
+gobel_ancalimon_monument2 = {
+	
+		caravan_power = 0.1
+		
+}
+
+gobel_ancalimon_monument3 = {
+	
+		caravan_power = 0.25
+		
+}
+
+gobel_mirlond_monument1 = {
+	
+		global_ship_trade_power = 0.1
+		
+}
+
+gobel_mirlond_monument2 = {
+	
+		global_ship_trade_power = 0.2
+		center_of_trade_upgrade_cost = -0.1
+		
+}
+
+gobel_mirlond_monument3 = {
+	
+		global_ship_trade_power = 0.3
+		center_of_trade_upgrade_cost = -0.2
+		
+}
+
+dolguldur_monument1 = {
+	
+		spy_offence = 0.1
+		global_spy_defence = 0.1
+		discovered_relations_impact = -0.1
+		
+}
+
+dolguldur_monument2 = {
+	
+		spy_offence = 0.2
+		global_spy_defence = 0.2
+		discovered_relations_impact = -0.2
+		
+}
+
+dolguldur_monument3 = {
+	
+		spy_offence = 0.3
+		global_spy_defence = 0.3
+		discovered_relations_impact = -0.3
+		
+}
+
+dains_halls_monument1 = {
+	
+			gold_depletion_chance_modifier = -0.25
+		
+}
+
+dains_halls_monument2 = {
+	
+			gold_depletion_chance_modifier = -0.50
+		
+}
+
+dains_halls_monument3 = {
+	
+			gold_depletion_chance_modifier = -1
+		
+}
+
+erebor_monument1 = {
+	
+			monthly_gold_inflation_modifier = -0.1
+			gold_depletion_chance_modifier = -0.50
+			prestige_decay = -0.01
+		
+}
+
+erebor_monument2 = {
+	
+			monthly_gold_inflation_modifier = -0.25
+			prestige_decay = -0.01
+			gold_depletion_chance_modifier = -0.75
+		
+}
+
+erebor_monument3 = {
+	
+			monthly_gold_inflation_modifier = -0.5
+			prestige_decay = -0.01
+			gold_depletion_chance_modifier = -1
+		
+}
+
+dale_monument1 = {
+	
+		governing_capacity = 100
+		reform_progress_growth = 0.1
+		
+}
+
+dale_monument2 = {
+	
+		governing_capacity = 200
+		reform_progress_growth = 0.2
+		
+}
+
+dale_monument3 = {
+	
+		governing_capacity = 250
+		reform_progress_growth = 0.25
+		
+}
+
+laketown_monument1 = {
+	
+			governing_capacity = 150
+			yearly_corruption = 0.05
+		
+}
+
+laketown_monument2 = {
+	
+			governing_capacity = 200
+			yearly_corruption = -0.05
+		
+}
+
+laketown_monument3 = {
+	
+		governing_capacity = 300
+		yearly_corruption = -0.10
+		
+}
+
+rivendell_monument1 = {
+	
+
+		
+}
+
+rivendell_monument2 = {
+	
+			manpower_recovery_speed = 0.05
+		
+}
+
+rivendell_monument3 = {
+	
+			manpower_recovery_speed = 0.1
+		
+}
+
+michel_delving_monument1 = {
+	
+		
+}
+
+michel_delving_monument2 = {
+	
+		
+}
+
+michel_delving_monument3 = {
+	
+		
+}
+
+hobbiton_factory_monument1 = {
+	
+			production_efficiency = 0.05
+		
+}
+
+hobbiton_factory_monument2 = {
+	
+			production_efficiency = 0.10
+		
+}
+
+hobbiton_factory_monument3 = {
+	
+			production_efficiency = 0.20
+		
+}
+
+sarn_ford_monument1 = {
+	
+		caravan_power = 0.05
+		
+}
+
+sarn_ford_monument2 = {
+	
+		caravan_power = 0.1
+		
+}
+
+sarn_ford_monument3 = {
+	
+			caravan_power = 0.15
+		
+}
+
+moria_monument1 = {
+	
+		
+}
+
+moria_monument2 = {
+	
+			development_cost_modifier = -0.10
+		
+}
+
+moria_monument3 = {
+	
+			development_cost_modifier = -0.25
+		
+}
+
+ost_in_edhil_monument1 = {
+	
+			trade_steering = 0.05
+		
+}
+
+ost_in_edhil_monument2 = {
+	
+			trade_steering = 0.1
+		
+}
+
+ost_in_edhil_monument3 = {
+	
+			trade_steering = 0.15
+		
+}
+
+entmoot_monument1 = {
+	
+			shock_damage = 0.05
+		
+}
+
+entmoot_monument2 = {
+	
+			shock_damage = 0.10
+		
+}
+
+entmoot_monument3 = {
+	
+			shock_damage = 0.15
+		
+}
+
+cerin_amroth_monument1 = {
+	
+		improve_relation_modifier = 0.1
+		stability_cost_to_declare_war = 1
+		spy_offence = 0.1
+		global_spy_defence = 0.1
+		
+}
+
+cerin_amroth_monument2 = {
+	
+		improve_relation_modifier = 0.2
+		stability_cost_to_declare_war = 1
+		spy_offence = 0.2
+		global_spy_defence = 0.2
+		
+}
+
+cerin_amroth_monument3 = {
+	
+		improve_relation_modifier = 0.3
+		stability_cost_to_declare_war = 1
+		spy_offence = 0.3
+		global_spy_defence = 0.3
+		
+}
+
+thalls_monument1 = {
+	
+			war_exhaustion = -0.05
+			fire_damage = 0.05
+		
+}
+
+thalls_monument2 = {
+	
+			war_exhaustion = -0.1
+			fire_damage = 0.10
+		
+}
+
+thalls_monument3 = {
+	
+			war_exhaustion = -0.15
+			fire_damage = 0.15
+		
+}
+
+gundabad_monument1 = {
+	
+			army_tradition_decay = -0.01
+			discipline = 0.05
+		
+}
+
+gundabad_monument2 = {
+	
+			army_tradition_decay = -0.02
+			discipline = 0.10
+		
+}
+
+gundabad_monument3 = {
+	
+			army_tradition_decay = -0.03
+			discipline = 0.15
+		
+}
+
+goblintown_monument1 = {
+	
+		
+}
+
+goblintown_monument2 = {
+	
+		
+}
+
+goblintown_monument3 = {
+	
+		
+}
+
+framsburg_monument1 = {
+	
+			shock_damage_received = -0.05
+		
+}
+
+framsburg_monument2 = {
+	
+			shock_damage_received = -0.10
+		
+}
+
+framsburg_monument3 = {
+				
+			shock_damage_received = -0.15
+		
+}
+
+fornost_monument1 = {
+	
+			has_dlc = "Cradle of Civilization"
+				yearly_army_professionalism = 0.01
+		
+}
+
+fornost_monument2 = {
+	
+			has_dlc = "Cradle of Civilization" 
+				yearly_army_professionalism = 0.03
+		
+}
+
+fornost_monument3 = {
+	
+			has_dlc = "Cradle of Civilization"
+				yearly_army_professionalism = 0.05
+		
+}
+
+greyhavens_monument1 = {
+	
+			navy_tradition_decay = -0.01
+		
+}
+
+greyhavens_monument2 = {
+	
+			navy_tradition_decay = -0.03
+		
+}
+
+greyhavens_monument3 = {
+	
+			navy_tradition_decay = -0.05
+		
+}
+
+bree_monument1 = {
+	
+			spy_offence = 0.05
+			num_accepted_cultures = 1
+		
+}
+
+bree_monument2 = {
+	
+			spy_offence = 0.10
+			num_accepted_cultures = 2
+		
+}
+
+bree_monument3 = {
+	
+			spy_offence = 0.15
+			num_accepted_cultures = 3
+		
+}
+
+barrow_downs_monument1 = {
+	
+			all_power_cost = -0.01
+			prestige_decay = -0.01
+			monarch_admin_power = 1
+		
+}
+
+barrow_downs_monument2 = {
+	
+			all_power_cost = -0.03
+			prestige_decay = -0.03
+			monarch_admin_power = 1
+			monarch_diplomatic_power = 1
+		
+}
+
+barrow_downs_monument3 = {
+	
+			all_power_cost = -0.05
+			prestige_decay = -0.05
+			monarch_admin_power = 1
+			monarch_diplomatic_power = 1
+			monarch_military_power = 1
+		
+}
+
+carndum_monument1 = {
+	
+			diplomatic_upkeep = 1
+			relation_with_same_culture_group = 10
+		
+}
+
+carndum_monument2 = {
+	
+			diplomatic_upkeep = 2
+			relation_with_same_culture_group = 25
+		
+}
+
+carndum_monument3 = {
+	
+			diplomatic_upkeep = 3
+			relation_with_same_culture_group = 50
+		
+}
+
+amon_sul_monument1 = {
+	
+			caravan_power = 0.15
+			global_spy_defence = 0.05
+		
+}
+
+amon_sul_monument2 = {
+	
+			caravan_power = 0.20
+			global_spy_defence = 0.10
+		
+}
+
+amon_sul_monument3 = {
+	
+			caravan_power = 0.25
+			global_spy_defence = 0.15
+		
+}
+
+relerindu_monument1 = {
+	
+		
+}
+
+relerindu_monument2 = {
+	
+		
+}
+
+relerindu_monument3 = {
+	
+		
+}
+
+arentaurr_monument1 = {
+	
+		
+}
+
+arentaurr_monument2 = {
+	
+		
+}
+
+arentaurr_monument3 = {
+	
+		
+}
+
+bozisha_dar_monument1 = {
+	
+		
+}
+
+bozisha_dar_monument2 = {
+	
+		
+}
+
+bozisha_dar_monument3 = {
+	
+		
+}
+
+niluloni_monument1 = {
+	
+		
+}
+
+niluloni_monument2 = {
+	
+		
+}
+
+niluloni_monument3 = {
+	
+		
+}
+
+nordinbad_monument1 = {
+	
+		
+}
+
+nordinbad_monument2 = {
+	
+		
+}
+
+nordinbad_monument3 = {
+	
+		
+}
+
+argond_monument1 = {
+	
+		global_missionary_strength = 0.01
+		
+}
+
+argond_monument2 = {
+	
+		global_missionary_strength = 0.02
+		prestige_per_development_from_conversion = 0.25
+		
+}
+
+argond_monument3 = {
+	
+		global_missionary_strength = 0.03
+		prestige_per_development_from_conversion = 0.5
+		
+}
+
+druins_tower_monument1 = {
+	
+		
+}
+
+druins_tower_monument2 = {
+	
+		
+}
+
+druins_tower_monument3 = {
+	
+		
+}
+
+xyunai_monument1 = {
+	
+		
+}
+
+xyunai_monument2 = {
+	
+		
+}
+
+xyunai_monument3 = {
+	
+		
+}
+
+chaiapun_monument1 = {
+	
+		
+}
+
+chaiapun_monument2 = {
+	
+		
+}
+
+chaiapun_monument3 = {
+	
+		
+}
+
+elostirion_monument1 = {
+	
+			spy_offence = 0.1
+		
+}
+
+elostirion_monument2 = {
+	
+			spy_offence = 0.2
+		
+}
+
+elostirion_monument3 = {
+	
+			spy_offence = 0.3
+			diplomats = 1
+		
+}
+
+ekhalshar_monument1 = {
+	
+		
+}
+
+ekhalshar_monument2 = {
+	
+		
+}
+
+ekhalshar_monument3 = {
+	
+		
+}
+
+high_fells_monument1 = {
+	
+			all_power_cost = -0.01
+			monarch_military_power = 1
+		
+}
+
+high_fells_monument2 = {
+	
+			all_power_cost = -0.03
+			monarch_military_power = 2
+		
+}
+
+high_fells_monument3 = {
+	
+			all_power_cost = -0.05
+			monarch_military_power = 3
+		
+}
+
+mount_gram_monument1 = {
+	
+			cavalry_shock = 0.05
+		
+}
+
+mount_gram_monument2 = {
+	
+			cavalry_shock = 0.10
+		
+}
+
+mount_gram_monument3 = {
+	
+			cavalry_shock = 0.15
+		
+}
+
+mistrand_monument1 = {
+	
+		
+}
+
+mistrand_monument2 = {
+	
+		administrative_efficiency = 0.05
+		meritocracy = 0.25
+		
+}
+
+mistrand_monument3 = {
+	
+		administrative_efficiency = 0.10
+		meritocracy = 0.5
+		
+}
+
+hyvat_kalat_monument1 = {
+	
+			improve_relation_modifier = 0.1
+		
+}
+
+hyvat_kalat_monument2 = {
+	
+			improve_relation_modifier = 0.2
+		
+}
+
+hyvat_kalat_monument3 = {
+	
+			improve_relation_modifier = 0.3
+			merchants = 1
+		
+}
+
+dun_larach_hall_monument1 = {
+	
+		accept_vassalization_reasons = 5
+		
+}
+
+dun_larach_hall_monument2 = {
+	
+		accept_vassalization_reasons = 10
+		diplomatic_annexation_cost = -0.1
+		
+}
+
+dun_larach_hall_monument3 = {
+	
+		discipline = 0.05
+		diplomatic_annexation_cost = -0.2
+		accept_vassalization_reasons = 15
+		
+}
+
+pukelman_staue_monument1 = {
+	
+			hostile_attrition = 1
+			max_hostile_attrition = 2
+		
+}
+
+pukelman_staue_monument2 = {
+	
+			hostile_attrition = 1.5
+			max_hostile_attrition = 3
+		
+}
+
+pukelman_staue_monument3 = {
+	
+			hostile_attrition = 2
+			max_hostile_attrition = 3
+		
+}
+
+tharbad_bridge_monument1 = {
+	
+			prestige = 0.25
+			caravan_power = 0.05
+		
+}
+
+tharbad_bridge_monument2 = {
+	
+			prestige = 0.50
+			caravan_power = 0.15
+		
+}
+
+tharbad_bridge_monument3 = {
+	
+			prestige = 1
+			caravan_power = 0.25
+		
+}
+
+fortress_of_maedhros_monument1 = {
+	
+			prestige = 0.25
+		
+}
+
+fortress_of_maedhros_monument2 = {
+	
+			prestige = 0.35
+		
+}
+
+fortress_of_maedhros_monument3 = {
+	
+			prestige = 0.50
+		
+}
+
+annuminas_monument1 = {
+	
+			all_estate_loyalty_equilibrium = 0.03
+			administrative_efficiency = 0.05
+			legitimacy = 0.25
+		
+}
+
+annuminas_monument2 = {
+	
+			all_estate_loyalty_equilibrium = 0.05
+			administrative_efficiency = 0.10
+			legitimacy = 0.5
+		
+}
+
+annuminas_monument3 = {
+	
+			all_estate_loyalty_equilibrium = 0.10
+			administrative_efficiency = 0.15
+			legitimacy = 1
+		
+}
+
+osgiliath_bridge_monument1 = {
+	
+			prestige = 0.25
+			caravan_power = 0.05
+			#imperial_authority = 0.05
+		
+}
+
+osgiliath_bridge_monument2 = {
+	
+			prestige = 0.50
+			caravan_power = 0.15
+			#imperial_authority = 0.10
+		
+}
+
+osgiliath_bridge_monument3 = {
+	
+			prestige = 1
+			caravan_power = 0.25
+			#imperial_authority = 0.15
+		
+}
+
+dome_of_stars_monument1 = {
+	
+			all_estate_loyalty_equilibrium = 0.03
+			administrative_efficiency = 0.05
+			legitimacy = 0.25
+		
+}
+
+dome_of_stars_monument2 = {
+	
+			all_estate_loyalty_equilibrium = 0.05
+			administrative_efficiency = 0.10
+			legitimacy = 0.5
+		
+}
+
+dome_of_stars_monument3 = {
+	
+			all_estate_loyalty_equilibrium = 0.10
+			administrative_efficiency = 0.15
+			legitimacy = 1
+		
+}
+
+rammas_echor_monument1 = {
+	
+			prestige = 0.15
+		
+}
+
+rammas_echor_monument2 = {
+	
+			prestige = 0.15
+		
+}
+
+rammas_echor_monument3 = {
+	
+			prestige = 0.15
+		
+}
+
+corrupted_king_monument1 = {
+	
+			prestige = 0.10
+		
+}
+
+corrupted_king_monument2 = {
+	
+			prestige = 0.20
+		
+}
+
+corrupted_king_monument3 = {
+	
+			prestige = 0.30
+		
+}
+
+fallen_king_monument1 = {
+	
+			prestige_decay = -0.10
+		
+}
+
+fallen_king_monument2 = {
+	
+			prestige_decay = -0.15
+		
+}
+
+fallen_king_monument3 = {
+	
+			prestige_decay = -0.20
+		
+}
+
+port_pelargir_monument1 = {
+	
+			local_sailors_modifier = 0.15
+			local_ship_repair = 0.1
+			ship_recruit_speed = -0.15
+			blockade_force_required = 0.15
+			province_trade_power_value = 0.5
+			trade_goods_size_modifier = 0.10
+			trade_value_modifier = 0.05
+			local_production_efficiency = 0.05
+		
+}
+
+port_pelargir_monument2 = {
+	
+			local_sailors_modifier = 0.20
+			local_ship_repair = 0.2
+			ship_recruit_speed = -0.20
+			blockade_force_required = 0.25
+			province_trade_power_value = 1
+			trade_goods_size_modifier = 0.15
+			trade_value_modifier = 0.1
+			local_production_efficiency = 0.1
+		
+}
+
+port_pelargir_monument3 = {
+	
+			local_sailors_modifier = 0.25
+			local_ship_repair = 0.3
+			ship_recruit_speed = -0.25
+			blockade_force_required = 0.5
+			province_trade_power_value = 2
+			trade_goods_size_modifier = 0.20
+			trade_value_modifier = 0.15
+			local_production_efficiency = 0.15
+		
+}
+
+stone_erech_monument1 = {
+	
+			diplomatic_reputation = -1
+		
+}
+
+stone_erech_monument2 = {
+	
+			diplomatic_reputation = 0.5
+			diplomatic_upkeep = 1
+		
+}
+
+stone_erech_monument3 = {
+	
+			diplomatic_reputation = 1
+			diplomatic_upkeep = 2
+		
+}
+

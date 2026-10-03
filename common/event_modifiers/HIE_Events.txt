@@ -1,0 +1,16 @@
+hie_zoroastrian_revolt = {
+	global_missionary_strength = 0.02
+	land_maintenance_modifier = -0.15
+	land_morale = 0.10
+}
+
+hie_jewish_rebirth = {
+	global_missionary_strength = 0.02
+	land_maintenance_modifier = -0.15
+	land_morale = 0.10
+}
+
+hie_aramaic_resurgence = {
+	culture_conversion_cost = -0.25
+	culture_conversion_cost = -0.10
+}

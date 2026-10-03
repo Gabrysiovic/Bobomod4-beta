@@ -1,0 +1,40 @@
+has_sr_monument = { 
+	OR = {
+		has_great_project = {
+			type = tomb_of_antony_and_cleopatra
+			tier = 1
+		}
+		has_great_project = {
+			type = tomb_of_antony_and_cleopatra
+			tier = 2
+		}
+		has_great_project = {
+			type = tomb_of_antony_and_cleopatra
+			tier = 3
+		}
+		has_great_project = {
+			type = bletata_palace_royal_stables
+			tier = 1
+		}
+		has_great_project = {
+			type = bletata_palace_royal_stables
+			tier = 2
+		}
+		has_great_project = {
+			type = bletata_palace_royal_stables
+			tier = 3
+		}
+		has_great_project = {
+			type = golden_gate_of_kiev
+			tier = 1
+		}
+		has_great_project = {
+			type = golden_gate_of_kiev
+			tier = 2
+		}
+		has_great_project = {
+			type = golden_gate_of_kiev
+			tier = 3
+		}
+	}
+}

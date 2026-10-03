@@ -1,0 +1,1132 @@
+temple_of_arkona1 = {
+	
+			missionaries = 1
+			missionary_maintenance_cost = -0.1
+		
+}
+
+temple_of_arkona2 = {
+	
+			missionaries = 1
+			missionary_maintenance_cost = -0.15
+		
+}
+
+temple_of_arkona3 = {
+	
+			missionaries = 1
+			missionary_maintenance_cost = -0.25
+			prestige_per_development_from_conversion = 0.35
+		
+}
+
+fortress_veligrad2 = {
+	
+			leader_siege = 1
+		
+}
+
+fortress_veligrad3 = {
+	
+			leader_siege = 2
+		
+}
+
+szeged1 = {
+	
+			cav_to_inf_ratio = 0.15
+			cavalry_power = 0.1
+		
+}
+
+szeged2 = {
+	
+			cav_to_inf_ratio = 0.25
+			cavalry_power = 0.15
+			cavalry_shock = 0.25
+		
+}
+
+szeged3 = {
+	
+			cav_to_inf_ratio = 0.5
+			cavalry_power = 0.2
+			cavalry_shock = 0.5
+		
+}
+
+lighthouse_alexandria3 = {
+	
+			own_coast_naval_combat_bonus = 1
+		
+}
+
+ottoman_market1 = {
+	
+			trade_range_modifier = 0.1
+		
+}
+
+ottoman_market2 = {
+	
+			trade_range_modifier = 0.15
+		
+}
+
+ottoman_market3 = {
+	
+			trade_range_modifier = 0.25
+			merchants = 1
+		
+}
+
+hohenstaufen_palace1 = {
+	
+			diplomatic_reputation = 1
+		
+}
+
+hohenstaufen_palace2 = {
+	
+			diplomatic_reputation = 1
+			improve_relation_modifier = 0.1
+		
+}
+
+hohenstaufen_palace3 = {
+	
+			diplomatic_reputation = 1
+			imperial_authority_value = 0.1
+			improve_relation_modifier = 0.2
+		
+}
+
+walls_ston2 = {
+	
+			global_garrison_growth = 0.1
+		
+}
+
+walls_ston3 = {
+	
+			global_garrison_growth = 0.2
+		
+}
+
+nicene_academy2 = {
+	
+			mil_tech_cost_modifier = -0.05
+		
+}
+
+nicene_academy3 = {
+	
+			mil_tech_cost_modifier = -0.1
+			free_mil_policy = 1
+		
+}
+
+preslav_literary_school1 = {
+	
+			institution_spread_from_true_faith = 0.1
+		
+}
+
+preslav_literary_school2 = {
+	
+			institution_spread_from_true_faith = 0.15
+			idea_cost = -0.05
+		
+}
+
+preslav_literary_school3 = {
+	
+			institution_spread_from_true_faith = 0.25
+			idea_cost = -0.1
+		
+}
+
+new_world_port1 = {
+	
+				global_colonial_growth = 10
+		
+}
+
+new_world_port2 = {
+	
+			colonist_placement_chance = 0.05
+			global_colonial_growth = 15
+		
+}
+
+new_world_port3 = {
+	
+			colonist_placement_chance = 0.1
+			global_colonial_growth = 20
+		
+}
+
+pirate_haven_medina1 = {
+	
+			capture_ship_chance = 0.1
+			privateer_efficiency = 0.1
+		
+}
+
+pirate_haven_medina2 = {
+	
+			capture_ship_chance = 0.2
+			privateer_efficiency = 0.2
+		
+}
+
+pirate_haven_medina3 = {
+	
+			capture_ship_chance = 0.3
+			privateer_efficiency = 0.3
+		
+}
+
+shrine_ukko1 = {
+	
+			warscore_cost_vs_other_religion = -0.1
+		
+}
+
+shrine_ukko2 = {
+	
+			warscore_cost_vs_other_religion = -0.15
+			missionaries = 1
+		
+}
+
+shrine_ukko3 = {
+	
+			warscore_cost_vs_other_religion = -0.25
+			prestige_per_development_from_conversion = 0.25
+			missionaries = 1
+		
+}
+
+aachen1 = {
+	
+			tolerance_own = 1
+			imperial_authority = 0.05
+		
+}
+
+aachen2 = {
+	
+			tolerance_own = 1
+			imperial_authority = 0.1
+			prestige_decay = -0.005
+		
+}
+
+aachen3 = {
+	
+			tolerance_own = 1
+			imperial_authority = 0.15
+			prestige_decay = -0.01
+		
+}
+
+sich1 = {
+	
+			cavalry_flanking = 0.25
+			power_projection_from_insults = 0.25
+			special_unit_forcelimit = 0.10
+		
+}
+
+sich2 = {
+	
+			cav_to_inf_ratio = 0.1
+			cavalry_flanking = 0.25
+			power_projection_from_insults = 0.5
+			special_unit_forcelimit = 0.15
+		
+}
+
+sich3 = {
+	
+			cav_to_inf_ratio = 0.25
+			cavalry_flanking = 0.5
+			power_projection_from_insults = 1
+			special_unit_forcelimit = 0.25
+		
+}
+
+yuelu_academy1 = {
+	
+			monthly_reform_progress_modifier = 0.1
+			innovativeness_gain = 0.25
+		
+}
+
+yuelu_academy2 = {
+	
+			idea_cost = -0.025
+			innovativeness_gain = 0.5
+		
+}
+
+yuelu_academy3 = {
+	
+			idea_cost = -0.05
+			innovativeness_gain = 0.75
+		
+}
+
+xian_wall1 = {
+	
+			rival_border_fort_maintenance = -0.1
+		
+}
+
+xian_wall2 = {
+	
+			rival_border_fort_maintenance = -0.15
+		
+}
+
+xian_wall3 = {
+	
+			leader_siege = 1
+			rival_border_fort_maintenance = -0.2
+		
+}
+
+mukden1 = {
+	
+			governing_capacity_modifier = 0.1
+			state_maintenance_modifier = -0.1
+		
+}
+
+mukden2 = {
+	
+			governing_capacity_modifier = 0.15
+			state_maintenance_modifier = -0.15
+		
+}
+
+mukden3 = {
+	
+			max_absolutism = 5
+			governing_capacity_modifier = 0.2
+			state_maintenance_modifier = -0.2
+		
+}
+
+koreana1 = {
+	
+			tolerance_own = 1
+			embracement_cost = -0.1
+		
+}
+
+koreana2 = {
+	
+			tolerance_own = 1
+			embracement_cost = -0.15
+		
+}
+
+koreana3 = {
+	
+			tolerance_own = 1
+			free_dip_policy = 1
+			embracement_cost = -0.25
+		
+}
+
+southern_canal1 = {
+	 	global_own_trade_power = 0.1 } 
+		on_upgraded = {
+			add_base_tax = 1 
+			add_base_production = 1 
+			add_base_manpower = 1 
+		
+}
+
+southern_canal3 = {
+	 global_own_trade_power = 0.2 } 
+		on_upgraded = {
+			add_base_tax = 1 
+			add_base_production = 1 
+			add_base_manpower = 1 
+		
+}
+
+northern_canal1 = {
+	 	production_efficiency = 0.1 } 
+		on_upgraded = {
+			add_base_tax = 1 
+			add_base_production = 1 
+			add_base_manpower = 1 
+		
+}
+
+northern_canal3 = {
+	 production_efficiency = 0.2 } 
+		on_upgraded = {
+			add_base_tax = 1 
+			add_base_production = 1 
+			add_base_manpower = 1 
+		
+}
+
+bergen1 = {
+	
+			global_ship_trade_power = 0.1
+			trade_steering = 0.1
+		
+}
+
+bergen2 = {
+	
+			global_ship_trade_power = 0.15
+			trade_steering = 0.2
+		
+}
+
+bergen3 = {
+	
+			global_ship_trade_power = 0.2
+			trade_steering = 0.3
+			merchants = 1
+		
+}
+
+nidaros1 = {
+	
+			naval_maintenance_modifier = -0.1
+		
+}
+
+nidaros2 = {
+	
+			naval_maintenance_modifier = -0.2
+			heavy_ship_power = 0.05
+		
+}
+
+nidaros3 = {
+	
+			naval_maintenance_modifier = -0.3
+			heavy_ship_power = 0.1
+			navy_tradition_decay = -0.01
+		
+}
+
+cursed1 = {
+	
+			land_morale = 0.05
+		
+}
+
+cursed2 = {
+	
+			land_morale = 0.1
+		
+}
+
+cursed3 = {
+	
+			land_morale = 0.2
+		
+}
+
+tsarevets1 = {
+	
+			hostile_attrition = 1
+		
+}
+
+tsarevets2 = {
+	
+			hostile_attrition = 1
+			rival_border_fort_maintenance = -0.10
+		
+}
+
+tsarevets3 = {
+	
+			hostile_attrition = 1
+			max_hostile_attrition = 1
+			rival_border_fort_maintenance = -0.25
+		
+}
+
+saladin1 = {
+	
+			monthly_piety = 0.001
+		
+}
+
+saladin2 = {
+	
+			land_morale = 0.05
+			monthly_piety = 0.001
+		
+}
+
+saladin3 = {
+	
+			land_morale = 0.1
+			monthly_piety = 0.002
+		
+}
+
+gelati1 = {
+	
+			tolerance_own = 1
+			institution_spread_from_true_faith = 0.1
+		
+}
+
+gelati2 = {
+	
+			tolerance_own = 1
+			institution_spread_from_true_faith = 0.25
+		
+}
+
+gelati3 = {
+	
+			institution_spread_from_true_faith = 0.5
+			yearly_patriarch_authority = 0.01
+			tolerance_own = 1
+		
+}
+
+rhodes1 = {
+	
+			global_garrison_growth = 0.1
+		
+}
+
+rhodes2 = {
+	
+			war_exhaustion = -0.03
+			global_garrison_growth = 0.2
+		
+}
+
+rhodes3 = {
+	
+			war_exhaustion = -0.05
+			global_garrison_growth = 0.25
+		
+}
+
+apollo1 = {
+	
+			dip_advisor_cost = -0.1
+		
+}
+
+apollo2 = {
+	
+			diplomatic_reputation = 1
+			dip_advisor_cost = -0.15
+		
+}
+
+apollo3 = {
+	
+			diplomatic_reputation = 2
+			dip_advisor_cost = -0.2
+			female_advisor_chance = 0.25
+		
+}
+
+hadrian1 = {
+	
+			rival_border_fort_maintenance = -0.1
+		
+}
+
+hadrian2 = {
+	
+			shock_damage_received = -0.05
+			rival_border_fort_maintenance = -0.2
+		
+}
+
+hadrian3 = {
+	
+			shock_damage_received = -0.1
+			rival_border_fort_maintenance = -0.3
+		
+}
+
+portesmutha1 = {
+	
+			trade_range_modifier = 0.05
+			naval_maintenance_modifier = -0.1
+		
+}
+
+portesmutha2 = {
+	
+			trade_range_modifier = 0.1
+			naval_maintenance_modifier = -0.15
+		
+}
+
+portesmutha3 = {
+	
+			trade_range_modifier = 0.2
+			naval_maintenance_modifier = -0.2
+		
+}
+
+sound_toll1 = {
+	
+			global_own_trade_power = 0.1
+		
+}
+
+sound_toll2 = {
+	
+			ship_power_propagation = 0.1
+			global_own_trade_power = 0.15
+		
+}
+
+sound_toll3 = {
+	
+			ship_power_propagation = 0.2
+			global_own_trade_power = 0.2
+		
+}
+
+christ_church1 = {
+	
+			papal_influence = 1
+			tolerance_own = 1
+		
+}
+
+christ_church2 = {
+	
+			papal_influence = 1
+			tolerance_own = 2
+		
+}
+
+christ_church3 = {
+	
+			missionaries = 1
+			papal_influence = 2
+			tolerance_own = 2
+		
+}
+
+hill_tara1 = {
+	
+			reform_progress_growth = 0.05
+			stability_cost_modifier = -0.05
+			
+		
+}
+
+hill_tara2 = {
+	
+			stability_cost_modifier = -0.15
+			reform_progress_growth = 0.1
+		
+}
+
+hill_tara3 = {
+	
+			stability_cost_modifier = -0.15
+			reform_progress_growth = 0.1
+			governing_capacity_modifier = 0.1
+		
+}
+
+iron_ring1 = {
+	
+			defensiveness = 0.10
+		
+}
+
+iron_ring2 = {
+	
+			defensiveness = 0.15
+			land_morale = 0.05
+		
+}
+
+iron_ring3 = {
+	
+			defensiveness = 0.20
+			land_morale = 0.10
+		
+}
+
+tomb_timur1 = {
+	
+			yearly_patriarch_authority = 0.0025
+			relation_with_heretics = 15
+		
+}
+
+tomb_timur2 = {
+	
+			yearly_patriarch_authority = 0.005
+			warscore_cost_vs_other_religion = -0.1
+			relation_with_heretics = 15
+		
+}
+
+tomb_timur3 = {
+	
+			yearly_patriarch_authority = 0.01
+			warscore_cost_vs_other_religion = -0.2
+			relation_with_heretics = 20
+		
+}
+
+baghdad1 = {
+	
+			innovativeness_gain = 0.1
+			global_institution_spread = 0.1
+		
+}
+
+baghdad2 = {
+	
+			innovativeness_gain = 0.2
+			global_institution_spread = 0.2
+			technology_cost = -0.025
+		
+}
+
+baghdad3 = {
+	
+			innovativeness_gain = 0.3
+			global_institution_spread = 0.3
+			technology_cost = -0.05
+		
+}
+
+nahrawan1 = {
+	
+			production_efficiency = 0.1
+		
+}
+
+nahrawan2 = {
+	
+			production_efficiency = 0.15
+		
+}
+
+nahrawan3 = {
+	
+			production_efficiency = 0.20
+		
+}
+
+maragheh1 = {
+	
+			idea_cost = -0.025
+			dip_tech_cost_modifier = -0.05
+		
+}
+
+maragheh2 = {
+	
+			idea_cost = -0.05
+			dip_tech_cost_modifier = -0.1
+		
+}
+
+maragheh3 = {
+	
+			free_dip_policy = 1
+			idea_cost = -0.05
+			dip_tech_cost_modifier = -0.15
+		
+}
+
+persepolis1 = {
+	
+			monthly_splendor = 1
+		
+}
+
+persepolis2 = {
+	
+			max_absolutism = 5
+			monthly_splendor = 1.5
+		
+}
+
+persepolis3 = {
+	
+			max_absolutism = 10
+			monthly_splendor = 2
+		
+}
+
+merv1 = {
+	
+			global_garrison_growth = 0.1
+		
+}
+
+merv2 = {
+	
+			global_garrison_growth = 0.1
+			mil_advisor_cost = -0.1
+		
+}
+
+merv3 = {
+	
+			hostile_attrition = 1
+			global_garrison_growth = 0.2
+			mil_advisor_cost = -0.2
+		
+}
+
+oblivion1 = {
+	
+			global_rebel_suppression_efficiency = 0.15
+			harsh_treatment_cost = -0.15
+		
+}
+
+oblivion2 = {
+	
+			yearly_absolutism = 0.5
+			global_rebel_suppression_efficiency = 0.3
+			harsh_treatment_cost = -0.3
+		
+}
+
+oblivion3 = {
+	
+			yearly_absolutism = 1
+			global_rebel_suppression_efficiency = 0.5
+			harsh_treatment_cost = -0.5
+		
+}
+
+shapurshahr1 = {
+	
+			global_own_trade_power = 0.1
+		
+}
+
+shapurshahr2 = {
+	
+			global_prov_trade_power_modifier = 0.05
+			global_own_trade_power = 0.15
+		
+}
+
+shapurshahr3 = {
+	
+			global_prov_trade_power_modifier = 0.1
+			global_own_trade_power = 0.2
+		
+}
+
+gurgan1 = {
+	
+			war_exhaustion_cost = -0.1
+		
+}
+
+gurgan2 = {
+	
+			war_exhaustion_cost = -0.2
+		
+}
+
+gurgan3 = {
+	
+			leader_siege = 1
+			war_exhaustion_cost = -0.3
+		
+}
+
+paradise_gardens1 = {
+	
+			reform_progress_growth = 0.1
+			global_prosperity_growth = 0.1
+		
+}
+
+paradise_gardens2 = {
+	
+			reform_progress_growth = 0.2
+			global_prosperity_growth = 0.25
+		
+}
+
+paradise_gardens3 = {
+	
+			reform_progress_growth = 0.3
+			global_prosperity_growth = 0.5
+		
+}
+
+the_colloseum1 = {
+	
+			warscore_from_battles_modifier = 0.1
+			war_exhaustion = -0.02
+		
+}
+
+the_colloseum2 = {
+	
+			drill_decay_modifier = -0.1
+			warscore_from_battles_modifier = 0.2
+			war_exhaustion = -0.03
+		
+}
+
+the_colloseum3 = {
+	
+			drill_decay_modifier = -0.2
+			warscore_from_battles_modifier = 0.3
+			war_exhaustion = -0.05
+		
+}
+
+leaning_tower_of_pisa1 = {
+	
+			advisor_pool = 1
+			same_culture_advisor_cost = -0.1
+		
+}
+
+leaning_tower_of_pisa2 = {
+	
+			advisor_pool = 2
+			same_culture_advisor_cost = -0.15
+		
+}
+
+leaning_tower_of_pisa3 = {
+	
+			advisor_pool = 2
+			same_culture_advisor_cost = -0.2
+			build_cost = -0.1
+		
+}
+
+palermo1 = {
+	
+			centralize_state_cost = -0.1
+			expand_infrastructure_cost_modifier = -0.1
+		
+}
+
+palermo2 = {
+	
+			centralize_state_cost = -0.2
+			expand_infrastructure_cost_modifier = -0.2
+		
+}
+
+palermo3 = {
+	
+			centralize_state_cost = -0.3
+			expand_infrastructure_cost_modifier = -0.3
+		
+}
+
+royal_palace_of_arles1 = {
+	
+			governing_capacity_modifier = 0.1
+			overextension_impact_modifier = -0.1
+		
+}
+
+royal_palace_of_arles2 = {
+	
+			governing_capacity_modifier = 0.15
+			max_absolutism_effect = 0.1
+			overextension_impact_modifier = -0.15
+		
+}
+
+royal_palace_of_arles3 = {
+	
+			governing_capacity_modifier = 0.15
+			max_absolutism_effect = 0.2
+			overextension_impact_modifier = -0.25
+		
+}
+
+luitpolds_wall1 = {
+	
+			rival_border_fort_maintenance = -0.25
+		
+}
+
+luitpolds_wall2 = {
+	
+			rival_border_fort_maintenance = -0.5
+			military_tactics = 0.05
+		
+}
+
+luitpolds_wall3 = {
+	
+			rival_border_fort_maintenance = -0.75
+			military_tactics = 0.1
+		
+}
+
+nurnberg1 = {
+	
+			production_efficiency = 0.1
+		
+}
+
+nurnberg2 = {
+	
+			allowed_num_of_buildings = 1
+			production_efficiency = 0.1
+		
+}
+
+nurnberg3 = {
+	
+			allowed_num_of_buildings = 1
+			production_efficiency = 0.15
+			free_adm_policy = 1
+		
+}
+
+frankfurtgp1 = {
+	
+			global_tax_modifier = 0.1
+		
+}
+
+frankfurtgp2 = {
+	
+			global_tax_modifier = 0.15
+			global_prosperity_growth = 0.1
+		
+}
+
+frankfurtgp3 = {
+	
+			global_tax_modifier = 0.2
+			global_prosperity_growth = 0.2
+			interest = -0.5
+		
+}
+
+hamburg1 = {
+	
+			monthly_commercial_power = 0.05
+		
+}
+
+hamburg2 = {
+	
+			global_ship_trade_power = 0.1
+			monthly_commercial_power = 0.1
+		
+}
+
+hamburg3 = {
+	
+			global_ship_trade_power = 0.2
+			reduced_trade_penalty_on_non_main_tradenode = 0.2
+			monthly_commercial_power = 0.15
+		
+}
+
+krak1 = {
+	
+			garrison_size = 0.1
+		
+}
+
+krak2 = {
+	
+			global_monthly_devastation = -0.05
+			garrison_size = 0.2
+		
+}
+
+krak3 = {
+	
+			global_monthly_devastation = -0.1
+			garrison_size = 0.3
+		
+}
+
+markets_of_lublin1 = {
+	
+			merchants = 1
+		
+}
+
+markets_of_lublin2 = {
+	
+			merchants = 1
+			global_trade_power = 0.05
+		
+}
+
+markets_of_lublin3 = {
+	
+			merchants = 2
+			global_trade_power = 0.1
+		
+}
+
+wieliczka_salt_mine1 = {
+	
+			caravan_power = 0.1
+		
+}
+
+wieliczka_salt_mine2 = {
+	
+			caravan_power = 0.2
+			global_own_trade_power = 0.2
+		
+}
+
+wieliczka_salt_mine3 = {
+	
+			caravan_power = 0.3
+			global_own_trade_power = 0.3
+		
+}
+
+piast_throne_hall1 = {
+	
+			governing_capacity = 100
+		
+}
+
+piast_throne_hall2 = {
+	
+			governing_capacity = 200
+			expand_infrastructure_cost_modifier = -0.1
+		
+}
+
+piast_throne_hall3 = {
+	
+			governing_capacity = 300
+			expand_infrastructure_cost_modifier = -0.2
+		
+}
+

@@ -1,0 +1,22 @@
+
+owner = LIT
+controller = LIT
+add_core = LIT
+culture = polish
+religion = catholic
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = livestock
+base_manpower = 1
+capital = "Biala Podlaska"
+is_city = yes
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

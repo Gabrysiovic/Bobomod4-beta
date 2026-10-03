@@ -1,0 +1,71 @@
+tomb_of_antony_and_cleopatra1 = {
+	
+			prestige = 0.5
+			same_culture_advisor_cost = -0.05
+			monthly_piety_accelerator = 0.001
+		
+}
+
+tomb_of_antony_and_cleopatra2 = {
+	
+			prestige = 1
+			same_culture_advisor_cost = -0.10
+			monthly_piety_accelerator = 0.002
+		
+}
+
+tomb_of_antony_and_cleopatra3 = {
+	
+			prestige = 2
+			same_culture_advisor_cost = -0.2
+			monthly_piety_accelerator = 0.003
+		
+}
+
+bletata_palace_royal_stables1 = {
+	
+			cav_to_inf_ratio = 0.25
+			cavalry_cost = -0.05
+		
+}
+
+bletata_palace_royal_stables2 = {
+	
+			cav_to_inf_ratio = 0.50
+			cavalry_flanking = 0.10
+			cavalry_cost = -0.1
+		
+}
+
+bletata_palace_royal_stables3 = {
+	
+			cav_to_inf_ratio = 0.50
+			cavalry_flanking = 0.25
+			cavalry_cost = -0.15
+			country_military_power = 1
+		
+}
+
+golden_gate_of_kiev1 = {
+	
+			imperial_authority = 0.05
+			legitimacy = 1
+		
+}
+
+golden_gate_of_kiev2 = {
+	
+			imperial_authority = 0.1
+			reasons_to_elect = 5
+			legitimacy = 1
+		
+}
+
+golden_gate_of_kiev3 = {
+	
+			imperial_authority = 0.15
+			reasons_to_elect = 10
+			legitimacy = 1
+		
+}
+

@@ -1,0 +1,783 @@
+#When adding effects directly in on_actions always consider if it would be best to do so through a scripted effect. on_actions with a lot of script in them are harder to get an overview of.
+
+# country
+on_startup = {
+	if = {
+		limit = {
+			is_year = 1600 #repetition because optimization? from testing nesting vs. this
+			any_country = {
+				technology_group = western
+				NOT = {
+					has_country_modifier = western_modifier_1600
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				technology_group = western
+				NOT = {
+					has_country_modifier = western_modifier_1600
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = western_modifier_1600
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			is_year = 1600
+			any_country = {
+				technology_group = eastern
+				NOT = {
+					has_country_modifier = eastern_modifier_1600
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				technology_group = eastern
+				NOT = {
+					has_country_modifier = eastern_modifier_1600
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = eastern_modifier_1600
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			is_year = 1600
+			any_country = {
+				OR = {
+					technology_group = ottoman
+					technology_group = muslim
+				}
+				NOT = {
+					has_country_modifier = muslim_modifier_1600
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					technology_group = ottoman
+					technology_group = muslim
+				}
+				NOT = {
+					has_country_modifier = muslim_modifier_1600
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = muslim_modifier_1600
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			is_year = 1600
+			any_country = {
+				OR = {
+					technology_group = indian
+					technology_group = chinese
+					technology_group = nomad_group
+				}
+				NOT = {
+					has_country_modifier = oriental_modifier_1600
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					technology_group = indian
+					technology_group = chinese
+					technology_group = nomad_group
+				}
+				NOT = {
+					has_country_modifier = oriental_modifier_1600
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = oriental_modifier_1600
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			is_year = 1600
+			any_country = {
+				OR = {
+					technology_group = east_african
+					technology_group = central_african
+					technology_group = sub_saharan
+				}
+				NOT = {
+					has_country_modifier = african_modifier_1600
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					technology_group = east_african
+					technology_group = central_african
+					technology_group = sub_saharan
+				}
+				NOT = {
+					has_country_modifier = african_modifier_1600
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = african_modifier_1600
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			is_year = 1600
+			any_country = {
+				OR = {
+					technology_group = north_american
+					technology_group = mesoamerican
+					technology_group = south_american
+					technology_group = andean
+					technology_group = aboriginal_tech
+					technology_group = polynesian_tech
+					technology_group = high_american
+				}
+				NOT = {
+					has_country_modifier = indigenous_modifier_1600
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					technology_group = north_american
+					technology_group = mesoamerican
+					technology_group = south_american
+					technology_group = andean
+					technology_group = aboriginal_tech
+					technology_group = polynesian_tech
+					technology_group = high_american
+				}
+				NOT = {
+					has_country_modifier = indigenous_modifier_1600
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = indigenous_modifier_1600
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				is_year = 1600
+			}
+			any_country = {
+				technology_group = western
+				NOT = {
+					has_country_modifier = western_modifier
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				technology_group = western
+				NOT = {
+					has_country_modifier = western_modifier
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = western_modifier
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				is_year = 1600
+			}
+			any_country = {
+				technology_group = eastern
+				NOT = {
+					has_country_modifier = eastern_modifier
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				technology_group = eastern
+				NOT = {
+					has_country_modifier = eastern_modifier
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = eastern_modifier
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				is_year = 1600
+			}
+			any_country = {
+				OR = {
+					technology_group = ottoman
+					technology_group = muslim
+				}
+				NOT = {
+					has_country_modifier = muslim_modifier
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					technology_group = ottoman
+					technology_group = muslim
+				}
+				NOT = {
+					has_country_modifier = muslim_modifier
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = muslim_modifier
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				is_year = 1600
+			}
+			any_country = {
+				OR = {
+					technology_group = indian
+					technology_group = chinese
+					technology_group = nomad_group
+				}
+				NOT = {
+					has_country_modifier = oriental_modifier
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					technology_group = indian
+					technology_group = chinese
+					technology_group = nomad_group
+				}
+				NOT = {
+					has_country_modifier = oriental_modifier
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = oriental_modifier
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				is_year = 1600
+			}
+			any_country = {
+				OR = {
+					technology_group = east_african
+					technology_group = central_african
+					technology_group = sub_saharan
+				}
+				NOT = {
+					has_country_modifier = african_modifier
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					technology_group = east_african
+					technology_group = central_african
+					technology_group = sub_saharan
+				}
+				NOT = {
+					has_country_modifier = african_modifier
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = african_modifier
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				is_year = 1600
+			}
+			any_country = {
+				OR = {
+					technology_group = north_american
+					technology_group = mesoamerican
+					technology_group = south_american
+					technology_group = andean
+					technology_group = aboriginal_tech
+					technology_group = polynesian_tech
+					technology_group = high_american
+				}
+				NOT = {
+					has_country_modifier = indigenous_modifier
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					technology_group = north_american
+					technology_group = mesoamerican
+					technology_group = south_american
+					technology_group = andean
+					technology_group = aboriginal_tech
+					technology_group = polynesian_tech
+					technology_group = high_american
+				}
+				NOT = {
+					has_country_modifier = indigenous_modifier
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = indigenous_modifier
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+}
+on_bi_yearly_pulse = {
+	if = {
+		limit = {
+			is_year = 1600 #repetition because optimization? from testing nesting vs. this
+			any_country = {
+				technology_group = western
+				NOT = {
+					has_country_modifier = western_modifier_1600
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				technology_group = western
+				NOT = {
+					has_country_modifier = western_modifier_1600
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = western_modifier_1600
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			is_year = 1600
+			any_country = {
+				technology_group = eastern
+				NOT = {
+					has_country_modifier = eastern_modifier_1600
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				technology_group = eastern
+				NOT = {
+					has_country_modifier = eastern_modifier_1600
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = eastern_modifier_1600
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			is_year = 1600
+			any_country = {
+				OR = {
+					technology_group = ottoman
+					technology_group = muslim
+				}
+				NOT = {
+					has_country_modifier = muslim_modifier_1600
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					technology_group = ottoman
+					technology_group = muslim
+				}
+				NOT = {
+					has_country_modifier = muslim_modifier_1600
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = muslim_modifier_1600
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			is_year = 1600
+			any_country = {
+				OR = {
+					technology_group = indian
+					technology_group = chinese
+					technology_group = nomad_group
+				}
+				NOT = {
+					has_country_modifier = oriental_modifier_1600
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					technology_group = indian
+					technology_group = chinese
+					technology_group = nomad_group
+				}
+				NOT = {
+					has_country_modifier = oriental_modifier_1600
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = oriental_modifier_1600
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			is_year = 1600
+			any_country = {
+				OR = {
+					technology_group = east_african
+					technology_group = central_african
+					technology_group = sub_saharan
+				}
+				NOT = {
+					has_country_modifier = african_modifier_1600
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					technology_group = east_african
+					technology_group = central_african
+					technology_group = sub_saharan
+				}
+				NOT = {
+					has_country_modifier = african_modifier_1600
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = african_modifier_1600
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			is_year = 1600
+			any_country = {
+				OR = {
+					technology_group = north_american
+					technology_group = mesoamerican
+					technology_group = south_american
+					technology_group = andean
+					technology_group = aboriginal_tech
+					technology_group = polynesian_tech
+					technology_group = high_american
+				}
+				NOT = {
+					has_country_modifier = indigenous_modifier_1600
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					technology_group = north_american
+					technology_group = mesoamerican
+					technology_group = south_american
+					technology_group = andean
+					technology_group = aboriginal_tech
+					technology_group = polynesian_tech
+					technology_group = high_american
+				}
+				NOT = {
+					has_country_modifier = indigenous_modifier_1600
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = indigenous_modifier_1600
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				is_year = 1600
+			}
+			any_country = {
+				technology_group = western
+				NOT = {
+					has_country_modifier = western_modifier
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				technology_group = western
+				NOT = {
+					has_country_modifier = western_modifier
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = western_modifier
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				is_year = 1600
+			}
+			any_country = {
+				technology_group = eastern
+				NOT = {
+					has_country_modifier = eastern_modifier
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				technology_group = eastern
+				NOT = {
+					has_country_modifier = eastern_modifier
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = eastern_modifier
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				is_year = 1600
+			}
+			any_country = {
+				OR = {
+					technology_group = ottoman
+					technology_group = muslim
+				}
+				NOT = {
+					has_country_modifier = muslim_modifier
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					technology_group = ottoman
+					technology_group = muslim
+				}
+				NOT = {
+					has_country_modifier = muslim_modifier
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = muslim_modifier
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				is_year = 1600
+			}
+			any_country = {
+				OR = {
+					technology_group = indian
+					technology_group = chinese
+					technology_group = nomad_group
+				}
+				NOT = {
+					has_country_modifier = oriental_modifier
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					technology_group = indian
+					technology_group = chinese
+					technology_group = nomad_group
+				}
+				NOT = {
+					has_country_modifier = oriental_modifier
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = oriental_modifier
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				is_year = 1600
+			}
+			any_country = {
+				OR = {
+					technology_group = east_african
+					technology_group = central_african
+					technology_group = sub_saharan
+				}
+				NOT = {
+					has_country_modifier = african_modifier
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					technology_group = east_african
+					technology_group = central_african
+					technology_group = sub_saharan
+				}
+				NOT = {
+					has_country_modifier = african_modifier
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = african_modifier
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				is_year = 1600
+			}
+			any_country = {
+				OR = {
+					technology_group = north_american
+					technology_group = mesoamerican
+					technology_group = south_american
+					technology_group = andean
+					technology_group = aboriginal_tech
+					technology_group = polynesian_tech
+					technology_group = high_american
+				}
+				NOT = {
+					has_country_modifier = indigenous_modifier
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					technology_group = north_american
+					technology_group = mesoamerican
+					technology_group = south_american
+					technology_group = andean
+					technology_group = aboriginal_tech
+					technology_group = polynesian_tech
+					technology_group = high_american
+				}
+				NOT = {
+					has_country_modifier = indigenous_modifier
+				}
+			}
+			remove_other_tech_modifiers_effect = yes
+			add_country_modifier = { 
+				name = indigenous_modifier
+				duration = -1  
+				hidden = no
+			}
+		}
+	}
+}

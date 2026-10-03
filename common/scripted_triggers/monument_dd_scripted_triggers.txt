@@ -1,0 +1,88 @@
+has_dd_monument = { 
+	OR = {
+		has_great_project = {
+			type = DD_oxford_colloge
+			tier = 1
+		}
+		has_great_project = {
+			type = DD_oxford_colloge
+			tier = 2
+		}
+		has_great_project = {
+			type = DD_oxford_colloge
+			tier = 3
+		}
+		has_great_project = {
+			type = DD_paris_colloge
+			tier = 1
+		}
+		has_great_project = {
+			type = DD_paris_colloge
+			tier = 2
+		}
+		has_great_project = {
+			type = DD_paris_colloge
+			tier = 3
+		}
+		has_great_project = {
+			type = DD_salamanca_colloge
+			tier = 1
+		}
+		has_great_project = {
+			type = DD_salamanca_colloge
+			tier = 2
+		}
+		has_great_project = {
+			type = DD_salamanca_colloge
+			tier = 3
+		}
+		has_great_project = {
+			type = DD_cordoba_chruch
+			tier = 1
+		}
+		has_great_project = {
+			type = DD_cordoba_chruch
+			tier = 2
+		}
+		has_great_project = {
+			type = DD_cordoba_chruch
+			tier = 3
+		}
+		has_great_project = {
+			type = DD_tunis_church
+			tier = 1
+		}
+		has_great_project = {
+			type = DD_tunis_church
+			tier = 2
+		}
+		has_great_project = {
+			type = DD_tunis_church
+			tier = 3
+		}
+		has_great_project = {
+			type = DD_wisdom_house
+			tier = 1
+		}
+		has_great_project = {
+			type = DD_wisdom_house
+			tier = 2
+		}
+		has_great_project = {
+			type = DD_wisdom_house
+			tier = 3
+		}
+		has_great_project = {
+			type = DD_mecca_church
+			tier = 1
+		}
+		has_great_project = {
+			type = DD_mecca_church
+			tier = 2
+		}
+		has_great_project = {
+			type = DD_mecca_church
+			tier = 3
+		}
+	}
+}

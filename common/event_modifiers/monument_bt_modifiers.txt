@@ -1,0 +1,1211 @@
+pompeii1 = {
+	
+			innovativeness_gain = 0.25
+			embracement_cost = -0.1
+		
+}
+
+pompeii2 = {
+	
+			prestige = 0.5
+			innovativeness_gain = 0.5
+			embracement_cost = -0.2
+		
+}
+
+pompeii3 = {
+	
+			prestige = 1
+			innovativeness_gain = 1
+			embracement_cost = -0.5
+			monarch_admin_power = 1
+		
+}
+
+globe_theatre1 = {
+	
+			prestige = 0.25
+			monthly_splendor = 1
+		
+}
+
+globe_theatre2 = {
+	
+			burghers_loyalty_modifier = 0.05
+			prestige = 0.5
+			legitimacy = 0.5
+			monthly_splendor = 2
+		
+}
+
+globe_theatre3 = {
+	
+			global_unrest = -1
+			burghers_loyalty_modifier = 0.1
+			prestige = 1
+			legitimacy = 1
+			monthly_splendor = 3
+		
+}
+
+lapa_arches1 = {
+	
+		
+}
+
+lapa_arches2 = {
+	
+		
+}
+
+lapa_arches3 = {
+	
+			global_colonial_growth = 20 #More Bandeirantes, more fun
+			#prestige = 0.25 #Small prestige bonus because pretty aqueduct ooo
+		
+}
+
+leaning_tower1 = {
+	
+			innovativeness_gain = 0.05 #Galileo used the tower to demonstrate the law of free fall 
+			church_loyalty_modifier = 0.025 #Belltower of the Pisa Cathedral
+		
+}
+
+leaning_tower2 = {
+	
+			innovativeness_gain = 0.1 #Galileo used the tower to demonstrate the law of free fall 
+			church_loyalty_modifier = 0.05 #Belltower of the Pisa Cathedral
+			promote_culture_cost = -0.1 #The Leaning Tower is a sign of Pisan/Tuscan pride
+			culture_conversion_cost = -0.05 #Ditto
+		
+}
+
+leaning_tower3 = {
+	
+			innovativeness_gain = 0.2 #Galileo used the tower to demonstrate the law of free fall 
+			church_loyalty_modifier = 0.1 #Belltower of the Pisa Cathedral
+			promote_culture_cost = -0.2 
+			culture_conversion_cost = -0.1
+
+		
+}
+
+great_lighthouse1 = {
+	
+			light_ship_cost = -0.1
+			global_ship_trade_power = 0.1
+			own_coast_naval_combat_bonus = 0.5
+		
+}
+
+great_lighthouse2 = {
+	
+			light_ship_cost = -0.15
+			global_ship_trade_power = 0.15
+			own_coast_naval_combat_bonus = 1.0
+		
+}
+
+great_lighthouse3 = {
+	
+			light_ship_cost = -0.2
+			global_ship_trade_power = 0.25
+			own_coast_naval_combat_bonus = 1
+		
+}
+
+colosseum1 = {
+	
+			prestige = 0.5 #At first, it may return to its old use as an amphitheater
+		
+}
+
+colosseum2 = {
+	
+			prestige = 0.75 #Improvements would make the restored Colosseum an even more opulent building and a venue for arts and culture
+			cavalry_power = 0.05 #In addition, new military events akin to the old gladiatorial events!
+		
+}
+
+colosseum3 = {
+	
+			prestige = 1 #At this point, the Colosseum is once again world-renowned
+			cavalry_power = 0.05 #Because Dub whined about it
+			land_morale = 0.05 #The Colosseum may be repurposed further into a training grounds for soldiers, and the sheer scale of the Colosseum is a point of national pride
+		
+}
+
+mosque_cathedral1 = {
+	
+		
+}
+
+mosque_cathedral2 = {
+	
+			church_loyalty_modifier = 0.05
+		
+}
+
+mosque_cathedral3 = {
+	
+			church_loyalty_modifier = 0.1
+		
+}
+
+sdc_cathedral1 = {
+	
+		
+}
+
+sdc_cathedral2 = {
+	
+			papal_influence_from_cardinals = 0.25
+			enforce_religion_cost = -0.1
+		
+}
+
+sdc_cathedral3 = {
+	
+			papal_influence_from_cardinals = 0.50
+			enforce_religion_cost = -0.2
+			manpower_in_true_faith_provinces= 0.10
+		
+}
+
+lindisfarne1 = {
+	
+			stability_cost_modifier = -0.05
+		
+}
+
+lindisfarne2 = {
+	
+			stability_cost_modifier = -0.05
+			missionary_maintenance_cost = -0.1
+		
+}
+
+lindisfarne3 = {
+	
+			stability_cost_modifier = -0.10
+			missionary_maintenance_cost = -0.1
+			artillery_fire = 1
+		
+}
+
+mont_saint_michel1 = {
+	
+		
+}
+
+mont_saint_michel2 = {
+	
+			global_missionary_strength = 0.01
+		
+}
+
+mont_saint_michel3 = {
+	
+			global_missionary_strength = 0.02
+		
+}
+
+sanssouci1 = {
+	
+			improve_relation_modifier = 0.1
+			monthly_militarized_society = 0.01
+		
+}
+
+sanssouci2 = {
+	
+			nobles_loyalty_modifier = 0.05
+			nobles_influence_modifier = 0.05
+			improve_relation_modifier = 0.1
+			monthly_militarized_society = 0.01
+		
+}
+
+sanssouci3 = {
+	
+			nobles_loyalty_modifier = 0.1
+			nobles_influence_modifier = 0.1
+			improve_relation_modifier = 0.15
+			monthly_militarized_society = 0.02
+			yearly_absolutism = 0.1
+		
+}
+
+teotihuacan1 = {
+	
+			tolerance_own = 1
+			infantry_power = 0.05
+			prestige = 0.5
+		
+}
+
+teotihuacan2 = {
+	
+			tolerance_own = 1
+			infantry_power = 0.10
+			prestige_from_land = 0.10
+			prestige = 0.5
+		
+}
+
+teotihuacan3 = {
+	
+			tolerance_own = 1.5
+			infantry_power = 0.15
+			prestige_from_land = 0.10
+			prestige = 1
+		
+}
+
+mt_athos1 = {
+	
+			global_tax_income = 6 #BT Added: Apparently conditional modifiers *require* a country modifier to exist to show up in the tooltip. Paradox, why???
+		
+}
+
+mt_athos2 = {
+	
+			global_tax_income = 6 #BT Added: Apparently conditional modifiers *require* a country modifier to exist to show up in the tooltip. Paradox, why???
+		
+}
+
+mt_athos3 = {
+	
+			global_tax_income = 6 #BT Added: Apparently conditional modifiers *require* a country modifier to exist to show up in the tooltip. Paradox, why???
+		
+}
+
+mt_olympus1 = {
+	
+			monthly_reform_progress_modifier = 0.05
+		
+}
+
+mt_olympus2 = {
+	
+			monthly_reform_progress_modifier = 0.1
+		
+}
+
+mt_olympus3 = {
+	
+			global_institution_spread = 0.3
+			monthly_reform_progress_modifier = 0.1
+			advisor_pool = 1
+		
+}
+
+shibam_hadramawt1 = {
+	
+		
+}
+
+shibam_hadramawt2 = {
+	
+		
+}
+
+shibam_hadramawt3 = {
+	
+			global_trade_power = 0.1
+		
+}
+
+chillon_castle1 = {
+	
+			naval_forcelimit = 2 #Kind of weird, but the castle was also a summer home for the Counts of Savoy, who kept a fleet on Lake Geneva here
+		
+}
+
+chillon_castle2 = {
+	
+			naval_forcelimit = 3 #Kind of weird, but the castle was also a summer home for the Counts of Savoy, who kept a fleet on Lake Geneva here
+			nobles_loyalty_modifier = 0.05 #Chillon was also used as prison. Nobility loyalty seems like a prison-y modifier.
+		
+}
+
+chillon_castle3 = {
+	
+			naval_forcelimit = 5 #Kind of weird, but the castle was also a summer home for the Counts of Savoy, who kept a fleet on Lake Geneva here
+			nobles_loyalty_modifier = 0.1 #Chillon was also used as prison. Nobility loyalty seems like a prison-y modifier.
+			discipline = 0.05 #In its later years, the castle was used as a munitions and weapons depot
+		
+}
+
+rock_cashel1 = {
+	
+			papal_influence = 0.5
+			global_religious_conversion_resistance = 0.05
+		
+}
+
+rock_cashel2 = {
+	
+			papal_influence = 1
+			global_religious_conversion_resistance = 0.1
+		
+}
+
+rock_cashel3 = {
+	
+			papal_influence = 1.5
+			global_religious_conversion_resistance = 0.2
+			prestige = 1
+		
+}
+
+aula_palatina1 = {
+	
+			prestige_per_development_from_conversion = 0.02
+			devotion = 0.5		#Home of the Bishop of Trier, thus bonus to theocracies
+		
+}
+
+aula_palatina2 = {
+	
+			prestige_per_development_from_conversion = 0.05
+			church_loyalty_modifier = 0.05
+			devotion = 1		#Home of the Bishop of Trier, thus bonus to theocracies
+		
+}
+
+aula_palatina3 = {
+	
+			prestige_per_development_from_conversion = 0.1
+			missionaries = 1
+			church_loyalty_modifier = 0.1
+			devotion = 1.5		#Home of the Bishop of Trier, thus bonus to theocracies
+		
+}
+
+red_fort1 = {
+	
+			advisor_cost = -0.05
+		
+}
+
+red_fort2 = {
+	
+			advisor_cost = -0.1
+			autonomy_change_time = -0.10
+		
+}
+
+red_fort3 = {
+	
+			advisor_cost = -0.15
+			autonomy_change_time = -0.25
+			global_autonomy = -0.05
+		
+}
+
+potala_palace1 = {
+	
+			diplomatic_reputation = 0.5
+			yearly_karma_decay = 0.01
+			tolerance_own = 0.5
+		
+}
+
+potala_palace2 = {
+	
+			diplomatic_reputation = 1
+			yearly_karma_decay = 0.02
+			tolerance_own = 1
+		
+}
+
+potala_palace3 = {
+	
+			diplomatic_reputation = 1.5
+			yearly_karma_decay = 0.03
+			tolerance_own = 1.5
+		
+}
+
+theodosian_walls1 = {
+	
+		
+}
+
+theodosian_walls2 = {
+	
+		
+}
+
+theodosian_walls3 = {
+	
+			leader_siege = 1
+		
+}
+
+mahabodhi_temple1 = {
+	
+			global_heathen_missionary_strength = 0.01
+		
+}
+
+mahabodhi_temple2 = {
+	
+			global_heathen_missionary_strength = 0.015
+			yearly_karma_decay = 0.01
+		
+}
+
+mahabodhi_temple3 = {
+	
+			global_missionary_strength = 0.015
+			yearly_karma_decay = 0.02
+		
+}
+
+meenakshi_temple1 = {
+	
+			brahmins_hindu_loyalty_modifier = 0.05
+			heir_chance = 0.25
+		
+}
+
+meenakshi_temple2 = {
+	
+			brahmins_hindu_loyalty_modifier = 0.1
+			heir_chance = 0.25
+		
+}
+
+meenakshi_temple3 = {
+	
+			brahmins_hindu_loyalty_modifier = 0.15
+			heir_chance = 0.5
+		
+}
+
+solovetsky_monastery1 = {
+	
+		
+}
+
+solovetsky_monastery2 = {
+	
+			missionary_maintenance_cost = -0.05
+			yearly_patriarch_authority = 0.005
+		
+}
+
+solovetsky_monastery3 = {
+	
+			global_heretic_missionary_strength = 0.01
+			missionary_maintenance_cost = -0.1
+			yearly_patriarch_authority = 0.005
+		
+}
+
+aachen_cathedral1 = {
+	
+			tolerance_own = 0.5
+		
+}
+
+aachen_cathedral2 = {
+	
+			tolerance_own = 1
+			imperial_authority = 0.1 #multiplier bonus, upgraded to flat bonus at tier 3
+		
+}
+
+aachen_cathedral3 = {
+	
+			tolerance_own = 1
+			church_loyalty_modifier = 0.05
+			imperial_authority = 0.1 #Dub recommended
+			imperial_authority_value = 0.05 #flat bonus
+		
+}
+
+herrenhausen_gardens1 = {
+	
+			same_culture_advisor_cost = -0.05
+		
+}
+
+herrenhausen_gardens2 = {
+	
+			same_culture_advisor_cost = -0.1
+			diplomatic_reputation = 0.5
+		
+}
+
+herrenhausen_gardens3 = {
+	
+			advisor_cost = -0.1
+			num_accepted_cultures = 1
+			diplomatic_reputation = 0.5
+			development_cost = -0.1
+		
+}
+
+meroe_pyramids1 = {
+	
+			prestige_decay = -0.0025
+			legitimacy = 0.25
+		
+}
+
+meroe_pyramids2 = {
+	
+			prestige_decay = -0.005
+			legitimacy = 0.5
+			tolerance_own = 0.5
+			num_accepted_cultures = 1
+		
+}
+
+meroe_pyramids3 = {
+	
+			prestige_decay = -0.005
+			legitimacy = 1
+			tolerance_own = 1
+			num_accepted_cultures = 2
+		
+}
+
+imperial_gardens1 = {
+	
+			prestige = 0.5
+			envoy_travel_time = -0.1
+		
+}
+
+imperial_gardens2 = {
+	
+			prestige = 1
+			diplomatic_reputation = 0.5
+			envoy_travel_time = -0.15
+		
+}
+
+imperial_gardens3 = {
+	
+			prestige = 1.5
+			diplomatic_reputation = 1
+			envoy_travel_time = -0.2
+		
+}
+
+segovia_alcazar1 = {
+	
+			legitimacy = 0.5
+		
+}
+
+segovia_alcazar2 = {
+	
+			legitimacy = 1
+			drill_gain_modifier = 0.25
+		
+}
+
+segovia_alcazar3 = {
+	
+			legitimacy = 1
+			drill_gain_modifier = 0.25
+		
+}
+
+torre_del_oro1 = {
+	
+			yearly_army_professionalism = 0.002
+		
+}
+
+torre_del_oro2 = {
+	
+			yearly_army_professionalism = 0.003
+		
+}
+
+torre_del_oro3 = {
+	
+			global_manpower_modifier = 0.1
+			yearly_army_professionalism = 0.005
+		
+}
+
+hongan_ji1 = {
+	
+			tolerance_heretic = 0.5
+			church_loyalty_modifier = 0.05
+		
+}
+
+hongan_ji2 = {
+	
+			tolerance_heretic = 0.75
+			global_unrest = -0.5
+			church_loyalty_modifier = 0.1
+		
+}
+
+hongan_ji3 = {
+	
+			tolerance_heretic = 1
+			global_unrest = -1
+			church_loyalty_modifier = 0.15
+		
+}
+
+york_minster1 = {
+	
+			establish_order_cost = -0.1
+			institution_spread_from_true_faith = 0.1
+		
+}
+
+york_minster2 = {
+	
+			establish_order_cost = -0.2
+			institution_spread_from_true_faith = 0.1
+			innovativeness_gain = 0.2
+		
+}
+
+york_minster3 = {
+	
+			establish_order_cost = -0.25
+			institution_spread_from_true_faith = 0.15
+			innovativeness_gain = 0.5
+			tolerance_heretic = 1
+		
+}
+
+canterbury_cathedral1 = {
+	
+			yearly_patriarch_authority = 0.004
+			papal_influence = 1
+			monthly_fervor_increase = 0.25
+			church_power_modifier =  0.05
+		
+}
+
+canterbury_cathedral2 = {
+	
+			yearly_patriarch_authority = 0.006
+			papal_influence = 1.5
+			monthly_fervor_increase = 0.5
+			church_power_modifier =  0.075
+			church_privilege_slots = 1
+		
+}
+
+canterbury_cathedral3 = {
+	
+			yearly_patriarch_authority = 0.008
+			papal_influence = 2
+			monthly_fervor_increase = 0.75
+			church_power_modifier = 0.1
+			tolerance_own = 1
+			church_privilege_slots = 1
+		
+}
+
+st_catherines1 = {
+	
+			missionary_maintenance_cost = -0.05
+		
+}
+
+st_catherines2 = {
+	
+			missionary_maintenance_cost = -0.1
+		
+}
+
+st_catherines3 = {
+	
+			missionary_maintenance_cost = -0.2
+			church_loyalty_modifier = 0.05
+		
+}
+
+temple_valley1 = {
+	
+			institution_spread_from_true_faith = 0.1
+			prestige_per_development_from_conversion = 0.1
+			monthly_splendor = 1
+		
+}
+
+temple_valley2 = {
+	
+			institution_spread_from_true_faith = 0.2
+			prestige_per_development_from_conversion = 0.15
+			monthly_splendor = 2
+		
+}
+
+temple_valley3 = {
+	
+			institution_spread_from_true_faith = 0.3
+			prestige_per_development_from_conversion = 0.2
+			monthly_splendor = 3
+		
+}
+
+burkhan_khaldun1 = {
+	
+			horde_unity = 0.5
+			nomadic_tribes_loyalty_modifier = 0.05
+			governing_capacity = 100
+		
+}
+
+burkhan_khaldun2 = {
+	
+			horde_unity = 1
+			nomadic_tribes_loyalty_modifier = 0.1
+			governing_capacity = 250
+			diplomatic_upkeep = 1
+		
+}
+
+burkhan_khaldun3 = {
+	
+			horde_unity = 1.5
+			nomadic_tribes_loyalty_modifier = 0.15
+			governing_capacity = 500
+			diplomatic_upkeep = 1
+		
+}
+
+beaune_hospices1 = {
+	
+			recover_army_morale_speed = 0.025
+			manpower_recovery_speed = 0.05
+		
+}
+
+beaune_hospices2 = {
+	
+			recover_army_morale_speed = 0.05
+			manpower_recovery_speed = 0.10
+		
+}
+
+beaune_hospices3 = {
+	
+			recover_army_morale_speed = 0.10
+			manpower_recovery_speed = 0.15
+		
+}
+
+pont_du_gard1 = {
+	
+		
+}
+
+pont_du_gard2 = {
+	
+		
+}
+
+pont_du_gard3 = {
+	
+		
+}
+
+aleppo_mosque1 = {
+	
+			enforce_religion_cost = -0.05
+			monthly_piety_accelerator = 0.0005
+			global_heretic_missionary_strength = 0.005
+		
+}
+
+aleppo_mosque2 = {
+	
+			enforce_religion_cost = -0.1
+			monthly_piety_accelerator = 0.0005
+			global_heretic_missionary_strength = 0.01
+		
+}
+
+aleppo_mosque3 = {
+	
+			enforce_religion_cost = -0.2
+			monthly_piety_accelerator = 0.001
+			global_heretic_missionary_strength = 0.02
+		
+}
+
+umayyad_mosque1 = {
+	
+			global_missionary_strength = 0.01
+		
+}
+
+umayyad_mosque2 = {
+	
+			idea_cost = -0.05
+			global_missionary_strength = 0.015
+		
+}
+
+umayyad_mosque3 = {
+	
+			idea_cost = -0.05
+			global_missionary_strength = 0.025
+			state_maintenance_modifier = -0.2
+			global_tax_modifier = 0.05
+		
+}
+
+painted_churches1 = {
+	
+			global_heathen_missionary_strength = 0.01
+			missionary_maintenance_cost = -0.05
+		
+}
+
+painted_churches2 = {
+	
+			global_heathen_missionary_strength = 0.02
+			missionary_maintenance_cost = -0.1
+			enforce_religion_cost = -0.1
+		
+}
+
+painted_churches3 = {
+	
+			global_heathen_missionary_strength = 0.03
+			missionary_maintenance_cost = -0.2
+			manpower_in_true_faith_provinces = 0.2
+			enforce_religion_cost = -0.25
+		
+}
+
+lalish1 = {
+	
+			religious_unity = 0.1
+			warscore_cost_vs_other_religion = -0.1
+			relation_with_same_religion = 25
+			church_loyalty_modifier = 0.05
+		
+}
+
+lalish2 = {
+	
+			religious_unity = 0.2
+			warscore_cost_vs_other_religion = -0.15
+			relation_with_same_religion = 50
+			church_loyalty_modifier = 0.1
+			land_morale = 0.05
+		
+}
+
+lalish3 = {
+	
+			religious_unity = 0.35
+			warscore_cost_vs_other_religion = -0.2
+			relation_with_same_religion = 100
+			church_loyalty_modifier = 0.15
+			land_morale = 0.15
+		
+}
+
+diyarbakir_fortress1 = {
+	
+			army_tradition = 0.25
+			trade_steering = 0.05
+		
+}
+
+diyarbakir_fortress2 = {
+	
+			army_tradition = 0.5
+			trade_steering = 0.1
+		
+}
+
+diyarbakir_fortress3 = {
+	
+			army_tradition = 1
+			artillery_levels_available_vs_fort = 1
+			trade_steering = 0.15
+		
+}
+
+nineveh_gates1 = {
+	
+		
+}
+
+nineveh_gates2 = {
+	
+			governing_capacity_modifier = 0.05
+		
+}
+
+nineveh_gates3 = {
+	
+			governing_capacity_modifier = 0.1
+			administrative_efficiency = 0.05
+		
+}
+
+erbil_citadel1 = {
+	
+		
+}
+
+erbil_citadel2 = {
+	
+			global_garrison_growth = 0.05
+			fort_maintenance_modifier = -0.05
+		
+}
+
+erbil_citadel3 = {
+	
+			global_garrison_growth = 0.1
+			fort_maintenance_modifier = -0.1
+			fire_damage_received = -0.05
+		
+}
+
+holy_cross_cathedral1 = {
+	
+			missionary_maintenance_cost = -0.05
+			religious_unity = 0.05
+		
+}
+
+holy_cross_cathedral2 = {
+	
+			missionary_maintenance_cost = -0.1
+			religious_unity = 0.1
+		
+}
+
+holy_cross_cathedral3 = {
+	
+			missionary_maintenance_cost = -0.15
+			religious_unity = 0.15
+			global_missionary_strength = 0.02
+			missionaries = 1
+		
+}
+
+kufa_mosque1 = {
+	
+			prestige = 0.25
+			institution_spread_from_true_faith = 0.05
+		
+}
+
+kufa_mosque2 = {
+	
+			prestige = 0.5
+			enforce_religion_cost = -0.05
+			institution_spread_from_true_faith = 0.15
+		
+}
+
+kufa_mosque3 = {
+	
+			prestige = 1
+			enforce_religion_cost = -0.1
+			institution_spread_from_true_faith = 0.25
+		
+}
+
+imam_ali_shrine1 = {
+	
+			legitimacy = 0.5
+		
+}
+
+imam_ali_shrine2 = {
+	
+			warscore_cost_vs_other_religion = -0.05
+			legitimacy = 1
+		
+}
+
+imam_ali_shrine3 = {
+	
+			warscore_cost_vs_other_religion = -0.1
+			legitimacy = 1.5
+		
+}
+
+uluru1 = {
+	
+		
+}
+
+uluru2 = {
+	
+			prestige = 0.25
+		
+}
+
+uluru3 = {
+	
+			prestige = 0.5
+		
+}
+
+el_dorado1 = {
+	
+			#inflation_reduction = -0.1
+			prestige = 0.25
+			interest = -0.5
+			#overlord = {
+			#	treasure_fleet_income = 0.1
+			#
+}
+
+el_dorado2 = {
+	
+			#inflation_reduction = -0.15
+			prestige = 0.5
+			interest = -0.75
+			#overlord = {
+			#	treasure_fleet_income = 0.2
+			#
+}
+
+el_dorado3 = {
+	
+			#inflation_reduction = -0.25
+			prestige = 1
+			interest = -1
+			#overlord = {
+			#	treasure_fleet_income = 0.4
+			#
+}
+
+fountain_of_youth1 = {
+	
+		
+}
+
+fountain_of_youth2 = {
+	
+			monarch_lifespan = 0.1
+			manpower_recovery_speed = 0.15
+		
+}
+
+fountain_of_youth3 = {
+	
+			monarch_lifespan = 0.15
+			manpower_recovery_speed = 0.3
+		
+}
+
+cibola1 = {
+	
+		
+}
+
+cibola2 = {
+	
+		
+}
+
+cibola3 = {
+	
+		
+}
+
+city_of_caesars1 = {
+	
+		
+}
+
+city_of_caesars2 = {
+	
+		
+}
+
+city_of_caesars3 = {
+	
+		
+}
+
+sierra_de_la_plata1 = {
+	
+		
+}
+
+sierra_de_la_plata2 = {
+	
+			interest = -0.25
+		
+}
+
+sierra_de_la_plata3 = {
+	
+			interest = -0.5
+		
+}
+
+norumbega1 = {
+	
+		
+}
+
+norumbega2 = {
+	
+			prestige = 0.5
+		
+}
+
+norumbega3 = {
+	
+			prestige = 1
+			promote_culture_cost = -0.1
+		
+}
+
+saguenay_kingdom1 = {
+	
+		
+}
+
+saguenay_kingdom2 = {
+	
+			shock_damage = 0.05
+			shock_damage_received = -0.05
+		
+}
+
+saguenay_kingdom3 = {
+	
+			shock_damage = 0.1
+			shock_damage_received = -0.1
+		
+}
+
+quivira_city1 = {
+	
+		
+}
+
+quivira_city2 = {
+	
+		
+}
+
+quivira_city3 = {
+	
+		
+}
+

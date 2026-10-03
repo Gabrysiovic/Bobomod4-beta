@@ -1,0 +1,456 @@
+nhs_cothon1 = {
+	
+			trade_range_modifier = 0.25
+		
+}
+
+nhs_cothon2 = {
+	
+			trade_range_modifier = 0.33
+			global_ship_trade_power = 0.10
+		
+}
+
+nhs_cothon3 = {
+	
+			global_ship_trade_power = 0.10
+			trade_range_modifier = 0.5
+			merchants = 1
+		
+}
+
+nhs_alexandrian_library1 = {
+	
+			global_institution_spread = 0.1
+			advisor_cost = -0.05
+		
+}
+
+nhs_alexandrian_library2 = {
+	
+			technology_cost = -0.05
+			global_institution_spread = 0.15
+			advisor_cost = -0.10
+		
+}
+
+nhs_alexandrian_library3 = {
+	
+			technology_cost = -0.10
+			global_institution_spread = 0.25
+			advisor_cost = -0.15
+		
+}
+
+nhs_hippodrome1 = {
+	
+			monthly_splendor = 0.5
+			prestige = 0.1
+		
+}
+
+nhs_hippodrome2 = {
+	
+			monthly_splendor = 1
+			cavalry_cost = -0.05
+			cavalry_power = 0.05
+			prestige = 0.25
+		
+}
+
+nhs_hippodrome3 = {
+	
+			global_unrest = -1
+			monthly_splendor = 2
+			cavalry_cost = -0.10
+			cavalry_power = 0.10
+			prestige = 0.50
+		
+}
+
+nhs_elysian_arsenal2 = {
+	
+			global_ship_cost = -0.05
+			ship_durability = 0.05
+		
+}
+
+nhs_elysian_arsenal3 = {
+	
+			# global_ship_cost = -0.15
+			ship_durability = 0.05
+			siege_blockade_progress = 1
+			# naval_forcelimit = 30
+		
+}
+
+nhs_temple_of_marble_emperors_v11 = {
+	
+			max_absolutism = 10
+		
+}
+
+nhs_temple_of_marble_emperors_v12 = {
+	
+			legitimacy = 1
+			devotion = 1
+			max_absolutism = 10
+			monthly_heir_claim_increase = 0.1
+			reelection_cost = -0.1
+		
+}
+
+nhs_temple_of_marble_emperors_v13 = {
+	
+			legitimacy = 1
+			devotion = 1
+			max_absolutism = 10
+			monthly_heir_claim_increase = 0.1
+			reelection_cost = -0.1
+			nobles_loyalty_modifier = 0.1
+			estate_nhs_nobles_loyalty_modifier = 0.1
+		
+}
+
+nhs_temple_of_marble_emperors_v21 = {
+	
+			tolerance_own = 2
+		
+}
+
+nhs_temple_of_marble_emperors_v22 = {
+	
+			tolerance_own = 2
+			prestige_per_development_from_conversion = 0.2
+		
+}
+
+nhs_temple_of_marble_emperors_v23 = {
+	
+			tolerance_own = 2
+			prestige_per_development_from_conversion = 0.2
+			global_missionary_strength = 0.03
+			church_loyalty_modifier = 0.1
+		
+}
+
+nhs_temple_of_marble_emperors_v31 = {
+	
+			prestige_decay = -0.01
+		
+}
+
+nhs_temple_of_marble_emperors_v32 = {
+	
+			prestige_decay = -0.01
+			monthly_splendor = 2
+		
+}
+
+nhs_temple_of_marble_emperors_v33 = {
+	
+			prestige_decay = -0.01
+			monthly_splendor = 2
+			trade_steering = 0.25
+			placed_merchant_power = 40
+			burghers_loyalty_modifier = 0.1
+		
+}
+
+nhs_hagia_theotoke_v11 = {
+	
+			max_absolutism = 10
+		
+}
+
+nhs_hagia_theotoke_v12 = {
+	
+			legitimacy = 1
+			devotion = 1
+			max_absolutism = 10
+			monthly_heir_claim_increase = 0.1
+			reelection_cost = -0.1
+		
+}
+
+nhs_hagia_theotoke_v13 = {
+	
+			legitimacy = 1
+			devotion = 1
+			max_absolutism = 10
+			monthly_heir_claim_increase = 0.1
+			reelection_cost = -0.1
+			nobles_loyalty_modifier = 0.1
+			estate_nhs_nobles_loyalty_modifier = 0.1
+		
+}
+
+nhs_hagia_theotoke_v21 = {
+	
+			tolerance_own = 2
+		
+}
+
+nhs_hagia_theotoke_v22 = {
+	
+			tolerance_own = 2
+			prestige_per_development_from_conversion = 0.2
+		
+}
+
+nhs_hagia_theotoke_v23 = {
+	
+			tolerance_own = 2
+			prestige_per_development_from_conversion = 0.3
+			global_missionary_strength = 0.03
+			church_loyalty_modifier = 0.1
+		
+}
+
+nhs_hagia_theotoke_v31 = {
+	
+			prestige_decay = -0.01
+		
+}
+
+nhs_hagia_theotoke_v32 = {
+	
+			prestige_decay = -0.01
+			monthly_splendor = 2
+		
+}
+
+nhs_hagia_theotoke_v33 = {
+	
+			prestige_decay = -0.01
+			monthly_splendor = 2
+			trade_steering = 0.25
+			placed_merchant_power = 40
+			burghers_loyalty_modifier = 0.1
+		
+}
+
+nhs_baalbek_temple_complex1 = {
+	
+			stability_cost_modifier = -0.1
+			missionary_maintenance_cost = -0.1
+		
+}
+
+nhs_baalbek_temple_complex2 = {
+	
+			stability_cost_modifier = -0.2
+			missionary_maintenance_cost = -0.15
+			tolerance_own = 1
+		
+}
+
+nhs_baalbek_temple_complex3 = {
+	
+			stability_cost_modifier = -0.25
+			missionary_maintenance_cost = -0.2
+			tolerance_own = 1
+			missionaries = 1
+		
+}
+
+nhs_diocletian_palace1 = {
+	
+			governing_capacity_modifier = 0.05
+		
+}
+
+nhs_diocletian_palace2 = {
+	
+			governing_capacity_modifier = 0.1
+			monarch_lifespan = 0.05
+		
+}
+
+nhs_diocletian_palace3 = {
+	
+			governing_capacity_modifier = 0.15
+			monarch_lifespan = 0.1
+		
+}
+
+nhs_amphitheatre_of_thysdrus1 = {
+	
+			power_projection_from_insults = 0.25
+			prestige_decay = -0.005
+		
+}
+
+nhs_amphitheatre_of_thysdrus2 = {
+	
+			power_projection_from_insults = 0.5
+			prestige_decay = -0.0075
+			monthly_splendor = 1
+		
+}
+
+nhs_amphitheatre_of_thysdrus3 = {
+	
+			power_projection_from_insults = 1
+			prestige_decay = -0.01
+			monthly_splendor = 2
+		
+}
+
+nhs_colosseum1 = {
+	
+			prestige_from_land = 0.5
+		
+}
+
+nhs_colosseum2 = {
+	
+			prestige_from_land = 1
+			army_tradition = 0.5
+		
+}
+
+nhs_colosseum3 = {
+	
+			general_cost = -0.1
+			prestige_from_land = 1.5
+			army_tradition = 0.5
+		
+}
+
+nhs_pantheon1 = {
+	
+			global_missionary_strength = 0.01
+			tolerance_own = 0.5
+		
+}
+
+nhs_pantheon2 = {
+	
+			warscore_cost_vs_other_religion = -0.05
+			global_missionary_strength = 0.02
+			tolerance_own = 1
+		
+}
+
+nhs_pantheon3 = {
+	
+			warscore_cost_vs_other_religion = -0.10
+			global_missionary_strength = 0.03
+			missionaries = 1
+			tolerance_own = 1
+		
+}
+
+nhs_pantheon_syncretic1 = {
+	
+			tolerance_heathen = 1
+			tolerance_of_heathens_capacity = 1
+		
+}
+
+nhs_pantheon_syncretic2 = {
+	
+			tolerance_heathen = 2
+			tolerance_of_heathens_capacity = 2
+		
+}
+
+nhs_pantheon_syncretic3 = {
+	
+			tolerance_heathen = 2
+			tolerance_of_heathens_capacity = 2
+			missionaries = 1
+			diplomatic_reputation = 1
+			unrest_catholic_provinces = -1
+		
+}
+
+to_akrotirion1 = {
+	
+			naval_forcelimit_modifier = 0.1
+			overlord_naval_forcelimit_modifier = 0.1
+		
+}
+
+to_akrotirion2 = {
+				
+			naval_forcelimit_modifier = 0.2
+			overlord_naval_forcelimit_modifier = 0.2
+		
+}
+
+to_akrotirion3 = {
+				
+			naval_forcelimit_modifier = 0.3
+			overlord_naval_forcelimit_modifier = 0.3
+		
+}
+
+to_elysian_highways_project2 = {
+	
+			# monthly_splendor = 1
+		
+}
+
+to_elysian_highways_project3 = {
+	
+			burghers_loyalty_modifier = 0.05
+			# monthly_splendor = 2
+		
+}
+
+kiel_canal_outward_boost1 = {
+	
+			global_trade_power = 0.02
+		
+}
+
+kiel_canal_outward_boost2 = {
+	
+			global_trade_power = 0.03
+		
+}
+
+kiel_canal_outward_boost3 = {
+	
+			global_trade_power = 0.05
+		
+}
+
+suez_canal_outward_boost1 = {
+	
+			global_trade_power = 0.02
+		
+}
+
+suez_canal_outward_boost2 = {
+	
+			global_trade_power = 0.03
+		
+}
+
+suez_canal_outward_boost3 = {
+	
+			global_trade_power = 0.05
+		
+}
+
+panama_canal_outward_boost1 = {
+	
+			global_trade_power = 0.02
+		
+}
+
+panama_canal_outward_boost2 = {
+	
+			global_trade_power = 0.03
+		
+}
+
+panama_canal_outward_boost3 = {
+	
+			global_trade_power = 0.05
+		
+}
+

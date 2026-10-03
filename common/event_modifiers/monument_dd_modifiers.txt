@@ -1,0 +1,173 @@
+DD_oxford_colloge1 = {
+	
+			technology_cost = -0.05
+			advisor_cost = -0.1
+		
+}
+
+DD_oxford_colloge2 = {
+	
+			technology_cost = -0.05
+			advisor_cost = -0.1
+			advisor_pool = 2
+			institution_spread_from_true_faith = 0.5
+		
+}
+
+DD_oxford_colloge3 = {
+	
+			technology_cost = -0.1
+			advisor_cost = -0.15
+			advisor_pool = 2
+			institution_spread_from_true_faith = 1
+		
+}
+
+DD_paris_colloge1 = {
+	
+			idea_cost = -0.05
+			legitimacy = 1
+		
+}
+
+DD_paris_colloge2 = {
+	
+			idea_cost = -0.1
+			legitimacy = 1
+			advisor_pool = 2
+		
+}
+
+DD_paris_colloge3 = {
+	
+			idea_cost = -0.1
+			advisor_pool = 2
+			legitimacy = 1
+			innovativeness_gain = 0.25
+		
+}
+
+DD_salamanca_colloge1 = {
+	
+			idea_cost = -0.05
+			technology_cost = -0.05
+		
+}
+
+DD_salamanca_colloge2 = {
+	
+			idea_cost = -0.05
+			technology_cost = -0.05
+			advisor_pool = 2
+		
+}
+
+DD_salamanca_colloge3 = {
+	
+			idea_cost = -0.1
+			technology_cost = -0.1
+			advisor_pool = 2
+			native_assimilation = 0.5
+		
+}
+
+DD_cordoba_chruch1 = {
+	
+			tolerance_own = 1
+			tolerance_heathen = 1
+			church_loyalty_modifier = 0.05
+		
+}
+
+DD_cordoba_chruch2 = {
+	
+			tolerance_own = 1
+			tolerance_heathen = 1
+			religious_unity = 0.25
+			church_loyalty_modifier = 0.1
+		
+}
+
+DD_cordoba_chruch3 = {
+	
+			tolerance_own = 2
+			tolerance_heathen = 1
+			religious_unity = 0.25
+			church_loyalty_modifier = 0.1
+		
+}
+
+DD_tunis_church1 = {
+	
+			tolerance_own = 1
+			church_loyalty_modifier = 0.05
+		
+}
+
+DD_tunis_church2 = {
+	
+			tolerance_own = 2
+			missionaries = 1
+			church_loyalty_modifier = 0.1
+			
+		
+}
+
+DD_tunis_church3 = {
+	
+			tolerance_own = 2
+			missionaries = 1
+			global_heathen_missionary_strength = 0.02
+			church_loyalty_modifier = 0.1
+		
+}
+
+DD_wisdom_house1 = {
+	
+			innovativeness_gain = 0.25
+			institution_spread_from_true_faith = 0.5
+		
+}
+
+DD_wisdom_house2 = {
+	
+			innovativeness_gain = 0.25
+			institution_spread_from_true_faith = 0.5
+			advisor_cost = -0.1
+			advisor_pool = 1
+		
+}
+
+DD_wisdom_house3 = {
+	
+			yearly_innovativeness = 1
+			innovativeness_gain = 0.5
+			institution_spread_from_true_faith = 1
+			advisor_cost = -0.1
+			advisor_pool = 2
+		
+}
+
+DD_mecca_church1 = {
+	
+			tolerance_own = 1
+			church_loyalty_modifier = 0.05
+		
+}
+
+DD_mecca_church2 = {
+	
+			tolerance_own = 2
+			church_loyalty_modifier = 0.1
+			warscore_cost_vs_other_religion = -0.05
+		
+}
+
+DD_mecca_church3 = {
+	
+			tolerance_own = 3
+			church_loyalty_modifier = 0.2
+			warscore_cost_vs_other_religion = -0.1
+		
+}
+

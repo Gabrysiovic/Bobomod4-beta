@@ -1,0 +1,4513 @@
+gp_xenedar1 = {
+	
+		
+}
+
+gp_xenedar2 = {
+	
+		
+}
+
+gp_xenedar3 = {
+	
+            land_morale = 0.05
+            global_missionary_strength = 0.02
+		
+}
+
+gp_seat_of_triumvirate1 = {
+	
+		
+}
+
+gp_seat_of_triumvirate2 = {
+	
+		
+}
+
+gp_seat_of_triumvirate3 = {
+	
+            all_power_cost = -0.05
+            prestige = 1.0
+		
+}
+
+gp_antorus1 = {
+	
+		
+}
+
+gp_antorus2 = {
+	
+		
+}
+
+gp_antorus3 = {
+	
+            missionary_maintenance_cost = -0.15
+            global_missionary_strength = 0.02
+		
+}
+
+gp_temple_of_elune1 = {
+	
+		
+}
+
+gp_temple_of_elune2 = {
+	
+		
+}
+
+gp_temple_of_elune3 = {
+	
+            tolerance_own = 1
+            missionary_maintenance_cost = -0.1
+		
+}
+
+gp_narthalas_academy1 = {
+	
+		
+}
+
+gp_narthalas_academy2 = {
+	
+		
+}
+
+gp_narthalas_academy3 = {
+	
+            global_institution_spread = 0.15
+            embracement_cost = -0.1
+		
+}
+
+gp_vault_of_the_wardens1 = {
+	
+		
+}
+
+gp_vault_of_the_wardens2 = {
+	
+		
+}
+
+gp_vault_of_the_wardens3 = {
+	
+            mercenary_cost = -0.1
+            merc_maintenance_modifier = -0.1
+		
+}
+
+gp_black_rook_hold1 = {
+	
+		
+}
+
+gp_black_rook_hold2 = {
+	
+		
+}
+
+gp_black_rook_hold3 = {
+	
+            army_tradition = 1.0
+            general_cost = -0.15
+		
+}
+
+gp_thunder_totem1 = {
+	
+		
+}
+
+gp_thunder_totem2 = {
+	
+		
+}
+
+gp_thunder_totem3 = {
+	
+            improve_relation_modifier = 0.1
+            diplomatic_upkeep = 1
+		
+}
+
+gp_nighthold1 = {
+	
+		
+}
+
+gp_nighthold2 = {
+	
+		
+}
+
+gp_nighthold3 = {
+	
+            technology_cost = -0.05
+            yearly_innovativeness = 1.0
+		
+}
+
+gp_astravar_harbour1 = {
+	
+		
+}
+
+gp_astravar_harbour2 = {
+	
+		
+}
+
+gp_astravar_harbour3 = {
+	
+            navy_tradition = 1.0
+            galley_cost = -0.15
+		
+}
+
+gp_falanaar1 = {
+	
+		
+}
+
+gp_falanaar2 = {
+	
+		
+}
+
+gp_falanaar3 = {
+	
+            tolerance_own = 1
+            global_missionary_strength = 0.015
+		
+}
+
+gp_moonguard_stronghold1 = {
+	
+		
+}
+
+gp_moonguard_stronghold2 = {
+	
+		
+}
+
+gp_moonguard_stronghold3 = {
+	
+            movement_speed = 0.1
+            envoy_travel_time = -0.2
+		
+}
+
+gp_halls_of_valor1 = {
+	
+		
+}
+
+gp_halls_of_valor2 = {
+	
+		
+}
+
+gp_halls_of_valor3 = {
+	
+            army_tradition_decay = -0.01
+            army_tradition_from_battle = 1.0
+		
+}
+
+gp_haustvald1 = {
+	
+		
+}
+
+gp_haustvald2 = {
+	
+		
+}
+
+gp_haustvald3 = {
+	
+            global_unrest = -2
+            reduced_liberty_desire = 5
+		
+}
+
+gp_tomb_of_sargeras1 = {
+	
+		
+}
+
+gp_tomb_of_sargeras2 = {
+	
+		
+}
+
+gp_tomb_of_sargeras3 = {
+	
+            warscore_cost_vs_other_religion = -0.1
+            years_of_nationalism = -5
+		
+}
+
+deep_sea_current_11 = {
+	
+		
+}
+
+deep_sea_current_12 = {
+	
+		
+}
+
+deep_sea_current_13 = {
+	
+		
+}
+
+deep_sea_current_21 = {
+	
+		
+}
+
+deep_sea_current_22 = {
+	
+		
+}
+
+deep_sea_current_23 = {
+	
+		
+}
+
+deep_sea_current_31 = {
+	
+		
+}
+
+deep_sea_current_32 = {
+	
+		
+}
+
+deep_sea_current_33 = {
+	
+		
+}
+
+deep_sea_current_41 = {
+	
+		
+}
+
+deep_sea_current_42 = {
+	
+		
+}
+
+deep_sea_current_43 = {
+	
+		
+}
+
+deep_sea_current_51 = {
+	
+		
+}
+
+deep_sea_current_52 = {
+	
+		
+}
+
+deep_sea_current_53 = {
+	
+		
+}
+
+deep_sea_current_61 = {
+	
+		
+}
+
+deep_sea_current_62 = {
+	
+		
+}
+
+deep_sea_current_63 = {
+	
+		
+}
+
+deep_sea_current_71 = {
+	
+		
+}
+
+deep_sea_current_72 = {
+	
+		
+}
+
+deep_sea_current_73 = {
+	
+		
+}
+
+deep_sea_current_81 = {
+	
+		
+}
+
+deep_sea_current_82 = {
+	
+		
+}
+
+deep_sea_current_83 = {
+	
+		
+}
+
+deep_sea_current_91 = {
+	
+		
+}
+
+deep_sea_current_92 = {
+	
+		
+}
+
+deep_sea_current_93 = {
+	
+		
+}
+
+deep_sea_current_101 = {
+	
+		
+}
+
+deep_sea_current_102 = {
+	
+		
+}
+
+deep_sea_current_103 = {
+	
+		
+}
+
+deep_sea_current_111 = {
+	
+		
+}
+
+deep_sea_current_112 = {
+	
+		
+}
+
+deep_sea_current_113 = {
+	
+		
+}
+
+deep_sea_current_121 = {
+	
+		
+}
+
+deep_sea_current_122 = {
+	
+		
+}
+
+deep_sea_current_123 = {
+	
+		
+}
+
+deep_sea_current_131 = {
+	
+		
+}
+
+deep_sea_current_132 = {
+	
+		
+}
+
+deep_sea_current_133 = {
+	
+		
+}
+
+deeprun_tram1 = {
+			
+}
+
+deeprun_tram2 = {
+	
+		
+}
+
+deeprun_tram3 = {
+	
+		
+}
+
+deepholm_rift_feralas1 = {
+	
+		
+}
+
+deepholm_rift_feralas2 = {
+	
+		
+}
+
+deepholm_rift_feralas3 = {
+	
+		
+}
+
+deepholm_rift_arathi1 = {
+	
+		
+}
+
+deepholm_rift_arathi2 = {
+	
+		
+}
+
+deepholm_rift_arathi3 = {
+	
+		
+}
+
+deepholm_rift_howling_fjord1 = {
+	
+		
+}
+
+deepholm_rift_howling_fjord2 = {
+	
+		
+}
+
+deepholm_rift_howling_fjord3 = {
+	
+		
+}
+
+deepholm_rift_kunlai1 = {
+	
+		
+}
+
+deepholm_rift_kunlai2 = {
+	
+		
+}
+
+deepholm_rift_kunlai3 = {
+	
+		
+}
+
+abyssal_maw_rift_vashjir1 = {
+	
+		
+}
+
+abyssal_maw_rift_vashjir2 = {
+	
+		
+}
+
+abyssal_maw_rift_vashjir3 = {
+	
+		
+}
+
+abyssal_maw_rift_stonetalon1 = {
+	
+		
+}
+
+abyssal_maw_rift_stonetalon2 = {
+	
+		
+}
+
+abyssal_maw_rift_stonetalon3 = {
+	
+		
+}
+
+abyssal_maw_rift_sholazar1 = {
+	
+		
+}
+
+abyssal_maw_rift_sholazar2 = {
+	
+		
+}
+
+abyssal_maw_rift_sholazar3 = {
+	
+		
+}
+
+abyssal_maw_rift_krasarang_wilds1 = {
+	
+		
+}
+
+abyssal_maw_rift_krasarang_wilds2 = {
+	
+		
+}
+
+abyssal_maw_rift_krasarang_wilds3 = {
+	
+		
+}
+
+firelands_rift_blackrock1 = {
+	
+		
+}
+
+firelands_rift_blackrock2 = {
+	
+		
+}
+
+firelands_rift_blackrock3 = {
+	
+		
+}
+
+firelands_rift_hyjal1 = {
+	
+		
+}
+
+firelands_rift_hyjal2 = {
+	
+		
+}
+
+firelands_rift_hyjal3 = {
+	
+		
+}
+
+firelands_rift_boreal_tundra1 = {
+	
+		
+}
+
+firelands_rift_boreal_tundra2 = {
+	
+		
+}
+
+firelands_rift_boreal_tundra3 = {
+	
+		
+}
+
+firelands_rift_townlong_steppes1 = {
+	
+		
+}
+
+firelands_rift_townlong_steppes2 = {
+	
+		
+}
+
+firelands_rift_townlong_steppes3 = {
+	
+		
+}
+
+skywall_rift_uldum1 = {
+	
+		
+}
+
+skywall_rift_uldum2 = {
+	
+		
+}
+
+skywall_rift_uldum3 = {
+	
+		
+}
+
+skywall_rift_westfall1 = {
+	
+		
+}
+
+skywall_rift_westfall2 = {
+	
+		
+}
+
+skywall_rift_westfall3 = {
+	
+		
+}
+
+skywall_rift_dragonblight1 = {
+	
+		
+}
+
+skywall_rift_dragonblight2 = {
+	
+		
+}
+
+skywall_rift_dragonblight3 = {
+	
+		
+}
+
+skywall_rift_jade_forest1 = {
+	
+		
+}
+
+skywall_rift_jade_forest2 = {
+	
+		
+}
+
+skywall_rift_jade_forest3 = {
+	
+		
+}
+
+argus_rift_icecrown1 = {
+	
+		
+}
+
+argus_rift_icecrown2 = {
+	
+		
+}
+
+argus_rift_icecrown3 = {
+	
+		
+}
+
+argus_rift_hyjal1 = {
+	
+		
+}
+
+argus_rift_hyjal2 = {
+	
+		
+}
+
+argus_rift_hyjal3 = {
+	
+		
+}
+
+argus_rift_throne_of_kiljaeden1 = {
+	
+		
+}
+
+argus_rift_throne_of_kiljaeden2 = {
+	
+		
+}
+
+argus_rift_throne_of_kiljaeden3 = {
+	
+		
+}
+
+argus_rift_throne_of_kiljaeden_draenor1 = {
+	
+		
+}
+
+argus_rift_throne_of_kiljaeden_draenor2 = {
+	
+		
+}
+
+argus_rift_throne_of_kiljaeden_draenor3 = {
+	
+		
+}
+
+argus_rift_tomb_of_sargeras1 = {
+	
+		
+}
+
+argus_rift_tomb_of_sargeras2 = {
+	
+		
+}
+
+argus_rift_tomb_of_sargeras3 = {
+	
+		
+}
+
+oribos_rift_icecrown1 = {
+	
+		
+}
+
+oribos_rift_icecrown2 = {
+	
+		
+}
+
+oribos_rift_icecrown3 = {
+	
+		
+}
+
+frozen_rift_brill1 = {
+	
+		
+}
+
+frozen_rift_brill2 = {
+	
+		
+}
+
+frozen_rift_brill3 = {
+	
+		
+}
+
+frozen_rift_stratholme1 = {
+	
+		
+}
+
+frozen_rift_stratholme2 = {
+	
+		
+}
+
+frozen_rift_stratholme3 = {
+	
+		
+}
+
+frozen_rift_andorhal1 = {
+	
+		
+}
+
+frozen_rift_andorhal2 = {
+	
+		
+}
+
+frozen_rift_andorhal3 = {
+	
+		
+}
+
+mistfall_tunnel1 = {
+	
+		
+}
+
+mistfall_tunnel2 = {
+	
+		
+}
+
+mistfall_tunnel3 = {
+	
+		
+}
+
+demonic_rift_conflagration1 = {
+	
+		
+}
+
+demonic_rift_conflagration2 = {
+	
+		
+}
+
+demonic_rift_conflagration3 = {
+	
+		
+}
+
+dark_portal_outland1 = {
+	
+		
+}
+
+dark_portal_outland2 = {
+	
+		
+}
+
+dark_portal_outland3 = {
+	
+		
+}
+
+dark_portal_draenor1 = {
+	
+		
+}
+
+dark_portal_draenor2 = {
+	
+		
+}
+
+dark_portal_draenor3 = {
+	
+		
+}
+
+gp_oshugun_draenor1 = {
+	
+		
+}
+
+gp_oshugun_draenor2 = {
+	
+		
+}
+
+gp_oshugun_draenor3 = {
+	
+            tolerance_own = 1
+            religious_unity = 0.15
+		
+}
+
+gp_hellfire_citadel_draenor1 = {
+	
+		
+}
+
+gp_hellfire_citadel_draenor2 = {
+	
+		
+}
+
+gp_hellfire_citadel_draenor3 = {
+	
+            infantry_power = 0.05
+            global_attacker_dice_roll_bonus = 1
+		
+}
+
+gp_shattrath_draenor1 = {
+	
+		
+}
+
+gp_shattrath_draenor2 = {
+	
+		
+}
+
+gp_shattrath_draenor3 = {
+	
+            global_tax_modifier = 0.1
+            governing_capacity_modifier = 0.1
+		
+}
+
+gp_karabor1 = {
+	
+		
+}
+
+gp_karabor2 = {
+	
+		
+}
+
+gp_karabor3 = {
+	
+            development_cost = -0.1
+            global_defender_dice_roll_bonus = 1
+		
+}
+
+gp_auchindoun_draenor1 = {
+	
+		
+}
+
+gp_auchindoun_draenor2 = {
+	
+		
+}
+
+gp_auchindoun_draenor3 = {
+	
+            tolerance_own = 1
+            global_missionary_strength = 0.02
+		
+}
+
+gp_apexis_chamber1 = {
+	
+		
+}
+
+gp_apexis_chamber2 = {
+	
+		
+}
+
+gp_apexis_chamber3 = {
+	
+            build_cost = -0.15
+            build_time = -0.15
+		
+}
+
+gp_throne_of_kiljaeden_draenor1 = {
+	
+		
+}
+
+gp_throne_of_kiljaeden_draenor2 = {
+	
+		
+}
+
+gp_throne_of_kiljaeden_draenor3 = {
+	
+            papal_influence = 3
+            warscore_cost_vs_other_religion = -0.1
+		
+}
+
+gp_blackrock_foundry1 = {
+	
+		
+}
+
+gp_blackrock_foundry2 = {
+	
+		
+}
+
+gp_blackrock_foundry3 = {
+	
+            global_own_trade_power = 0.1
+            global_trade_goods_size_modifier = 0.1
+		
+}
+
+gp_bladespire_citadel1 = {
+	
+		
+}
+
+gp_bladespire_citadel2 = {
+	
+		
+}
+
+gp_bladespire_citadel3 = {
+	
+            manpower_recovery_speed = 0.1
+            global_garrison_growth = 0.25
+		
+}
+
+gp_throne_of_elements_draenor1 = {
+	
+		
+}
+
+gp_throne_of_elements_draenor2 = {
+	
+		
+}
+
+gp_throne_of_elements_draenor3 = {
+	
+            tolerance_heretic = 3
+            advisor_cost = -0.15
+		
+}
+
+gp_vault_of_the_incarnates1 = {
+	
+		
+}
+
+gp_vault_of_the_incarnates2 = {
+	
+		
+}
+
+gp_vault_of_the_incarnates3 = {
+	
+            prestige = 1.0
+            discipline = 0.05
+		
+}
+
+gp_tyrhold1 = {
+	
+		
+}
+
+gp_tyrhold2 = {
+	
+		
+}
+
+gp_tyrhold3 = {
+	
+            prestige = 1.0
+            development_cost = -0.1
+		
+}
+
+gp_algethar_academy1 = {
+	
+		
+}
+
+gp_algethar_academy2 = {
+	
+		
+}
+
+gp_algethar_academy3 = {
+	
+            idea_cost = -0.05
+            advisor_cost = -0.1
+		
+}
+
+gp_neltharus1 = {
+	
+		
+}
+
+gp_neltharus2 = {
+	
+		
+}
+
+gp_neltharus3 = {
+	
+            global_manpower_modifier = 0.1
+            land_maintenance_modifier = -0.1
+		
+}
+
+gp_ruby_life_pools1 = {
+	
+		
+}
+
+gp_ruby_life_pools2 = {
+	
+		
+}
+
+gp_ruby_life_pools3 = {
+	
+            manpower_recovery_speed = 0.1
+            global_manpower_modifier = 0.1
+		
+}
+
+gp_brackenhide_hollow1 = {
+	
+		
+}
+
+gp_brackenhide_hollow2 = {
+	
+		
+}
+
+gp_brackenhide_hollow3 = {
+	
+            global_regiment_recruit_speed = -0.1
+            manpower_in_own_culture_provinces = 0.1
+		
+}
+
+gp_azure_vault1 = {
+	
+		
+}
+
+gp_azure_vault2 = {
+	
+		
+}
+
+gp_azure_vault3 = {
+	
+            free_policy = 1
+            development_cost_modifier = -0.05
+		
+}
+
+gp_nokhudon_hold1 = {
+	
+		
+}
+
+gp_nokhudon_hold2 = {
+	
+		
+}
+
+gp_nokhudon_hold3 = {
+	
+            global_manpower_modifier = 0.1
+            manpower_recovery_speed = 0.1
+		
+}
+
+gp_maruukai1 = {
+	
+		
+}
+
+gp_maruukai2 = {
+	
+		
+}
+
+gp_maruukai3 = {
+	
+            land_forcelimit_modifier = 0.1
+            global_regiment_recruit_speed = -0.15
+		
+}
+
+gp_cobalt_assembly1 = {
+	
+		
+}
+
+gp_cobalt_assembly2 = {
+	
+		
+}
+
+gp_cobalt_assembly3 = {
+	
+            army_tradition_decay = -0.01
+            artillery_cost = -0.15
+		
+}
+
+gp_iskaara1 = {
+	
+		
+}
+
+gp_iskaara2 = {
+	
+		
+}
+
+gp_iskaara3 = {
+	
+            navy_tradition_decay = -0.01
+            global_ship_cost = -0.1
+		
+}
+
+gp_zskera_vaults1 = {
+	
+		
+}
+
+gp_zskera_vaults2 = {
+	
+		
+}
+
+gp_zskera_vaults3 = {
+	
+            prestige = 1.0
+            free_policy = 1
+		
+}
+
+gp_dracthyr_vault1 = {
+	
+		
+}
+
+gp_dracthyr_vault2 = {
+	
+		
+}
+
+gp_dracthyr_vault3 = {
+	
+            army_tradition_decay = -0.01
+            global_manpower_modifier = 0.1
+		
+}
+
+gp_seradane1 = {
+	
+		
+}
+
+gp_seradane2 = {
+	
+		
+}
+
+gp_seradane3 = {
+	
+            army_tradition = 1.0
+            leader_land_manuever = 1
+		
+}
+
+gp_twilight_grove1 = {
+	
+		
+}
+
+gp_twilight_grove2 = {
+	
+		
+}
+
+gp_twilight_grove3 = {
+	
+            fire_damage_received = -0.075
+            shock_damage_received = -0.075
+		
+}
+
+gp_stormwind_keep1 = {
+	
+		
+}
+
+gp_stormwind_keep2 = {
+	
+		
+}
+
+gp_stormwind_keep3 = {
+	
+            prestige = 1.0
+            yearly_corruption = -0.05
+		
+}
+
+gp_stromgarde_keep1 = {
+	
+		
+}
+
+gp_stromgarde_keep2 = {
+	
+		
+}
+
+gp_stromgarde_keep3 = {
+	
+            prestige = 1.0
+            infantry_power = 0.075
+		
+}
+
+gp_gilneas_city1 = {
+	
+		
+}
+
+gp_gilneas_city2 = {
+	
+		
+}
+
+gp_gilneas_city3 = {
+	
+            prestige = 1.0
+            development_cost = -0.1
+		
+}
+
+gp_lordaeron_city1 = {
+	
+		
+}
+
+gp_lordaeron_city2 = {
+	
+		
+}
+
+gp_lordaeron_city3 = {
+	
+            advisor_cost = -0.1
+            advisor_pool = 2
+		
+}
+
+gp_lights_hope_chapel1 = {
+	
+		
+}
+
+gp_lights_hope_chapel2 = {
+	
+		
+}
+
+gp_lights_hope_chapel3 = {
+	
+            tolerance_own = 1
+            global_missionary_strength = 0.02
+		
+}
+
+gp_stratholme1 = {
+	
+		
+}
+
+gp_stratholme2 = {
+	
+		
+}
+
+gp_stratholme3 = {
+	
+            prestige = 1.0
+            state_maintenance_modifier = -0.15
+		
+}
+
+gp_durnholde_keep1 = {
+	
+		
+}
+
+gp_durnholde_keep2 = {
+	
+		
+}
+
+gp_durnholde_keep3 = {
+	
+            spy_action_cost_modifier = -0.2
+            global_unrest = -1
+		
+}
+
+gp_thoradins_wall1 = {
+	
+		
+}
+
+gp_thoradins_wall2 = {
+	
+		
+}
+
+gp_thoradins_wall3 = {
+	
+            garrison_size = 0.15
+            defensiveness = 0.1
+		
+}
+
+gp_karazhan_tower1 = {
+	
+		
+}
+
+gp_karazhan_tower2 = {
+	
+		
+}
+
+gp_karazhan_tower3 = {
+	
+            innovativeness_gain = 0.1
+            idea_cost = -0.05
+		
+}
+
+gp_westfall_lighthouse1 = {
+	
+		
+}
+
+gp_westfall_lighthouse2 = {
+	
+		
+}
+
+gp_westfall_lighthouse3 = {
+	
+            range = 0.25
+            sailor_maintenance_modifer = -0.1
+		
+}
+
+gp_statue_of_anduin_lothar1 = {
+	
+		
+}
+
+gp_statue_of_anduin_lothar2 = {
+	
+		
+}
+
+gp_statue_of_anduin_lothar3 = {
+	
+            land_morale_constant = 0.25
+            morale_damage_received = -0.05
+		
+}
+
+gp_uthers_tomb1 = {
+	
+		
+}
+
+gp_uthers_tomb2 = {
+	
+		
+}
+
+gp_uthers_tomb3 = {
+	
+            tolerance_own = 1
+            missionary_maintenance_cost = -0.15
+		
+}
+
+gp_tyrs_hand1 = {
+	
+		
+}
+
+gp_tyrs_hand2 = {
+	
+		
+}
+
+gp_tyrs_hand3 = {
+	
+            recover_army_morale_speed = 0.1
+            reinforce_speed = 0.1
+		
+}
+
+gp_baradin_hold1 = {
+	
+		
+}
+
+gp_baradin_hold2 = {
+	
+		
+}
+
+gp_baradin_hold3 = {
+	
+            army_tradition_from_battle = 1.0
+            leader_siege = 1
+		
+}
+
+gp_dalaran_ek1 = {
+	
+		
+}
+
+gp_dalaran_ek2 = {
+	
+		
+}
+
+gp_dalaran_ek3 = {
+	
+            country_admin_power = 1
+            development_cost_in_primary_culture = -0.1
+		
+}
+
+gp_ironforge1 = {
+	
+		
+}
+
+gp_ironforge2 = {
+	
+		
+}
+
+gp_ironforge3 = {
+	
+            build_cost = -0.1
+            production_efficiency = 0.1
+		
+}
+
+gp_blackrock_mountain1 = {
+	
+		
+}
+
+gp_blackrock_mountain2 = {
+	
+		
+}
+
+gp_blackrock_mountain3 = {
+	
+            free_mil_policy = 1
+            production_efficiency = 0.1
+		
+}
+
+gp_black_anvil1 = {
+	
+		
+}
+
+gp_black_anvil2 = {
+	
+		
+}
+
+gp_black_anvil3 = {
+	
+            development_cost = -0.1
+            global_trade_goods_size_modifier = 0.05
+		
+}
+
+gp_grim_batol1 = {
+	
+		
+}
+
+gp_grim_batol2 = {
+	
+		
+}
+
+gp_grim_batol3 = {
+	
+			centralize_state_cost = -0.1 
+            state_maintenance_modifier = -0.1
+		
+}
+
+gp_aerie_peak1 = {
+	
+		
+}
+
+gp_aerie_peak2 = {
+	
+		
+}
+
+gp_aerie_peak3 = {
+	
+            movement_speed = 0.15
+            global_autonomy = -0.03
+		
+}
+
+gp_stonewrought_dam1 = {
+	
+		
+}
+
+gp_stonewrought_dam2 = {
+	
+		
+}
+
+gp_stonewrought_dam3 = {
+	
+            defensiveness = 0.15
+            years_of_nationalism = -5
+		
+}
+
+gp_thandol_span1 = {
+	
+		
+}
+
+gp_thandol_span2 = {
+	
+		
+}
+
+gp_thandol_span3 = {
+	
+            trade_range_modifier = 0.25
+            trade_steering = 0.1
+		
+}
+
+gp_gnomeregan1 = {
+	
+		
+}
+
+gp_gnomeregan2 = {
+	
+		
+}
+
+gp_gnomeregan3 = {
+	
+            global_allowed_num_of_manufactories = 1
+            development_cost_in_primary_culture = -0.05
+		
+}
+
+gp_sunwell_plateau1 = {
+	
+		
+}
+
+gp_sunwell_plateau2 = {
+	
+		
+}
+
+gp_sunwell_plateau3 = {
+	
+            all_estate_loyalty_equilibrium = 0.1
+            same_religion_advisor_cost = -0.2
+		
+}
+
+gp_magisters_terrace1 = {
+	
+		
+}
+
+gp_magisters_terrace2 = {
+	
+		
+}
+
+gp_magisters_terrace3 = {
+	
+            yearly_corruption = -0.03
+            advisor_cost = -0.15
+		
+}
+
+gp_thalassian_pass1 = {
+	
+		
+}
+
+gp_thalassian_pass2 = {
+	
+		
+}
+
+gp_thalassian_pass3 = {
+	
+            hostile_attrition = 1
+            max_hostile_attrition = 1
+		
+}
+
+gp_windrunner_spire1 = {
+	
+		
+}
+
+gp_windrunner_spire2 = {
+	
+		
+}
+
+gp_windrunner_spire3 = {
+	
+            discipline = 0.05
+            leader_land_manuever = 1
+		
+}
+
+gp_falthrien_academy1 = {
+	
+		
+}
+
+gp_falthrien_academy2 = {
+	
+		
+}
+
+gp_falthrien_academy3 = {
+	
+            free_adm_policy = 1
+            global_institution_spread = 0.25
+		
+}
+
+gp_sunfury_spire1 = {
+	
+		
+}
+
+gp_sunfury_spire2 = {
+	
+		
+}
+
+gp_sunfury_spire3 = {
+	
+            diplomatic_annexation_cost = -0.1
+            diplomatic_reputation = 1
+		
+}
+
+gp_dragonmaw_port1 = {
+	
+		
+}
+
+gp_dragonmaw_port2 = {
+	
+		
+}
+
+gp_dragonmaw_port3 = {
+	
+            naval_forcelimit_modifier = 0.1
+            naval_maintenance_modifier = -0.1
+		
+}
+
+gp_janeiros_point1 = {
+	
+		
+}
+
+gp_janeiros_point2 = {
+	
+		
+}
+
+gp_janeiros_point3 = {
+	
+            trade_efficiency = 0.1
+            trade_steering = 0.1
+		
+}
+
+gp_zulaman1 = {
+	
+		
+}
+
+gp_zulaman2 = {
+	
+		
+}
+
+gp_zulaman3 = {
+	
+            max_general_shock = 1
+            manpower_in_culture_group_provinces = 0.1
+		
+}
+
+gp_zulmashar1 = {
+	
+		
+}
+
+gp_zulmashar2 = {
+	
+		
+}
+
+gp_zulmashar3 = {
+	
+            prestige_per_development_from_conversion = 0.25
+            manpower_in_culture_group_provinces = 0.1
+		
+}
+
+gp_altar_of_zul1 = {
+	
+		
+}
+
+gp_altar_of_zul2 = {
+	
+		
+}
+
+gp_altar_of_zul3 = {
+	
+            war_exhaustion = -0.03
+            manpower_in_culture_group_provinces = 0.1
+		
+}
+
+gp_shadraalor1 = {
+	
+		
+}
+
+gp_shadraalor2 = {
+	
+		
+}
+
+gp_shadraalor3 = {
+	
+            reinforce_speed = 0.1
+            manpower_in_culture_group_provinces = 0.1
+		
+}
+
+gp_temple_of_atalhakkar1 = {
+	
+		
+}
+
+gp_temple_of_atalhakkar2 = {
+	
+		
+}
+
+gp_temple_of_atalhakkar3 = {
+	
+            manpower_recovery_speed = 0.1
+            manpower_in_true_faith_provinces = 0.1
+		
+}
+
+gp_zulkunda1 = {
+	
+		
+}
+
+gp_zulkunda2 = {
+	
+		
+}
+
+gp_zulkunda3 = {
+	
+            prestige_decay = -0.02
+            yearly_corruption = -0.05
+		
+}
+
+gp_gurubashi_arena1 = {
+	
+		
+}
+
+gp_gurubashi_arena2 = {
+	
+		
+}
+
+gp_gurubashi_arena3 = {
+	
+            army_tradition_decay = -0.01
+            general_cost = -0.2
+		
+}
+
+gp_zulmamwe1 = {
+	
+		
+}
+
+gp_zulmamwe2 = {
+	
+		
+}
+
+gp_zulmamwe3 = {
+	
+            global_regiment_cost = -0.1
+            manpower_in_culture_group_provinces = 0.1
+		
+}
+
+gp_temple_of_hakkar1 = {
+	
+		
+}
+
+gp_temple_of_hakkar2 = {
+	
+		
+}
+
+gp_temple_of_hakkar3 = {
+	
+            tolerance_own = 1
+            global_regiment_recruit_speed = -0.2
+		
+}
+
+gp_acherus1 = {
+	
+		
+}
+
+gp_acherus2 = {
+	
+		
+}
+
+gp_acherus3 = {
+	
+            mil_advisor_cost = -0.1
+            recover_army_morale_speed = 0.1
+		
+}
+
+gp_scholomance1 = {
+	 
+		
+}
+
+gp_scholomance2 = {
+	
+		
+}
+
+gp_scholomance3 = {
+	
+            free_policy = 1
+            embracement_cost = -0.2
+		
+}
+
+gp_deatholme1 = {
+	
+		
+}
+
+gp_deatholme2 = {
+	
+		
+}
+
+gp_deatholme3 = {
+	
+            tolerance_own = 1
+            global_missionary_strength = 0.02
+		
+}
+
+gp_uldaman_complex1 = {
+	
+		
+}
+
+gp_uldaman_complex2 = {
+	
+		
+}
+
+gp_uldaman_complex3 = {
+	
+            adm_tech_cost_modifier = -0.1
+            defensiveness = 0.1
+		
+}
+
+gp_scarlet_monastery1 = {
+	
+		
+}
+
+gp_scarlet_monastery2 = {
+	
+		
+}
+
+gp_scarlet_monastery3 = {
+	
+            tolerance_own = 1
+            global_missionary_strength = 0.02
+		
+}
+
+gp_deadmines1 = {
+	
+		
+}
+
+gp_deadmines2 = {
+	
+		
+}
+
+gp_deadmines3 = {
+	
+            production_efficiency = 0.1
+            global_tax_income = 24
+		
+}
+
+gp_deathknell1 = {
+	
+		
+}
+
+gp_deathknell2 = {
+	
+		
+}
+
+gp_deathknell3 = {
+	
+            global_manpower_modifier = 0.1
+            manpower_recovery_speed = 0.1
+		
+}
+
+gp_amani_catacombs1 = {
+	
+		
+}
+
+gp_amani_catacombs2 = {
+	
+		
+}
+
+gp_amani_catacombs3 = {
+	
+            religious_unity = 0.1
+            global_missionary_strength = 0.02
+		
+}
+
+gp_bastion_of_twilight1 = {
+	
+		
+}
+
+gp_bastion_of_twilight2 = {
+	
+		
+}
+
+gp_bastion_of_twilight3 = {
+	
+            max_absolutism = 20
+            harsh_treatment_cost = -0.2
+		
+}
+
+gp_bloodsail_hold1 = {
+	
+		
+}
+
+gp_bloodsail_hold2 = {
+	
+		
+}
+
+gp_bloodsail_hold3 = {
+	
+            privateer_efficiency = 0.25
+            blockade_efficiency = 0.25
+		
+}
+
+gp_naxxramas1 = {
+	
+		
+}
+
+gp_naxxramas2 = {
+	
+		
+}
+
+gp_naxxramas3 = {
+	
+            advisor_cost = -0.1
+            free_mil_policy = 1
+		
+}
+
+gp_greymane_wall1 = {
+	
+		
+}
+
+gp_greymane_wall2 = {
+	
+		
+}
+
+gp_greymane_wall3 = {
+	
+            hostile_attrition = 2
+            max_hostile_attrition = 2
+		
+}
+
+gp_tyrs_tomb1 = {
+	
+		
+}
+
+gp_tyrs_tomb2 = {
+	
+		
+}
+
+gp_tyrs_tomb3 = {
+	
+            prestige_per_development_from_conversion = 0.25
+            development_cost = -0.1
+		
+}
+
+gp_cathedral_of_light1 = {
+	
+		
+}
+
+gp_cathedral_of_light2 = {
+	
+		
+}
+
+gp_cathedral_of_light3 = {
+	
+            relation_with_same_religion = 10
+			missionary_maintenance_cost = -0.1
+            missionaries = 1
+		
+}
+
+gp_stormwind_mage_tower1 = {
+	
+		
+}
+
+gp_stormwind_mage_tower2 = {
+	
+		
+}
+
+gp_stormwind_mage_tower3 = {
+	
+            innovativeness_gain = 0.1
+            possible_policy = 1
+			idea_cost = -0.05
+		
+}
+
+gp_temple_of_earth1 = {
+	
+		
+}
+
+gp_temple_of_earth2 = {
+	
+		
+}
+
+gp_temple_of_earth3 = {
+	
+            development_cost = -0.1
+            global_allowed_num_of_buildings = 1
+		
+}
+
+gp_sulfuron_keep1 = {
+	
+		
+}
+
+gp_sulfuron_keep2 = {
+	
+		
+}
+
+gp_sulfuron_keep3 = {
+	
+            production_efficiency = 0.1
+            fire_damage = 0.1
+		
+}
+
+gp_throne_of_tides1 = {
+	
+		
+}
+
+gp_throne_of_tides2 = {
+	
+		
+}
+
+gp_throne_of_tides3 = {
+	
+            development_cost = -0.1
+            production_efficiency = 0.1
+		
+}
+
+gp_throne_of_the_four_winds1 = {
+	
+		
+}
+
+gp_throne_of_the_four_winds2 = {
+	
+		
+}
+
+gp_throne_of_the_four_winds3 = {
+	
+            movement_speed = 0.15
+            advisor_cost = -0.1
+		
+}
+
+gp_nordrassil1 = {
+	
+		
+}
+
+gp_nordrassil2 = {
+	
+		
+}
+
+gp_nordrassil3 = {
+	
+            advisor_cost = -0.1
+            advisor_pool = 1
+		
+}
+
+gp_ravencrest_monument1 = {
+	
+		
+}
+
+gp_ravencrest_monument2 = {
+	
+		
+}
+
+gp_ravencrest_monument3 = {
+	
+            prestige = 1.0
+            global_autonomy = -0.03
+		
+}
+
+gp_temple_of_the_moon1 = {
+	
+		
+}
+
+gp_temple_of_the_moon2 = {
+	
+		
+}
+
+gp_temple_of_the_moon3 = {
+	
+            missionaries = 1
+            global_missionary_strength = 0.02
+		
+}
+
+gp_shrine_of_remulos1 = {
+	
+		
+}
+
+gp_shrine_of_remulos2 = {
+	
+		
+}
+
+gp_shrine_of_remulos3 = {
+	
+            prestige = 1.0
+            stability_cost_modifier = -0.1
+		
+}
+
+gp_loretharan1 = {
+	
+		
+}
+
+gp_loretharan2 = {
+	
+		
+}
+
+gp_loretharan3 = {
+	
+            prestige = 1.0
+            army_tradition_decay = -0.01
+		
+}
+
+gp_dire_maul1 = {
+	
+		
+}
+
+gp_dire_maul2 = {
+	
+		
+}
+
+gp_dire_maul3 = {
+	
+            years_of_nationalism = -5
+            min_autonomy_in_territories = -0.05
+		
+}
+
+gp_isildien1 = {
+	
+		
+}
+
+gp_isildien2 = {
+	
+		
+}
+
+gp_isildien3 = {
+	
+            prestige = 1.0
+            innovativeness_gain = 0.25
+		
+}
+
+gp_latharlazal1 = {
+	
+		
+}
+
+gp_latharlazal2 = {
+	
+		
+}
+
+gp_latharlazal3 = {
+	
+            missionaries = 1
+            warscore_cost_vs_other_religion = -0.1
+		
+}
+
+gp_ametharan1 = {
+	
+		
+}
+
+gp_ametharan2 = {
+	
+		
+}
+
+gp_ametharan3 = {
+	
+            prestige = 1.0
+            missionaries = 1
+		
+}
+
+gp_keltheril1 = {
+	
+		
+}
+
+gp_keltheril2 = {
+	
+		
+}
+
+gp_keltheril3 = {
+	
+            tolerance_own = 1
+            global_unrest = -2
+		
+}
+
+gp_thaldarah_grove1 = {
+	
+		
+}
+
+gp_thaldarah_grove2 = {
+	
+		
+}
+
+gp_thaldarah_grove3 = {
+	
+            prestige = 1.0
+            free_dip_policy = 1
+		
+}
+
+gp_sanctuary_of_malorne1 = {
+	
+		
+}
+
+gp_sanctuary_of_malorne2 = {
+	
+		
+}
+
+gp_sanctuary_of_malorne3 = {
+	
+            tolerance_own = 1
+            land_morale = 0.05
+		
+}
+
+gp_shrine_of_aviana1 = {
+	
+		
+}
+
+gp_shrine_of_aviana2 = {
+	
+		
+}
+
+gp_shrine_of_aviana3 = {
+	
+            tolerance_own = 1
+            movement_speed = 0.2
+		
+}
+
+gp_auberdine1 = {
+	
+		
+}
+
+gp_auberdine2 = {
+	
+		
+}
+
+gp_auberdine3 = {
+	
+            naval_forcelimit_modifier = 0.1
+            global_sailors_modifier = 0.1
+		
+}
+
+gp_tower_of_althalaxx1 = {
+	
+		
+}
+
+gp_tower_of_althalaxx2 = {
+	
+		
+}
+
+gp_tower_of_althalaxx3 = {
+	
+            culture_conversion_time = -0.1
+            culture_conversion_cost = -0.1
+		
+}
+
+gp_bael_modan_digsite1 = {
+	
+		
+}
+
+gp_bael_modan_digsite2 = {
+	
+		
+}
+
+gp_bael_modan_digsite3 = {
+	
+            global_institution_spread = 0.1
+            global_unrest = -1
+		
+}
+
+gp_exodar1 = {
+	
+		
+}
+
+gp_exodar2 = {
+	
+		
+}
+
+gp_exodar3 = {
+	
+            tolerance_own = 2
+            global_unrest = -2
+		
+}
+
+gp_valley_of_strength1 = {
+	
+		
+}
+
+gp_valley_of_strength2 = {
+	
+		
+}
+
+gp_valley_of_strength3 = {
+	
+            army_tradition = 1.0
+            general_cost = -0.2
+		
+}
+
+gp_crossroads1 = {
+	
+		
+}
+
+gp_crossroads2 = {
+	
+		
+}
+
+gp_crossroads3 = {
+	
+            merchants = 1
+            trade_efficiency = 0.1
+		
+}
+
+gp_great_gate1 = {
+	
+		
+}
+
+gp_great_gate2 = {
+	
+		
+}
+
+gp_great_gate3 = {
+	
+            hostile_attrition = 1
+            max_hostile_attrition = 1
+		
+}
+
+gp_thunderbluff1 = {
+	
+		
+}
+
+gp_thunderbluff2 = {
+	
+		
+}
+
+gp_thunderbluff3 = {
+	
+            prestige = 1.0
+            min_autonomy_in_territories = -0.05
+		
+}
+
+gp_gadgetzan1 = {
+	
+		
+}
+
+gp_gadgetzan2 = {
+	
+		
+}
+
+gp_gadgetzan3 = {
+	
+            yearly_innovativeness = 1.0
+            trade_steering = 0.1
+		
+}
+
+gp_everlook1 = {
+	
+		
+}
+
+gp_everlook2 = {
+	
+		
+}
+
+gp_everlook3 = {
+	
+            development_cost = -0.1
+            yearly_innovativeness = 1.0
+		
+}
+
+gp_ratchet1 = {
+	
+		
+}
+
+gp_ratchet2 = {
+	
+		
+}
+
+gp_ratchet3 = {
+	
+            merchants = 1
+            trade_efficiency = 0.1
+		
+}
+
+gp_zulfarrak1 = {
+	
+		
+}
+
+gp_zulfarrak2 = {
+	
+		
+}
+
+gp_zulfarrak3 = {
+	
+            manpower_in_culture_group_provinces = 0.1
+            siege_ability = 0.1
+		
+}
+
+gp_halls_of_origination1 = {
+	
+		
+}
+
+gp_halls_of_origination2 = {
+	
+		
+}
+
+gp_halls_of_origination3 = {
+	
+            yearly_corruption = -0.03
+            religious_unity = 0.15
+		
+}
+
+gp_shapers_terrace1 = {
+	
+		
+}
+
+gp_shapers_terrace2 = {
+	
+		
+}
+
+gp_shapers_terrace3 = {
+	
+            religious_unity = 0.1
+            development_cost = -0.1
+		
+}
+
+gp_masters_glaive1 = {
+	
+		
+}
+
+gp_masters_glaive2 = {
+	
+		
+}
+
+gp_masters_glaive3 = {
+	
+            prestige = 1.0
+            army_tradition_from_battle = 1.0
+		
+}
+
+gp_vault_of_cthun1 = {
+	
+		
+}
+
+gp_vault_of_cthun2 = {
+	
+		
+}
+
+gp_vault_of_cthun3 = {
+	
+            all_power_cost = -0.05
+            min_autonomy_in_territories = -0.05
+		
+}
+
+gp_cenarion_hold1 = {
+	   
+		
+}
+
+gp_cenarion_hold2 = {
+	   
+		
+}
+
+gp_cenarion_hold3 = {
+	   
+            prestige = 1.0
+            defensiveness = 0.1
+		
+}
+
+gp_fire_plume_ridge1 = {
+	   
+		
+}
+
+gp_fire_plume_ridge2 = {
+	  
+		
+}
+
+gp_fire_plume_ridge3 = {
+	  
+            hostile_attrition = 1
+            max_hostile_attrition = 1
+		
+}
+
+gp_theramore_citadel1 = {
+	   
+		
+}
+
+gp_theramore_citadel2 = {
+	  
+		
+}
+
+gp_theramore_citadel3 = {
+	  
+            prestige = 1.0
+            defensiveness = 0.1
+		
+}
+
+gp_maraudon1 = {
+	
+		
+}
+
+gp_maraudon2 = {
+	
+		
+}
+
+gp_maraudon3 = {
+	
+            army_tradition_decay = -0.01
+            defensiveness = 0.1
+		
+}
+
+gp_shrine_of_aessina1 = {
+	
+		
+}
+
+gp_shrine_of_aessina2 = {
+	
+		
+}
+
+gp_shrine_of_aessina3 = {
+	
+            tolerance_heathen = 2
+            tolerance_heretic = 2
+		
+}
+
+gp_library_of_eldrethalas1 = {
+	
+		
+}
+
+gp_library_of_eldrethalas2 = {
+	
+		
+}
+
+gp_library_of_eldrethalas3 = {
+	
+            idea_cost = -0.05
+			innovativeness_gain = 0.1
+		
+}
+
+gp_virnaal_dam1 = {
+	
+		
+}
+
+gp_virnaal_dam2 = {
+	
+		
+}
+
+gp_virnaal_dam3 = {
+	
+            prestige = 1.0
+            production_efficiency = 0.1
+		
+}
+
+gp_temple_of_zin_malor1 = {
+	
+		
+}
+
+gp_temple_of_zin_malor2 = {
+	
+		
+}
+
+gp_temple_of_zin_malor3 = {
+	
+            prestige = 1.0
+            religious_unity = 0.15
+		
+}
+
+gp_scarab_wall1 = {
+	
+		
+}
+
+gp_scarab_wall2 = {
+	
+		
+}
+
+gp_scarab_wall3 = {
+	
+            hostile_attrition = 2
+            max_hostile_attrition = 2
+		
+}
+
+gp_obelisk_of_the_moon1 = {
+	
+		    global_prosperity_growth = 0.050
+		
+}
+
+gp_obelisk_of_the_moon2 = {
+	
+		    global_prosperity_growth = 0.075
+		
+}
+
+gp_obelisk_of_the_moon3 = {
+	
+            hostile_attrition = 2
+            global_prosperity_growth = 0.1
+		
+}
+
+gp_obelisk_of_the_stars1 = {
+	
+		    production_efficiency = 0.025 
+		
+}
+
+gp_obelisk_of_the_stars2 = {
+	
+		    production_efficiency = 0.05 
+		
+}
+
+gp_obelisk_of_the_stars3 = {
+	
+            hostile_attrition = 2
+            production_efficiency = 0.075
+		
+}
+
+gp_obelisk_of_the_sun1 = {
+	
+		    inflation_action_cost = -0.050
+		
+}
+
+gp_obelisk_of_the_sun2 = {
+	
+		    inflation_action_cost = -0.075
+		
+}
+
+gp_obelisk_of_the_sun3 = {
+	
+            hostile_attrition = 2
+            inflation_action_cost = -0.1
+		
+}
+
+gp_shrine_of_storms1 = {
+	
+		
+}
+
+gp_shrine_of_storms2 = {
+	
+		
+}
+
+gp_shrine_of_storms3 = {
+	
+            global_sailors_modifier = 0.1
+            ship_durability = 0.1
+		
+}
+
+gp_boralus1 = {
+	
+		
+}
+
+gp_boralus2 = {
+	
+		
+}
+
+gp_boralus3 = {
+	
+            navy_tradition = 1.0
+            global_own_trade_power = 0.1
+		
+}
+
+gp_waycrest_manor1 = {
+	
+		
+}
+
+gp_waycrest_manor2 = {
+	
+		
+}
+
+gp_waycrest_manor3 = {
+	
+            culture_conversion_cost = -0.15
+            global_unrest = -2
+		
+}
+
+gp_rustbolt1 = {
+	
+		
+}
+
+gp_rustbolt2 = {
+	
+		
+}
+
+gp_rustbolt3 = {
+	
+            production_efficiency = 0.1
+            build_cost = -0.2
+		
+}
+
+gp_mechagon_city1 = {
+	
+		
+}
+
+gp_mechagon_city2 = {
+	
+		
+}
+
+gp_mechagon_city3 = {
+	
+            mil_advisor_cost = -0.15
+            max_absolutism = 20
+		
+}
+
+gp_zinazshari1 = {
+	
+		
+}
+
+gp_zinazshari2 = {
+	
+		
+}
+
+gp_zinazshari3 = {
+	
+            land_morale = 0.1
+            naval_morale = 0.1
+		
+}
+
+gp_vordrassil1 = {
+	
+		
+}
+
+gp_vordrassil2 = {
+	
+		
+}
+
+gp_vordrassil3 = {
+	
+            tolerance_own = 1
+            missionary_maintenance_cost = -0.15
+		
+}
+
+gp_dalaran_northrend1 = {
+	
+		
+}
+
+gp_dalaran_northrend2 = {
+	
+		
+}
+
+gp_dalaran_northrend3 = {
+	
+            country_admin_power = 1
+            development_cost_in_primary_culture = -0.1
+		
+}
+
+gp_valiance_keep1 = {
+	
+		
+}
+
+gp_valiance_keep2 = {
+	
+		
+}
+
+gp_valiance_keep3 = {
+	
+            global_manpower_modifier = 0.1
+            defensiveness = 0.1
+		
+}
+
+gp_mimirons_workshop1 = {
+	
+		
+}
+
+gp_mimirons_workshop2 = {
+	
+		
+}
+
+gp_mimirons_workshop3 = {
+	
+            free_mil_policy = 1
+            technology_cost = -0.05
+		
+}
+
+gp_gundrak1 = {
+	
+		
+}
+
+gp_gundrak2 = {
+	
+		
+}
+
+gp_gundrak3 = {
+	
+            global_manpower_modifier = 0.1
+            manpower_recovery_speed = 0.1
+		
+}
+
+gp_icecrown_citadel1 = {
+	
+		
+}
+
+gp_icecrown_citadel2 = {
+	
+		
+}
+
+gp_icecrown_citadel3 = {
+	
+            reinforce_cost_modifier = -0.15
+            reinforce_speed = 0.15
+		
+}
+
+gp_shadow_vault1 = {
+	
+		
+}
+
+gp_shadow_vault2 = {
+	
+		
+}
+
+gp_shadow_vault3 = {
+	
+            spy_offence = 0.15
+            global_spy_defence = 0.15
+		
+}
+
+gp_corprethar1 = {
+	
+		
+}
+
+gp_corprethar2 = {
+	
+		
+}
+
+gp_corprethar3 = {
+	
+            hostile_attrition = 2
+            max_hostile_attrition = 2
+		
+}
+
+gp_ulduar_complex1 = {
+	
+		
+}
+
+gp_ulduar_complex2 = {
+	
+		
+}
+
+gp_ulduar_complex3 = {
+	
+            yearly_innovativeness = 1
+            technology_cost = -0.05
+		
+}
+
+gp_vault_of_archavon1 = {
+	
+		
+}
+
+gp_vault_of_archavon2 = {
+	
+		
+}
+
+gp_vault_of_archavon3 = {
+	
+            global_supply_limit_modifier = 0.1
+            fort_maintenance_modifier = -0.1
+		
+}
+
+gp_utgarde_keep1 = {
+	
+		
+}
+
+gp_utgarde_keep2 = {
+	
+		
+}
+
+gp_utgarde_keep3 = {
+	
+            army_tradition_decay = -0.01
+            land_forcelimit_modifier = 0.1
+		
+}
+
+gp_ymirjar1 = {
+	
+		
+}
+
+gp_ymirjar2 = {
+	
+		
+}
+
+gp_ymirjar3 = {
+	
+            army_tradition_decay = -0.01
+            land_attrition = -0.1
+		
+}
+
+gp_wyrmrest_temple1 = {
+	
+		
+}
+
+gp_wyrmrest_temple2 = {
+	
+		
+}
+
+gp_wyrmrest_temple3 = {
+	
+            prestige = 1.0
+            improve_relation_modifier = 0.1
+		
+}
+
+gp_the_nexus1 = {
+	
+		
+}
+
+gp_the_nexus2 = {
+	
+		
+}
+
+gp_the_nexus3 = {
+	
+            prestige = 1.0
+            technology_cost = -0.05
+		
+}
+
+gp_azjol_nerub1 = {
+	
+		
+}
+
+gp_azjol_nerub2 = {
+	
+		
+}
+
+gp_azjol_nerub3 = {
+	
+            prestige = 1
+            technology_cost = -0.05
+		
+}
+
+gp_crimson_citadel1 = {
+	           
+		
+}
+
+gp_crimson_citadel2 = {
+	
+		
+}
+
+gp_crimson_citadel3 = {
+	
+            warscore_cost_vs_other_religion = -0.1
+            global_missionary_strength = 0.02
+		
+}
+
+gp_ahn_kahet_temple1 = {
+	
+		
+}
+
+gp_ahn_kahet_temple2 = {
+	
+		
+}
+
+gp_ahn_kahet_temple3 = {
+	
+            prestige_decay = -0.01
+			idea_cost = -0.1
+		
+}
+
+gp_grizzlemaw1 = {
+	
+		
+}
+
+gp_grizzlemaw2 = {
+	
+		
+}
+
+gp_grizzlemaw3 = {
+	
+            max_absolutism = 10
+            global_unrest = -2
+		
+}
+
+gp_amphitheatre_of_anguish1 = {
+	
+		
+}
+
+gp_amphitheatre_of_anguish2 = {
+	
+		
+}
+
+gp_amphitheatre_of_anguish3 = {
+	
+            prestige = 1.0
+            general_cost = -0.2
+		
+}
+
+gp_black_temple1 = {
+	
+		
+}
+
+gp_black_temple2 = {
+	
+		
+}
+
+gp_black_temple3 = {
+	
+            prestige = 1.0
+            land_morale = 0.1
+		
+}
+
+gp_auchindoun1 = {
+	
+		
+}
+
+gp_auchindoun2 = {
+	
+		
+}
+
+gp_auchindoun3 = {
+	
+            missionaries = 1
+            global_missionary_strength = 0.01
+		
+}
+
+gp_shattrath_city1 = {
+	
+		
+}
+
+gp_shattrath_city2 = {
+	
+		
+}
+
+gp_shattrath_city3 = {
+	
+            global_tax_modifier = 0.1
+            global_unrest = -2
+		
+}
+
+gp_the_eye1 = {
+	
+		
+}
+
+gp_the_eye2 = {
+	
+		
+}
+
+gp_the_eye3 = {
+	
+            global_regiment_cost = -0.1
+            idea_cost = -0.05
+		
+}
+
+gp_hellfire_citadel1 = {
+	
+		
+}
+
+gp_hellfire_citadel2 = {
+	
+		
+}
+
+gp_hellfire_citadel3 = {
+	
+            land_forcelimit_modifier = 0.1
+            defensiveness = 0.1
+		
+}
+
+gp_oshugun1 = {
+	
+		
+}
+
+gp_oshugun2 = {
+	
+		
+}
+
+gp_oshugun3 = {
+	
+            prestige = 1.0
+            religious_unity = 0.15
+		
+}
+
+gp_hand_of_guldan1 = {
+	
+		
+}
+
+gp_hand_of_guldan2 = {
+	
+		
+}
+
+gp_hand_of_guldan3 = {
+	
+            free_mil_policy = 1
+            global_missionary_strength = 0.01
+		
+}
+
+gp_sporeggar1 = {
+	
+		
+}
+
+gp_sporeggar2 = {
+	
+		
+}
+
+gp_sporeggar3 = {
+	
+            land_maintenance_modifier = -0.1
+            global_regiment_cost = -0.1
+		
+}
+
+gp_stormspire1 = {
+	   
+		
+}
+
+gp_stormspire2 = {
+	   
+		
+}
+
+gp_stormspire3 = {
+	   
+            merchants = 1
+            trade_efficiency = 0.1
+		
+}
+
+gp_throne_of_kiljaeden_outland1 = {
+	
+		
+}
+
+gp_throne_of_kiljaeden_outland2 = {
+	
+		
+}
+
+gp_throne_of_kiljaeden_outland3 = {
+	
+            papal_influence = 3
+            warscore_cost_vs_other_religion = -0.1
+		
+}
+
+gp_bladespire_hold1 = {
+	
+		
+}
+
+gp_bladespire_hold2 = {
+	
+		
+}
+
+gp_bladespire_hold3 = {
+	
+            manpower_recovery_speed = 0.1
+            global_garrison_growth = 0.15
+		
+}
+
+gp_throne_of_elements_outland1 = {
+	
+		
+}
+
+gp_throne_of_elements_outland2 = {
+	
+		
+}
+
+gp_throne_of_elements_outland3 = {
+	
+            tolerance_heretic = 2
+            advisor_cost = -0.15
+		
+}
+
+gp_osul_mesa1 = {
+	
+		
+}
+
+gp_osul_mesa2 = {
+	
+		
+}
+
+gp_osul_mesa3 = {
+	
+            infantry_power = 0.05
+            global_manpower_modifier = 0.1
+		
+}
+
+gp_mogushan_vaults1 = {
+	
+		
+}
+
+gp_mogushan_vaults2 = {
+	
+		
+}
+
+gp_mogushan_vaults3 = {
+	
+            global_tax_income = 36
+            diplomatic_reputation = 1
+		
+}
+
+gp_mogushan_palace1 = {
+	
+		
+}
+
+gp_mogushan_palace2 = {
+	
+		
+}
+
+gp_mogushan_palace3 = {
+	
+            legitimacy = 1
+            republican_tradition = 1
+            devotion = 1
+            horde_unity = 1
+            meritocracy = 1
+            core_creation = -0.05
+		
+}
+
+gp_heart_of_fear1 = {
+	
+		
+}
+
+gp_heart_of_fear2 = {
+	
+		
+}
+
+gp_heart_of_fear3 = {
+	
+            reinforce_speed = 0.1
+            reinforce_cost_modifier = -0.2
+		
+}
+
+gp_sravess1 = {
+	
+		
+}
+
+gp_sravess2 = {
+	
+		
+}
+
+gp_sravess3 = {
+	
+            production_efficiency = 0.1
+            global_regiment_cost = -0.1
+		
+}
+
+gp_serpents_spine1 = {
+	
+		
+}
+
+gp_serpents_spine2 = {
+	
+		
+}
+
+gp_serpents_spine3 = {
+	
+            hostile_attrition = 2
+            max_hostile_attrition = 2
+		
+}
+
+gp_jade_serpent_statue1 = {
+	
+		
+}
+
+gp_jade_serpent_statue2 = {
+	
+		
+}
+
+gp_jade_serpent_statue3 = {
+	
+            improve_relation_modifier = 0.1
+            diplomatic_upkeep = 1
+		
+}
+
+gp_shadopan_monastery1 = {
+	
+		
+}
+
+gp_shadopan_monastery2 = {
+	
+		
+}
+
+gp_shadopan_monastery3 = {
+	
+            drill_gain_modifier = 0.1
+            defensiveness = 0.1
+		
+}
+
+gp_temple_of_the_white_tiger1 = {
+	
+		
+}
+
+gp_temple_of_the_white_tiger2 = {
+	
+		
+}
+
+gp_temple_of_the_white_tiger3 = {
+	
+            discipline = 0.05
+            army_tradition_decay = -0.01
+		
+}
+
+gp_temple_of_the_jade_serpent1 = {
+	
+		
+}
+
+gp_temple_of_the_jade_serpent2 = {
+	
+		
+}
+
+gp_temple_of_the_jade_serpent3 = {
+	
+            advisor_pool = 1
+            ae_impact = -0.1
+		
+}
+
+gp_temple_of_the_red_crane1 = {
+	
+		
+}
+
+gp_temple_of_the_red_crane2 = {
+	
+		
+}
+
+gp_temple_of_the_red_crane3 = {
+	
+            relation_with_accepted_culture = 10
+            num_accepted_cultures = 1
+		
+}
+
+gp_niuzao_temple1 = {
+	
+		
+}
+
+gp_niuzao_temple2 = {
+	
+		
+}
+
+gp_niuzao_temple3 = {
+	
+            overextension_impact_modifier = -0.1
+            siege_ability = 0.1
+		
+}
+
+gp_halfhill1 = {
+	
+		
+}
+
+gp_halfhill2 = {
+	
+		
+}
+
+gp_halfhill3 = {
+	
+            production_efficiency = 0.1
+            trade_steering = 0.1
+		
+}
+
+gp_tian_monastery1 = {
+	
+		
+}
+
+gp_tian_monastery2 = {
+	
+		
+}
+
+gp_tian_monastery3 = {
+	
+            tolerance_own = 1
+            religious_unity = 0.1
+		
+}
+
+gp_tavern_in_the_mists1 = {
+	
+		
+}
+
+gp_tavern_in_the_mists2 = {
+	
+		
+}
+
+gp_tavern_in_the_mists3 = {
+	
+            merchants = 1
+            trade_efficiency = 0.1
+		
+}
+
+gp_golden_pagoda1 = {
+	
+		
+}
+
+gp_golden_pagoda2 = {
+	
+		
+}
+
+gp_golden_pagoda3 = {
+	
+            prestige = 1.0
+            stability_cost_modifier = -0.1
+		
+}
+
+gp_throne_of_thunder1 = {
+	
+		
+}
+
+gp_throne_of_thunder2 = {
+	
+		
+}
+
+gp_throne_of_thunder3 = {
+	
+            army_tradition_decay = -0.01
+            province_warscore_cost = -0.1
+		
+}
+
+gp_darkspear_hold1 = {
+	
+		
+}
+
+gp_darkspear_hold2 = {
+	
+		
+}
+
+gp_darkspear_hold3 = {
+	
+            army_tradition = 1.0
+            general_cost = -0.2
+		
+}
+
+gp_vorshka_hold1 = {
+	
+		
+}
+
+gp_vorshka_hold2 = {
+	
+		
+}
+
+gp_vorshka_hold3 = {
+	
+            colonists = 1
+            colonist_placement_chance = 0.03
+		
+}
+
+gp_temple_of_igchairo1 = {
+	
+		
+}
+
+gp_temple_of_igchairo2 = {
+	
+		
+}
+
+gp_temple_of_igchairo3 = {
+	
+            missionaries = 1
+            global_missionary_strength = 0.02
+		
+}
+
+gp_mount_hiji1 = {
+	
+		
+}
+
+gp_mount_hiji2 = {
+	
+		
+}
+
+gp_mount_hiji3 = {
+	
+            hostile_attrition = 1
+            max_hostile_attrition = 1
+		
+}
+
+gp_parrottown1 = {
+	
+		
+}
+
+gp_parrottown2 = {
+	
+		
+}
+
+gp_parrottown3 = {
+	
+            prestige = 1.0
+            global_tax_modifier = 0.1
+		
+}
+
+gp_bootytown1 = {
+	
+		
+}
+
+gp_bootytown2 = {
+	
+		
+}
+
+gp_bootytown3 = {
+	
+            merchants = 1
+            trade_efficiency = 0.1
+		
+}
+
+gp_azureport1 = {
+	
+		
+}
+
+gp_azureport2 = {
+	
+		
+}
+
+gp_azureport3 = {
+	
+            navy_tradition = 1.0
+            global_sailors_modifier = 0.1
+		
+}
+
+gp_blacktide_lair1 = {
+	
+		
+}
+
+gp_blacktide_lair2 = {
+	
+		
+}
+
+gp_blacktide_lair3 = {
+	
+            global_tax_income = 36
+            development_cost = -0.05
+		
+}
+
+gp_oribos1 = {
+	
+		
+}
+
+gp_oribos2 = {
+	
+		
+}
+
+gp_oribos3 = {
+	
+            merchants = 1
+            trade_steering = 0.1
+		
+}
+
+gp_house_of_constructs1 = {
+	
+		
+}
+
+gp_house_of_constructs2 = {
+	
+		
+}
+
+gp_house_of_constructs3 = {
+	
+            manpower_recovery_speed = 0.1
+            global_regiment_cost = -0.1
+		
+}
+
+gp_house_of_rituals1 = {
+	
+		
+}
+
+gp_house_of_rituals2 = {
+	
+		
+}
+
+gp_house_of_rituals3 = {
+	
+            global_manpower_modifier = 0.1
+            land_forcelimit_modifier = 0.1
+		
+}
+
+gp_theatre_of_pain1 = {
+	
+		
+}
+
+gp_theatre_of_pain2 = {
+	
+		
+}
+
+gp_theatre_of_pain3 = {
+	
+            prestige = 1.0
+            army_tradition = 1.0
+		
+}
+
+gp_elysian_hold1 = {
+	
+		
+}
+
+gp_elysian_hold2 = {
+	
+		
+}
+
+gp_elysian_hold3 = {
+	
+            prestige = 1.0
+            development_cost = -0.1
+		
+}
+
+gp_heros_rest1 = {
+	
+		
+}
+
+gp_heros_rest2 = {
+	
+		
+}
+
+gp_heros_rest3 = {
+	
+            prestige = 1.0
+            trade_efficiency = 0.1
+		
+}
+
+gp_temple_of_courage1 = {
+	
+		
+}
+
+gp_temple_of_courage2 = {
+	
+		
+}
+
+gp_temple_of_courage3 = {
+	
+            prestige = 1.0
+            land_morale = 0.1
+		
+}
+
+gp_heart_of_the_forest1 = {
+	
+		
+}
+
+gp_heart_of_the_forest2 = {
+	
+		
+}
+
+gp_heart_of_the_forest3 = {
+	
+            prestige = 1.0
+            global_autonomy = -0.05
+		
+}
+
+gp_tirna_scithe1 = {
+	
+		
+}
+
+gp_tirna_scithe2 = {
+	
+		
+}
+
+gp_tirna_scithe3 = {
+	
+            missionaries = 1.0
+            global_missionary_strength = 0.02
+		
+}
+
+gp_de_other_side1 = {
+	
+		
+}
+
+gp_de_other_side2 = {
+	
+		
+}
+
+gp_de_other_side3 = {
+	
+            war_exhaustion = -0.03
+            manpower_recovery_speed = 0.1
+		
+}
+
+gp_castle_nathria1 = {
+	
+		
+}
+
+gp_castle_nathria2 = {
+	
+		
+}
+
+gp_castle_nathria3 = {
+	
+            prestige = 1.0
+            diplomatic_reputation = 2.0
+		
+}
+
+gp_dominance_keep1 = {
+	
+		
+}
+
+gp_dominance_keep2 = {
+	
+		
+}
+
+gp_dominance_keep3 = {
+	
+            warscore_from_battles_modifier = 0.15
+            province_warscore_cost = -0.1
+		
+}
+
+gp_halls_of_atonement1 = {
+	
+		
+}
+
+gp_halls_of_atonement2 = {
+	
+		
+}
+
+gp_halls_of_atonement3 = {
+	
+            missionaries = 1
+            global_missionary_strength = 0.02
+		
+}
+
+gp_torghast1 = {
+	
+		
+}
+
+gp_torghast2 = {
+	
+		
+}
+
+gp_torghast3 = {
+	
+            own_territory_dice_roll_bonus = 1.0
+            reinforce_cost_modifier = -0.1
+		
+}
+
+gp_sanctum_of_domination1 = {
+	
+		
+}
+
+gp_sanctum_of_domination2 = {
+	
+		
+}
+
+gp_sanctum_of_domination3 = {
+	
+            army_tradition = 1.0
+            discipline = 0.05
+		
+}
+
+gp_bilgewater_port1 = {
+	
+		
+}
+
+gp_bilgewater_port2 = {
+	
+		
+}
+
+gp_bilgewater_port3 = {
+	
+            merchants = 1
+            global_trade_power = 0.1
+		
+}
+
+gp_dazaralor1 = {
+	
+		
+}
+
+gp_dazaralor2 = {
+	
+		
+}
+
+gp_dazaralor3 = {
+	
+            prestige = 1.0
+			legitimacy = 1.0
+		
+}
+
+gp_ataldazar1 = {
+	
+		
+}
+
+gp_ataldazar2 = {
+	
+		
+}
+
+gp_ataldazar3 = {
+	
+			global_missionary_strength = 0.03
+			missionaries = 1
+		
+}
+
+gp_warport_rastari1 = {
+	
+		
+}
+
+gp_warport_rastari2 = {
+	
+		
+}
+
+gp_warport_rastari3 = {
+	
+            global_sailors_modifier = 0.1
+			navy_tradition = 1
+		
+}
+
+gp_altar_of_rot1 = {
+	
+		
+}
+
+gp_altar_of_rot2 = {
+	
+		
+}
+
+gp_altar_of_rot3 = {
+	
+            siege_ability = 0.05
+		
+}
+
+gp_nazwatha1 = {
+	
+		
+}
+
+gp_nazwatha2 = {
+	
+		
+}
+
+gp_nazwatha3 = {
+	
+            diplomatic_reputation = 1
+            diplomatic_upkeep = 1
+		
+}
+
+gp_atulaman1 = {
+	
+		
+}
+
+gp_atulaman2 = {
+	
+		
+}
+
+gp_atulaman3 = {
+	
+            tolerance_own = 1
+            missionary_maintenance_cost = -0.1
+		
+}
+
+gp_port_zemlan1 = {
+	
+		
+}
+
+gp_port_zemlan2 = {
+	
+		
+}
+
+gp_port_zemlan3 = {
+	
+            sailors_recovery_speed = 0.1
+            privateer_efficiency = 0.2
+		
+}
+
+gp_temple_of_sethraliss1 = {
+	
+		
+}
+
+gp_temple_of_sethraliss2 = {
+	
+		
+}
+
+gp_temple_of_sethraliss3 = {
+	
+            shock_damage = 0.1
+		
+}
+
+gp_uldir_complex1 = {
+	
+		
+}
+
+gp_uldir_complex2 = {
+	
+		
+}
+
+gp_uldir_complex3 = {
+	
+            infantry_shock = 0.5
+            mil_tech_cost_modifier = -0.05
+		
+}
+

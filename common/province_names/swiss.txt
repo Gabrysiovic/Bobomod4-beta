@@ -1,0 +1,5 @@
+1867 = "Vaud"
+1871 = "Valais"
+4720 = "Genève"
+4721 = "Fribourg"
+1870 = "St. Gallen"

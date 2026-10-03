@@ -1,0 +1,2157 @@
+gp_xenedar_modifier_trigger = { 
+is_state = yes
+		OR = {
+		    has_monument_research_argus = yes
+            is_available_to_void = yes
+			is_available_to_holy_light = yes
+			is_available_to_light_of_the_naaru = yes
+			is_available_to_ethereal = yes
+			is_available_to_draenei = yes
+        }
+}
+
+gp_seat_of_triumvirate_modifier_trigger = { 
+is_state = yes
+		OR = {
+		    has_monument_research_argus = yes
+            is_available_to_draenei = yes
+			is_available_to_demonic = yes
+			is_available_to_broken = yes
+        }
+}
+
+gp_antorus_modifier_trigger = { 
+is_state = yes
+		OR = {
+		    has_monument_research_argus = yes
+			is_available_to_demonic = yes
+        }
+}
+
+gp_temple_of_elune_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_broken_isles = yes
+            is_available_to_night_elf = yes
+            is_available_to_high_elf = yes
+            is_available_to_nightborne = yes
+        }
+}
+
+gp_narthalas_academy_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_broken_isles = yes
+            is_available_to_night_elf = yes
+            is_available_to_high_elf = yes
+            is_available_to_nightborne = yes
+        }
+}
+
+gp_vault_of_the_wardens_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_broken_isles = yes
+            is_available_to_night_elf = yes
+            is_available_to_high_elf = yes
+            is_available_to_nightborne = yes
+        }
+}
+
+gp_black_rook_hold_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_thunder_totem_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_broken_isles = yes
+            is_available_to_tauren = yes
+        }
+}
+
+gp_nighthold_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_broken_isles = yes
+            is_available_to_nightborne = yes
+        }
+}
+
+gp_astravar_harbour_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_broken_isles = yes
+            is_available_to_nightborne = yes
+        }
+}
+
+gp_falanaar_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_broken_isles = yes
+            is_available_to_nightborne = yes
+            is_available_to_faldorei = yes
+        }
+}
+
+gp_moonguard_stronghold_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_broken_isles = yes
+            is_available_to_nightborne = yes
+        }
+}
+
+gp_halls_of_valor_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_broken_isles = yes
+            is_available_to_titan = yes
+            is_available_to_earthen = yes
+            is_available_to_vrykul = yes
+        }
+}
+
+gp_haustvald_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_broken_isles = yes
+            is_available_to_vrykul = yes
+        }
+}
+
+gp_tomb_of_sargeras_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_broken_isles = yes
+            is_available_to_fel = yes
+        }
+}
+
+deep_sea_current_1_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 617
+		}
+}
+
+deep_sea_current_2_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 4923
+		}
+}
+
+deep_sea_current_3_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 4933
+		}
+}
+
+deep_sea_current_4_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 4925
+		}
+}
+
+deep_sea_current_5_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 3174
+		}
+}
+
+deep_sea_current_6_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 577
+		}
+}
+
+deep_sea_current_7_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 4893
+		}
+}
+
+deep_sea_current_8_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 4889
+		}
+}
+
+deep_sea_current_9_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 573
+		}
+}
+
+deep_sea_current_10_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 4908
+		}
+}
+
+deep_sea_current_11_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 4901
+		}
+}
+
+deep_sea_current_12_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 4912
+		}
+}
+
+deep_sea_current_13_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 4926
+		}
+}
+
+deeprun_tram_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2505
+		}
+}
+
+deepholm_rift_feralas_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2535
+		}
+}
+
+deepholm_rift_arathi_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2539
+		}
+}
+
+deepholm_rift_howling_fjord_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2532
+		}
+}
+
+deepholm_rift_kunlai_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 3160
+		}
+}
+
+abyssal_maw_rift_vashjir_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2548
+		}
+}
+
+abyssal_maw_rift_stonetalon_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2557
+		}
+}
+
+abyssal_maw_rift_sholazar_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2564
+		}
+}
+
+abyssal_maw_rift_krasarang_wilds_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2552
+		}
+}
+
+firelands_rift_blackrock_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2576
+		}
+}
+
+firelands_rift_hyjal_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2593
+		}
+}
+
+firelands_rift_boreal_tundra_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2585
+		}
+}
+
+firelands_rift_townlong_steppes_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2581
+		}
+}
+
+skywall_rift_uldum_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2523
+		}
+}
+
+skywall_rift_westfall_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2527
+		}
+}
+
+skywall_rift_dragonblight_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2530
+		}
+}
+
+skywall_rift_jade_forest_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2525
+		}
+}
+
+argus_rift_icecrown_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2764
+		}
+}
+
+argus_rift_hyjal_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2773
+		}
+}
+
+argus_rift_throne_of_kiljaeden_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2769
+		}
+}
+
+argus_rift_throne_of_kiljaeden_draenor_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2765
+		}
+}
+
+argus_rift_tomb_of_sargeras_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 2772
+		}
+}
+
+oribos_rift_icecrown_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 4808
+		}
+}
+
+frozen_rift_brill_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 3220
+		}
+}
+
+frozen_rift_stratholme_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 3221
+		}
+}
+
+frozen_rift_andorhal_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 3227
+		}
+}
+
+mistfall_tunnel_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 1813
+		}
+}
+
+demonic_rift_conflagration_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 1665
+		}
+}
+
+dark_portal_outland_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 1586
+		}
+}
+
+dark_portal_draenor_modifier_trigger = { 
+owner = {
+			owns_or_vassal_of = 3792
+		}
+}
+
+gp_oshugun_draenor_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_draenor = yes
+            is_available_to_orc = yes
+        }
+}
+
+gp_hellfire_citadel_draenor_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_draenor = yes
+            is_available_to_orc = yes
+            is_available_to_ogre = yes
+            is_available_to_demonic = yes
+        }
+}
+
+gp_shattrath_draenor_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_draenor = yes
+            is_available_to_draenei = yes
+            is_available_to_broken = yes
+        }
+}
+
+gp_karabor_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_draenor = yes
+            is_available_to_draenei = yes
+            is_available_to_broken = yes
+            is_available_to_demonic = yes
+            is_available_to_demon_hunter = yes
+        }
+}
+
+gp_auchindoun_draenor_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_draenor = yes
+            is_available_to_draenei = yes
+            is_available_to_broken = yes
+            is_available_to_demonic = yes
+            is_available_to_demon_hunter = yes
+        }
+}
+
+gp_apexis_chamber_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_draenor = yes
+            is_available_to_arrakoa = yes
+        }
+}
+
+gp_throne_of_kiljaeden_draenor_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_draenor = yes
+            is_available_to_demonic = yes
+			is_available_to_orc = yes
+        }
+}
+
+gp_blackrock_foundry_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_draenor = yes
+			is_available_to_orc = yes
+        }
+}
+
+gp_bladespire_citadel_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_draenor = yes
+			is_available_to_orc = yes
+			is_available_to_ogre = yes
+        }
+}
+
+gp_throne_of_elements_draenor_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_vault_of_the_incarnates_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_dragon_isles = yes
+            is_available_to_dragon = yes
+            is_available_to_primalist = yes
+        }
+}
+
+gp_tyrhold_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_dragon_isles = yes
+            is_available_to_dragon = yes
+            is_available_to_titan = yes
+        }
+}
+
+gp_algethar_academy_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_dragon_isles = yes
+            is_available_to_dragon = yes
+            is_available_to_titan = yes
+        }
+}
+
+gp_neltharus_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_dragon_isles = yes
+            is_available_to_dragon = yes
+        }
+}
+
+gp_ruby_life_pools_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_dragon_isles = yes
+            is_available_to_dragon = yes
+        }
+}
+
+gp_brackenhide_hollow_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_dragon_isles = yes
+            is_available_to_gnoll = yes
+        }
+}
+
+gp_azure_vault_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_dragon_isles = yes
+            is_available_to_dragon = yes
+        }
+}
+
+gp_nokhudon_hold_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_dragon_isles = yes
+            is_available_to_centaur = yes
+        }
+}
+
+gp_maruukai_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_dragon_isles = yes
+            is_available_to_centaur = yes
+        }
+}
+
+gp_cobalt_assembly_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_dragon_isles = yes
+            is_available_to_dragon = yes
+        }
+}
+
+gp_iskaara_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_dragon_isles = yes
+            is_available_to_tuskarr = yes
+        }
+}
+
+gp_zskera_vaults_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_dragon_isles = yes
+            is_available_to_dragon = yes
+        }
+}
+
+gp_dracthyr_vault_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_dragon_isles = yes
+            is_available_to_dragon = yes
+        }
+}
+
+gp_seradane_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_night_elf = yes
+            is_available_to_high_elf = yes
+            is_available_to_green_dragonflight = yes
+        }
+}
+
+gp_twilight_grove_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_night_elf = yes
+            is_available_to_high_elf = yes
+            is_available_to_nightborne = yes
+            is_available_to_green_dragonflight = yes
+        }
+}
+
+gp_stormwind_keep_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_stromgarde_keep_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_gilneas_city_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_human = yes
+        }
+}
+
+gp_lordaeron_city_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_human = yes
+            is_available_to_undead = yes
+        }
+}
+
+gp_lights_hope_chapel_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_holy_light = yes
+            is_available_to_scarlet_light = yes
+            is_available_to_argent_light = yes
+        }
+}
+
+gp_stratholme_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_human = yes
+            is_available_to_undead = yes
+        }
+}
+
+gp_durnholde_keep_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_human = yes
+        }
+}
+
+gp_thoradins_wall_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_karazhan_tower_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_westfall_lighthouse_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_statue_of_anduin_lothar_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_human = yes
+        }
+}
+
+gp_uthers_tomb_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_human = yes
+        }
+}
+
+gp_tyrs_hand_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_human = yes
+            is_available_to_undead = yes
+            is_available_to_scourge = yes
+        }
+}
+
+gp_baradin_hold_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_human = yes
+        }
+}
+
+gp_dalaran_ek_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_human = yes
+            is_available_to_high_elf = yes
+        }
+}
+
+gp_ironforge_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_dwarf = yes
+        }
+}
+
+gp_blackrock_mountain_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_dwarf = yes
+            is_available_to_flame = yes
+            is_available_to_corrupt_dragon_aspect = yes
+        }
+}
+
+gp_black_anvil_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_dwarf = yes
+            is_available_to_flame = yes
+            is_available_to_corrupt_dragon_aspect = yes
+        }
+}
+
+gp_grim_batol_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_dwarf = yes
+            is_available_to_corrupt_dragon_aspect = yes
+        }
+}
+
+gp_aerie_peak_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_dwarf = yes
+        }
+}
+
+gp_stonewrought_dam_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_thandol_span_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_gnomeregan_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_gnome = yes
+            is_available_to_mechagnome = yes
+        }
+}
+
+gp_sunwell_plateau_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_high_elf = yes
+        }
+}
+
+gp_magisters_terrace_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_high_elf = yes
+        }
+}
+
+gp_thalassian_pass_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_windrunner_spire_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_high_elf = yes
+        }
+}
+
+gp_falthrien_academy_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_high_elf = yes
+        }
+}
+
+gp_sunfury_spire_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_high_elf = yes
+        }
+}
+
+gp_dragonmaw_port_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_orc = yes
+        }
+}
+
+gp_janeiros_point_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_goblin = yes
+        }
+}
+
+gp_zulaman_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_zulmashar_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_altar_of_zul_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_shadraalor_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_temple_of_atalhakkar_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_zulkunda_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_gurubashi_arena_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_zulmamwe_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_temple_of_hakkar_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_acherus_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_scourge = yes
+            is_available_to_undead = yes
+        }
+}
+
+gp_scholomance_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_scourge = yes
+            is_available_to_undead = yes
+        }
+}
+
+gp_deatholme_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_scourge = yes
+            is_available_to_undead = yes
+        }
+}
+
+gp_uldaman_complex_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_titan = yes
+            is_available_to_earthen = yes
+        }
+}
+
+gp_scarlet_monastery_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_holy_light = yes
+            is_available_to_scarlet_light = yes
+            is_available_to_argent_light = yes
+        }
+}
+
+gp_deadmines_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_deathknell_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_undead = yes
+            is_available_to_scourge = yes
+        }
+}
+
+gp_amani_catacombs_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_bastion_of_twilight_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            religion = twilight_cult
+        }
+}
+
+gp_bloodsail_hold_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            AND = {
+                is_available_to_human = yes
+                religion = shadow
+            }
+        }
+}
+
+gp_naxxramas_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_scourge = yes
+            is_available_to_undead = yes
+        }
+}
+
+gp_greymane_wall_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_human = yes
+			is_available_to_worgen = yes
+        }
+}
+
+gp_tyrs_tomb_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_human = yes
+			is_available_to_holy_light = yes
+			is_available_to_scarlet_light = yes
+			is_available_to_argent_light = yes
+        }
+}
+
+gp_cathedral_of_light_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_human = yes
+			is_available_to_holy_light = yes
+			is_available_to_scarlet_light = yes
+			is_available_to_argent_light = yes
+        }
+}
+
+gp_stormwind_mage_tower_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_eastern_kingdoms = yes
+            is_available_to_human = yes
+			is_available_to_arcane = yes
+		}
+}
+
+gp_temple_of_earth_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_elemental_realms = yes
+			is_available_to_elemental = yes
+            is_available_to_earth = yes
+        }
+}
+
+gp_sulfuron_keep_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_elemental_realms = yes
+            is_available_to_elemental = yes
+			is_available_to_flame = yes
+        }
+}
+
+gp_throne_of_tides_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_elemental_realms = yes
+            is_available_to_elemental = yes
+			is_available_to_water = yes
+        }
+}
+
+gp_throne_of_the_four_winds_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_elemental_realms = yes
+            is_available_to_elemental = yes
+			is_available_to_wind = yes
+        }
+}
+
+gp_nordrassil_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_night_elf = yes
+            is_available_to_high_elf = yes
+            is_available_to_nightborne = yes
+			is_available_to_druidism = yes
+        }
+}
+
+gp_ravencrest_monument_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_night_elf = yes
+            is_available_to_high_elf = yes
+            is_available_to_nightborne = yes
+        }
+}
+
+gp_temple_of_the_moon_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_night_elf = yes
+            is_available_to_high_elf = yes
+            is_available_to_nightborne = yes
+        }
+}
+
+gp_shrine_of_remulos_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_night_elf = yes
+            is_available_to_high_elf = yes
+            is_available_to_nightborne = yes
+        }
+}
+
+gp_loretharan_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_night_elf = yes
+            is_available_to_high_elf = yes
+            is_available_to_nightborne = yes
+        }
+}
+
+gp_dire_maul_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_isildien_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_night_elf = yes
+            is_available_to_high_elf = yes
+            is_available_to_nightborne = yes
+        }
+}
+
+gp_latharlazal_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_night_elf = yes
+            is_available_to_high_elf = yes
+            is_available_to_nightborne = yes
+            is_available_to_naga = yes
+        }
+}
+
+gp_ametharan_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_night_elf = yes
+            is_available_to_high_elf = yes
+            is_available_to_nightborne = yes
+        }
+}
+
+gp_keltheril_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_night_elf = yes
+            is_available_to_high_elf = yes
+            is_available_to_nightborne = yes
+        }
+}
+
+gp_thaldarah_grove_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_druidism = yes
+        }
+}
+
+gp_sanctuary_of_malorne_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_druidism = yes
+        }
+}
+
+gp_shrine_of_aviana_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_harpy = yes
+            is_available_to_druidism = yes
+        }
+}
+
+gp_auberdine_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_night_elf = yes
+            is_available_to_high_elf = yes
+            is_available_to_nightborne = yes
+        }
+}
+
+gp_tower_of_althalaxx_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_shadow = yes
+            is_available_to_fel = yes
+        }
+}
+
+gp_bael_modan_digsite_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_dwarf = yes
+        }
+}
+
+gp_exodar_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_draenei = yes
+            is_available_to_broken = yes
+        }
+}
+
+gp_valley_of_strength_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_orc = yes
+            is_available_to_tauren = yes
+            is_available_to_goblin = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_crossroads_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_orc = yes
+            is_available_to_tauren = yes
+            is_available_to_goblin = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_great_gate_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_thunderbluff_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_tauren = yes
+        }
+}
+
+gp_gadgetzan_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_everlook_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_ratchet_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_zulfarrak_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_halls_of_origination_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_titan = yes
+            is_available_to_earthen = yes
+            is_available_to_tolvir = yes
+        }
+}
+
+gp_shapers_terrace_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_titan = yes
+            is_available_to_earthen = yes
+        }
+}
+
+gp_masters_glaive_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_titan = yes
+            is_available_to_earthen = yes
+            is_available_to_night_elf = yes
+        }
+}
+
+gp_vault_of_cthun_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_cthun = yes
+        }
+}
+
+gp_cenarion_hold_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_night_elf = yes
+        }
+}
+
+gp_fire_plume_ridge_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            always = yes
+        }
+}
+
+gp_theramore_citadel_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_human = yes
+        }
+}
+
+gp_maraudon_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_centaur = yes
+            is_available_to_titan = yes
+            is_available_to_earthen = yes
+        }
+}
+
+gp_shrine_of_aessina_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_druidism = yes
+			is_available_to_night_elf = yes
+        }
+}
+
+gp_library_of_eldrethalas_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_virnaal_dam_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_temple_of_zin_malor_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_night_elf = yes
+            is_available_to_naga = yes
+			is_available_to_fel = yes
+        }
+}
+
+gp_scarab_wall_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_aqir = yes
+        }
+}
+
+gp_obelisk_of_the_moon_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_tolvir = yes
+			owner = { tag = POA }
+        }
+}
+
+gp_obelisk_of_the_stars_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_tolvir = yes
+			owner = { tag = POA }
+        }
+}
+
+gp_obelisk_of_the_sun_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kalimdor = yes
+            is_available_to_tolvir = yes
+			owner = { tag = POA }
+        }
+}
+
+gp_shrine_of_storms_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kul_tiras = yes
+            is_available_to_human = yes
+        }
+}
+
+gp_boralus_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kul_tiras = yes
+            is_available_to_human = yes
+        }
+}
+
+gp_waycrest_manor_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kul_tiras = yes
+            is_available_to_human = yes
+            is_available_to_drust = yes
+        }
+}
+
+gp_rustbolt_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kul_tiras = yes
+            is_available_to_gnome = yes
+            is_available_to_mechagnome = yes
+        }
+}
+
+gp_mechagon_city_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_kul_tiras = yes
+            is_available_to_gnome = yes
+            is_available_to_mechagnome = yes
+        }
+}
+
+gp_zinazshari_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_naga_domain = yes
+            is_available_to_naga = yes
+        }
+}
+
+gp_vordrassil_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_night_elf = yes
+			is_available_to_furbolg = yes
+			is_available_to_druidism = yes
+        }
+}
+
+gp_dalaran_northrend_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_human = yes
+            is_available_to_high_elf = yes
+        }
+}
+
+gp_valiance_keep_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_human = yes
+            is_available_to_high_elf = yes
+        }
+}
+
+gp_mimirons_workshop_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_gundrak_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_icecrown_citadel_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_scourge = yes
+            is_available_to_undead = yes
+        }
+}
+
+gp_shadow_vault_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_scourge = yes
+            is_available_to_undead = yes
+        }
+}
+
+gp_corprethar_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_scourge = yes
+            is_available_to_undead = yes
+        }
+}
+
+gp_ulduar_complex_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_titan = yes
+            is_available_to_earthen = yes
+        }
+}
+
+gp_vault_of_archavon_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_titan = yes
+            is_available_to_earthen = yes
+        }
+}
+
+gp_utgarde_keep_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_vrykul = yes
+        }
+}
+
+gp_ymirjar_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_vrykul = yes
+        }
+}
+
+gp_wyrmrest_temple_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_dragon_aspects = yes
+        }
+}
+
+gp_the_nexus_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_dragon_aspects = yes
+        }
+}
+
+gp_azjol_nerub_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_nerubian = yes
+        }
+}
+
+gp_crimson_citadel_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_scarlet_light = yes
+        }
+}
+
+gp_ahn_kahet_temple_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_nerubian = yes
+			is_available_to_scourge = yes
+        }
+}
+
+gp_grizzlemaw_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+			is_available_to_furbolg = yes
+        }
+}
+
+gp_amphitheatre_of_anguish_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_northrend = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_black_temple_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_outland = yes
+            is_available_to_draenei = yes
+            is_available_to_broken = yes
+            is_available_to_demonic = yes
+            is_available_to_demon_hunter = yes
+        }
+}
+
+gp_auchindoun_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_outland = yes
+            is_available_to_draenei = yes
+            is_available_to_broken = yes
+            is_available_to_demonic = yes
+            is_available_to_demon_hunter = yes
+        }
+}
+
+gp_shattrath_city_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_outland = yes
+            is_available_to_draenei = yes
+            is_available_to_broken = yes
+        }
+}
+
+gp_the_eye_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_outland = yes
+            is_available_to_high_elf = yes
+        }
+}
+
+gp_hellfire_citadel_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_outland = yes
+            is_available_to_orc = yes
+            is_available_to_ogre = yes
+            is_available_to_demonic = yes
+        }
+}
+
+gp_oshugun_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_outland = yes
+            is_available_to_orc = yes
+        }
+}
+
+gp_hand_of_guldan_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_outland = yes
+            is_available_to_orc = yes
+            is_available_to_demonic = yes
+            is_available_to_demon_hunter = yes
+        }
+}
+
+gp_sporeggar_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_outland = yes
+            is_available_to_zangar = yes
+        }
+}
+
+gp_stormspire_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_throne_of_kiljaeden_outland_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_outland = yes
+            is_available_to_demonic = yes
+			is_available_to_orc = yes
+			is_available_to_high_elf = yes
+        }
+}
+
+gp_bladespire_hold_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_outland = yes
+			is_available_to_ogre = yes
+        }
+}
+
+gp_throne_of_elements_outland_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_osul_mesa_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_pandaria = yes
+            is_available_to_yaungol = yes
+        }
+}
+
+gp_mogushan_vaults_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_pandaria = yes
+            is_available_to_titan = yes
+            is_available_to_earthen = yes
+            is_available_to_mogu = yes
+            is_available_to_pandaren = yes
+            is_available_to_jinyu = yes
+            is_available_to_saurok = yes
+        }
+}
+
+gp_mogushan_palace_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_pandaria = yes
+            is_available_to_titan = yes
+            is_available_to_earthen = yes
+            is_available_to_mogu = yes
+            is_available_to_pandaren = yes
+            is_available_to_jinyu = yes
+            is_available_to_saurok = yes
+        }
+}
+
+gp_heart_of_fear_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_pandaria = yes
+            is_available_to_mantid = yes
+        }
+}
+
+gp_sravess_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_pandaria = yes
+            is_available_to_mantid = yes
+        }
+}
+
+gp_serpents_spine_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_jade_serpent_statue_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_pandaria = yes
+            is_available_to_celestials = yes
+        }
+}
+
+gp_shadopan_monastery_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_pandaria = yes
+            is_available_to_pandaren = yes
+        }
+}
+
+gp_temple_of_the_white_tiger_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_pandaria = yes
+            is_available_to_celestials = yes
+        }
+}
+
+gp_temple_of_the_jade_serpent_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_pandaria = yes
+            is_available_to_celestials = yes
+        }
+}
+
+gp_temple_of_the_red_crane_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_pandaria = yes
+            is_available_to_celestials = yes
+        }
+}
+
+gp_niuzao_temple_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_pandaria = yes
+            is_available_to_celestials = yes
+        }
+}
+
+gp_halfhill_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_pandaria = yes
+            is_available_to_pandaren = yes
+        }
+}
+
+gp_tian_monastery_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_pandaria = yes
+            is_available_to_pandaren = yes
+        }
+}
+
+gp_tavern_in_the_mists_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_golden_pagoda_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_pandaria = yes
+            is_available_to_pandaren = yes
+        }
+}
+
+gp_throne_of_thunder_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_pandaria = yes
+            is_available_to_mogu = yes
+        }
+}
+
+gp_darkspear_hold_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_paradise_isles = yes
+            owner = { is_paradise_nation = yes }
+        }
+}
+
+gp_vorshka_hold_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_paradise_isles = yes
+            owner = { is_paradise_nation = yes }
+        }
+}
+
+gp_temple_of_igchairo_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_paradise_isles = yes
+            owner = { is_paradise_nation = yes }
+        }
+}
+
+gp_mount_hiji_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_plunder_isle = yes
+            owner = { is_pirate = yes }
+        }
+}
+
+gp_parrottown_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_plunder_isle = yes
+            owner = { is_pirate = yes }
+        }
+}
+
+gp_bootytown_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_plunder_isle = yes
+            owner = { is_pirate = yes }
+        }
+}
+
+gp_azureport_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_plunder_isle = yes
+            owner = { is_pirate = yes }
+        }
+}
+
+gp_blacktide_lair_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_plunder_isle = yes
+            owner = { is_pirate = yes }
+        }
+}
+
+gp_oribos_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_shadowlands = yes
+            is_available_to_soul = yes
+        }
+}
+
+gp_house_of_constructs_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_shadowlands = yes
+            is_available_to_soul = yes
+        }
+}
+
+gp_house_of_rituals_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_shadowlands = yes
+            is_available_to_soul = yes
+        }
+}
+
+gp_theatre_of_pain_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_shadowlands = yes
+            is_available_to_soul = yes
+        }
+}
+
+gp_elysian_hold_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_shadowlands = yes
+            is_available_to_soul = yes
+        }
+}
+
+gp_heros_rest_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_shadowlands = yes
+            is_available_to_soul = yes
+        }
+}
+
+gp_temple_of_courage_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_shadowlands = yes
+            is_available_to_soul = yes
+        }
+}
+
+gp_heart_of_the_forest_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_shadowlands = yes
+            is_available_to_soul = yes
+        }
+}
+
+gp_tirna_scithe_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_shadowlands = yes
+            is_available_to_soul = yes
+        }
+}
+
+gp_de_other_side_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_shadowlands = yes
+            is_available_to_soul = yes
+        }
+}
+
+gp_castle_nathria_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_shadowlands = yes
+            is_available_to_soul = yes
+        }
+}
+
+gp_dominance_keep_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_shadowlands = yes
+            is_available_to_soul = yes
+        }
+}
+
+gp_halls_of_atonement_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_shadowlands = yes
+            is_available_to_soul = yes
+        }
+}
+
+gp_torghast_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_shadowlands = yes
+            is_available_to_domination = yes
+        }
+}
+
+gp_sanctum_of_domination_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_shadowlands = yes
+            is_available_to_domination = yes
+        }
+}
+
+gp_bilgewater_port_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_south_seas = yes
+            is_available_to_goblin = yes
+        }
+}
+
+gp_dazaralor_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_zandalar = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_ataldazar_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_zandalar = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_warport_rastari_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_zandalar = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_altar_of_rot_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_zandalar = yes
+            is_available_to_bloodmancy = yes
+        }
+}
+
+gp_nazwatha_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_zandalar = yes
+            is_available_to_troll = yes
+        }
+}
+
+gp_atulaman_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_zandalar = yes
+            is_available_to_troll = yes
+            is_available_to_vulpera = yes
+            is_available_to_sethrak = yes
+            is_available_to_titan = yes
+        }
+}
+
+gp_port_zemlan_modifier_trigger = { 
+is_state = yes
+		always = yes # General
+}
+
+gp_temple_of_sethraliss_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_zandalar = yes
+            is_available_to_sethrak = yes
+        }
+}
+
+gp_uldir_complex_modifier_trigger = { 
+is_state = yes
+		OR = {
+            has_monument_research_zandalar = yes
+            is_available_to_titan = yes
+            is_available_to_earthen = yes
+            is_available_to_bloodmancy = yes
+        }
+}
+

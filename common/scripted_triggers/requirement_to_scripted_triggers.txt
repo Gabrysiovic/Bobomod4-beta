@@ -1,0 +1,202 @@
+nhs_cothon_modifier_trigger = { 
+owner = {
+			nhs_eligible_for_elysian_monument = yes
+		}
+}
+
+nhs_alexandrian_library_modifier_trigger = { 
+owner = {
+			nhs_eligible_for_elysian_monument = yes
+		}
+}
+
+nhs_hippodrome_modifier_trigger = { 
+owner = {
+			nhs_eligible_for_elysian_monument = yes
+		}
+}
+
+nhs_elysian_arsenal_modifier_trigger = { 
+owner = {
+			nhs_eligible_for_elysian_monument = yes
+		}
+}
+
+nhs_temple_of_marble_emperors_v1_modifier_trigger = { 
+owner = {
+			OR = {
+				religion = pantheon_worship
+				religion = aztlan_worship
+			}
+			nhs_eligible_for_elysian_monument = yes
+		}
+}
+
+nhs_temple_of_marble_emperors_v2_modifier_trigger = { 
+owner = {
+			OR = {
+				religion = pantheon_worship
+				religion = aztlan_worship
+			}
+			nhs_eligible_for_elysian_monument = yes
+		}
+}
+
+nhs_temple_of_marble_emperors_v3_modifier_trigger = { 
+owner = {
+			OR = {
+				religion = pantheon_worship
+				religion = aztlan_worship
+			}
+			nhs_eligible_for_elysian_monument = yes
+		}
+}
+
+nhs_hagia_theotoke_v1_modifier_trigger = { 
+owner = {
+			religion_group = christian
+			nhs_eligible_for_elysian_monument = yes
+		}
+}
+
+nhs_hagia_theotoke_v2_modifier_trigger = { 
+owner = {
+			religion_group = christian
+			nhs_eligible_for_elysian_monument = yes
+		}
+}
+
+nhs_hagia_theotoke_v3_modifier_trigger = { 
+owner = {
+			religion_group = christian
+			nhs_eligible_for_elysian_monument = yes
+		}
+}
+
+nhs_baalbek_temple_complex_modifier_trigger = { 
+to_province_is_or_accepts_religion_exarch = {
+			religion = pantheon_worship
+		}
+}
+
+nhs_diocletian_palace_modifier_trigger = { 
+to_province_is_or_accepts_religion_exarch = {
+			religion = pantheon_worship
+		}
+}
+
+nhs_amphitheatre_of_thysdrus_modifier_trigger = { 
+to_province_is_or_accepts_religion_exarch = {
+			religion = pantheon_worship
+		}
+}
+
+nhs_colosseum_modifier_trigger = { 
+to_province_is_or_accepts_religion_exarch = {
+			religion = pantheon_worship
+		}
+}
+
+nhs_pantheon_modifier_trigger = { 
+hidden_trigger = {
+			has_province_flag = to_pantheon_great_project_non_syncretic
+		}
+		owner = {
+			religion = pantheon_worship
+		}
+		# to_province_is_or_accepts_religion_exarch = {
+		# 	religion = pantheon_worship
+		# }
+}
+
+nhs_pantheon_syncretic_modifier_trigger = { 
+hidden_trigger = {
+			NOT = { has_province_flag = to_pantheon_great_project_non_syncretic }
+		}
+		if = {
+			limit = {
+				has_province_flag = to_enable_pantheon_for_christians
+			}
+			owner = {
+				OR = {
+					religion = pantheon_worship
+					religion_group = christian
+				}
+			}
+			# OR = {
+			# 	to_province_is_or_accepts_religion_exarch = {
+			# 		religion = pantheon_worship
+			# 	}
+			# 	to_province_is_or_accepts_religion_group_exarch = {
+			# 		religion_group = christian
+			# 	}
+			# }
+		}
+		else = {
+			owner = {
+				religion = pantheon_worship
+			}
+			# to_province_is_or_accepts_religion_exarch = {
+			# 	religion = pantheon_worship
+			# }
+		}
+}
+
+to_akrotirion_modifier_trigger = { 
+if = {
+			limit = {
+				owner = {
+					is_subject = yes
+				}
+			}
+			owner = {
+				OR = {
+					mission_completed = to_gateway_to_elysium_mission
+					overlord = {
+						mission_completed = to_gateway_to_elysium_mission
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				mission_completed = to_gateway_to_elysium_mission
+			}
+		}
+}
+
+to_elysian_highways_project_modifier_trigger = { 
+if = {
+			limit = {
+				owner = {
+					is_subject = yes
+				}
+			}
+			owner = {
+				OR = {
+					mission_completed = to_beyond_the_apaleisians_mission
+					overlord = {
+						mission_completed = to_beyond_the_apaleisians_mission
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				mission_completed = to_beyond_the_apaleisians_mission
+			}
+		}
+}
+
+kiel_canal_outward_boost_modifier_trigger = { 
+
+}
+
+suez_canal_outward_boost_modifier_trigger = { 
+
+}
+
+panama_canal_outward_boost_modifier_trigger = { 
+
+}
+

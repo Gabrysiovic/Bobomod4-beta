@@ -1,0 +1,729 @@
+blackheads1 = {
+	
+			naval_forcelimit_modifier = 0.05
+			mercantilism_cost = -0.05
+		
+}
+
+blackheads2 = {
+	
+			naval_forcelimit_modifier = 0.1
+			mercantilism_cost = -0.1
+		
+}
+
+blackheads3 = {
+	
+			naval_forcelimit_modifier = 0.15 #0.5
+			mercantilism_cost = -0.15 #0.3
+		
+}
+
+danzigcrane1 = {
+	
+			global_ship_trade_power = 0.05
+		
+}
+
+danzigcrane2 = {
+	
+			global_ship_trade_power = 0.1
+		
+}
+
+danzigcrane3 = {
+	
+			global_ship_trade_power = 0.2
+		
+}
+
+magnupkale1 = {
+	
+			horde_unity = 0.3
+			raze_power_gain = 0.10
+		
+}
+
+magnupkale2 = {
+	
+			horde_unity = 0.5
+			raze_power_gain = 0.20
+		
+}
+
+magnupkale3 = {
+	
+			prestige = 0.5
+			horde_unity = 1
+			raze_power_gain = 0.33
+		
+}
+
+mircastle1 = {
+	
+			prestige = 0.1
+			land_attrition = -0.01
+		
+}
+
+mircastle2 = {
+	
+			prestige = 0.2
+			land_attrition = -0.03
+		
+}
+
+mircastle3 = {
+	
+			prestige = 0.3
+			land_attrition = -0.05
+		
+}
+
+spiscastle1 = {
+	
+			fort_maintenance_modifier = -0.05
+		
+}
+
+spiscastle2 = {
+	
+			fort_maintenance_modifier = -0.1
+		
+}
+
+spiscastle3 = {
+	
+			fort_maintenance_modifier = -0.15
+		
+}
+
+talinnwalls1 = {
+	
+			#free_mil_policy = 1
+		
+}
+
+talinnwalls2 = {
+	
+			#free_mil_policy = 1
+		
+}
+
+talinnwalls3 = {
+	
+			free_mil_policy = 1
+		
+}
+
+trekronor1 = {
+	
+				#special_unit_forcelimit = 0.15
+				allowed_marine_fraction = 0.15
+		
+}
+
+trekronor2 = {
+	
+				#special_unit_forcelimit = 0.3
+				allowed_marine_fraction = 0.3
+		
+}
+
+trekronor3 = {
+	
+				#special_unit_forcelimit = 0.5
+				allowed_marine_fraction = 0.5
+		
+}
+
+turkucastle1 = {
+	
+			allowed_marine_fraction = 0.05
+		
+}
+
+turkucastle2 = {
+	
+			allowed_marine_fraction = 0.1
+		
+}
+
+turkucastle3 = {
+	
+			allowed_marine_fraction = 0.15
+		
+}
+
+dubrovnikwalls1 = {
+	
+			land_forcelimit = 5
+			land_maintenance_modifier = -0.05
+			naval_forcelimit = 3
+		
+}
+
+dubrovnikwalls2 = {
+	
+			land_forcelimit = 10
+			land_maintenance_modifier = -0.1
+			naval_forcelimit = 5
+		
+}
+
+dubrovnikwalls3 = {
+	
+			land_forcelimit = 15
+			land_maintenance_modifier = -0.15
+			naval_forcelimit = 10
+		
+}
+
+warsawroyalcastle1 = {
+	
+			max_absolutism = 2
+			#monthly_splendor = 1
+			monthly_support_heir_gain = 0.05
+		
+}
+
+warsawroyalcastle2 = {
+	
+			max_absolutism = 5 #10
+			#monthly_splendor = 2
+			monthly_support_heir_gain = 0.1
+		
+}
+
+warsawroyalcastle3 = {
+	
+			max_absolutism = 10 #15
+			#monthly_splendor = 3
+			monthly_support_heir_gain = 0.15
+		
+}
+
+wilanowpalace1 = {
+	
+			amount_of_hussars = 5 #vienna
+			global_prosperity_growth = 0.01 #Sobieski's art patronage
+		
+}
+
+wilanowpalace2 = {
+	
+			amount_of_hussars = 10 #vienna
+			global_prosperity_growth = 0.02 #Sobieski's art patronage
+		
+}
+
+wilanowpalace3 = {
+	
+			amount_of_hussars = 15 #vienna
+			global_prosperity_growth = 0.03 #Sobieski's art patronage
+		
+}
+
+mostarbridge1 = {
+	
+			global_tax_income = 12 #trade route
+			expand_infrastructure_cost_modifier = -0.05
+		
+}
+
+mostarbridge2 = {
+	
+			global_tax_income = 24 #trade route
+			force_march_free = yes #bridge building
+			expand_infrastructure_cost_modifier = -0.15
+		
+}
+
+mostarbridge3 = {
+	
+			global_tax_income = 48 #trade route
+			force_march_free = yes #bridge building
+			expand_infrastructure_cost_modifier = -0.25
+		
+}
+
+belgradefortress1 = {
+	
+				manpower_in_own_culture_provinces = 0.1
+		
+}
+
+belgradefortress2 = {
+	
+				own_territory_dice_roll_bonus = 1
+				manpower_in_own_culture_provinces = 0.2
+		
+}
+
+belgradefortress3 = {
+	
+				own_territory_dice_roll_bonus = 2
+				manpower_in_own_culture_provinces = 0.3
+		
+}
+
+pulaarena1 = {
+	
+			war_exhaustion_cost = -0.05
+			manpower_recovery_speed = 0.05
+		
+}
+
+pulaarena2 = {
+	
+			war_exhaustion_cost = -0.1
+			manpower_recovery_speed = 0.1
+		
+}
+
+pulaarena3 = {
+	
+			war_exhaustion_cost = -0.15
+			manpower_recovery_speed = 0.15
+		
+}
+
+casadecontratacion1 = {
+	
+			#trade_range_modifier = 0.5
+			global_foreign_trade_power = 0.05
+			#colonists = 1
+			#free_maintenance_on_expl_conq = yes
+		
+}
+
+casadecontratacion2 = {
+	
+			#trade_range_modifier = 0.5
+			global_foreign_trade_power = 0.1
+			#colonists = 1
+			free_maintenance_on_expl_conq = yes
+		
+}
+
+casadecontratacion3 = {
+	
+			#trade_range_modifier = 0.5
+			global_foreign_trade_power = 0.15
+			free_maintenance_on_expl_conq = yes
+			colonists = 1 #2
+		
+}
+
+corvincastle1 = {
+	
+			mercenary_discipline = 0.025
+			attack_bonus_in_capital_terrain = 1
+		
+}
+
+corvincastle2 = {
+	
+			mercenary_discipline = 0.05
+			attack_bonus_in_capital_terrain = 1
+		
+}
+
+corvincastle3 = {
+	
+			mercenary_discipline = 0.1
+			attack_bonus_in_capital_terrain = 2
+		
+}
+
+heidelbergcastle1 = {
+	
+			merc_maintenance_modifier = -0.05
+			possible_condottieri = 0.25
+		
+}
+
+heidelbergcastle2 = {
+	
+			merc_maintenance_modifier = -0.1
+			possible_condottieri = 0.5
+		
+}
+
+heidelbergcastle3 = {
+	
+			merc_maintenance_modifier = -0.15
+			possible_condottieri = 1
+		
+}
+
+jasnagora1 = {
+	
+			global_religious_conversion_resistance = 0.1
+			enforce_religion_cost = -0.1
+			relation_with_same_religion = 5
+			native_assimilation = 0.1
+		
+}
+
+jasnagora2 = {
+	
+			global_religious_conversion_resistance = 0.2
+			enforce_religion_cost = -0.25
+			relation_with_same_religion = 10
+			native_assimilation = 0.15
+		
+}
+
+jasnagora3 = {
+	
+			global_religious_conversion_resistance = 0.3
+			enforce_religion_cost = -0.5
+			relation_with_same_religion = 15
+			native_assimilation = 0.25
+		
+}
+
+redfortdelhi1 = {
+	
+			rajput_loyalty_modifier = 0.05
+			monthly_favor_modifier = 0.05
+			free_land_leader_pool = 1
+		
+}
+
+redfortdelhi2 = {
+	
+			rajput_loyalty_modifier = 0.1
+			monthly_favor_modifier = 0.1
+			free_land_leader_pool = 1
+		
+}
+
+redfortdelhi3 = {
+	
+			rajput_loyalty_modifier = 0.15
+			monthly_favor_modifier = 0.15
+			free_land_leader_pool = 2
+		
+}
+
+mukdenpalace1 = {
+	
+			imperial_mandate = 0.01
+			move_capital_cost_modifier = -0.1
+			eunuchs_loyalty_modifier = 0.05
+		
+}
+
+mukdenpalace2 = {
+	
+			imperial_mandate = 0.03
+			move_capital_cost_modifier = -0.2
+			eunuchs_loyalty_modifier = 0.1
+		
+}
+
+mukdenpalace3 = {
+	
+			imperial_mandate = 0.05
+			move_capital_cost_modifier = -0.3
+			eunuchs_loyalty_modifier = 0.15
+		
+}
+
+jagiellonuni1 = {
+	
+			reform_progress_growth = 0.05
+			parliament_backing_chance = 0.05
+		
+}
+
+jagiellonuni2 = {
+	
+			reform_progress_growth = 0.1
+			parliament_backing_chance = 0.1 #15
+		
+}
+
+jagiellonuni3 = {
+	
+			reform_progress_growth = 0.2
+			parliament_backing_chance = 0.15 #25
+		
+}
+
+theowalls1 = {
+	
+}
+
+theowalls2 = {
+	
+			#prestige = 0.1
+		
+}
+
+theowalls3 = {
+	
+			prestige = 0.25
+		
+}
+
+arcdetriomphe1 = {
+	
+			max_revolutionary_zeal= 5
+			yearly_revolutionary_zeal = 0.05
+			special_unit_forcelimit = 0.05		
+		
+}
+
+arcdetriomphe2 = {
+	
+			max_revolutionary_zeal= 10
+			yearly_revolutionary_zeal = 0.1
+			special_unit_forcelimit = 0.1
+		
+}
+
+arcdetriomphe3 = {
+	
+			max_revolutionary_zeal= 15
+			yearly_revolutionary_zeal = 0.15
+			special_unit_forcelimit = 0.15
+		
+}
+
+pisatower1 = {
+	
+			unrest_catholic_provinces = -1
+			prestige_per_development_from_conversion = 0.1
+		
+}
+
+pisatower2 = {
+	
+			unrest_catholic_provinces = -2
+			prestige_per_development_from_conversion = 0.25
+			loyalty_change_on_revoked = 0.05
+		
+}
+
+pisatower3 = {
+	
+			unrest_catholic_provinces = -3 #funny tower heheh
+			prestige_per_development_from_conversion = 0.5
+			loyalty_change_on_revoked = 0.1
+		
+}
+
+rdl_colosseum1 = {
+	
+			province_warscore_cost = -0.05
+		
+}
+
+rdl_colosseum2 = {
+	
+			province_warscore_cost = -0.1
+		
+}
+
+rdl_colosseum3 = {
+	
+			province_warscore_cost = -0.15
+			can_claim_states = yes
+		
+}
+
+louvre1 = {
+	
+			manpower_in_accepted_culture_provinces = 0.05
+			reduced_liberty_desire_on_same_continent = 05
+			relation_with_other_culture = 5
+		
+}
+
+louvre2 = {
+	
+			manpower_in_accepted_culture_provinces = 0.10
+			reduced_liberty_desire_on_same_continent = 10
+			relation_with_other_culture = 10
+		
+}
+
+louvre3 = {
+	
+			manpower_in_accepted_culture_provinces = 0.15
+			reduced_liberty_desire_on_same_continent = 15
+			relation_with_other_culture = 15
+		
+}
+
+brusselscityhall1 = {
+	
+			center_of_trade_upgrade_cost = -0.1
+			global_tax_income = 12
+		
+}
+
+brusselscityhall2 = {
+	
+			center_of_trade_upgrade_cost = -0.2
+			global_tax_income = 24
+		
+}
+
+brusselscityhall3 = {
+	
+			center_of_trade_upgrade_cost = -0.3
+			global_tax_income = 48
+		
+}
+
+cashel1 = {
+	
+			military_tactics = 0.05
+			morale_damage_received = -0.05
+			#hostile_attrition = 2
+		
+}
+
+cashel2 = {
+	
+			military_tactics = 0.10
+			morale_damage_received = -0.1
+			#hostile_attrition = 2
+		
+}
+
+cashel3 = {
+	
+			military_tactics = 0.25
+			morale_damage_received = -0.15
+			#hostile_attrition = 2
+		
+}
+
+rdl_globe_theatre1 = {
+	
+			relation_with_same_culture = 5
+			years_of_nationalism = -5
+		
+}
+
+rdl_globe_theatre2 = {
+	
+			relation_with_same_culture = 10
+			years_of_nationalism = -10
+		
+}
+
+rdl_globe_theatre3 = {
+	
+			relation_with_same_culture = 15
+			years_of_nationalism = -15
+		
+}
+
+rdl_mont_saint_michel1 = {
+	
+			war_exhaustion = -0.01
+			regiment_disembark_speed = 0.1
+			church_influence_modifier = 0.05
+		
+}
+
+rdl_mont_saint_michel2 = {
+	
+			war_exhaustion = -0.02
+			regiment_disembark_speed = 0.2
+			church_loyalty_modifier = 0.05
+			church_influence_modifier = 0.05
+		
+}
+
+rdl_mont_saint_michel3 = {
+	
+			war_exhaustion = -0.03
+			regiment_disembark_speed = 0.3 #tidals
+			church_loyalty_modifier = 0.1
+			church_influence_modifier = 0.1
+		
+}
+
+compostela_cathedral1 = {
+	
+			papal_influence_from_cardinals = 0.25
+			relation_with_same_religion = 5
+			establish_order_cost = -0.05
+		
+}
+
+compostela_cathedral2 = {
+	
+			papal_influence_from_cardinals = 0.5
+			relation_with_same_religion = 10
+			establish_order_cost = -0.1
+			church_influence_modifier = 0.05
+		
+}
+
+compostela_cathedral3 = {
+	
+			papal_influence_from_cardinals = 1.0
+			relation_with_same_religion = 15
+			establish_order_cost = -0.15
+			church_influence_modifier = 0.1
+		
+}
+
+sanktgallabbey1 = {
+	
+			monthly_fervor_increase = 1
+			papal_influence = 1
+			mercenary_discipline = 0.05
+		
+}
+
+sanktgallabbey2 = {
+	
+			monthly_fervor_increase = 2
+			papal_influence = 2
+			mercenary_discipline = 0.1
+		
+}
+
+sanktgallabbey3 = {
+	
+			monthly_fervor_increase = 3
+			papal_influence = 3
+			mercenary_discipline = 0.15
+		
+}
+
+saintmarkbasilica1 = {
+	
+			global_rebel_suppression_efficiency = 0.05
+			loyalty_change_on_revoked = 0.01
+			reverse_relation_with_heretic_religion = 5
+		
+}
+
+saintmarkbasilica2 = {
+	
+			global_rebel_suppression_efficiency = 0.1
+			loyalty_change_on_revoked = 0.03
+			reverse_relation_with_heretic_religion = 10
+		
+}
+
+saintmarkbasilica3 = {
+	
+			#cb_on_religious_enemies = yes
+			#extra_manpower_at_religious_war = yes
+			global_rebel_suppression_efficiency = 0.15
+			loyalty_change_on_revoked = 0.05
+			reverse_relation_with_heretic_religion = 15
+		
+}
+

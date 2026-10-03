@@ -1,0 +1,302 @@
+Sumera_Monastery1 = {
+	
+			global_heretic_missionary_strength = 0.01
+			tolerance_own = 0.5
+		
+}
+
+Sumera_Monastery2 = {
+	
+			global_missionary_strength = 0.01
+			global_heretic_missionary_strength = 0.015
+			tolerance_own = 1
+		
+}
+
+Sumera_Monastery3 = {
+	
+			global_missionary_strength = 0.02
+			global_heretic_missionary_strength = 0.02
+			tolerance_own = 1.5
+		
+}
+
+Walls_of_Theodosius1 = {
+	
+		army_tradition_from_battle = 0.15
+	
+}
+
+Walls_of_Theodosius2 = {
+	
+		army_tradition_from_battle = 0.25
+		leader_cost = -0.1
+	
+}
+
+Walls_of_Theodosius3 = {
+	
+		army_tradition_from_battle = 0.35
+		leader_cost = -0.25
+	
+}
+
+Hanging_Church1 = {
+	
+			tolerance_own = 0.5
+			state_governing_cost = -0.05
+			coptic_loyalty_modifier = 0.05
+		
+}
+
+Hanging_Church2 = {
+	
+			tolerance_own = 1
+			state_governing_cost = -0.1
+			coptic_loyalty_modifier = 0.1
+		
+}
+
+Hanging_Church3 = {
+	
+			tolerance_own = 1.5
+			free_adm_policy = 1
+			state_governing_cost = -0.15
+			coptic_loyalty_modifier = 0.15
+		
+}
+
+Monastery_of_Saint_John1 = {
+	
+			sailor_maintenance_modifer = -0.05
+		
+}
+
+Monastery_of_Saint_John2 = {
+	
+			ae_impact = -0.05
+			sailor_maintenance_modifer = -0.1
+		
+}
+
+Monastery_of_Saint_John3 = {
+	
+			ae_impact = -0.1
+			sailor_maintenance_modifer = -0.15
+		
+}
+
+Saint_Mark_Cathedral1 = {
+	
+			church_loyalty_modifier = 0.05
+			coptic_loyalty_modifier = 0.05
+			enforce_religion_cost = -0.15
+		
+}
+
+Saint_Mark_Cathedral2 = {
+	
+			church_loyalty_modifier = 0.1
+			coptic_loyalty_modifier = 0.1
+			enforce_religion_cost = -0.25
+		
+}
+
+Saint_Mark_Cathedral3 = {
+	
+			church_loyalty_modifier = 0.15
+			coptic_loyalty_modifier = 0.15
+			enforce_religion_cost = -0.5
+		
+}
+
+Neamt_Monastery1 = {
+	
+			culture_conversion_time = -0.1
+			manpower_in_true_faith_provinces = 0.05
+		
+}
+
+Neamt_Monastery2 = {
+	
+			culture_conversion_time = -0.15
+			manpower_in_true_faith_provinces = 0.1
+		
+}
+
+Neamt_Monastery3 = {
+	
+			culture_conversion_time = -0.25
+			manpower_in_true_faith_provinces = 0.2
+		
+}
+
+Mosque_of_Amr1 = {
+	
+			reverse_relation_with_same_religion = 10
+			overextension_impact_modifier = -0.05
+		
+}
+
+Mosque_of_Amr2 = {
+	
+			reverse_relation_with_same_religion = 20
+			overextension_impact_modifier = -0.1
+		
+}
+
+Mosque_of_Amr3 = {
+	
+			core_creation = -0.05
+			reverse_relation_with_same_religion = 25
+			overextension_impact_modifier = -0.15
+		
+}
+
+# Krak_des_Chevaliers1 = {
+	
+
+		
+# }
+
+Krak_des_Chevaliers2 = {
+	
+			war_exhaustion_cost = -0.075
+		
+}
+
+Krak_des_Chevaliers3 = {
+	
+			war_exhaustion_cost = -0.15
+			possible_mil_policy = 1
+		
+}
+
+Trebizond_Hagia_Sophia1 = {
+	
+			religious_unity = 0.1
+			reduced_liberty_desire = 5
+		
+}
+
+Trebizond_Hagia_Sophia2 = {
+	
+			religious_unity = 0.15
+			reduced_liberty_desire = 10
+		
+}
+
+Trebizond_Hagia_Sophia3 = {
+	
+			religious_unity = 0.2
+			reduced_liberty_desire = 15
+			years_of_nationalism = -5
+		
+}
+
+Gelati_Monastery1 = {
+	
+			technology_cost = -0.05
+			yearly_patriarch_authority = 0.0025
+		
+}
+
+Gelati_Monastery2 = {
+	
+			technology_cost = -0.05
+			yearly_patriarch_authority = 0.005
+			tolerance_own = 1
+		
+}
+
+Gelati_Monastery3 = {
+	
+			technology_cost = -0.1
+			yearly_patriarch_authority = 0.01
+			tolerance_own = 1.5
+		
+}
+
+Sinop_Fortress1 = {
+	
+		prestige_decay = -0.005
+	
+}
+
+Sinop_Fortress2 = {
+	
+		prestige_decay = -0.01
+
+	
+}
+
+Sinop_Fortress3 = {
+	
+		prestige_decay = -0.015
+
+	
+}
+
+Hippodrome_of_Constantinople1 = {
+	
+		monthly_KRO_Emperor_Authority_power = 0.03
+		warscore_from_battles_modifier = 0.1
+	
+}
+
+Hippodrome_of_Constantinople2 = {
+	
+		monthly_KRO_Emperor_Authority_power = 0.05
+		warscore_from_battles_modifier = 0.15
+		army_tradition = 0.5
+	
+}
+
+Hippodrome_of_Constantinople3 = {
+	
+		monthly_KRO_Emperor_Authority_power = 0.1
+		warscore_from_battles_modifier = 0.25
+		army_tradition = 1
+	
+}
+
+St_Catherine_Monastery1 = {
+	
+		missionary_maintenance_cost = -0.1
+		prestige_per_development_from_conversion = 0.25
+	
+}
+
+St_Catherine_Monastery2 = {
+	
+		missionary_maintenance_cost = -0.25
+		prestige_per_development_from_conversion = 0.35
+	
+}
+
+St_Catherine_Monastery3 = {
+	
+		missionary_maintenance_cost = -0.4
+		prestige_per_development_from_conversion = 0.5
+	
+}
+
+# Antioch_new_city1 = {
+	
+
+	
+# }
+
+Antioch_new_city2 = {
+	
+		placed_merchant_power = 5
+	
+}
+
+Antioch_new_city3 = {
+	
+		merchants = 1
+		placed_merchant_power = 10
+	
+}
+

@@ -1,0 +1,4 @@
+79 = "Wörtzburch"
+66 = "Bambärch"
+4717 = "Bayreuth"
+67 = "Närmberch"

@@ -1,0 +1,174 @@
+﻿l_german:
+ HIE_SWAP_NATIONAL_IDEAS_OPEN_BUTTON_TT: "Swap National Ideas!\n\nUse this decision to swap between Vanilla and Historical Ideas Expanded (default) of a nation. \n§OTo update the display of the selected idea group, switch to a different tab and then back to the ideas tab.§!"
+ hie_swap_ideas_title: "Swap National Ideas"
+ hie_swap_ideas_desc: "Use this decision to swap between Vanilla and Historical Ideas Expanded (default) of a nation. \n§YThis interaction will be available every age§!"
+ HIE_SWAP_IDEAS_TT: "Hasn't used it more than 2 times (currently: §Y[Root.historical_idea_expanded_swapped_ideas.GetValue]§!) with the current tag. \n§TThis interaction will be available once per age.§!"
+ HIE_RECEIVE_MODDED_IDEAS_TT: "We will select the §YHistorical Ideas Expanded§! idea set."
+ HIE_RECEIVE_VANILLA_IDEAS_TT: "We will select the §YVanilla§! idea set."
+
+#########  TOOLTIPS  #########
+ HIE_ATTRITION_IN_HILLS_HIGHLANDS_MOUNTAINS_TT: "§G+3.0§! Hostile Attrition in Provinces with §YHighlands§!, §YHills§! or §YMountains§! terrain."
+
+ HIE_DEV_COST_REDUCTION_IN_ARCTIC_TT: "§G-30.0%§! Development Cost in Provinces with §YArctic§! climate."
+ HIE_DEV_COST_REDUCTION_IN_ARID_TT: "§G-15.0%§! Development Cost in Provinces with §YArid§! climate."
+ HIE_DEV_COST_REDUCTION_IN_DESERT_TT: "§G-25.0%§! Development Cost in Provinces with §YDesert§! terrain."
+ HIE_DEV_COST_REDUCTION_IN_DRYLANDS_TT: "§G-15.0%§! Development Cost in Provinces with §YDrylands§! terrain."
+ HIE_DEV_COST_REDUCTION_IN_HILLS_HIGHLANDS_MOUNTAINS_TT: "§G-20.0%§! Development Cost in Provinces with §YHighlands§!, §YHills§! or §YMountains§! terrain."
+ HIE_DEV_COST_REDUCTION_IN_JUNGLE_TT: "§G-15.0%§! Development Cost in Provinces with §YJungle§! terrain."
+ HIE_DEV_COST_REDUCTION_IN_JUNGLE_STRONG_TT: "§G-25.0%§! Development Cost in Provinces with §YJungle§! terrain."
+ HIE_DEV_COST_REDUCTION_IN_METAL_PROVS_TT: "§G-15.0%§! Development Cost in Provinces with a §YMetal§! trade good."
+ HIE_DEV_COST_REDUCTION_IN_STEPPE_TT: "§G-15.0%§! Development Cost in Provinces with a §YSteppes§! terrain"
+ HIE_DEV_COST_REDUCTION_IN_TROPIC_TT: "§G-10.0%§! Development Cost in Provinces with §YTropical§! climate."
+
+ HIE_BUILD_COST_REDUCTION_IN_JUNGLE_TT: "§G-10.0%§! Construction Cost in Provinces with §YJungle§! terrain."
+
+ HIE_GOODS_PRODUCED_IN_LIVESTOCK_PROVS_UPDATE_TT: "§G+0.5§! Goods Produced in Provinces with a §YLivestock§! trade good."
+ HIE_GOODS_PRODUCED_IN_METAL_PROVS_TT: "§G+10.0%§! Goods Produced in Provinces with a §YMetal§! trade good."
+ HIE_GOODS_PRODUCED_IN_SILK_PROVS_UPDATE_TT: "§G+1.0§! Goods Produced in Provinces with a §YSilk§! trade good."
+
+ HIE_GOV_COST_REDUCTION_IN_PRUSSIAN_PROVINCES_TT: "§G-15.0%§! Local Governing Cost in Provinces with §YPrussian§! culture."
+ HIE_GOV_COST_REDUCTION_IN_PRIMARY_CULTURE_PROVINCES_TT: "§G-10.0%§! Local Governing Cost in Provinces with §YPrimary§! culture."
+
+ HIE_PARLIAMENT_SEAT_DEV_GOVERNING_COST_TT: "§G-10.0%§! Development Cost and §G-15.0%§! Governing Cost in Provinces with §YParliament§!"
+
+ HIE_RAG_ABOLITION_SLAVERY_TT: "This will result in the §GAbolition of Slavery§!."
+
+ HIE_SPA_AND_FUERO_JUZGO_TT: "§G-2.0§! Local Unrest and §G+15.0%§! Local Tax Modifier in Province with §Y[Root.Culture.GetGroupName]§! Culture."
+ HIE_SPA_ARA_UNION_OF_CROWNS_ITALY_TT: "§G-2.0§! Local Unrest and §G+10.0%§! Defensiveness in §YItaly Region§!"
+ HIE_SPA_ARA_UNION_OF_CROWNS_IBERIA_TT: "§G-2.0§! Local Unrest and §G-0.025§! Autonomy in §YIberia Region§!"
+ HIE_SPA_BAS_REVITALIZE_CANTABRIAN_SHIPYARDS_TT: "§G+50.0%§! Trade Goods in §YIberian§! Provinces producing §YNaval Supplies§!"
+ HIE_SPA_GAL_MODERNIZED_CAMINO_REAL_TT: "§G+15.0%§! Tax in Provinces with §YExpanded Infrastructure§!"
+ HIE_SPA_GAL_ASIENTO_SYSTEM_TT: "§G+10.0%§! Goods Produced in §YColonial§! Subjects."
+
+ HIE_TUS_THORNTON_EXPEDITION_TT: "§G+25§! Colonial Growth in §YColonial Colombia§! Provinces."
+ HIE_ITA_CULLA_RINASCIMENTO_TT: "§G-10.0%§! Build Cost in §YItaly Region§!"
+ HIE_ITA_SAR_STATUTE_SABAUDIAE_TT: "§G-15.0%§! Governing Cost in §YLatin§! Provinces."
+ HIE_ITA_MFV_STELLA_FORTE_TT: "There's a chance our Rulers might bring the §!Lux Stella§!"
+ HIE_ITA_CRU_DIO_LO_VUOLE_TT: "Winning a war against §YHeathenrs or Heretics§! will restore §G1 year§! of Manpower."
+
+ HIE_ENEMY_MOVEMENT_SPEED_IN_OWNED_PROVS_TT: "§G-25.0%§! Local Hostile Movement Speed in all owned Provinces."
+
+ HIE_MEXICAN_COLONIAL_GROWTH_TT: "§G+20§! Settler Growth in colonies in §YColonial Mexico§!."
+
+ HIE_COWRIE_TRADE_TT: "§G+15.0%§! Trade Power and Trade Value in Western Indian Ocean Super Region"
+ HIE_TRADE_POWER_IN_HIGHLANDS_HILLS_MOUNTAINS_UPDATE_TT: "§G+15.0%§! Trade Power in Provinces with §YHighlands§!, §YHills§! or §YMountains§! terrain."
+ HIE_TRADE_VALUE_IN_HILL_UPDATE_TT: "§G+15.0%§! Trade Value in §YHill§! Provinces"
+
+ HIE_NAG_DEOGARH_FORT_TT: "§G+1§! Fort Level in §YCapital§!"
+ HIE_MEW_ALWAR_TT: "§G+2§! Goods Produced in §YCapital§!"
+
+ HIE_RAJPUT_CLAN_SYSTEM_TT: "§G-15.0%§! Regiment Cost and Recruitment Time in Provinces with §YRajasthani§! culture"
+
+ HIE_GWA_LAND_OF_THE_ANCIENTS_TT: "§G-15.0%§! Local Development Cost in the area of §YGird§!"
+
+ HIE_CORRUPTION_HIRING_GENERALS_TT: "§G-0.1§! Corruption when hiring a §YGeneral§!"
+
+ HIE_EIC_E_I_C_RESIDENCY_TT: "§G+10§! Vassal Accepntace Reasons when §Yindependent§!"
+
+#########  Modifiers  #########
+ hie_attrition_in_highlands_hills_mountains: "Treacherous Paths"
+ desc_hie_attrition_in_highlands_hills_mountains: ""
+
+ hie_dev_cost_reduction_in_arctic: "Arctic Familiarity"
+ desc_hie_dev_cost_reduction_in_arctic: "Through ingenuity and perseverance, we have tamed the artic, molding it to our will and coaxing forth the fruits of urban life. Yet, amidst the hustle and bustle of city streets and towering spires, we have not forgotten the sacred pact we hold with the land. With reverence and humility, we pay homage to the bounties of nature, recognizing its vital role in sustaining our existence. Thus, even as we embrace the trappings of civilization, we remain steadfast in our commitment to preserving the pristine beauty and natural balance of our homeland."
+ hie_dev_cost_reduction_in_arid: "Arid Familiarity"
+ desc_hie_dev_cost_reduction_in_arid: ""
+ hie_dev_cost_reduction_in_desert: "Desert Settlers"
+ desc_hie_dev_cost_reduction_in_desert: ""
+ hie_dev_cost_reduction_in_dryland: "Arid Settlers"
+ desc_hie_dev_cost_reduction_in_dryland: ""
+ hie_dev_cost_reduction_in_highlands_hills_mountains: "Elevate Familiarity"
+ desc_hie_dev_cost_reduction_in_highlands_hills_mountains: ""
+ hie_dev_cost_reduction_in_jungle: "Jungle Familiarity"
+ desc_hie_dev_cost_reduction_in_jungle: "As we tread softly upon the mossy forest floor and navigate the labyrinthine canopy above, we tread with reverence and respect for the primal forces that govern this land. While our cities rise as monuments to human ingenuity, we remain ever mindful of the delicate balance between progress and preservation. For in the jungle's embrace, we find not only the challenges of survival but also the profound beauty of a world untouched by time."
+ hie_dev_cost_reduction_in_jungle_strong: "Jungle Mastery"
+ desc_hie_dev_cost_reduction_in_jungle_strong: "As we tread softly upon the mossy forest floor and navigate the labyrinthine canopy above, we tread with reverence and respect for the primal forces that govern this land. While our cities rise as monuments to human ingenuity, we remain ever mindful of the delicate balance between progress and preservation. For in the jungle's embrace, we find not only the challenges of survival but also the profound beauty of a world untouched by time."
+ hie_dev_cost_reduction_in_metal_provs: "Metal Working"
+ desc_hie_dev_cost_reduction_in_metal_provs: ""
+ hie_dev_cost_reduction_in_steppe: "Steppe Familiarity"
+ desc_hie_dev_cost_reduction_in_steppe: ""
+ hie_dev_cost_reduction_in_tropic: "Tropical Familiarity"
+ desc_hie_dev_cost_reduction_in_tropic: "As we sway gently in the balmy breeze and listen to the chorus of birdsong and rustling leaves, we revel in the harmonious coexistence between man and nature. Our cities rise like verdant jewels amidst the verdant landscape, their vibrant colors and intricate architecture a testament to the ingenuity and creativity of our people. Yet, amidst the bounty of the tropical paradise, we remain ever vigilant, mindful of the delicate balance between progress and preservation. For in this Edenic realm, where life teems in every corner and the earth pulses with vitality, we know that our destiny is intertwined with the rhythms of the natural world."
+
+ hie_build_cost_reduction_in_jungle: "Jungle Construction Familiarity"
+ desc_hie_build_cost_reduction_in_jungle: "We are familiar with constructing buildings in Jungle terrain."
+
+ hie_goods_produced_in_livestock_provs: "Cattle Farming"
+ desc_hie_goods_produced_in_livestock_provs: ""
+ hie_goods_produced_in_metal_provs: "Metal Working"
+ desc_hie_goods_produced_in_metal_provs: ""
+ hie_goods_produced_in_silk_provs: "Silk Expertise"
+ desc_hie_goods_produced_in_silk_provs: ""
+
+ hie_gov_cost_reduction_prussia: "Prussian Unification"
+ desc_hie_gov_cost_reduction_prussia: ""
+ hie_gov_cost_reduction_primary_culture: "Primary Culture Province"
+ desc_hie_gov_cost_reduction_primary_culture: ""
+
+ hie_parliament_seat_dev_governing_cost: "Parliamentary Seat"
+ desc_hie_parliament_seat_dev_governing_cost: ""
+
+ hie_unrest_build_cost_primary_culture: "Primary Culture Stability"
+ desc_hie_unrest_build_cost_primary_culture: ""
+
+ hie_ven_fanti_mar_modifier: "Fanti da Mar"
+ desc_hie_ven_fanti_mar_modifier: ""
+ hie_hol_soldaten_ter_zee_modifier: "Soldaten Ter Zee"
+ desc_hie_hol_soldaten_ter_zee_modifier: ""
+ hie_ita_gpv_fanti_da_mar_modifier: "Fanti da Mar"
+ desc_hie_ita_gpv_fanti_da_mar_modifier: ""
+
+ hie_pga_braccio_montone_modifier: "Tattiche di Braccio da Montone"
+ desc_hie_pga_braccio_montone_modifier: ""
+
+ hie_mer_the_legion_mewar_modifier: "The Legion of Mewar"
+ desc_hie_mer_the_legion_mewar_modifier: ""
+ hie_grk_rajput_heritage_modifier: "Rajput Heritage"
+ desc_hie_grk_rajput_heritage_modifier: ""
+
+ hie_revived_visigothic_codes_modifier: "“Revived Visigothic Codes"
+ desc_hie_revived_visigothic_codes_modifier: ""
+ hie_spa_ara_union_of_crowns_italy_modifier: "Union of Crowns"
+ desc_hie_spa_ara_union_of_crowns_italy_modifier: ""
+ hie_spa_ara_union_of_crowns_iberia_modifier: "Union of Crowns"
+ desc_hie_spa_ara_union_of_crowns_iberia_modifier: ""
+ hie_spa_bas_basque_shipyard_demand: "Basque Shipyard Demand"
+ desc_hie_spa_bas_basque_shipyard_demand: ""
+ hie_spa_gal_modernized_camino_real_modifier: "Modernized Camino Real"
+ desc_hie_spa_gal_modernized_camino_real_modifier: ""
+ hie_spa_gal_asiento_system_modifier: "Asiento System"
+ desc_hie_spa_gal_asiento_system_modifier: ""
+
+ hie_ita_culla_rinascimento_modifier: "Culla del Rinascimento"
+ desc_hie_ita_culla_rinascimento_modifier: ""
+ hie_ita_sar_statute_sabaudiae_modifier: "Statute Sabaudiae"
+ desc_hie_ita_sar_statute_sabaudiae_modifier: ""
+
+ hie_enemy_movement_speed_in_owned_provs: "Terrain Familiarity"
+ desc_hie_enemy_movement_speed_in_owned_provs: "Our enemies are not as familiar with the terrain in our provinces, so they cannot move as fast as us."
+
+ hie_colonial_growth_in_colombian_provs: "Colombian Expedition"
+ desc_hie_colonial_growth_in_colombian_provs: ""
+ hie_colonial_growth_in_mexican_provs: "Mexican Colony"
+ desc_hie_colonial_growth_in_mexican_provs: ""
+
+ hie_cowrie_trade_modifier: "Cowrie Trade"
+ desc_hie_cowrie_trade_modifier: ""
+ hie_trade_power_in_highlands_hills_mountains_modifier: "Improved Elevated Merchants"
+ desc_hie_trade_power_in_highlands_hills_mountains_modifier: ""
+ hie_trade_value_in_hill_modifier: "Improved Hill Mines"
+ desc_hie_trade_value_in_hill_modifier: ""
+
+ hie_nag_deogarh_fort_modifier: "Deogarh Fort"
+ desc_hie_nag_deogarh_fort_modifier: ""
+ hie_mew_alwar_modifier: "Alwar"
+ desc_hie_mew_alwar_modifier: ""
+
+ hie_rajput_clan_system_modifier: "Rajput Clan System"
+ desc_hie_rajput_clan_system_modifier: ""
+
+ hie_gwa_land_of_the_ancients_modifier: "Land of the Ancients"
+ desc_hie_gwa_land_of_the_ancients_modifier: ""
+
+ hie_eic_residency_modifier: "E.I.C. Residency"
+ desc_hie_eic_residency_modifier: "

@@ -1,0 +1,438 @@
+# minas_tirith_monument_modifier_trigger = { 
+# AND = {
+# 			owner = {
+# 				OR = {
+# 					is_human = yes
+# 					is_elf = yes
+# 					is_dwarf = yes
+# 					technology_group = lotr_half_dwarf
+# 					is_hobbit = yes
+# 				}
+# 			}
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# library_of_minas_tirith_monument_modifier_trigger = { 
+# AND = {
+# 			owner = {
+# 				OR = {
+# 					is_human = yes
+# 					is_elf = yes
+# 					is_dwarf = yes
+# 					technology_group = lotr_half_dwarf
+# 					is_hobbit = yes
+# 				}
+# 			}
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# amon_hen_monument_modifier_trigger = { 
+# AND = {
+# 			owner = {
+# 				OR = {
+# 					is_human = yes
+# 					is_elf = yes
+# 					is_dwarf = yes
+# 					technology_group = lotr_half_dwarf
+# 					is_hobbit = yes
+# 				}
+# 			}
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# amon_lhaw_monument_modifier_trigger = { 
+# AND = {
+# 			owner = {
+# 				OR = {
+# 					is_human = yes
+# 					is_elf = yes
+# 					is_dwarf = yes
+# 					technology_group = lotr_half_dwarf
+# 					is_hobbit = yes
+# 				}
+# 			}
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# dol_amroth_monument_modifier_trigger = { 
+# always = yes
+# }
+
+# minas_morgul_monument_modifier_trigger = { 
+# is_owner_racial_group_melkor = yes	
+# 		has_owner_religion = yes
+# }
+
+# minas_ithil_monument_modifier_trigger = { 
+# AND = {
+# 			owner = {
+# 				OR = {
+# 					is_human = yes
+# 					is_elf = yes
+# 					is_dwarf = yes
+# 					technology_group = lotr_half_dwarf
+# 					is_hobbit = yes
+# 				}
+# 			}
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# edhellond_monument_modifier_trigger = { 
+
+# }
+
+# gobel_tolfalas_monument_modifier_trigger = { 
+
+# }
+
+# imloth_melui_monument_modifier_trigger = { 
+# has_owner_religion = yes
+# }
+
+# argonath_monument_modifier_trigger = { 
+# AND = {
+# 			owner = {
+# 				OR = {
+# 					is_human = yes
+# 					is_elf = yes
+# 					is_dwarf = yes
+# 					technology_group = lotr_half_dwarf
+# 					is_hobbit = yes
+# 				}
+# 			}
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# henneth_annun_monument_modifier_trigger = { 
+# AND = {
+# 			religion = religion_southern_followers_of_illuvatar
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# calembel_monument_modifier_trigger = { 
+
+# }
+
+# blackgate_monument_modifier_trigger = { 
+
+# }
+
+# baraddur_monument_modifier_trigger = { 
+# AND = {
+# 			is_owner_racial_group_melkor = yes
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# cirithungol_monument_modifier_trigger = { 
+
+# }
+
+# durthang_monument_modifier_trigger = { 
+
+# }
+
+# ostigurth_monument_modifier_trigger = { 
+# AND = {
+# 			is_owner_racial_group_melkor = yes
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# helmsdeep_monument_modifier_trigger = { 
+
+# }
+
+# edoras_monument_modifier_trigger = { 
+
+# }
+
+# isengard_monument_modifier_trigger = { 
+
+# }
+
+# amrun_monument_modifier_trigger = { 
+
+# }
+
+# umbar_monument_modifier_trigger = { 
+
+# }
+
+# pillar_of_umbar_monument_modifier_trigger = { 
+# AND = {
+# 			religion = religion_southern_followers_of_illuvatar
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# gobel_ancalimon_monument_modifier_trigger = { 
+
+# }
+
+# gobel_mirlond_monument_modifier_trigger = { 
+
+# }
+
+# dolguldur_monument_modifier_trigger = { 
+# AND = {
+# 			is_owner_racial_group_melkor = yes
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# dains_halls_monument_modifier_trigger = { 
+
+# }
+
+# erebor_monument_modifier_trigger = { 
+
+# }
+
+# dale_monument_modifier_trigger = { 
+
+# }
+
+# laketown_monument_modifier_trigger = { 
+
+# }
+
+# rivendell_monument_modifier_trigger = { 
+
+# }
+
+# michel_delving_monument_modifier_trigger = { 
+# has_owner_religion = yes
+# }
+
+# hobbiton_factory_monument_modifier_trigger = { 
+# is_owner_racial_group_melkor = yes
+# 		any_neighbor_province = {
+# 			culture_group = culture_group_hobbits
+# 		}
+# }
+
+# sarn_ford_monument_modifier_trigger = { 
+
+# }
+
+# moria_monument_modifier_trigger = { 
+# AND = {
+# 			owner = {
+# 				is_dwarf = yes
+# 				religion_group = religion_group_worshippers_of_aule
+# 			}
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# ost_in_edhil_monument_modifier_trigger = { 
+
+# }
+
+# entmoot_monument_modifier_trigger = { 
+# AND = {
+# 			owner = {
+# 				OR = {
+# 					is_ent = yes
+# 				}
+# 			}
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# cerin_amroth_monument_modifier_trigger = { 
+# AND = {
+# 			owner = {
+# 				is_elf = yes
+# 			}
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# thalls_monument_modifier_trigger = { 
+
+# }
+
+# gundabad_monument_modifier_trigger = { 
+
+# }
+
+# goblintown_monument_modifier_trigger = { 
+# AND = {
+# 			is_owner_racial_group_melkor = yes
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# framsburg_monument_modifier_trigger = { 
+
+# }
+
+# fornost_monument_modifier_trigger = { 
+# AND = {
+# 			owner = {
+# 				OR = {
+# 					is_human = yes
+# 					is_elf = yes
+# 					is_dwarf = yes
+# 					technology_group = lotr_half_dwarf
+# 					is_hobbit = yes
+# 				}
+# 			}
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# greyhavens_monument_modifier_trigger = { 
+
+# }
+
+# bree_monument_modifier_trigger = { 
+# AND = {
+# 			owner = {
+# 				OR = {
+# 					is_human = yes
+# 					is_hobbit = yes
+# 				}
+# 			}
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# barrow_downs_monument_modifier_trigger = { 
+# is_owner_racial_group_melkor = yes
+# 		has_owner_religion = yes
+# }
+
+# carndum_monument_modifier_trigger = { 
+
+# }
+
+# amon_sul_monument_modifier_trigger = { 
+
+# }
+
+# relerindu_monument_modifier_trigger = { 
+
+# }
+
+# arentaurr_monument_modifier_trigger = { 
+
+# }
+
+# bozisha_dar_monument_modifier_trigger = { 
+
+# }
+
+# niluloni_monument_modifier_trigger = { 
+
+# }
+
+# nordinbad_monument_modifier_trigger = { 
+
+# }
+
+# argond_monument_modifier_trigger = { 
+
+# }
+
+# druins_tower_monument_modifier_trigger = { 
+
+# }
+
+# xyunai_monument_modifier_trigger = { 
+
+# }
+
+# chaiapun_monument_modifier_trigger = { 
+
+# }
+
+# elostirion_monument_modifier_trigger = { 
+
+# }
+
+# ekhalshar_monument_modifier_trigger = { 
+
+# }
+
+# high_fells_monument_modifier_trigger = { 
+# is_owner_racial_group_melkor = yes		
+# 		has_owner_religion = yes
+# }
+
+# mount_gram_monument_modifier_trigger = { 
+# is_owner_racial_group_melkor = yes		
+# 		has_owner_religion = yes
+# }
+
+# mistrand_monument_modifier_trigger = { 
+
+# }
+
+# hyvat_kalat_monument_modifier_trigger = { 
+
+# }
+
+# dun_larach_hall_monument_modifier_trigger = { 
+
+# }
+
+# pukelman_staue_monument_modifier_trigger = { 
+# AND = {
+# 			owner = {
+# 				is_human = yes
+# 				culture_group = culture_group_drughu
+# 			}
+# 			has_owner_religion = yes
+# 		}
+# }
+
+# tharbad_bridge_monument_modifier_trigger = { 
+
+# }
+
+# fortress_of_maedhros_monument_modifier_trigger = { 
+
+# }
+
+# annuminas_monument_modifier_trigger = { 
+
+# }
+
+# osgiliath_bridge_monument_modifier_trigger = { 
+
+# }
+
+# dome_of_stars_monument_modifier_trigger = { 
+
+# }
+
+# rammas_echor_monument_modifier_trigger = { 
+
+# }
+
+# corrupted_king_monument_modifier_trigger = { 
+
+# }
+
+# fallen_king_monument_modifier_trigger = { 
+
+# }
+
+# port_pelargir_monument_modifier_trigger = { 
+
+# }
+
+# stone_erech_monument_modifier_trigger = { 
+
+# }
+

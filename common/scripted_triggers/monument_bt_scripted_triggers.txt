@@ -1,0 +1,688 @@
+has_bt_monument = { 
+	OR = {
+		has_great_project = {
+			type = pompeii
+			tier = 1
+		}
+		has_great_project = {
+			type = pompeii
+			tier = 2
+		}
+		has_great_project = {
+			type = pompeii
+			tier = 3
+		}
+		has_great_project = {
+			type = globe_theatre
+			tier = 1
+		}
+		has_great_project = {
+			type = globe_theatre
+			tier = 2
+		}
+		has_great_project = {
+			type = globe_theatre
+			tier = 3
+		}
+		has_great_project = {
+			type = lapa_arches
+			tier = 1
+		}
+		has_great_project = {
+			type = lapa_arches
+			tier = 2
+		}
+		has_great_project = {
+			type = lapa_arches
+			tier = 3
+		}
+		has_great_project = {
+			type = leaning_tower
+			tier = 1
+		}
+		has_great_project = {
+			type = leaning_tower
+			tier = 2
+		}
+		has_great_project = {
+			type = leaning_tower
+			tier = 3
+		}
+		has_great_project = {
+			type = great_lighthouse
+			tier = 1
+		}
+		has_great_project = {
+			type = great_lighthouse
+			tier = 2
+		}
+		has_great_project = {
+			type = great_lighthouse
+			tier = 3
+		}
+		has_great_project = {
+			type = colosseum
+			tier = 1
+		}
+		has_great_project = {
+			type = colosseum
+			tier = 2
+		}
+		has_great_project = {
+			type = colosseum
+			tier = 3
+		}
+		has_great_project = {
+			type = mosque_cathedral
+			tier = 1
+		}
+		has_great_project = {
+			type = mosque_cathedral
+			tier = 2
+		}
+		has_great_project = {
+			type = mosque_cathedral
+			tier = 3
+		}
+		has_great_project = {
+			type = sdc_cathedral
+			tier = 1
+		}
+		has_great_project = {
+			type = sdc_cathedral
+			tier = 2
+		}
+		has_great_project = {
+			type = sdc_cathedral
+			tier = 3
+		}
+		has_great_project = {
+			type = lindisfarne
+			tier = 1
+		}
+		has_great_project = {
+			type = lindisfarne
+			tier = 2
+		}
+		has_great_project = {
+			type = lindisfarne
+			tier = 3
+		}
+		has_great_project = {
+			type = mont_saint_michel
+			tier = 1
+		}
+		has_great_project = {
+			type = mont_saint_michel
+			tier = 2
+		}
+		has_great_project = {
+			type = mont_saint_michel
+			tier = 3
+		}
+		has_great_project = {
+			type = sanssouci
+			tier = 1
+		}
+		has_great_project = {
+			type = sanssouci
+			tier = 2
+		}
+		has_great_project = {
+			type = sanssouci
+			tier = 3
+		}
+		has_great_project = {
+			type = teotihuacan
+			tier = 1
+		}
+		has_great_project = {
+			type = teotihuacan
+			tier = 2
+		}
+		has_great_project = {
+			type = teotihuacan
+			tier = 3
+		}
+		has_great_project = {
+			type = mt_athos
+			tier = 1
+		}
+		has_great_project = {
+			type = mt_athos
+			tier = 2
+		}
+		has_great_project = {
+			type = mt_athos
+			tier = 3
+		}
+		has_great_project = {
+			type = mt_olympus
+			tier = 1
+		}
+		has_great_project = {
+			type = mt_olympus
+			tier = 2
+		}
+		has_great_project = {
+			type = mt_olympus
+			tier = 3
+		}
+		has_great_project = {
+			type = shibam_hadramawt
+			tier = 1
+		}
+		has_great_project = {
+			type = shibam_hadramawt
+			tier = 2
+		}
+		has_great_project = {
+			type = shibam_hadramawt
+			tier = 3
+		}
+		has_great_project = {
+			type = chillon_castle
+			tier = 1
+		}
+		has_great_project = {
+			type = chillon_castle
+			tier = 2
+		}
+		has_great_project = {
+			type = chillon_castle
+			tier = 3
+		}
+		has_great_project = {
+			type = rock_cashel
+			tier = 1
+		}
+		has_great_project = {
+			type = rock_cashel
+			tier = 2
+		}
+		has_great_project = {
+			type = rock_cashel
+			tier = 3
+		}
+		has_great_project = {
+			type = aula_palatina
+			tier = 1
+		}
+		has_great_project = {
+			type = aula_palatina
+			tier = 2
+		}
+		has_great_project = {
+			type = aula_palatina
+			tier = 3
+		}
+		has_great_project = {
+			type = red_fort
+			tier = 1
+		}
+		has_great_project = {
+			type = red_fort
+			tier = 2
+		}
+		has_great_project = {
+			type = red_fort
+			tier = 3
+		}
+		has_great_project = {
+			type = potala_palace
+			tier = 1
+		}
+		has_great_project = {
+			type = potala_palace
+			tier = 2
+		}
+		has_great_project = {
+			type = potala_palace
+			tier = 3
+		}
+		has_great_project = {
+			type = theodosian_walls
+			tier = 1
+		}
+		has_great_project = {
+			type = theodosian_walls
+			tier = 2
+		}
+		has_great_project = {
+			type = theodosian_walls
+			tier = 3
+		}
+		has_great_project = {
+			type = mahabodhi_temple
+			tier = 1
+		}
+		has_great_project = {
+			type = mahabodhi_temple
+			tier = 2
+		}
+		has_great_project = {
+			type = mahabodhi_temple
+			tier = 3
+		}
+		has_great_project = {
+			type = meenakshi_temple
+			tier = 1
+		}
+		has_great_project = {
+			type = meenakshi_temple
+			tier = 2
+		}
+		has_great_project = {
+			type = meenakshi_temple
+			tier = 3
+		}
+		has_great_project = {
+			type = solovetsky_monastery
+			tier = 1
+		}
+		has_great_project = {
+			type = solovetsky_monastery
+			tier = 2
+		}
+		has_great_project = {
+			type = solovetsky_monastery
+			tier = 3
+		}
+		has_great_project = {
+			type = aachen_cathedral
+			tier = 1
+		}
+		has_great_project = {
+			type = aachen_cathedral
+			tier = 2
+		}
+		has_great_project = {
+			type = aachen_cathedral
+			tier = 3
+		}
+		has_great_project = {
+			type = herrenhausen_gardens
+			tier = 1
+		}
+		has_great_project = {
+			type = herrenhausen_gardens
+			tier = 2
+		}
+		has_great_project = {
+			type = herrenhausen_gardens
+			tier = 3
+		}
+		has_great_project = {
+			type = meroe_pyramids
+			tier = 1
+		}
+		has_great_project = {
+			type = meroe_pyramids
+			tier = 2
+		}
+		has_great_project = {
+			type = meroe_pyramids
+			tier = 3
+		}
+		has_great_project = {
+			type = imperial_gardens
+			tier = 1
+		}
+		has_great_project = {
+			type = imperial_gardens
+			tier = 2
+		}
+		has_great_project = {
+			type = imperial_gardens
+			tier = 3
+		}
+		has_great_project = {
+			type = segovia_alcazar
+			tier = 1
+		}
+		has_great_project = {
+			type = segovia_alcazar
+			tier = 2
+		}
+		has_great_project = {
+			type = segovia_alcazar
+			tier = 3
+		}
+		has_great_project = {
+			type = torre_del_oro
+			tier = 1
+		}
+		has_great_project = {
+			type = torre_del_oro
+			tier = 2
+		}
+		has_great_project = {
+			type = torre_del_oro
+			tier = 3
+		}
+		has_great_project = {
+			type = hongan_ji
+			tier = 1
+		}
+		has_great_project = {
+			type = hongan_ji
+			tier = 2
+		}
+		has_great_project = {
+			type = hongan_ji
+			tier = 3
+		}
+		has_great_project = {
+			type = york_minster
+			tier = 1
+		}
+		has_great_project = {
+			type = york_minster
+			tier = 2
+		}
+		has_great_project = {
+			type = york_minster
+			tier = 3
+		}
+		has_great_project = {
+			type = canterbury_cathedral
+			tier = 1
+		}
+		has_great_project = {
+			type = canterbury_cathedral
+			tier = 2
+		}
+		has_great_project = {
+			type = canterbury_cathedral
+			tier = 3
+		}
+		has_great_project = {
+			type = st_catherines
+			tier = 1
+		}
+		has_great_project = {
+			type = st_catherines
+			tier = 2
+		}
+		has_great_project = {
+			type = st_catherines
+			tier = 3
+		}
+		has_great_project = {
+			type = temple_valley
+			tier = 1
+		}
+		has_great_project = {
+			type = temple_valley
+			tier = 2
+		}
+		has_great_project = {
+			type = temple_valley
+			tier = 3
+		}
+		has_great_project = {
+			type = burkhan_khaldun
+			tier = 1
+		}
+		has_great_project = {
+			type = burkhan_khaldun
+			tier = 2
+		}
+		has_great_project = {
+			type = burkhan_khaldun
+			tier = 3
+		}
+		has_great_project = {
+			type = beaune_hospices
+			tier = 1
+		}
+		has_great_project = {
+			type = beaune_hospices
+			tier = 2
+		}
+		has_great_project = {
+			type = beaune_hospices
+			tier = 3
+		}
+		has_great_project = {
+			type = pont_du_gard
+			tier = 1
+		}
+		has_great_project = {
+			type = pont_du_gard
+			tier = 2
+		}
+		has_great_project = {
+			type = pont_du_gard
+			tier = 3
+		}
+		has_great_project = {
+			type = aleppo_mosque
+			tier = 1
+		}
+		has_great_project = {
+			type = aleppo_mosque
+			tier = 2
+		}
+		has_great_project = {
+			type = aleppo_mosque
+			tier = 3
+		}
+		has_great_project = {
+			type = umayyad_mosque
+			tier = 1
+		}
+		has_great_project = {
+			type = umayyad_mosque
+			tier = 2
+		}
+		has_great_project = {
+			type = umayyad_mosque
+			tier = 3
+		}
+		has_great_project = {
+			type = painted_churches
+			tier = 1
+		}
+		has_great_project = {
+			type = painted_churches
+			tier = 2
+		}
+		has_great_project = {
+			type = painted_churches
+			tier = 3
+		}
+		has_great_project = {
+			type = lalish
+			tier = 1
+		}
+		has_great_project = {
+			type = lalish
+			tier = 2
+		}
+		has_great_project = {
+			type = lalish
+			tier = 3
+		}
+		has_great_project = {
+			type = diyarbakir_fortress
+			tier = 1
+		}
+		has_great_project = {
+			type = diyarbakir_fortress
+			tier = 2
+		}
+		has_great_project = {
+			type = diyarbakir_fortress
+			tier = 3
+		}
+		has_great_project = {
+			type = nineveh_gates
+			tier = 1
+		}
+		has_great_project = {
+			type = nineveh_gates
+			tier = 2
+		}
+		has_great_project = {
+			type = nineveh_gates
+			tier = 3
+		}
+		has_great_project = {
+			type = erbil_citadel
+			tier = 1
+		}
+		has_great_project = {
+			type = erbil_citadel
+			tier = 2
+		}
+		has_great_project = {
+			type = erbil_citadel
+			tier = 3
+		}
+		has_great_project = {
+			type = holy_cross_cathedral
+			tier = 1
+		}
+		has_great_project = {
+			type = holy_cross_cathedral
+			tier = 2
+		}
+		has_great_project = {
+			type = holy_cross_cathedral
+			tier = 3
+		}
+		has_great_project = {
+			type = kufa_mosque
+			tier = 1
+		}
+		has_great_project = {
+			type = kufa_mosque
+			tier = 2
+		}
+		has_great_project = {
+			type = kufa_mosque
+			tier = 3
+		}
+		has_great_project = {
+			type = imam_ali_shrine
+			tier = 1
+		}
+		has_great_project = {
+			type = imam_ali_shrine
+			tier = 2
+		}
+		has_great_project = {
+			type = imam_ali_shrine
+			tier = 3
+		}
+		has_great_project = {
+			type = uluru
+			tier = 1
+		}
+		has_great_project = {
+			type = uluru
+			tier = 2
+		}
+		has_great_project = {
+			type = uluru
+			tier = 3
+		}
+		has_great_project = {
+			type = el_dorado
+			tier = 1
+		}
+		has_great_project = {
+			type = el_dorado
+			tier = 2
+		}
+		has_great_project = {
+			type = el_dorado
+			tier = 3
+		}
+		has_great_project = {
+			type = fountain_of_youth
+			tier = 1
+		}
+		has_great_project = {
+			type = fountain_of_youth
+			tier = 2
+		}
+		has_great_project = {
+			type = fountain_of_youth
+			tier = 3
+		}
+		has_great_project = {
+			type = cibola
+			tier = 1
+		}
+		has_great_project = {
+			type = cibola
+			tier = 2
+		}
+		has_great_project = {
+			type = cibola
+			tier = 3
+		}
+		has_great_project = {
+			type = city_of_caesars
+			tier = 1
+		}
+		has_great_project = {
+			type = city_of_caesars
+			tier = 2
+		}
+		has_great_project = {
+			type = city_of_caesars
+			tier = 3
+		}
+		has_great_project = {
+			type = sierra_de_la_plata
+			tier = 1
+		}
+		has_great_project = {
+			type = sierra_de_la_plata
+			tier = 2
+		}
+		has_great_project = {
+			type = sierra_de_la_plata
+			tier = 3
+		}
+		has_great_project = {
+			type = norumbega
+			tier = 1
+		}
+		has_great_project = {
+			type = norumbega
+			tier = 2
+		}
+		has_great_project = {
+			type = norumbega
+			tier = 3
+		}
+		has_great_project = {
+			type = saguenay_kingdom
+			tier = 1
+		}
+		has_great_project = {
+			type = saguenay_kingdom
+			tier = 2
+		}
+		has_great_project = {
+			type = saguenay_kingdom
+			tier = 3
+		}
+		has_great_project = {
+			type = quivira_city
+			tier = 1
+		}
+		has_great_project = {
+			type = quivira_city
+			tier = 2
+		}
+		has_great_project = {
+			type = quivira_city
+			tier = 3
+		}
+	}
+}

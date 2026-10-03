@@ -1,0 +1,1756 @@
+has_wu_monument = { 
+	OR = {
+		has_great_project = {
+			type = uzkulak_canal
+			tier = 1
+		}
+		has_great_project = {
+			type = uzkulak_canal
+			tier = 2
+		}
+		has_great_project = {
+			type = uzkulak_canal
+			tier = 3
+		}
+		has_great_project = {
+			type = nippon_imperial_palaces
+			tier = 1
+		}
+		has_great_project = {
+			type = nippon_imperial_palaces
+			tier = 2
+		}
+		has_great_project = {
+			type = nippon_imperial_palaces
+			tier = 3
+		}
+		has_great_project = {
+			type = mount_jifu
+			tier = 1
+		}
+		has_great_project = {
+			type = mount_jifu
+			tier = 2
+		}
+		has_great_project = {
+			type = mount_jifu
+			tier = 3
+		}
+		has_great_project = {
+			type = jade_tower
+			tier = 1
+		}
+		has_great_project = {
+			type = jade_tower
+			tier = 2
+		}
+		has_great_project = {
+			type = jade_tower
+			tier = 3
+		}
+		has_great_project = {
+			type = shang_wu_river_district
+			tier = 1
+		}
+		has_great_project = {
+			type = shang_wu_river_district
+			tier = 2
+		}
+		has_great_project = {
+			type = shang_wu_river_district
+			tier = 3
+		}
+		has_great_project = {
+			type = mei_wan_port_city
+			tier = 1
+		}
+		has_great_project = {
+			type = mei_wan_port_city
+			tier = 2
+		}
+		has_great_project = {
+			type = mei_wan_port_city
+			tier = 3
+		}
+		has_great_project = {
+			type = flaming_canals
+			tier = 1
+		}
+		has_great_project = {
+			type = flaming_canals
+			tier = 2
+		}
+		has_great_project = {
+			type = flaming_canals
+			tier = 3
+		}
+		has_great_project = {
+			type = jade_pillar_port
+			tier = 1
+		}
+		has_great_project = {
+			type = jade_pillar_port
+			tier = 2
+		}
+		has_great_project = {
+			type = jade_pillar_port
+			tier = 3
+		}
+		has_great_project = {
+			type = infinite_libraries_of_tien_chi
+			tier = 1
+		}
+		has_great_project = {
+			type = infinite_libraries_of_tien_chi
+			tier = 2
+		}
+		has_great_project = {
+			type = infinite_libraries_of_tien_chi
+			tier = 3
+		}
+		has_great_project = {
+			type = pagoda_of_feng_pei
+			tier = 1
+		}
+		has_great_project = {
+			type = pagoda_of_feng_pei
+			tier = 2
+		}
+		has_great_project = {
+			type = pagoda_of_feng_pei
+			tier = 3
+		}
+		has_great_project = {
+			type = theaters_of_the_monkey_court
+			tier = 1
+		}
+		has_great_project = {
+			type = theaters_of_the_monkey_court
+			tier = 2
+		}
+		has_great_project = {
+			type = theaters_of_the_monkey_court
+			tier = 3
+		}
+		has_great_project = {
+			type = port_of_fu_chow
+			tier = 1
+		}
+		has_great_project = {
+			type = port_of_fu_chow
+			tier = 2
+		}
+		has_great_project = {
+			type = port_of_fu_chow
+			tier = 3
+		}
+		has_great_project = {
+			type = great_tea_fields
+			tier = 1
+		}
+		has_great_project = {
+			type = great_tea_fields
+			tier = 2
+		}
+		has_great_project = {
+			type = great_tea_fields
+			tier = 3
+		}
+		has_great_project = {
+			type = jadeblooded_mage_academy
+			tier = 1
+		}
+		has_great_project = {
+			type = jadeblooded_mage_academy
+			tier = 2
+		}
+		has_great_project = {
+			type = jadeblooded_mage_academy
+			tier = 3
+		}
+		has_great_project = {
+			type = foundries_of_nan_gau
+			tier = 1
+		}
+		has_great_project = {
+			type = foundries_of_nan_gau
+			tier = 2
+		}
+		has_great_project = {
+			type = foundries_of_nan_gau
+			tier = 3
+		}
+		has_great_project = {
+			type = silk_road_nexus
+			tier = 1
+		}
+		has_great_project = {
+			type = silk_road_nexus
+			tier = 2
+		}
+		has_great_project = {
+			type = silk_road_nexus
+			tier = 3
+		}
+		has_great_project = {
+			type = temple_of_the_moon_empress
+			tier = 1
+		}
+		has_great_project = {
+			type = temple_of_the_moon_empress
+			tier = 2
+		}
+		has_great_project = {
+			type = temple_of_the_moon_empress
+			tier = 3
+		}
+		has_great_project = {
+			type = emperors_palace
+			tier = 1
+		}
+		has_great_project = {
+			type = emperors_palace
+			tier = 2
+		}
+		has_great_project = {
+			type = emperors_palace
+			tier = 3
+		}
+		has_great_project = {
+			type = great_bastion
+			tier = 1
+		}
+		has_great_project = {
+			type = great_bastion
+			tier = 2
+		}
+		has_great_project = {
+			type = great_bastion
+			tier = 3
+		}
+		has_great_project = {
+			type = fishguts_cove
+			tier = 1
+		}
+		has_great_project = {
+			type = fishguts_cove
+			tier = 2
+		}
+		has_great_project = {
+			type = fishguts_cove
+			tier = 3
+		}
+		has_great_project = {
+			type = ivory_pass
+			tier = 1
+		}
+		has_great_project = {
+			type = ivory_pass
+			tier = 2
+		}
+		has_great_project = {
+			type = ivory_pass
+			tier = 3
+		}
+		has_great_project = {
+			type = goldeater_mines
+			tier = 1
+		}
+		has_great_project = {
+			type = goldeater_mines
+			tier = 2
+		}
+		has_great_project = {
+			type = goldeater_mines
+			tier = 3
+		}
+		has_great_project = {
+			type = arena_of_the_mawbite_tribes
+			tier = 1
+		}
+		has_great_project = {
+			type = arena_of_the_mawbite_tribes
+			tier = 2
+		}
+		has_great_project = {
+			type = arena_of_the_mawbite_tribes
+			tier = 3
+		}
+		has_great_project = {
+			type = firemouth_volcano
+			tier = 1
+		}
+		has_great_project = {
+			type = firemouth_volcano
+			tier = 2
+		}
+		has_great_project = {
+			type = firemouth_volcano
+			tier = 3
+		}
+		has_great_project = {
+			type = sky_titan_ruins
+			tier = 1
+		}
+		has_great_project = {
+			type = sky_titan_ruins
+			tier = 2
+		}
+		has_great_project = {
+			type = sky_titan_ruins
+			tier = 3
+		}
+		has_great_project = {
+			type = the_great_maw
+			tier = 1
+		}
+		has_great_project = {
+			type = the_great_maw
+			tier = 2
+		}
+		has_great_project = {
+			type = the_great_maw
+			tier = 3
+		}
+		has_great_project = {
+			type = zharr_naggrund
+			tier = 1
+		}
+		has_great_project = {
+			type = zharr_naggrund
+			tier = 2
+		}
+		has_great_project = {
+			type = zharr_naggrund
+			tier = 3
+		}
+		has_great_project = {
+			type = tower_of_gorgoth
+			tier = 1
+		}
+		has_great_project = {
+			type = tower_of_gorgoth
+			tier = 2
+		}
+		has_great_project = {
+			type = tower_of_gorgoth
+			tier = 3
+		}
+		has_great_project = {
+			type = gates_of_zharr
+			tier = 1
+		}
+		has_great_project = {
+			type = gates_of_zharr
+			tier = 2
+		}
+		has_great_project = {
+			type = gates_of_zharr
+			tier = 3
+		}
+		has_great_project = {
+			type = black_fortress
+			tier = 1
+		}
+		has_great_project = {
+			type = black_fortress
+			tier = 2
+		}
+		has_great_project = {
+			type = black_fortress
+			tier = 3
+		}
+		has_great_project = {
+			type = road_of_skulls
+			tier = 1
+		}
+		has_great_project = {
+			type = road_of_skulls
+			tier = 2
+		}
+		has_great_project = {
+			type = road_of_skulls
+			tier = 3
+		}
+		has_great_project = {
+			type = daemons_stump
+			tier = 1
+		}
+		has_great_project = {
+			type = daemons_stump
+			tier = 2
+		}
+		has_great_project = {
+			type = daemons_stump
+			tier = 3
+		}
+		has_great_project = {
+			type = tower_of_skulls
+			tier = 1
+		}
+		has_great_project = {
+			type = tower_of_skulls
+			tier = 2
+		}
+		has_great_project = {
+			type = tower_of_skulls
+			tier = 3
+		}
+		has_great_project = {
+			type = temple_of_vaati_the_binder
+			tier = 1
+		}
+		has_great_project = {
+			type = temple_of_vaati_the_binder
+			tier = 2
+		}
+		has_great_project = {
+			type = temple_of_vaati_the_binder
+			tier = 3
+		}
+		has_great_project = {
+			type = fortress_of_celestial_spears
+			tier = 1
+		}
+		has_great_project = {
+			type = fortress_of_celestial_spears
+			tier = 2
+		}
+		has_great_project = {
+			type = fortress_of_celestial_spears
+			tier = 3
+		}
+		has_great_project = {
+			type = pillars_of_dharasala
+			tier = 1
+		}
+		has_great_project = {
+			type = pillars_of_dharasala
+			tier = 2
+		}
+		has_great_project = {
+			type = pillars_of_dharasala
+			tier = 3
+		}
+		has_great_project = {
+			type = garden_of_the_eternal_peace
+			tier = 1
+		}
+		has_great_project = {
+			type = garden_of_the_eternal_peace
+			tier = 2
+		}
+		has_great_project = {
+			type = garden_of_the_eternal_peace
+			tier = 3
+		}
+		has_great_project = {
+			type = grand_library_of_lashara
+			tier = 1
+		}
+		has_great_project = {
+			type = grand_library_of_lashara
+			tier = 2
+		}
+		has_great_project = {
+			type = grand_library_of_lashara
+			tier = 3
+		}
+		has_great_project = {
+			type = tower_of_kala_the_sage
+			tier = 1
+		}
+		has_great_project = {
+			type = tower_of_kala_the_sage
+			tier = 2
+		}
+		has_great_project = {
+			type = tower_of_kala_the_sage
+			tier = 3
+		}
+		has_great_project = {
+			type = shrine_of_the_lotus_king
+			tier = 1
+		}
+		has_great_project = {
+			type = shrine_of_the_lotus_king
+			tier = 2
+		}
+		has_great_project = {
+			type = shrine_of_the_lotus_king
+			tier = 3
+		}
+		has_great_project = {
+			type = ziggurat_of_the_serpent_kings
+			tier = 1
+		}
+		has_great_project = {
+			type = ziggurat_of_the_serpent_kings
+			tier = 2
+		}
+		has_great_project = {
+			type = ziggurat_of_the_serpent_kings
+			tier = 3
+		}
+		has_great_project = {
+			type = temple_of_the_coiled_sun
+			tier = 1
+		}
+		has_great_project = {
+			type = temple_of_the_coiled_sun
+			tier = 2
+		}
+		has_great_project = {
+			type = temple_of_the_coiled_sun
+			tier = 3
+		}
+		has_great_project = {
+			type = shadowfang_citadel
+			tier = 1
+		}
+		has_great_project = {
+			type = shadowfang_citadel
+			tier = 2
+		}
+		has_great_project = {
+			type = shadowfang_citadel
+			tier = 3
+		}
+		has_great_project = {
+			type = sacred_grove_of_zhaqlah
+			tier = 1
+		}
+		has_great_project = {
+			type = sacred_grove_of_zhaqlah
+			tier = 2
+		}
+		has_great_project = {
+			type = sacred_grove_of_zhaqlah
+			tier = 3
+		}
+		has_great_project = {
+			type = temple_city_of_hexoatl
+			tier = 1
+		}
+		has_great_project = {
+			type = temple_city_of_hexoatl
+			tier = 2
+		}
+		has_great_project = {
+			type = temple_city_of_hexoatl
+			tier = 3
+		}
+		has_great_project = {
+			type = great_pyramid_of_itza
+			tier = 1
+		}
+		has_great_project = {
+			type = great_pyramid_of_itza
+			tier = 2
+		}
+		has_great_project = {
+			type = great_pyramid_of_itza
+			tier = 3
+		}
+		has_great_project = {
+			type = altar_of_the_horned_rat
+			tier = 1
+		}
+		has_great_project = {
+			type = altar_of_the_horned_rat
+			tier = 2
+		}
+		has_great_project = {
+			type = altar_of_the_horned_rat
+			tier = 3
+		}
+		has_great_project = {
+			type = shrine_of_sotek
+			tier = 1
+		}
+		has_great_project = {
+			type = shrine_of_sotek
+			tier = 2
+		}
+		has_great_project = {
+			type = shrine_of_sotek
+			tier = 3
+		}
+		has_great_project = {
+			type = pyramid_of_xahutec
+			tier = 1
+		}
+		has_great_project = {
+			type = pyramid_of_xahutec
+			tier = 2
+		}
+		has_great_project = {
+			type = pyramid_of_xahutec
+			tier = 3
+		}
+		has_great_project = {
+			type = citadel_of_dusk
+			tier = 1
+		}
+		has_great_project = {
+			type = citadel_of_dusk
+			tier = 2
+		}
+		has_great_project = {
+			type = citadel_of_dusk
+			tier = 3
+		}
+		has_great_project = {
+			type = monument_of_the_moon
+			tier = 1
+		}
+		has_great_project = {
+			type = monument_of_the_moon
+			tier = 2
+		}
+		has_great_project = {
+			type = monument_of_the_moon
+			tier = 3
+		}
+		has_great_project = {
+			type = pyramid_of_the_world_serpent
+			tier = 1
+		}
+		has_great_project = {
+			type = pyramid_of_the_world_serpent
+			tier = 2
+		}
+		has_great_project = {
+			type = pyramid_of_the_world_serpent
+			tier = 3
+		}
+		has_great_project = {
+			type = obsidian_column
+			tier = 1
+		}
+		has_great_project = {
+			type = obsidian_column
+			tier = 2
+		}
+		has_great_project = {
+			type = obsidian_column
+			tier = 3
+		}
+		has_great_project = {
+			type = lost_city_of_tzetek
+			tier = 1
+		}
+		has_great_project = {
+			type = lost_city_of_tzetek
+			tier = 2
+		}
+		has_great_project = {
+			type = lost_city_of_tzetek
+			tier = 3
+		}
+		has_great_project = {
+			type = amaxonia_headwaters
+			tier = 1
+		}
+		has_great_project = {
+			type = amaxonia_headwaters
+			tier = 2
+		}
+		has_great_project = {
+			type = amaxonia_headwaters
+			tier = 3
+		}
+		has_great_project = {
+			type = great_temple_at_spektazuma
+			tier = 1
+		}
+		has_great_project = {
+			type = great_temple_at_spektazuma
+			tier = 2
+		}
+		has_great_project = {
+			type = great_temple_at_spektazuma
+			tier = 3
+		}
+		has_great_project = {
+			type = chaul_crystal_reef
+			tier = 1
+		}
+		has_great_project = {
+			type = chaul_crystal_reef
+			tier = 2
+		}
+		has_great_project = {
+			type = chaul_crystal_reef
+			tier = 3
+		}
+		has_great_project = {
+			type = city_of_the_dead
+			tier = 1
+		}
+		has_great_project = {
+			type = city_of_the_dead
+			tier = 2
+		}
+		has_great_project = {
+			type = city_of_the_dead
+			tier = 3
+		}
+		has_great_project = {
+			type = gilded_pit_of_the_old_ones
+			tier = 1
+		}
+		has_great_project = {
+			type = gilded_pit_of_the_old_ones
+			tier = 2
+		}
+		has_great_project = {
+			type = gilded_pit_of_the_old_ones
+			tier = 3
+		}
+		has_great_project = {
+			type = black_tower_of_malekith
+			tier = 1
+		}
+		has_great_project = {
+			type = black_tower_of_malekith
+			tier = 2
+		}
+		has_great_project = {
+			type = black_tower_of_malekith
+			tier = 3
+		}
+		has_great_project = {
+			type = the_dark_crag
+			tier = 1
+		}
+		has_great_project = {
+			type = the_dark_crag
+			tier = 2
+		}
+		has_great_project = {
+			type = the_dark_crag
+			tier = 3
+		}
+		has_great_project = {
+			type = convent_of_sorcery
+			tier = 1
+		}
+		has_great_project = {
+			type = convent_of_sorcery
+			tier = 2
+		}
+		has_great_project = {
+			type = convent_of_sorcery
+			tier = 3
+		}
+		has_great_project = {
+			type = lairs_of_clar_karond
+			tier = 1
+		}
+		has_great_project = {
+			type = lairs_of_clar_karond
+			tier = 2
+		}
+		has_great_project = {
+			type = lairs_of_clar_karond
+			tier = 3
+		}
+		has_great_project = {
+			type = karond_kar
+			tier = 1
+		}
+		has_great_project = {
+			type = karond_kar
+			tier = 2
+		}
+		has_great_project = {
+			type = karond_kar
+			tier = 3
+		}
+		has_great_project = {
+			type = har_ganeth
+			tier = 1
+		}
+		has_great_project = {
+			type = har_ganeth
+			tier = 2
+		}
+		has_great_project = {
+			type = har_ganeth
+			tier = 3
+		}
+		has_great_project = {
+			type = ashward_slave_pits
+			tier = 1
+		}
+		has_great_project = {
+			type = ashward_slave_pits
+			tier = 2
+		}
+		has_great_project = {
+			type = ashward_slave_pits
+			tier = 3
+		}
+		has_great_project = {
+			type = witchwood_monument
+			tier = 1
+		}
+		has_great_project = {
+			type = witchwood_monument
+			tier = 2
+		}
+		has_great_project = {
+			type = witchwood_monument
+			tier = 3
+		}
+		has_great_project = {
+			type = imperial_gunnery_school
+			tier = 1
+		}
+		has_great_project = {
+			type = imperial_gunnery_school
+			tier = 2
+		}
+		has_great_project = {
+			type = imperial_gunnery_school
+			tier = 3
+		}
+		has_great_project = {
+			type = pfeildorf_wine_market
+			tier = 1
+		}
+		has_great_project = {
+			type = pfeildorf_wine_market
+			tier = 2
+		}
+		has_great_project = {
+			type = pfeildorf_wine_market
+			tier = 3
+		}
+		has_great_project = {
+			type = grand_cauldron
+			tier = 1
+		}
+		has_great_project = {
+			type = grand_cauldron
+			tier = 2
+		}
+		has_great_project = {
+			type = grand_cauldron
+			tier = 3
+		}
+		has_great_project = {
+			type = imperial_palace
+			tier = 1
+		}
+		has_great_project = {
+			type = imperial_palace
+			tier = 2
+		}
+		has_great_project = {
+			type = imperial_palace
+			tier = 3
+		}
+		has_great_project = {
+			type = holy_temple_of_sigmar
+			tier = 1
+		}
+		has_great_project = {
+			type = holy_temple_of_sigmar
+			tier = 2
+		}
+		has_great_project = {
+			type = holy_temple_of_sigmar
+			tier = 3
+		}
+		has_great_project = {
+			type = altdorf_college_of_mages
+			tier = 1
+		}
+		has_great_project = {
+			type = altdorf_college_of_mages
+			tier = 2
+		}
+		has_great_project = {
+			type = altdorf_college_of_mages
+			tier = 3
+		}
+		has_great_project = {
+			type = averburg
+			tier = 1
+		}
+		has_great_project = {
+			type = averburg
+			tier = 2
+		}
+		has_great_project = {
+			type = averburg
+			tier = 3
+		}
+		has_great_project = {
+			type = great_temple_of_taal_rhya
+			tier = 1
+		}
+		has_great_project = {
+			type = great_temple_of_taal_rhya
+			tier = 2
+		}
+		has_great_project = {
+			type = great_temple_of_taal_rhya
+			tier = 3
+		}
+		has_great_project = {
+			type = great_temple_ulric
+			tier = 1
+		}
+		has_great_project = {
+			type = great_temple_ulric
+			tier = 2
+		}
+		has_great_project = {
+			type = great_temple_ulric
+			tier = 3
+		}
+		has_great_project = {
+			type = suiddock_gp
+			tier = 1
+		}
+		has_great_project = {
+			type = suiddock_gp
+			tier = 2
+		}
+		has_great_project = {
+			type = suiddock_gp
+			tier = 3
+		}
+		has_great_project = {
+			type = bokha_palace_gp
+			tier = 1
+		}
+		has_great_project = {
+			type = bokha_palace_gp
+			tier = 2
+		}
+		has_great_project = {
+			type = bokha_palace_gp
+			tier = 3
+		}
+		has_great_project = {
+			type = citadel_of_praag_gp
+			tier = 1
+		}
+		has_great_project = {
+			type = citadel_of_praag_gp
+			tier = 2
+		}
+		has_great_project = {
+			type = citadel_of_praag_gp
+			tier = 3
+		}
+		has_great_project = {
+			type = erengrad_port_gp
+			tier = 1
+		}
+		has_great_project = {
+			type = erengrad_port_gp
+			tier = 2
+		}
+		has_great_project = {
+			type = erengrad_port_gp
+			tier = 3
+		}
+		has_great_project = {
+			type = the_great_ogham
+			tier = 1
+		}
+		has_great_project = {
+			type = the_great_ogham
+			tier = 2
+		}
+		has_great_project = {
+			type = the_great_ogham
+			tier = 3
+		}
+		has_great_project = {
+			type = citadel_of_lead
+			tier = 1
+		}
+		has_great_project = {
+			type = citadel_of_lead
+			tier = 2
+		}
+		has_great_project = {
+			type = citadel_of_lead
+			tier = 3
+		}
+		has_great_project = {
+			type = abbey_of_the_grail_companions
+			tier = 1
+		}
+		has_great_project = {
+			type = abbey_of_the_grail_companions
+			tier = 2
+		}
+		has_great_project = {
+			type = abbey_of_the_grail_companions
+			tier = 3
+		}
+		has_great_project = {
+			type = oak_of_ages
+			tier = 1
+		}
+		has_great_project = {
+			type = oak_of_ages
+			tier = 2
+		}
+		has_great_project = {
+			type = oak_of_ages
+			tier = 3
+		}
+		has_great_project = {
+			type = kings_glade
+			tier = 1
+		}
+		has_great_project = {
+			type = kings_glade
+			tier = 2
+		}
+		has_great_project = {
+			type = kings_glade
+			tier = 3
+		}
+		has_great_project = {
+			type = bells_of_luccini
+			tier = 1
+		}
+		has_great_project = {
+			type = bells_of_luccini
+			tier = 2
+		}
+		has_great_project = {
+			type = bells_of_luccini
+			tier = 3
+		}
+		has_great_project = {
+			type = cathedra_of_myrmidia
+			tier = 1
+		}
+		has_great_project = {
+			type = cathedra_of_myrmidia
+			tier = 2
+		}
+		has_great_project = {
+			type = cathedra_of_myrmidia
+			tier = 3
+		}
+		has_great_project = {
+			type = the_estelian_citadel
+			tier = 1
+		}
+		has_great_project = {
+			type = the_estelian_citadel
+			tier = 2
+		}
+		has_great_project = {
+			type = the_estelian_citadel
+			tier = 3
+		}
+		has_great_project = {
+			type = old_dwarf_road
+			tier = 1
+		}
+		has_great_project = {
+			type = old_dwarf_road
+			tier = 2
+		}
+		has_great_project = {
+			type = old_dwarf_road
+			tier = 3
+		}
+		has_great_project = {
+			type = palazzo_della_virtu
+			tier = 1
+		}
+		has_great_project = {
+			type = palazzo_della_virtu
+			tier = 2
+		}
+		has_great_project = {
+			type = palazzo_della_virtu
+			tier = 3
+		}
+		has_great_project = {
+			type = alcazar_of_magritta
+			tier = 1
+		}
+		has_great_project = {
+			type = alcazar_of_magritta
+			tier = 2
+		}
+		has_great_project = {
+			type = alcazar_of_magritta
+			tier = 3
+		}
+		has_great_project = {
+			type = royal_university_of_bilbali
+			tier = 1
+		}
+		has_great_project = {
+			type = royal_university_of_bilbali
+			tier = 2
+		}
+		has_great_project = {
+			type = royal_university_of_bilbali
+			tier = 3
+		}
+		has_great_project = {
+			type = sagrada_hermandad_of_myrmidia
+			tier = 1
+		}
+		has_great_project = {
+			type = sagrada_hermandad_of_myrmidia
+			tier = 2
+		}
+		has_great_project = {
+			type = sagrada_hermandad_of_myrmidia
+			tier = 3
+		}
+		has_great_project = {
+			type = el_torre_del_sol
+			tier = 1
+		}
+		has_great_project = {
+			type = el_torre_del_sol
+			tier = 2
+		}
+		has_great_project = {
+			type = el_torre_del_sol
+			tier = 3
+		}
+		has_great_project = {
+			type = barak_varr
+			tier = 1
+		}
+		has_great_project = {
+			type = barak_varr
+			tier = 2
+		}
+		has_great_project = {
+			type = barak_varr
+			tier = 3
+		}
+		has_great_project = {
+			type = black_fire_pass
+			tier = 1
+		}
+		has_great_project = {
+			type = black_fire_pass
+			tier = 2
+		}
+		has_great_project = {
+			type = black_fire_pass
+			tier = 3
+		}
+		has_great_project = {
+			type = forest_of_gloom
+			tier = 1
+		}
+		has_great_project = {
+			type = forest_of_gloom
+			tier = 2
+		}
+		has_great_project = {
+			type = forest_of_gloom
+			tier = 3
+		}
+		has_great_project = {
+			type = blackcliff_bay
+			tier = 1
+		}
+		has_great_project = {
+			type = blackcliff_bay
+			tier = 2
+		}
+		has_great_project = {
+			type = blackcliff_bay
+			tier = 3
+		}
+		has_great_project = {
+			type = mortensholm_marketplaces
+			tier = 1
+		}
+		has_great_project = {
+			type = mortensholm_marketplaces
+			tier = 2
+		}
+		has_great_project = {
+			type = mortensholm_marketplaces
+			tier = 3
+		}
+		has_great_project = {
+			type = monument_to_the_old_gods
+			tier = 1
+		}
+		has_great_project = {
+			type = monument_to_the_old_gods
+			tier = 2
+		}
+		has_great_project = {
+			type = monument_to_the_old_gods
+			tier = 3
+		}
+		has_great_project = {
+			type = skjold_fjords
+			tier = 1
+		}
+		has_great_project = {
+			type = skjold_fjords
+			tier = 2
+		}
+		has_great_project = {
+			type = skjold_fjords
+			tier = 3
+		}
+		has_great_project = {
+			type = uzkulak_caravan_stop
+			tier = 1
+		}
+		has_great_project = {
+			type = uzkulak_caravan_stop
+			tier = 2
+		}
+		has_great_project = {
+			type = uzkulak_caravan_stop
+			tier = 3
+		}
+		has_great_project = {
+			type = zanbaijin_fallen_city
+			tier = 1
+		}
+		has_great_project = {
+			type = zanbaijin_fallen_city
+			tier = 2
+		}
+		has_great_project = {
+			type = zanbaijin_fallen_city
+			tier = 3
+		}
+		has_great_project = {
+			type = the_inevitable_city
+			tier = 1
+		}
+		has_great_project = {
+			type = the_inevitable_city
+			tier = 2
+		}
+		has_great_project = {
+			type = the_inevitable_city
+			tier = 3
+		}
+		has_great_project = {
+			type = council_of_thirteen
+			tier = 1
+		}
+		has_great_project = {
+			type = council_of_thirteen
+			tier = 2
+		}
+		has_great_project = {
+			type = council_of_thirteen
+			tier = 3
+		}
+		has_great_project = {
+			type = hellpit
+			tier = 1
+		}
+		has_great_project = {
+			type = hellpit
+			tier = 2
+		}
+		has_great_project = {
+			type = hellpit
+			tier = 3
+		}
+		has_great_project = {
+			type = under_alchemy_laboratories
+			tier = 1
+		}
+		has_great_project = {
+			type = under_alchemy_laboratories
+			tier = 2
+		}
+		has_great_project = {
+			type = under_alchemy_laboratories
+			tier = 3
+		}
+		has_great_project = {
+			type = nest_of_corruption
+			tier = 1
+		}
+		has_great_project = {
+			type = nest_of_corruption
+			tier = 2
+		}
+		has_great_project = {
+			type = nest_of_corruption
+			tier = 3
+		}
+		has_great_project = {
+			type = castle_drakenhof
+			tier = 1
+		}
+		has_great_project = {
+			type = castle_drakenhof
+			tier = 2
+		}
+		has_great_project = {
+			type = castle_drakenhof
+			tier = 3
+		}
+		has_great_project = {
+			type = karaz_a_karak
+			tier = 1
+		}
+		has_great_project = {
+			type = karaz_a_karak
+			tier = 2
+		}
+		has_great_project = {
+			type = karaz_a_karak
+			tier = 3
+		}
+		has_great_project = {
+			type = dwarven_mints
+			tier = 1
+		}
+		has_great_project = {
+			type = dwarven_mints
+			tier = 2
+		}
+		has_great_project = {
+			type = dwarven_mints
+			tier = 3
+		}
+		has_great_project = {
+			type = black_crag
+			tier = 1
+		}
+		has_great_project = {
+			type = black_crag
+			tier = 2
+		}
+		has_great_project = {
+			type = black_crag
+			tier = 3
+		}
+		has_great_project = {
+			type = orc_proving_pits
+			tier = 1
+		}
+		has_great_project = {
+			type = orc_proving_pits
+			tier = 2
+		}
+		has_great_project = {
+			type = orc_proving_pits
+			tier = 3
+		}
+		has_great_project = {
+			type = mount_bloodhorn
+			tier = 1
+		}
+		has_great_project = {
+			type = mount_bloodhorn
+			tier = 2
+		}
+		has_great_project = {
+			type = mount_bloodhorn
+			tier = 3
+		}
+		has_great_project = {
+			type = idol_of_gork
+			tier = 1
+		}
+		has_great_project = {
+			type = idol_of_gork
+			tier = 2
+		}
+		has_great_project = {
+			type = idol_of_gork
+			tier = 3
+		}
+		has_great_project = {
+			type = offices_of_karak_azul
+			tier = 1
+		}
+		has_great_project = {
+			type = offices_of_karak_azul
+			tier = 2
+		}
+		has_great_project = {
+			type = offices_of_karak_azul
+			tier = 3
+		}
+		has_great_project = {
+			type = harbor_of_lashiek
+			tier = 1
+		}
+		has_great_project = {
+			type = harbor_of_lashiek
+			tier = 2
+		}
+		has_great_project = {
+			type = harbor_of_lashiek
+			tier = 3
+		}
+		has_great_project = {
+			type = university_of_alshir
+			tier = 1
+		}
+		has_great_project = {
+			type = university_of_alshir
+			tier = 2
+		}
+		has_great_project = {
+			type = university_of_alshir
+			tier = 3
+		}
+		has_great_project = {
+			type = library_of_medes
+			tier = 1
+		}
+		has_great_project = {
+			type = library_of_medes
+			tier = 2
+		}
+		has_great_project = {
+			type = library_of_medes
+			tier = 3
+		}
+		has_great_project = {
+			type = palace_of_the_wizard_caliph
+			tier = 1
+		}
+		has_great_project = {
+			type = palace_of_the_wizard_caliph
+			tier = 2
+		}
+		has_great_project = {
+			type = palace_of_the_wizard_caliph
+			tier = 3
+		}
+		has_great_project = {
+			type = martek_pilgrimage
+			tier = 1
+		}
+		has_great_project = {
+			type = martek_pilgrimage
+			tier = 2
+		}
+		has_great_project = {
+			type = martek_pilgrimage
+			tier = 3
+		}
+		has_great_project = {
+			type = bay_of_zlatlan
+			tier = 1
+		}
+		has_great_project = {
+			type = bay_of_zlatlan
+			tier = 2
+		}
+		has_great_project = {
+			type = bay_of_zlatlan
+			tier = 3
+		}
+		has_great_project = {
+			type = tomb_of_settra
+			tier = 1
+		}
+		has_great_project = {
+			type = tomb_of_settra
+			tier = 2
+		}
+		has_great_project = {
+			type = tomb_of_settra
+			tier = 3
+		}
+		has_great_project = {
+			type = black_pyramid_of_nagash
+			tier = 1
+		}
+		has_great_project = {
+			type = black_pyramid_of_nagash
+			tier = 2
+		}
+		has_great_project = {
+			type = black_pyramid_of_nagash
+			tier = 3
+		}
+		has_great_project = {
+			type = great_necropolis_of_khemri
+			tier = 1
+		}
+		has_great_project = {
+			type = great_necropolis_of_khemri
+			tier = 2
+		}
+		has_great_project = {
+			type = great_necropolis_of_khemri
+			tier = 3
+		}
+		has_great_project = {
+			type = mortuary_temple_of_quaph
+			tier = 1
+		}
+		has_great_project = {
+			type = mortuary_temple_of_quaph
+			tier = 2
+		}
+		has_great_project = {
+			type = mortuary_temple_of_quaph
+			tier = 3
+		}
+		has_great_project = {
+			type = great_sphinx_of_numasis
+			tier = 1
+		}
+		has_great_project = {
+			type = great_sphinx_of_numasis
+			tier = 2
+		}
+		has_great_project = {
+			type = great_sphinx_of_numasis
+			tier = 3
+		}
+		has_great_project = {
+			type = oasis_of_the_gods
+			tier = 1
+		}
+		has_great_project = {
+			type = oasis_of_the_gods
+			tier = 2
+		}
+		has_great_project = {
+			type = oasis_of_the_gods
+			tier = 3
+		}
+		has_great_project = {
+			type = valley_of_kings
+			tier = 1
+		}
+		has_great_project = {
+			type = valley_of_kings
+			tier = 2
+		}
+		has_great_project = {
+			type = valley_of_kings
+			tier = 3
+		}
+		has_great_project = {
+			type = obelisk_of_eternity
+			tier = 1
+		}
+		has_great_project = {
+			type = obelisk_of_eternity
+			tier = 2
+		}
+		has_great_project = {
+			type = obelisk_of_eternity
+			tier = 3
+		}
+		has_great_project = {
+			type = colossus_of_zandri
+			tier = 1
+		}
+		has_great_project = {
+			type = colossus_of_zandri
+			tier = 2
+		}
+		has_great_project = {
+			type = colossus_of_zandri
+			tier = 3
+		}
+		has_great_project = {
+			type = crater_ritual_site
+			tier = 1
+		}
+		has_great_project = {
+			type = crater_ritual_site
+			tier = 2
+		}
+		has_great_project = {
+			type = crater_ritual_site
+			tier = 3
+		}
+		has_great_project = {
+			type = the_maelstrom
+			tier = 1
+		}
+		has_great_project = {
+			type = the_maelstrom
+			tier = 2
+		}
+		has_great_project = {
+			type = the_maelstrom
+			tier = 3
+		}
+		has_great_project = {
+			type = gp_court_of_the_phoenix_king
+			tier = 1
+		}
+		has_great_project = {
+			type = gp_court_of_the_phoenix_king
+			tier = 2
+		}
+		has_great_project = {
+			type = gp_court_of_the_phoenix_king
+			tier = 3
+		}
+		has_great_project = {
+			type = gp_court_of_the_everqueen
+			tier = 1
+		}
+		has_great_project = {
+			type = gp_court_of_the_everqueen
+			tier = 2
+		}
+		has_great_project = {
+			type = gp_court_of_the_everqueen
+			tier = 3
+		}
+		has_great_project = {
+			type = gp_white_tower_of_hoeth
+			tier = 1
+		}
+		has_great_project = {
+			type = gp_white_tower_of_hoeth
+			tier = 2
+		}
+		has_great_project = {
+			type = gp_white_tower_of_hoeth
+			tier = 3
+		}
+		has_great_project = {
+			type = gp_amphitheatre_of_yvresse
+			tier = 1
+		}
+		has_great_project = {
+			type = gp_amphitheatre_of_yvresse
+			tier = 2
+		}
+		has_great_project = {
+			type = gp_amphitheatre_of_yvresse
+			tier = 3
+		}
+		has_great_project = {
+			type = gp_black_citadel_of_anlec
+			tier = 1
+		}
+		has_great_project = {
+			type = gp_black_citadel_of_anlec
+			tier = 2
+		}
+		has_great_project = {
+			type = gp_black_citadel_of_anlec
+			tier = 3
+		}
+		has_great_project = {
+			type = gp_hall_of_charioteers
+			tier = 1
+		}
+		has_great_project = {
+			type = gp_hall_of_charioteers
+			tier = 2
+		}
+		has_great_project = {
+			type = gp_hall_of_charioteers
+			tier = 3
+		}
+		has_great_project = {
+			type = gp_gates_of_lothern
+			tier = 1
+		}
+		has_great_project = {
+			type = gp_gates_of_lothern
+			tier = 2
+		}
+		has_great_project = {
+			type = gp_gates_of_lothern
+			tier = 3
+		}
+		has_great_project = {
+			type = gp_hall_of_dragons
+			tier = 1
+		}
+		has_great_project = {
+			type = gp_hall_of_dragons
+			tier = 2
+		}
+		has_great_project = {
+			type = gp_hall_of_dragons
+			tier = 3
+		}
+		has_great_project = {
+			type = gp_royal_ellyrian_stables
+			tier = 1
+		}
+		has_great_project = {
+			type = gp_royal_ellyrian_stables
+			tier = 2
+		}
+		has_great_project = {
+			type = gp_royal_ellyrian_stables
+			tier = 3
+		}
+		has_great_project = {
+			type = gp_ancient_subterranean_palace
+			tier = 1
+		}
+		has_great_project = {
+			type = gp_ancient_subterranean_palace
+			tier = 2
+		}
+		has_great_project = {
+			type = gp_ancient_subterranean_palace
+			tier = 3
+		}
+		has_great_project = {
+			type = gp_white_lion_hunting_grounds
+			tier = 1
+		}
+		has_great_project = {
+			type = gp_white_lion_hunting_grounds
+			tier = 2
+		}
+		has_great_project = {
+			type = gp_white_lion_hunting_grounds
+			tier = 3
+		}
+		has_great_project = {
+			type = gp_great_vortex
+			tier = 1
+		}
+		has_great_project = {
+			type = gp_great_vortex
+			tier = 2
+		}
+		has_great_project = {
+			type = gp_great_vortex
+			tier = 3
+		}
+		has_great_project = {
+			type = gp_great_vortex_corrupted
+			tier = 1
+		}
+		has_great_project = {
+			type = gp_great_vortex_corrupted
+			tier = 2
+		}
+		has_great_project = {
+			type = gp_great_vortex_corrupted
+			tier = 3
+		}
+	}
+}

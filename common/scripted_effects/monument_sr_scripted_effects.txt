@@ -1,0 +1,361 @@
+check_sr_subject_monuments = { 
+	hidden_effect = {
+		if = {
+			limit = {
+				358 = { tomb_of_antony_and_cleopatra_modifier_trigger = yes }
+				358 = {
+					has_great_project = {
+						type = tomb_of_antony_and_cleopatra
+						tier = 1
+					}
+					NOT = { has_great_project = {
+						type = tomb_of_antony_and_cleopatra
+						tier = 2
+					}}
+					NOT = { has_great_project = {
+						type = tomb_of_antony_and_cleopatra
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			358 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = tomb_of_antony_and_cleopatra1
+							duration = -1
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				358 = { tomb_of_antony_and_cleopatra_modifier_trigger = yes }
+				358 = {
+					has_great_project = {
+						type = tomb_of_antony_and_cleopatra
+						tier = 2
+					}
+					NOT = { has_great_project = {
+						type = tomb_of_antony_and_cleopatra
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			358 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = tomb_of_antony_and_cleopatra2
+							duration = -1
+						}
+						remove_country_modifier = tomb_of_antony_and_cleopatra1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				358 = { tomb_of_antony_and_cleopatra_modifier_trigger = yes }
+				358 = {
+					has_great_project = {
+						type = tomb_of_antony_and_cleopatra
+						tier = 3
+					}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			358 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = tomb_of_antony_and_cleopatra3
+							duration = -1
+						}
+						remove_country_modifier = tomb_of_antony_and_cleopatra2
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					358 = { tomb_of_antony_and_cleopatra_modifier_trigger = no }
+					358 = {
+						owner = {
+							has_country_flag = dependencylost
+						}
+					}
+				}
+			}
+			every_country = {
+				remove_country_modifier = tomb_of_antony_and_cleopatra1
+				remove_country_modifier = tomb_of_antony_and_cleopatra2
+				remove_country_modifier = tomb_of_antony_and_cleopatra3
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = subjectmonumentlost
+				OR ={
+					has_country_modifier = tomb_of_antony_and_cleopatra1
+					has_country_modifier = tomb_of_antony_and_cleopatra2
+					has_country_modifier = tomb_of_antony_and_cleopatra3
+				}
+			}
+			remove_country_modifier = tomb_of_antony_and_cleopatra1
+			remove_country_modifier = tomb_of_antony_and_cleopatra2
+			remove_country_modifier = tomb_of_antony_and_cleopatra3
+		}
+		if = {
+			limit = {
+				150 = { bletata_palace_royal_stables_modifier_trigger = yes }
+				150 = {
+					has_great_project = {
+						type = bletata_palace_royal_stables
+						tier = 1
+					}
+					NOT = { has_great_project = {
+						type = bletata_palace_royal_stables
+						tier = 2
+					}}
+					NOT = { has_great_project = {
+						type = bletata_palace_royal_stables
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			150 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = bletata_palace_royal_stables1
+							duration = -1
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				150 = { bletata_palace_royal_stables_modifier_trigger = yes }
+				150 = {
+					has_great_project = {
+						type = bletata_palace_royal_stables
+						tier = 2
+					}
+					NOT = { has_great_project = {
+						type = bletata_palace_royal_stables
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			150 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = bletata_palace_royal_stables2
+							duration = -1
+						}
+						remove_country_modifier = bletata_palace_royal_stables1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				150 = { bletata_palace_royal_stables_modifier_trigger = yes }
+				150 = {
+					has_great_project = {
+						type = bletata_palace_royal_stables
+						tier = 3
+					}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			150 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = bletata_palace_royal_stables3
+							duration = -1
+						}
+						remove_country_modifier = bletata_palace_royal_stables2
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					150 = { bletata_palace_royal_stables_modifier_trigger = no }
+					150 = {
+						owner = {
+							has_country_flag = dependencylost
+						}
+					}
+				}
+			}
+			every_country = {
+				remove_country_modifier = bletata_palace_royal_stables1
+				remove_country_modifier = bletata_palace_royal_stables2
+				remove_country_modifier = bletata_palace_royal_stables3
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = subjectmonumentlost
+				OR ={
+					has_country_modifier = bletata_palace_royal_stables1
+					has_country_modifier = bletata_palace_royal_stables2
+					has_country_modifier = bletata_palace_royal_stables3
+				}
+			}
+			remove_country_modifier = bletata_palace_royal_stables1
+			remove_country_modifier = bletata_palace_royal_stables2
+			remove_country_modifier = bletata_palace_royal_stables3
+		}
+		if = {
+			limit = {
+				280 = { golden_gate_of_kiev_modifier_trigger = yes }
+				280 = {
+					has_great_project = {
+						type = golden_gate_of_kiev
+						tier = 1
+					}
+					NOT = { has_great_project = {
+						type = golden_gate_of_kiev
+						tier = 2
+					}}
+					NOT = { has_great_project = {
+						type = golden_gate_of_kiev
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			280 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = golden_gate_of_kiev1
+							duration = -1
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				280 = { golden_gate_of_kiev_modifier_trigger = yes }
+				280 = {
+					has_great_project = {
+						type = golden_gate_of_kiev
+						tier = 2
+					}
+					NOT = { has_great_project = {
+						type = golden_gate_of_kiev
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			280 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = golden_gate_of_kiev2
+							duration = -1
+						}
+						remove_country_modifier = golden_gate_of_kiev1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				280 = { golden_gate_of_kiev_modifier_trigger = yes }
+				280 = {
+					has_great_project = {
+						type = golden_gate_of_kiev
+						tier = 3
+					}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			280 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = golden_gate_of_kiev3
+							duration = -1
+						}
+						remove_country_modifier = golden_gate_of_kiev2
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					280 = { golden_gate_of_kiev_modifier_trigger = no }
+					280 = {
+						owner = {
+							has_country_flag = dependencylost
+						}
+					}
+				}
+			}
+			every_country = {
+				remove_country_modifier = golden_gate_of_kiev1
+				remove_country_modifier = golden_gate_of_kiev2
+				remove_country_modifier = golden_gate_of_kiev3
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = subjectmonumentlost
+				OR ={
+					has_country_modifier = golden_gate_of_kiev1
+					has_country_modifier = golden_gate_of_kiev2
+					has_country_modifier = golden_gate_of_kiev3
+				}
+			}
+			remove_country_modifier = golden_gate_of_kiev1
+			remove_country_modifier = golden_gate_of_kiev2
+			remove_country_modifier = golden_gate_of_kiev3
+		}
+	}
+}

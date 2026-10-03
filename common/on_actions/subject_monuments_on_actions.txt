@@ -1,0 +1,222 @@
+on_startup = {
+	run_on_startup_compatability_effects = yes
+	# riverupdate = yes
+	update_monuments_self = yes
+}
+
+on_dependency_gained = {
+	update_monuments_self = yes
+	FROM = { update_monuments_self = yes }
+}
+
+# ROOT = Overlord, FROM = Minor
+on_dependency_lost = {
+	FROM = { set_country_flag = dependencylost }
+	ROOT = { set_country_flag = dependencylost }
+	update_monuments_self = yes
+	FROM = { clr_country_flag = dependencylost }
+	ROOT = { clr_country_flag = dependencylost }
+}
+
+on_great_project_constructed = {
+	update_monuments_self = yes
+}
+
+on_province_owner_change = {
+	update_monuments_dependence = yes
+	# FROM = { riverupdate = yes }
+	# owner = { riverupdate = yes }
+}
+
+on_culture_promoted = {
+	if = {
+		limit = {
+			is_subject = yes
+			NOT = { is_subject_of_type = tributary_state }
+		}
+		overlord = { update_monuments_self = yes }
+	}
+}
+
+on_culture_demoted = {
+	if = {
+		limit = {
+			is_subject = yes
+			NOT = { is_subject_of_type = tributary_state }
+		}
+		overlord = { update_monuments_self = yes }
+	}
+}
+
+on_primary_culture_changed = {
+	if = {
+		limit = {
+			is_subject = yes
+			NOT = { is_subject_of_type = tributary_state }
+		}
+		overlord = { update_monuments_self = yes }
+	}
+}
+
+on_religion_change = {
+	if = {
+		limit = {
+			is_subject = yes
+			NOT = { is_subject_of_type = tributary_state }
+		}
+		overlord = { update_monuments_self = yes }
+	}
+}
+
+on_secondary_religion_change = {
+	if = {
+		limit = {
+			is_subject = yes
+			NOT = { is_subject_of_type = tributary_state }
+		}
+		overlord = { update_monuments_self = yes }
+	}
+}
+
+on_province_culture_converted = {
+	if = {
+		limit = {
+			owner = {
+				is_subject = yes
+				NOT = { is_subject_of_type = tributary_state }
+			}
+			# OR = {
+			# 	has_monument = yes
+			# 	has_gme_monument = yes
+			# 	has_anb_monument = yes
+			# 	has_alexiad_monument = yes
+			# }
+		}
+		owner = {
+			overlord = { update_monuments_self = yes }
+		}
+	}
+}
+
+on_province_religion_converted = {
+	if = {
+		limit = {
+			owner = {
+				is_subject = yes
+				NOT = { is_subject_of_type = tributary_state }
+			}
+			# OR = {
+			# 	has_monument = yes
+			# 	has_gme_monument = yes
+			# 	has_ab_monument = yes
+			# 	has_alb_monument = yes
+			# 	has_alexiad_monument = yes
+			# 	has_anb_monument = yes
+			# 	has_bt_monument = yes
+			# }
+		}
+		owner = {
+			overlord = { update_monuments_self = yes }
+		}
+	}
+}
+
+on_harmonized_buddhism = {
+	if = {
+		limit = {
+			is_subject = yes
+			NOT = { is_subject_of_type = tributary_state }
+		}
+		overlord = { update_monuments_self = yes }
+	}
+}
+
+on_harmonized_christian = {
+	if = {
+		limit = {
+			is_subject = yes
+			NOT = { is_subject_of_type = tributary_state }
+		}
+		overlord = { update_monuments_self = yes }
+	}
+}
+
+on_harmonized_dharmic = {
+	if = {
+		limit = {
+			is_subject = yes
+			NOT = { is_subject_of_type = tributary_state }
+		}
+		overlord = { update_monuments_self = yes }
+	}
+}
+
+on_harmonized_jewish_group = {
+	if = {
+		limit = {
+			is_subject = yes
+			NOT = { is_subject_of_type = tributary_state }
+		}
+		overlord = { update_monuments_self = yes }
+	}
+}
+
+on_harmonized_mahayana = {
+	if = {
+		limit = {
+			is_subject = yes
+			NOT = { is_subject_of_type = tributary_state }
+		}
+		overlord = { update_monuments_self = yes }
+	}
+}
+
+on_harmonized_muslim = {
+	if = {
+		limit = {
+			is_subject = yes
+			NOT = { is_subject_of_type = tributary_state }
+		}
+		overlord = { update_monuments_self = yes }
+	}
+}
+
+on_harmonized_pagan = {
+	if = {
+		limit = {
+			is_subject = yes
+			NOT = { is_subject_of_type = tributary_state }
+		}
+		overlord = { update_monuments_self = yes }
+	}
+}
+
+on_harmonized_shinto = {
+	if = {
+		limit = {
+			is_subject = yes
+			NOT = { is_subject_of_type = tributary_state }
+		}
+		overlord = { update_monuments_self = yes }
+	}
+}
+
+on_harmonized_vajrayana = {
+	if = {
+		limit = {
+			is_subject = yes
+			NOT = { is_subject_of_type = tributary_state }
+		}
+		overlord = { update_monuments_self = yes }
+	}
+}
+
+on_harmonized_zoroastrian_group = {
+	if = {
+		limit = {
+			is_subject = yes
+			NOT = { is_subject_of_type = tributary_state }
+		}
+		overlord = { update_monuments_self = yes }
+	}
+}

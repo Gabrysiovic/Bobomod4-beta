@@ -1,0 +1,4 @@
+75 = "Strossburig"
+4765 = "Milhüsa"
+72 = "Schduagert"
+1868 = "Augschburg"

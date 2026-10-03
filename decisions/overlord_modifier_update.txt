@@ -1,0 +1,130 @@
+country_decisions = {
+	#goods_update = {}
+	#liberalism_capitalism_update = {}
+	subject_monuments_update = {
+		potential = {
+			ai = no
+			num_of_subjects = 1
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			check_subject_monuments = yes
+			if = {
+				limit = {
+					has_global_flag = great_monuments_expanded_mod_active
+				}
+				check_gme_subject_monuments = yes
+			}
+			if = {
+				limit = {
+					has_global_flag = anb_mod_active
+				}
+				check_anb_subject_monuments = yes
+			}
+			if = {
+				limit = {
+					has_global_flag = alexiad_mod_active
+				}
+				check_alexiad_subject_monuments = yes
+			}
+			if = {
+				limit = {
+					has_global_flag = lotf_mod_active
+				}
+				check_lotf_subject_monuments = yes
+			}
+			if = {
+				limit = {
+					has_global_flag = ab_mod_active
+				}
+				check_ab_subject_monuments = yes
+			}
+			if = {
+				limit = {
+					has_global_flag = pf_mod_active
+				}
+				check_pf_subject_monuments = yes
+			}
+			if = {
+				limit = {
+					has_global_flag = to_mod_active
+				}
+				check_to_subject_monuments = yes
+			}
+			if = {
+				limit = {
+					has_global_flag = mks_mod_active
+				}
+				check_mks_subject_monuments = yes
+			}
+			if = {
+				limit = {
+					has_global_flag = wu_mod_active
+				}
+				check_wu_subject_monuments = yes
+			}
+			if = {
+				limit = {
+					has_global_flag = esu_mod_active
+				}
+				check_esu_subject_monuments = yes
+			}
+			if = {
+				limit = {
+					has_global_flag = wwu_mod_active
+				}
+				check_wwu_subject_monuments = yes
+			}
+			if = {
+				limit = {
+					has_global_flag = sr_mod_active
+				}
+				check_sr_subject_monuments = yes
+			}
+			if = {
+				limit = {
+					has_global_flag = bt_mod_active
+				}
+				check_bt_subject_monuments = yes
+			}
+			if = {
+				limit = {
+					has_global_flag = dd_mod_active
+				}
+				check_dd_subject_monuments = yes
+			}
+			if = {
+				limit = {
+					has_global_flag = alb_mod_active
+				}
+				check_alb_subject_monuments = yes
+			}
+			if = {
+				limit = {
+					has_global_flag = rdl_mod_active
+				}
+				check_rdl_subject_monuments = yes
+			}
+			if = {
+				limit = {
+					has_global_flag = compa_mod_active
+				}
+				check_compa_subject_monuments = yes
+			}
+			# if = {
+			# 	limit = {
+			# 		has_global_flag = lou2_mod_active
+			# 	}
+			# 	check_lou2_subject_monuments = yes
+			# }
+			if = {
+				limit = {
+					NOT = { has_global_flag = overlording_mod_active }
+				}
+				set_global_flag = overlording_mod_active
+			}
+		}
+	}
+}

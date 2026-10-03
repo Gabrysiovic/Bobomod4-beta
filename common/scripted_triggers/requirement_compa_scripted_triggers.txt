@@ -1,0 +1,263 @@
+ww_pharos_modifier_trigger = { 
+
+}
+
+ww_jebel_barkal_modifier_trigger = { 
+OR={
+			AND = {
+				province_is_or_accepts_religion_group = {
+					religion_group = pagan
+				}
+			}
+			AND = {
+				OR = {
+					culture = nubian
+					culture = al_misr_arabic
+				}
+				has_owner_culture = yes
+			}
+		}
+}
+
+ww_cothon_carthage_modifier_trigger = { 
+OR = {
+			AND = {
+				owner = { government = republic }
+			}
+			AND = {
+				culture_group = maghrebi
+				has_owner_culture = yes
+			}
+		}
+}
+
+ww_loropeni_modifier_trigger = { 
+AND={
+			culture_group = mande
+			province_is_or_accepts_culture = yes
+		}
+}
+
+ww_senegambian_circles_modifier_trigger = { 
+OR={	
+			AND={
+				province_is_or_accepts_religion_group = {
+					religion_group = pagan
+				}
+			}
+			AND={
+				culture = senegambian
+				has_owner_culture = yes
+			}
+		}
+}
+
+ww_ghadames_modifier_trigger = { 
+AND={	
+			culture_group = maghrebi
+			province_is_or_accepts_culture = yes
+		}
+}
+
+ww_ambohimanga_modifier_trigger = { 
+AND={	
+			culture = madagasque
+			has_owner_culture = yes
+		}
+}
+
+ww_table_mountain_modifier_trigger = { 
+
+}
+
+ww_axum_obelisk_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = coptic
+		}
+}
+
+ww_victoria_buganda_modifier_trigger = { 
+
+}
+
+ww_victoria_busoga_modifier_trigger = { 
+
+}
+
+ww_victoria_karagwe_modifier_trigger = { 
+
+}
+
+ww_victoria_buzinza_modifier_trigger = { 
+
+}
+
+ww_victoria_shaga_modifier_trigger = { 
+
+}
+
+ww_victoria_kuria_modifier_trigger = { 
+
+}
+
+ww_crater_lake_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+				religion_group = pagan
+			}
+}
+
+ww_matho_thipila_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+				religion_group = pagan
+			}
+}
+
+ww_medicine_wheel_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = totemism
+		}
+}
+
+ww_tree_peace_modifier_trigger = { 
+OR = {
+			AND = {
+				province_is_or_accepts_religion = {
+					religion = totemism
+				}
+			}
+			AND = {
+				culture_group = iroquoian
+				has_owner_culture = yes
+			}
+		}
+}
+
+ww_agustin_statues_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = pagan
+		}
+}
+
+ww_nazca_lines_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = pagan
+		}
+}
+
+ww_qhapaq_cajamarca_modifier_trigger = { 
+OR = {
+			culture_group = andean_group
+			culture = cara
+			culture = chachapoyan
+		}
+		province_is_or_accepts_culture = yes
+}
+
+ww_qhapaq_huanuco_modifier_trigger = { 
+OR = {
+			culture_group = andean_group
+			culture = cara
+			culture = chachapoyan
+		}
+		province_is_or_accepts_culture = yes
+}
+
+ww_qhapaq_cuzco_modifier_trigger = { 
+OR = {
+			culture_group = andean_group
+			culture = cara
+			culture = chachapoyan
+		}
+		province_is_or_accepts_culture = yes
+}
+
+ww_qhapaq_tiahuanaco_modifier_trigger = { 
+OR = {
+			culture_group = andean_group
+			culture = cara
+			culture = chachapoyan
+		}
+		province_is_or_accepts_culture = yes
+}
+
+ww_qhapaq_potosi_modifier_trigger = { 
+OR = {
+			culture_group = andean_group
+			culture = cara
+			culture = chachapoyan
+		}
+		province_is_or_accepts_culture = yes
+}
+
+ww_qhapaq_jujuy_modifier_trigger = { 
+OR = {
+			culture_group = andean_group
+			culture = cara
+			culture = chachapoyan
+		}
+		province_is_or_accepts_culture = yes
+}
+
+ww_qhapaq_tucuman_modifier_trigger = { 
+OR = {
+			culture_group = andean_group
+			culture = cara
+			culture = chachapoyan
+		}
+		province_is_or_accepts_culture = yes
+}
+
+ww_qhapaq_mendoza_modifier_trigger = { 
+OR = {
+			culture_group = andean_group
+			culture = cara
+			culture = chachapoyan
+		}
+		province_is_or_accepts_culture = yes
+}
+
+ww_hanging_gardens_modifier_trigger = { 
+
+}
+
+ww_house_wisdom_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+}
+
+ww_apadana_modifier_trigger = { 
+AND = {
+			culture_group = iranian
+			has_owner_culture = yes
+		}
+}
+
+ww_gelati_monastery_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = orthodox
+		}
+}
+
+ww_acre_modifier_trigger = { 
+
+}
+
+ww_masjid_nabawi_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+}
+
+ww_fort_bahla_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = ibadi
+		}
+}
+
+ww_asha_mosque_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+}
+

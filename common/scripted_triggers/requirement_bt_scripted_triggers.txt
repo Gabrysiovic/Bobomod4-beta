@@ -1,0 +1,414 @@
+pompeii_modifier_trigger = { 
+custom_trigger_tooltip = {
+			tooltip = bt_pompeii_has_been_discovered
+			OR = {
+				121 = {
+					has_great_project = {
+						type = pompeii
+						tier = 0
+					}
+				}
+				has_global_flag = bt_pompeii_event_happened_flag
+			}
+		}
+}
+
+bt_globe_theatre_modifier_trigger = { 
+#famous for Shakespeare plays, this limitation represents that
+		OR = { 
+			culture = english
+			culture = anglois
+		}
+		province_is_or_accepts_culture = yes
+		owner = { has_institution = renaissance }
+}
+
+lapa_arches_modifier_trigger = { 
+
+}
+
+leaning_tower_modifier_trigger = { 
+
+}
+
+great_lighthouse_modifier_trigger = { 
+
+}
+
+bt_colosseum_modifier_trigger = { 
+
+}
+
+mosque_cathedral_modifier_trigger = { 
+OR = {
+			AND = {
+				religion_group = muslim
+				has_owner_religion = yes
+			}
+			AND = {
+				religion_group = christian
+				has_owner_religion = yes
+			}
+		}
+}
+
+sdc_cathedral_modifier_trigger = { 
+AND = {
+			religion = catholic
+			has_owner_religion = yes
+		}
+}
+
+lindisfarne_modifier_trigger = { 
+#Fell into disrepair after reformation until 1860 restoration
+		AND = {
+			religion = catholic
+			has_owner_religion = yes
+		}
+}
+
+bt_mont_saint_michel_modifier_trigger = { 
+OR = {
+			custom_trigger_tooltip = {
+				tooltip = COMPLETED_SPECIAL_MISSION_THAT_UNLOCKS_GREAT_PROJECT
+				owner = { has_country_flag = SUN_enable_french_monuments_flag }
+			}
+			AND = {
+				religion_group = christian
+				has_owner_religion = yes
+			}
+		}
+}
+
+sanssouci_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+teotihuacan_modifier_trigger = { 
+religion_group = pagan
+		has_owner_religion = yes
+}
+
+mt_athos_modifier_trigger = { 
+religion = orthodox
+		OR = {
+			has_owner_religion = yes
+			owner = { 
+				OR = {
+					tag = TUR 
+					tag = RUM
+				}
+			}
+		}
+}
+
+mt_olympus_modifier_trigger = { 
+OR = {
+			AND = {
+				religion_group = pagan
+				has_owner_religion = yes
+			}
+			AND = {
+				culture_group = byzantine
+				has_owner_culture = yes
+			}
+		}
+}
+
+shibam_hadramawt_modifier_trigger = { 
+culture_group = turko_semitic
+		province_is_or_accepts_culture = yes
+}
+
+chillon_castle_modifier_trigger = { 
+
+}
+
+rock_cashel_modifier_trigger = { 
+OR = {
+			culture_group = gaelic
+			culture = anglo_irish
+			culture_group = unified_celtic_group
+		}
+		province_is_or_accepts_culture = yes
+}
+
+aula_palatina_modifier_trigger = { 
+religion_group = christian
+		has_owner_religion = yes
+}
+
+red_fort_modifier_trigger = { 
+owner = {
+			capital_scope = {
+				superregion = india_superregion
+			}
+		}
+}
+
+potala_palace_modifier_trigger = { 
+OR = {		
+			AND = {
+				religion = buddhism
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = vajrayana
+				has_owner_religion = yes
+			}
+			AND= {
+				religion = mahayana
+				has_owner_religion = yes
+			}
+		}
+}
+
+theodosian_walls_modifier_trigger = { 
+
+}
+
+mahabodhi_temple_modifier_trigger = { 
+OR = {		
+			AND = {
+				religion = buddhism
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = vajrayana
+				has_owner_religion = yes
+			}
+			AND= {
+				religion = mahayana
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = hinduism
+				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
+			}
+		}
+}
+
+meenakshi_temple_modifier_trigger = { 
+religion = hinduism
+		has_owner_religion = yes
+}
+
+solovetsky_monastery_modifier_trigger = { 
+NOT = { owner = { has_country_modifier = the_dissolution_of_the_monasteries } }
+		OR = {		
+			AND = {
+				religion = orthodox
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = coptic
+				has_owner_religion = yes
+			}		
+			AND = {
+				religion = apostolic
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = catholic
+				has_owner_religion = yes
+			}
+		}
+}
+
+aachen_cathedral_modifier_trigger = { 
+religion_group = christian
+		has_owner_religion = yes
+}
+
+herrenhausen_gardens_modifier_trigger = { 
+
+}
+
+meroe_pyramids_modifier_trigger = { 
+religion_group = pagan
+		has_owner_religion = yes
+}
+
+imperial_gardens_modifier_trigger = { 
+owner = {
+			is_emperor_of_china = yes
+		}
+}
+
+segovia_alcazar_modifier_trigger = { 
+
+}
+
+torre_del_oro_modifier_trigger = { 
+
+}
+
+hongan_ji_modifier_trigger = { 
+
+}
+
+york_minster_modifier_trigger = { 
+religion_group = christian
+		has_owner_religion = yes
+}
+
+canterbury_cathedral_modifier_trigger = { 
+religion_group = christian
+		has_owner_religion = yes
+}
+
+st_catherines_modifier_trigger = { 
+religion_group = christian
+		has_owner_religion = yes
+		NOT = { owner = { has_country_modifier = the_dissolution_of_the_monasteries } }
+}
+
+temple_valley_modifier_trigger = { 
+OR = {
+			AND = {
+				religion_group = pagan
+				has_owner_religion = yes
+			}
+			AND = {
+				OR = {
+					culture = roman
+					culture = griko
+				}
+				province_is_or_accepts_culture = yes
+			}
+			owner = { tag = BYZ }
+			owner = { tag = ROM }
+		}
+}
+
+burkhan_khaldun_modifier_trigger = { 
+OR = {
+			culture = mongol
+			culture = khalkha
+		}
+		province_is_or_accepts_culture = yes
+}
+
+beaune_hospices_modifier_trigger = { 
+#trademark of Burgundian architecture and culture
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = COMPLETED_SPECIAL_MISSION_THAT_UNLOCKS_GREAT_PROJECT
+				owner = { has_country_flag = SUN_enable_french_monuments_flag }
+			}
+			AND = {
+				culture = burgundian
+				province_is_or_accepts_culture = yes
+			}
+		}
+}
+
+pont_du_gard_modifier_trigger = { 
+
+}
+
+aleppo_mosque_modifier_trigger = { 
+religion_group = muslim
+		has_owner_religion = yes
+}
+
+umayyad_mosque_modifier_trigger = { 
+religion_group = muslim
+		has_owner_religion = yes
+}
+
+painted_churches_modifier_trigger = { 
+religion_group = christian
+		has_owner_religion = yes
+}
+
+lalish_modifier_trigger = { 
+religion = yazidi
+		has_owner_religion = yes
+}
+
+diyarbakir_fortress_modifier_trigger = { 
+OR = {
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+		}
+}
+
+nineveh_gates_modifier_trigger = { 
+
+}
+
+erbil_citadel_modifier_trigger = { 
+OR = {
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+		}
+}
+
+holy_cross_cathedral_modifier_trigger = { 
+religion_group = christian
+		has_owner_religion = yes
+}
+
+kufa_mosque_modifier_trigger = { 
+religion_group = muslim
+		has_owner_religion = yes
+}
+
+imam_ali_shrine_modifier_trigger = { 
+religion = shiite
+		has_owner_religion = yes
+}
+
+uluru_modifier_trigger = { 
+religion = dreamtime
+		has_owner_religion = yes
+}
+
+el_dorado_modifier_trigger = { 
+#anyone
+}
+
+fountain_of_youth_modifier_trigger = { 
+#anyone
+}
+
+cibola_modifier_trigger = { 
+#anyone
+}
+
+city_of_caesars_modifier_trigger = { 
+#anyone
+}
+
+sierra_de_la_plata_modifier_trigger = { 
+#anyone
+}
+
+norumbega_modifier_trigger = { 
+#anyone
+}
+
+saguenay_kingdom_modifier_trigger = { 
+#anyone
+}
+
+quivira_city_modifier_trigger = { 
+#anyone
+}
+

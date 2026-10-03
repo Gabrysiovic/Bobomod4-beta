@@ -1,0 +1,37 @@
+tomb_of_antony_and_cleopatra_modifier_trigger = { 
+OR = {
+			AND = {
+				culture_group = hellenic
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				culture_group = greeko-semitic
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				culture_group = latin
+				province_is_or_accepts_culture = yes
+			}
+		}
+}
+
+bletata_palace_royal_stables_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion = {
+				religion = tengri_pagan_reformed
+			}
+			AND = {
+				culture = hunnic
+				province_is_or_accepts_culture = yes
+			}
+		}
+}
+
+golden_gate_of_kiev_modifier_trigger = { 
+is_part_of_hre = yes
+		AND = {
+			culture_group = east_slavic
+			province_is_or_accepts_culture = yes
+		}
+}
+

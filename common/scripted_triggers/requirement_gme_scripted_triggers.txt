@@ -1,0 +1,1426 @@
+gme_mevlana_museum_modifier_trigger = { 
+OR = {
+			culture_group = iranian
+			culture_group = altaic
+			culture_group = turko_semitic
+		}
+		has_owner_accepted_culture = yes
+		religion_group = muslim
+		has_owner_religion = yes
+}
+
+gme_seljuk_cemetery_modifier_trigger = { 
+OR = {
+			culture_group = iranian
+			culture_group = altaic
+			culture_group = turko_semitic
+		}
+		has_owner_accepted_culture = yes
+		religion_group = muslim
+		has_owner_religion = yes
+}
+
+gme_sultanhani_caravanserai_modifier_trigger = { 
+
+}
+
+gme_sumela_monastery_modifier_trigger = { 
+religion = orthodox
+		has_owner_religion = yes
+		culture_group = byzantine
+		has_owner_accepted_culture = yes
+}
+
+gme_mount_arafat_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+}
+
+gme_prophet_mosque_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+}
+
+gme_great_palace_constantinople_modifier_trigger = { 
+has_owner_accepted_culture = yes
+		has_owner_religion = yes
+}
+
+gme_kruje_castle_modifier_trigger = { 
+
+}
+
+gme_pec_patriarchate_modifier_trigger = { 
+OR = {
+			culture_group = slavic
+			culture_group = south_slavic
+		}
+		province_is_or_accepts_religion = {
+			religion = orthodox
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_smerederevo_fortress_modifier_trigger = { 
+
+}
+
+gme_walls_ragusa_modifier_trigger = { 
+
+}
+
+gme_dlugi_targ_modifier_trigger = { 
+
+}
+
+gme_vilnius_cathedral_modifier_trigger = { 
+religion = catholic
+		culture = lithuanian
+		has_owner_religion = yes
+		has_owner_accepted_culture = yes
+}
+
+gme_hiyangthang_lairembi_temple_modifier_trigger = { 
+religion = animism
+		has_owner_religion = yes
+}
+
+gme_house_of_jagat_seth_modifier_trigger = { 
+
+}
+
+gme_kamakhya_temple_modifier_trigger = { 
+religion_group = dharmic
+		has_owner_religion = yes
+}
+
+gme_kareng_ghar_modifier_trigger = { 
+
+}
+
+rang_ghar_modifier_trigger = { 
+
+}
+
+gme_blarney_castle_modifier_trigger = { 
+culture_group = gaelic
+		has_owner_accepted_culture = yes
+}
+
+gme_chatham_dockyard_modifier_trigger = { 
+OR = {
+			culture_group = british
+			culture = anglois
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_kilkenny_castle_modifier_trigger = { 
+culture_group = gaelic
+		has_owner_accepted_culture = yes
+}
+
+gme_newgrange_tomb_modifier_trigger = { 
+culture_group = gaelic
+		has_owner_accepted_culture = yes
+		has_owner_religion = yes
+}
+
+gme_patrick_cathedral_modifier_trigger = { 
+culture_group = gaelic
+		has_owner_accepted_culture = yes
+		province_is_or_accepts_religion = {
+			religion = catholic
+		}
+}
+
+gme_pauls_cathedral_modifier_trigger = { 
+religion = anglican
+		has_owner_religion = yes
+}
+
+gme_rock_chasel_modifier_trigger = { 
+culture = irish
+		has_owner_culture = yes
+}
+
+gme_westminster_palace_modifier_trigger = { 
+OR = {
+			culture_group = british
+			culture = anglois
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_chetro_ketl_modifier_trigger = { 
+religion = totemism
+		has_owner_religion = yes
+}
+
+gme_basilica_estergom_modifier_trigger = { 
+culture_group = carpathian
+		religion = catholic
+		has_owner_religion = yes
+		has_owner_accepted_culture = yes
+}
+
+gme_eszterhaza_modifier_trigger = { 
+culture_group = carpathian
+		has_owner_culture = yes
+}
+
+gme_reformatus_nagytemplom_modifier_trigger = { 
+culture_group = carpathian
+		religion = reformed
+		has_owner_religion = yes
+		has_owner_accepted_culture = yes
+}
+
+gme_derbent_fortifications_modifier_trigger = { 
+
+}
+
+gme_gelati_monastery_modifier_trigger = { 
+religion_group = christian
+		has_owner_religion = yes
+		culture_group = caucasian
+		has_owner_accepted_culture = yes
+}
+
+gme_noah_mausoleum_modifier_trigger = { 
+OR = {
+			culture_group = caucasian
+			religion = coptic
+		}
+		has_owner_accepted_culture = yes
+		has_owner_religion = yes
+}
+
+gme_vardzia_modifier_trigger = { 
+culture_group = caucasian
+		has_owner_accepted_culture = yes
+}
+
+gme_isla_cerritos_modifier_trigger = { 
+
+}
+
+gme_palenque_observatory_modifier_trigger = { 
+religion = mesoamerican_religion
+		has_owner_religion = yes
+		province_is_owner_culture_or_owner_has_cultural_union = {
+			culture_group = maya
+		}
+}
+
+gme_pyramid_magician_modifier_trigger = { 
+religion = mesoamerican_religion
+		has_owner_religion = yes
+		province_is_owner_culture_or_owner_has_cultural_union = {
+			culture_group = maya
+		}
+}
+
+gme_reservoir_campeche_modifier_trigger = { 
+religion = mesoamerican_religion
+		has_owner_religion = yes
+		province_is_owner_culture_or_owner_has_cultural_union = {
+			culture_group = maya
+		}
+}
+
+gme_walled_city_tulum_modifier_trigger = { 
+
+}
+
+gme_ark_bukhara_modifier_trigger = { 
+
+}
+
+gme_chasma_ayub_mausoleum_modifier_trigger = { 
+OR = {
+			religion = jewish
+			religion_group = muslim
+			religion_group = christian
+		}
+		has_owner_religion = yes
+}
+
+gme_mausoleum_khoja_ahmed_yasawi_modifier_trigger = { 
+OR = {
+			culture_group = altaic
+			owner = { dynasty = "Timurid" }
+		}
+		has_owner_accepted_culture = yes
+		religion_group = muslim
+		has_owner_religion = yes
+}
+
+gme_old_city_urgench_modifier_trigger = { 
+
+}
+
+gme_abhayagiri_pagoda_modifier_trigger = { 
+emf_religion_is_buddhist = yes
+		has_owner_religion = yes
+}
+
+gme_dambulla_cave_temple_modifier_trigger = { 
+emf_religion_is_buddhist = yes
+		has_owner_religion = yes
+}
+
+gme_nagarjunakonda_modifier_trigger = { 
+culture_group = dravidian
+		has_owner_accepted_culture = yes
+}
+
+gme_port_of_jaffna_modifier_trigger = { 
+
+}
+
+gme_ranganathaswamy_temple_modifier_trigger = { 
+religion_group = dharmic
+		has_owner_religion = yes
+}
+
+gme_saint_thomas_cathedral_basilica_modifier_trigger = { 
+OR = {
+			religion = catholic
+			religion = coptic
+			religion = orthodox
+		}
+		has_owner_religion = yes
+}
+
+gme_sigiriya_modifier_trigger = { 
+
+}
+
+gme_bahmani_tombs_modifier_trigger = { 
+has_owner_religion = yes
+		has_owner_culture = yes
+		OR = {
+			culture_group = dravidian
+			culture_group = western_aryan
+		}
+}
+
+gme_charminar_modifier_trigger = { 
+
+}
+
+gme_elephant_stables_modifier_trigger = { 
+
+}
+
+gme_gnana_saraswati_temple_modifier_trigger = { 
+religion_group = dharmic
+		has_owner_religion = yes
+}
+
+gme_golconda_fort_modifier_trigger = { 
+
+}
+
+gme_market_complex_modifier_trigger = { 
+
+}
+
+gme_port_of_malabar_modifier_trigger = { 
+
+}
+
+gme_ynnakh_mountain_modifier_trigger = { 
+OR = {
+			culture_group = evenks
+			culture_group = kamchatkan_g
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_monastery_saint_antonhy_modifier_trigger = { 
+has_owner_religion = yes
+		OR = {
+			religion = catholic
+			religion = coptic
+			religion = orthodox
+		}
+}
+
+gme_saint_mark_coptic_cathedral_modifier_trigger = { 
+religion = coptic
+		has_owner_religion = yes
+}
+
+gme_bretagne_castles_modifier_trigger = { 
+culture = breton
+		has_owner_accepted_culture = yes
+}
+
+gme_chambord_modifier_trigger = { 
+culture_group = french
+		owner = { government = monarchy }
+		has_owner_accepted_culture = yes
+}
+
+gme_chenonceau_modifier_trigger = { 
+culture_group = french
+		has_owner_accepted_culture = yes
+}
+
+gme_mont_michel_modifier_trigger = { 
+religion_group = christian
+		has_owner_religion = yes
+}
+
+gme_port_de_moon_modifier_trigger = { 
+
+}
+
+gme_devil_tower_modifier_trigger = { 
+religion = totemism
+		has_owner_religion = yes
+}
+
+gme_gangotri_modifier_trigger = { 
+OR = {
+			emf_religion_is_buddhist = yes
+			religion_group = dharmic
+			owner = {
+				culture = nepali
+			}
+		}
+		has_owner_religion = yes
+		has_owner_accepted_culture = yes
+}
+
+gme_hanuman_garhi_temple_modifier_trigger = { 
+religion_group = dharmic
+		has_owner_religion = yes
+}
+
+gme_laal_qila_modifier_trigger = { 
+
+}
+
+gme_lion_capital_ashoka_modifier_trigger = { 
+OR = {
+			religion_group = dharmic
+			emf_religion_is_buddhist = yes
+		}
+		has_owner_religion = yes
+}
+
+gme_mahabodhi_temple_modifier_trigger = { 
+emf_religion_is_buddhist = yes
+		has_owner_religion = yes
+}
+
+gme_padmasambhava_hidden_valley_modifier_trigger = { 
+OR = {
+			AND = {
+				emf_religion_is_buddhist = yes
+				has_owner_religion = yes
+			}
+			AND = {
+				owned_by = NPL
+				has_owner_accepted_culture = yes
+			}
+		}
+}
+
+gme_parvati_temple_modifier_trigger = { 
+religion_group = dharmic
+		has_owner_religion = yes
+}
+
+gme_alcazar_segovia_modifier_trigger = { 
+owner = {
+			culture_group = iberian
+		}
+		has_owner_accepted_culture = yes
+		OR = {
+			religion = catholic
+			religion = sunni
+		}
+		has_owner_religion = yes
+}
+
+gme_al_qasr_al_muriq_modifier_trigger = { 
+has_owner_religion = yes
+		OR = {
+			religion_group = muslim
+			AND = {
+				culture_group = iberian
+				religion = catholic
+			}
+		}
+}
+
+gme_casa_de_contratacion_modifier_trigger = { 
+owner = {
+			culture_group = iberian
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_castillo_burgos_modifier_trigger = { 
+
+}
+
+gme_cathedral_seville_modifier_trigger = { 
+religion_group = christian
+		has_owner_religion = yes
+		owner = {
+			culture_group = iberian
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_lonja_seda_modifier_trigger = { 
+
+}
+
+gme_mosque_cathedral_modifier_trigger = { 
+OR = {
+			religion = catholic
+			religion = sunni
+		}
+		owner = {
+			culture_group = iberian
+		}
+		has_owner_accepted_culture = yes
+		has_owner_religion = yes
+}
+
+gme_rock_gibraltar_modifier_trigger = { 
+
+}
+
+gme_sagres_school_navigation_modifier_trigger = { 
+owner = {
+			culture_group = iberian
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_santiago_compostela_modifier_trigger = { 
+religion = catholic
+		owner = {
+			culture_group = iberian
+		}
+		has_owner_accepted_culture = yes
+		has_owner_religion = yes
+}
+
+gme_tower_hercules_modifier_trigger = { 
+owner = {
+			culture_group = iberian
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_basilica_san_marco_modifier_trigger = { 
+owner = {
+			culture_group = latin
+		}
+		has_owner_accepted_culture = yes
+		religion_group = christian
+		has_owner_religion = yes
+}
+
+gme_basilica_san_nicola_modifier_trigger = { 
+religion_group = christian
+		owner = {
+			culture_group = latin
+		}
+		has_owner_accepted_culture = yes
+		has_owner_religion = yes
+}
+
+gme_castello_estense_modifier_trigger = { 
+
+}
+
+gme_castelvecchio_modifier_trigger = { 
+
+}
+
+gme_duomo_palermo_modifier_trigger = { 
+OR = {
+			religion = catholic
+			religion = orthodox
+			religion_group = muslim
+		}
+		has_owner_religion = yes
+}
+
+gme_federico_II_modifier_trigger = { 
+province_is_owner_culture_or_owner_has_cultural_union = {
+			culture_group = latin
+		}
+}
+
+gme_fori_imperiali_modifier_trigger = { 
+
+}
+
+gme_lanterna_genova_modifier_trigger = { 
+
+}
+
+gme_palazzo_pitti_modifier_trigger = { 
+province_is_owner_culture_or_owner_has_cultural_union = {
+			culture_group = latin
+		}
+}
+
+gme_palazzo_reale_modifier_trigger = { 
+province_is_owner_culture_or_owner_has_cultural_union = {
+			culture_group = latin
+		}
+}
+
+gme_parramentu_sicilianu_modifier_trigger = { 
+OR = {
+			culture = neapolitan
+			culture = griko
+			culture = sicilian
+			culture = normand
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_sala_dei_cavalli_modifier_trigger = { 
+
+}
+
+gme_universita_bologna_modifier_trigger = { 
+province_is_owner_culture_or_owner_has_cultural_union = {
+			culture_group = latin
+		}
+}
+
+gme_gardens_babur_modifier_trigger = { 
+
+}
+
+gme_minaret_jam_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+}
+
+gme_soltangala_modifier_trigger = { 
+
+}
+
+gme_beomeosa_modifier_trigger = { 
+emf_religion_is_buddhist = yes
+		has_owner_religion = yes
+		OR = {
+			culture = korean
+			culture = korean_new
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_dol_hareunbang_modifier_trigger = { 
+OR = {
+			culture = korean
+			culture = korean_new
+		}
+		has_owner_culture = yes
+}
+
+gme_dosan_seowon_modifier_trigger = { 
+religion = confucianism
+		OR = {
+			culture = korean
+			culture = korean_new
+		}
+		has_owner_religion = yes
+		has_owner_accepted_culture = yes
+}
+
+gme_five_grand_palaces_modifier_trigger = { 
+OR = {
+			culture = korean
+			culture = korean_new
+		}
+		has_owner_culture = yes
+}
+
+gme_goguryeyo_tombs_modifier_trigger = { 
+emf_religion_is_buddhist = yes
+		has_owner_religion = yes
+		OR = {
+			culture = korean
+			culture = korean_new
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_hwaseong_fortress_modifier_trigger = { 
+religion = confucianism
+		has_owner_religion = yes
+		OR = {
+			culture = korean
+			culture = korean_new
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_jinnamgwan_hall_modifier_trigger = { 
+religion = confucianism
+		OR = {
+			culture = korean
+			culture = korean_new
+		}
+		has_owner_religion = yes
+		has_owner_accepted_culture = yes
+}
+
+gme_mt_paekdu_modifier_trigger = { 
+OR = {
+			culture = korean
+			culture = korean_new
+			culture = manchu_new
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_royal_tombs_joseon_modifier_trigger = { 
+OR = {
+			culture = korean
+			culture = korean_new
+		}
+		has_owner_culture = yes
+}
+
+gme_seokguram_modifier_trigger = { 
+emf_religion_is_buddhist = yes
+		has_owner_religion = yes
+		OR = {
+			culture = korean
+			culture = korean_new
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_sungkyunkwan_modifier_trigger = { 
+religion = confucianism
+		OR = {
+			culture = korean
+			culture = korean_new
+		}
+		has_owner_religion = yes
+		has_owner_culture = yes
+}
+
+gme_tripitaka_koreana_modifier_trigger = { 
+OR = {
+			religion = shinto
+			emf_religion_is_buddhist = yes
+		}
+		has_owner_religion = yes
+		OR = {
+			culture = korean
+			culture = korean_new
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_binnenhof_modifier_trigger = { 
+has_owner_accepted_culture = yes
+		owner = {
+			OR = {
+				primary_culture = frisian
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = wallonian
+				primary_culture = burgundian
+			}
+		}
+}
+
+gme_bishop_palace_modifier_trigger = { 
+religion = catholic
+		has_owner_religion = yes
+		has_owner_accepted_culture = yes
+		owner = {
+			OR = {
+				primary_culture = frisian
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = wallonian
+				primary_culture = burgundian
+			}
+		}
+}
+
+gme_bruges_city_centre_modifier_trigger = { 
+has_owner_accepted_culture = yes
+		owner = {
+			OR = {
+				primary_culture = frisian
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = wallonian
+				primary_culture = burgundian
+			}
+		}
+}
+
+gme_domkerk_modifier_trigger = { 
+religion_group = christian
+		has_owner_religion = yes
+		has_owner_accepted_culture = yes
+		owner = {
+			OR = {
+				primary_culture = frisian
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = wallonian
+				primary_culture = burgundian
+			}
+		}
+}
+
+gme_grote_raad_mechelen_modifier_trigger = { 
+is_state = yes
+		has_owner_accepted_culture = yes
+		owner = {
+			OR = {
+				primary_culture = frisian
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = wallonian
+				primary_culture = burgundian
+			}
+		}
+}
+
+gme_het_gravensteen_modifier_trigger = { 
+has_owner_accepted_culture = yes
+		owner = {
+			OR = {
+				primary_culture = frisian
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = wallonian
+				primary_culture = burgundian
+			}
+		}
+}
+
+gme_kasteel_de_haar_modifier_trigger = { 
+has_owner_accepted_culture = yes
+		owner = {
+			OR = {
+				primary_culture = frisian
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = wallonian
+				primary_culture = burgundian
+			}
+		}
+}
+
+gme_leiden_university_modifier_trigger = { 
+religion_group = christian
+		has_owner_religion = yes
+		has_owner_accepted_culture = yes
+		owner = {
+			OR = {
+				primary_culture = frisian
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = wallonian
+				primary_culture = burgundian
+			}
+		}
+}
+
+gme_old_leuven_university_modifier_trigger = { 
+religion_group = christian
+		has_owner_religion = yes
+		has_owner_accepted_culture = yes
+		owner = {
+			OR = {
+				primary_culture = frisian
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = wallonian
+				primary_culture = burgundian
+			}
+		}
+}
+
+gme_paleis_koudenberg_modifier_trigger = { 
+is_state = yes
+		has_owner_accepted_culture = yes
+		owner = {
+			OR = {
+				primary_culture = frisian
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = wallonian
+				primary_culture = burgundian
+			}
+		}
+}
+
+gme_sint_pietersabdij_modifier_trigger = { 
+religion_group = christian
+		has_owner_religion = yes
+		has_owner_accepted_culture = yes
+		owner = {
+			OR = {
+				primary_culture = frisian
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = wallonian
+				primary_culture = burgundian
+			}
+		}
+}
+
+gme_the_bock_modifier_trigger = { 
+
+}
+
+gme_alkarak_castle_modifier_trigger = { 
+
+}
+
+gme_al_mustansiriya_modifier_trigger = { 
+religion_group = muslim
+		has_owner_religion = yes
+}
+
+gme_cave_patriarch_modifier_trigger = { 
+OR = {
+			religion = orthodox
+			religion = jewish
+			religion_group = muslim
+		}
+		has_owner_religion = yes
+}
+
+gme_great_mosque_aleppo_modifier_trigger = { 
+OR = {
+			religion_group = muslim
+			religion_group = christian
+		}
+		has_owner_religion = yes
+}
+
+gme_qasr_al_azm_modifier_trigger = { 
+culture = al_suryah_arabic
+		has_owner_accepted_culture = yes
+}
+
+gme_shaf_ve_yativ_synagogue_modifier_trigger = { 
+religion = jewish
+		has_owner_religion = yes
+		has_owner_accepted_culture = yes
+}
+
+gme_tomb_ezekiel_modifier_trigger = { 
+religion = jewish
+		has_owner_religion = yes
+}
+
+gme_umayyad_mosque_modifier_trigger = { 
+OR = {
+			religion_group = muslim
+			religion_group = christian
+		}
+		has_owner_religion = yes
+}
+
+gme_alamliq_modifier_trigger = { 
+OR = {
+			owned_by = CHG
+			owned_by = MGE
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_genghis_khan_golden_tent_modifier_trigger = { 
+owned_by = MGE
+		has_owner_accepted_culture = yes
+}
+
+gme_mausoleum_genghis_khan_modifier_trigger = { 
+has_owner_accepted_culture = yes
+		OR = {
+			owned_by = YUA
+			owned_by = MGE
+		}
+}
+
+gme_yili_general_government_modifier_trigger = { 
+
+}
+
+gme_indian_god_rock_modifier_trigger = { 
+religion = totemism
+		has_owner_religion = yes
+}
+
+gme_chengde_mountain_resort_modifier_trigger = { 
+owner = {
+			culture_group = east_asian
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_governor_office_of_zhili_modifier_trigger = { 
+owner = {
+			culture_group = east_asian
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_mogao_grottoes_modifier_trigger = { 
+province_is_buddhist_or_accepts_buddhism = yes
+}
+
+gme_temple_of_heaven_modifier_trigger = { 
+religion = confucianism
+		has_owner_religion = yes
+		owner = {
+			culture_group = east_asian
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_thirteen_ming_tombs_modifier_trigger = { 
+owner = {
+			culture_group = east_asian
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_yungang_grottoes_modifier_trigger = { 
+culture_group = east_asian
+		province_is_buddhist_or_accepts_buddhism = yes
+		has_owner_accepted_culture = yes
+}
+
+gme_charles_university_modifier_trigger = { 
+culture = czech
+		has_owner_accepted_culture = yes
+}
+
+gme_externsteine_modifier_trigger = { 
+
+}
+
+gme_karlovy_vary_modifier_trigger = { 
+
+}
+
+gme_neuhaus_palace_modifier_trigger = { 
+owner = { has_institution = renaissance }
+		owner = {
+			OR = {
+				has_reform = monarchy_mechanic
+				has_reform = theocracy_mechanic
+			}
+		}
+}
+
+gme_reichstag_modifier_trigger = { 
+owner = {
+			OR = {
+				tag = GER
+				tag = PRU
+				tag = HLR
+				AND = {
+					culture_group = germanic
+					NOT = { primary_culture = dutch }
+				}
+			}
+		}
+		if = {
+			limit = { has_dlc = "Common Sense" }
+			owner = {
+				OR = {
+					has_parliament = yes
+					government = republic
+				}
+			}
+		}
+		else = {
+			owner = {
+				OR = {
+					government = republic
+					has_reform = parliamentary_reform
+				}
+			}
+		}
+}
+
+gme_royal_mint_jachymov_modifier_trigger = { 
+
+}
+
+gme_schloss_oldenburg_modifier_trigger = { 
+culture_group = germanic
+		has_owner_accepted_culture = yes
+}
+
+gme_schnoor_district_modifier_trigger = { 
+owner = {
+			culture_group = germanic
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_semper_oper_modifier_trigger = { 
+owner = {
+			culture_group = germanic
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_wenceslas_square_modifier_trigger = { 
+
+}
+
+gme_willhelmsburg_modifier_trigger = { 
+
+}
+
+gme_agha_bozorg_mosque_modifier_trigger = { 
+religion_group = muslim
+		has_owner_religion = yes
+		culture_group = iranian
+		has_owner_accepted_culture = yes
+}
+
+gme_bazaar_tabriz_modifier_trigger = { 
+
+}
+
+gme_behistun_inscription_modifier_trigger = { 
+religion_group = zoroastrian_group
+		has_owner_religion = yes
+		culture_group = iranian
+		has_owner_accepted_culture = yes
+}
+
+gme_chaharbagh_school_modifier_trigger = { 
+culture_group = iranian
+		has_owner_accepted_culture = yes
+}
+
+gme_gonbad_qabus_tower_modifier_trigger = { 
+OR = {
+			religion_group = zoroastrian_group
+			religion_group = muslim
+		}
+		has_owner_religion = yes
+}
+
+gme_maragheh_observatory_modifier_trigger = { 
+
+}
+
+gme_sheikh_safi_modifier_trigger = { 
+religion = shiite
+		has_owner_religion = yes
+		culture_group = iranian
+		has_owner_accepted_culture = yes
+}
+
+gme_towers_silence_modifier_trigger = { 
+religion_group = zoroastrian_group
+		has_owner_religion = yes
+}
+
+gme_vank_cathedral_modifier_trigger = { 
+OR = {
+			religion = coptic
+			culture = armenian
+		}
+		OR = {
+			has_owner_accepted_culture = yes
+			has_owner_religion = yes
+		}
+}
+
+gme_cathedral_poznan_modifier_trigger = { 
+OR = {
+			culture_group = slavic
+			culture_group = west_slavic
+		}
+		religion = catholic
+		has_owner_religion = yes
+		has_owner_accepted_culture = yes
+}
+
+gme_jagielon_university_modifier_trigger = { 
+OR = {
+			culture_group = slavic
+			culture_group = west_slavic
+		}
+		religion = catholic
+		has_owner_religion = yes
+		has_owner_accepted_culture = yes
+}
+
+gme_lazienki_park_modifier_trigger = { 
+OR = {
+			culture_group = slavic
+			culture_group = west_slavic
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_saint_mary_basilica_modifier_trigger = { 
+OR = {
+			culture_group = slavic
+			culture_group = west_slavic
+		}
+		religion = catholic
+		has_owner_religion = yes
+		has_owner_accepted_culture = yes
+}
+
+gme_wawel_modifier_trigger = { 
+
+}
+
+gme_zamosc_city_modifier_trigger = { 
+
+}
+
+gme_bakhchisaray_palace_modifier_trigger = { 
+has_owner_accepted_culture = yes
+		OR = {
+			owned_by = GLH
+			owned_by = MGE
+			owned_by = CRI
+		}
+}
+
+gme_bolshoi_theatre_modifier_trigger = { 
+owner = {
+			OR = {
+				culture_group = east_slavic
+				culture_group = slavic
+			}
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_petersburg_admiralty_modifier_trigger = { 
+owner = {
+			OR = {
+				culture_group = east_slavic
+				culture_group = slavic
+			}
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_peterhof_palace_modifier_trigger = { 
+owner = {
+			OR = {
+				culture_group = east_slavic
+				culture_group = slavic
+			}
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_brotherhood_school_modifier_trigger = { 
+OR = {
+			culture_group = east_slavic
+			culture_group = slavic
+		}
+		has_owner_accepted_culture = yes
+		owner = {
+			NOT = { primary_culture = russian }
+			NOT = { primary_culture = novgorodian}
+			NOT = { primary_culture = russian_new }
+			NOT = { primary_culture = novgorodian_new}
+			NOT = { primary_culture = karelian }
+		}
+}
+
+gme_mir_castle_modifier_trigger = { 
+
+}
+
+gme_djinguereber_mosque_modifier_trigger = { 
+culture_group = sahelian
+		religion_group = muslim
+		has_owner_religion = yes
+		has_owner_culture = yes
+}
+
+gme_tomb_askia_modifier_trigger = { 
+culture_group = mande
+		has_owner_culture = yes
+}
+
+gme_classical_gardens_suzhou_modifier_trigger = { 
+culture_group = east_asian
+		has_owner_accepted_culture = yes
+}
+
+gme_donglin_academy_modifier_trigger = { 
+culture_group = east_asian
+		has_owner_accepted_culture = yes
+}
+
+gme_igreja_madre_deus_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = catholic
+		}
+}
+
+gme_jingdezhen_imperial_kiln_factory_modifier_trigger = { 
+
+}
+
+gme_quanzhou_port_modifier_trigger = { 
+
+}
+
+gme_shi_bo_si_modifier_trigger = { 
+culture_group = east_asian
+		has_owner_accepted_culture = yes
+}
+
+gme_zhaozhou_bridge_modifier_trigger = { 
+
+}
+
+gme_bundeshaus_modifier_trigger = { 
+culture = swiss
+		has_owner_culture = yes
+}
+
+gme_chillon_castle_modifier_trigger = { 
+culture = swiss
+		has_owner_culture = yes
+}
+
+gme_college_geneve_modifier_trigger = { 
+religion = reformed
+		has_owner_religion = yes
+}
+
+gme_heidelberg_modifier_trigger = { 
+owner = {
+			culture_group = germanic
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_hofburg_modifier_trigger = { 
+has_owner_accepted_culture = yes
+		owner = {
+			OR = {
+				dynasty = "von Habsburg"
+				is_emperor = yes
+				tag = HLR
+			}
+		}
+}
+
+gme_neuschwanstein_castle_modifier_trigger = { 
+owner = { government = monarchy }
+		OR = {
+			culture = bavarian
+			culture = austrian
+		}
+		has_owner_accepted_culture = yes
+}
+
+gme_stephansdom_modifier_trigger = { 
+has_owner_accepted_culture = yes
+		has_owner_religion = yes
+		religion = catholic
+		owner = {
+			culture_group = germanic
+		}
+}
+
+gme_stone_bridge_regensburg_modifier_trigger = { 
+
+}
+
+gme_university_graz_modifier_trigger = { 
+culture = austrian
+		has_owner_accepted_culture = yes
+}
+
+gme_mount_kailash_modifier_trigger = { 
+OR = {
+			emf_religion_is_buddhist = yes
+			religion_group = dharmic
+		}
+		OR = {
+			culture = tibetan
+			culture = tibetan_new
+		}
+		has_owner_religion = yes
+		has_owner_accepted_culture = yes
+}
+
+gme_potala_palace_modifier_trigger = { 
+OR = {
+			culture = tibetan
+			culture = tibetan_new
+		}
+		has_owner_culture = yes
+}
+
+gme_chittor_fort_modifier_trigger = { 
+
+}
+
+gme_dwarkadhish_temple_modifier_trigger = { 
+religion_group = dharmic
+		has_owner_religion = yes
+}
+
+gme_makli_necropolis_modifier_trigger = { 
+has_owner_culture = yes
+		owner = {
+			OR = {
+				dynasty = "Timurid"
+				dynasty = "Samma"
+				dynasty = "Arghun"
+			}
+		}
+}
+
+gme_rani_ki_vav_modifier_trigger = { 
+
+}
+
+gme_shrine_lal_shahbaz_qalandar_modifier_trigger = { 
+religion_group = muslim
+		has_owner_religion = yes
+}
+
+gme_taranga_jain_temple_modifier_trigger = { 
+
+}
+
+gme_leshan_giant_buddha_modifier_trigger = { 
+emf_religion_is_buddhist = yes
+		has_owner_religion = yes
+}
+

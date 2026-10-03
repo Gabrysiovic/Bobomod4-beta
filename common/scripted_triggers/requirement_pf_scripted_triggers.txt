@@ -1,0 +1,539 @@
+hanging_gardens_modifier_trigger = { 
+OR = {
+			pf_belongs_to_greek_culture_group = yes
+			culture_group = mesopotamian
+			culture_group = semitic
+		}
+		province_is_or_accepts_culture = yes
+}
+
+ar_egypt_library_modifier_trigger = { 
+OR = {
+			AND = {
+				pf_belongs_to_greek_culture_group = yes
+				province_is_or_accepts_culture = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = gain_access_to_great_library_custom_tt
+				owner = { has_country_flag = gain_access_to_great_library_flag }
+			}
+		}
+		hidden_trigger = {
+			custom_trigger_tooltip = {
+				tooltip = pf_if_destroyed_monument
+				NOT = { has_province_flag = great_library_destroyed }
+			}
+		}
+}
+
+lauenburg_castle_modifier_trigger = { 
+owner = {
+			has_institution = feudalism
+		}
+}
+
+pf_dom_tower_of_utrecht_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = germanic_group
+			}
+			owner = {
+				NOT = { religion_group = germanic_group }
+				has_global_modifier_value = {
+					which = tolerance_heathen
+					value = 0.03
+				}
+			}
+		}
+}
+
+maruniskola_academy_modifier_trigger = { 
+owner = {
+			OR = {
+				tag = SUE
+				has_idea = quest_for_the_new_world
+				has_idea_group = maritime_ideas
+			}
+		}
+}
+
+pf_irminsul_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = germanic_religion
+		}
+}
+
+althing_general_assembly_modifier_trigger = { 
+culture = icelandic
+		province_is_or_accepts_culture = yes
+}
+
+aqueducts_of_gadir_modifier_trigger = { 
+OR = {
+			culture_group = euro_punic
+			culture_group = celtiberian
+			culture = sylpunican
+		}
+		province_is_or_accepts_culture = yes
+}
+
+grand_temple_to_tanit_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = punic_religion
+		}
+}
+
+great_cothon_modifier_trigger = { 
+OR = {
+			AND = {
+				culture = punic_culture
+				province_is_or_accepts_culture = yes
+			}
+			owner = {
+				OR = {
+					tag = CAR
+					custom_trigger_tooltip = {
+						tooltip = unlocked_cothon_via_mission_tt
+						has_country_flag = unlocked_cothon_via_mission_flag
+					}
+				}
+			}
+		}
+}
+
+hall_of_pantheons_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion = {
+				religion = punic_religion
+			}
+			province_is_or_accepts_religion = {
+				religion = hellenic
+			}
+			province_is_or_accepts_religion = {
+				religion = romana
+			}
+			province_is_or_accepts_religion = {
+				religion = norse_pagan_reformed
+			}
+		}
+}
+
+temple_of_nicomedia_modifier_trigger = { 
+pf_belongs_to_greek_culture_group = yes
+		province_is_or_accepts_culture = yes
+		hidden_trigger = {
+			custom_trigger_tooltip = {
+				tooltip = pf_if_destroyed_monument
+				NOT = { has_province_flag = smr_greek_wonders_destroyed }
+			}
+		}
+}
+
+lingonian_war_camp_modifier_trigger = { 
+if = {
+			limit = {
+				has_global_flag = celtic_cultures_merged_flag
+				culture = new_lingonian
+			}
+		}
+		else = {
+			culture = lingonian
+		}
+		province_is_or_accepts_culture = yes
+}
+
+minos_dungeons_modifier_trigger = { 
+hidden_trigger = {
+			custom_trigger_tooltip = {
+				tooltip = pf_if_destroyed_monument
+				NOT = { has_province_flag = smr_greek_wonders_destroyed }
+			}
+		}
+}
+
+seat_of_the_archon_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion = {
+				religion = hellenic
+			}
+			custom_trigger_tooltip = {
+				tooltip = unlocked_via_mission_tt
+				owner = { has_country_flag = gain_access_to_seat_of_archon_flag }
+			}
+		}
+		hidden_trigger = {
+			custom_trigger_tooltip = {
+				tooltip = pf_if_destroyed_monument
+				NOT = { has_province_flag = smr_greek_wonders_destroyed }
+			}
+		}
+}
+
+lia_fail_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = druidic
+		}
+}
+
+temple_of_barcino_modifier_trigger = { 
+# province_is_or_accepts_religion = {
+		# 	religion = punic_religion
+		# }
+		hidden_trigger = {
+			custom_trigger_tooltip = {
+				tooltip = pf_if_destroyed_monument
+				NOT = {
+					has_global_flag = temple_barcinum_destroyed
+				}
+			}
+		}
+}
+
+tolida_iron_mines_modifier_trigger = { 
+
+}
+
+uppsala_temple_modifier_trigger = { 
+OR = {
+			owner = {
+				custom_trigger_tooltip = {
+					tooltip = unlocked_via_mission_tt
+					has_country_flag = unlock_uppsala_temple_flag
+				}
+			}
+			province_is_or_accepts_religion = {
+				religion = norse_pagan_reformed
+			}
+		}
+}
+
+cadarnle_coel_modifier_trigger = { 
+OR = {
+			culture_group = old_celtic
+			culture_group = new_celtic
+			culture = gallo_briton
+		}
+		province_is_or_accepts_culture = yes
+}
+
+danavirki_modifier_trigger = { 
+culture_group = scandinavian
+		province_is_or_accepts_culture = yes
+}
+
+aricia_castle_modifier_trigger = { 
+owner = {
+			OR = {
+				tag = RMA
+				tag = RME
+				tag = ELY
+				is_emperor = yes
+			}
+		}
+		hidden_trigger = {
+			custom_trigger_tooltip = {
+				tooltip = pf_if_destroyed_monument
+				NOT = {
+					has_global_flag = aricia_castle_destroyed
+				}
+			}
+		}
+}
+
+grand_agew_dam_modifier_trigger = { 
+
+}
+
+grand_dongola_dam_modifier_trigger = { 
+
+}
+
+grand_abydos_dam_modifier_trigger = { 
+
+}
+
+aedes_iovis_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = romana
+		}
+}
+
+peras_acropolis_modifier_trigger = { 
+
+}
+
+naoned_harbors_modifier_trigger = { 
+
+}
+
+synedrion_hall_modifier_trigger = { 
+owner = { is_part_of_hre = yes }
+		is_part_of_hre = yes
+}
+
+the_serene_city_modifier_trigger = { 
+owner = {
+			primary_culture = venetii
+		}
+		hidden_trigger = {
+			custom_trigger_tooltip = {
+				tooltip = pf_if_destroyed_monument
+				NOT = {
+					has_global_flag = the_serene_city_destroyed
+				}
+			}
+		}
+}
+
+adamon_mines_modifier_trigger = { 
+
+}
+
+new_dublin_dockyard_modifier_trigger = { 
+owner = {
+			OR = {
+				is_colonial_nation = yes
+				is_former_colonial_nation = yes
+				tag = AVL
+			}
+		}
+}
+
+the_crown_port_modifier_trigger = { 
+
+}
+
+vinland_memorial_modifier_trigger = { 
+owner = {
+			custom_trigger_tooltip = {
+				tooltip = unlocked_cothon_via_mission_tt
+				has_country_flag = unlocked_vinland_memorial_flag
+			}
+		}
+}
+
+joara_salt_mines_modifier_trigger = { 
+
+}
+
+gates_of_gadir_modifier_trigger = { 
+
+}
+
+tanit_statue_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = punic_religion
+		}
+}
+
+tyrae_city_center_modifier_trigger = { 
+province_is_or_accepts_culture = yes
+}
+
+tarpanet_castle_modifier_trigger = { 
+province_is_or_accepts_culture = yes
+}
+
+adana_citadel_modifier_trigger = { 
+province_is_or_accepts_culture = yes
+		hidden_trigger = {
+			custom_trigger_tooltip = {
+				tooltip = pf_if_destroyed_monument
+				NOT = { has_province_flag = smr_greek_wonders_destroyed }
+			}
+		}
+}
+
+temple_of_the_tooth_modifier_trigger = { 
+province_is_buddhist_or_accepts_buddhism = yes
+}
+
+city_of_spices_modifier_trigger = { 
+
+}
+
+circus_maximus_modifier_trigger = { 
+owner = {
+			primary_culture = roman
+		}
+		province_is_or_accepts_culture = yes
+}
+
+jewish_third_temple_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = jewish
+		}
+}
+
+golconda_diamond_markets_modifier_trigger = { 
+has_owner_accepted_culture = yes
+}
+
+kharj_stables_modifier_trigger = { 
+owner = {
+			culture_group = pagan_arabic
+		}
+		province_is_or_accepts_culture = yes
+}
+
+markets_of_abu_dhabi_modifier_trigger = { 
+culture_group = pagan_arabic
+		province_is_or_accepts_culture = yes
+}
+
+masjid_altaiz_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+}
+
+paradise_gardens_of_khujand_modifier_trigger = { 
+culture = sogdian
+		has_owner_accepted_culture = yes
+}
+
+kish_observatory_modifier_trigger = { 
+owner = {
+			mission_completed = pf_sogdiana_the_observatory
+		}
+}
+
+royal_library_of_nineveh_modifier_trigger = { 
+culture_group = mesopotamian
+		culture_group = owner
+}
+
+tomb_of_cyrus_modifier_trigger = { 
+religion_group = zoroastrian_group
+		owner = {
+			religion_group = zoroastrian_group
+		}
+}
+
+viipuri_fortress_modifier_trigger = { 
+OR = {
+			culture_group = finnic
+			culture_group = greater_finnic
+			culture = somu
+		}
+		has_owner_accepted_culture = yes
+}
+
+ukko_rock_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = suomenusko
+		}
+}
+
+arsenal_of_todor_modifier_trigger = { 
+# has_owner_accepted_culture = yes
+}
+
+perkuno_stulpas_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = romuva
+		}
+}
+
+dausos_tree_surrogate_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = romuva
+		}
+}
+
+altan_ordon_modifier_trigger = { 
+OR = {
+			is_ilk_khan_province = yes
+			ilk_khan_dismantled = yes
+		}
+}
+
+sarai_markets_modifier_trigger = { 
+
+}
+
+volga_confluence_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = tengri_pagan_reformed
+		}
+}
+
+felsaltar_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = south_germanic_religion
+		}
+}
+
+erz_glass_market_modifier_trigger = { 
+OR = {
+			trade_goods = glass
+			trade_goods = gems
+		}
+}
+
+petra_modifier_trigger = { 
+OR = {
+			pf_belongs_to_greek_culture_group = yes
+			culture_group = mesopotamian
+			culture_group = semitic
+		}
+		province_is_or_accepts_culture = yes
+}
+
+pyramid_of_cheops_modifier_trigger = { 
+OR = {
+			culture_group = egyptian_greek
+			culture_group = united_greek
+			religion = neterist
+			religion = kemetic
+		}
+		province_is_or_accepts_culture = yes
+}
+
+stonehenge_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = druidic
+		}
+}
+
+giant_tower_german_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = south_germanic_religion
+		}
+}
+
+dnv_big_stables_modifier_trigger = { 
+OR = {
+            culture_group = germanic_carpathian
+            culture_group = old_germanic
+            culture_group = new_germanic
+        }
+		province_is_or_accepts_culture = yes
+}
+
+dnv_der_hund_palace_modifier_trigger = { 
+OR = {
+            culture_group = germanic_carpathian
+            culture_group = old_germanic
+            culture_group = new_germanic
+        }
+		province_is_or_accepts_culture = yes
+}
+
+svetovids_temple_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = slavic_religion
+		}
+}
+
+huszcz_castle_modifier_trigger = { 
+culture_group = pagan_slavic
+		province_is_or_accepts_culture = yes
+}
+
+volynian_grand_temple_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = slavic_religion
+		}
+}
+

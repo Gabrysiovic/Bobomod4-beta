@@ -1,0 +1,3815 @@
+atlantis_modifier_trigger = { 
+province_is_or_accepts_culture = yes
+		culture_group = elven
+}
+
+malacnar_city_of_warriors_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_ynn
+					OR = {
+						culture_group = ynnic_ruinborn_elf
+						culture_group = elven
+						culture_group = ynnsman
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+vels_bacar_scol_mecynn_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_ynn
+					OR = {
+						culture_group = ynnic_ruinborn_elf
+						culture_group = elven
+						culture_group = ynnsman
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+grebniesth_hedge_gardens_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_ynn
+					OR = {
+						culture_group = ynnic_ruinborn_elf
+						culture_group = elven
+						culture_group = ynnsman
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+orenkoraim_nakar_koraim_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_taychendi
+					OR = {
+						culture_group = taychendi_ruinborn_elf
+						culture_group = elven
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+gift_of_spring_modifier_trigger = { 
+AND = {
+			owner = { culture_group = eordan_ruinborn_elf }
+				OR = { 
+					owner = { dominant_religion = eordellon }
+					owner = { dominant_religion = spring_court }
+					owner = { 
+						custom_trigger_tooltip = {
+							tooltip = TOLERANCE_NEEDED
+							spring_court = 2
+							summer_court = 2
+							autumn_court = 2
+							winter_court = 2 
+						}
+					}
+				}
+		}
+}
+
+gift_of_summer_modifier_trigger = { 
+AND = {
+			owner = { culture_group = eordan_ruinborn_elf }
+				OR = { 
+					owner = { dominant_religion = eordellon }
+					owner = { dominant_religion = summer_court }
+					owner = { 
+						custom_trigger_tooltip = {
+							tooltip = TOLERANCE_NEEDED
+							spring_court = 2
+							summer_court = 2
+							autumn_court = 2
+							winter_court = 2 
+						}
+					}
+				}
+		}
+}
+
+gift_of_autumn_modifier_trigger = { 
+AND = {
+			owner = { culture_group = eordan_ruinborn_elf }
+				OR = { 
+					owner = { dominant_religion = eordellon }
+					owner = { dominant_religion = autumn_court }
+					owner = { 
+						custom_trigger_tooltip = {
+							tooltip = TOLERANCE_NEEDED
+							spring_court = 2
+							summer_court = 2
+							autumn_court = 2
+							winter_court = 2 
+						}
+					}
+				}
+		}
+}
+
+gift_of_winter_modifier_trigger = { 
+AND = {
+			owner = { culture_group = eordan_ruinborn_elf }
+				OR = { 
+					owner = { dominant_religion = eordellon }
+					owner = { dominant_religion = winter_court }
+					owner = { 
+						custom_trigger_tooltip = {
+							tooltip = TOLERANCE_NEEDED
+							spring_court = 2
+							summer_court = 2
+							autumn_court = 2
+							winter_court = 2 
+						}
+					}
+				}
+		}
+}
+
+freecestir_mustering_grounds_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar_and_alenic
+					OR = {
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture_group = alenic
+						culture_group = reachman
+						culture = white_reachman
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+gawed_castle_gaweton_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_alenic_and_reach
+					OR = {
+						culture_group = alenic
+						culture_group = reachman
+						culture = white_reachman
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+bayvic_grandest_city_of_the_reach_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_reach_cities
+					OR = {
+						culture_group = alenic
+						culture_group = reachman
+						culture = white_reachman
+						culture = moon_elf
+						culture = city_goblin
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+celmaldor_icewind_palace_of_commerce_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_reach_cities
+					OR = {
+						culture_group = alenic
+						culture_group = reachman
+						culture = white_reachman
+						culture = moon_elf
+						culture = city_goblin
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+runefather_maw_modifier_trigger = { 
+religion = runefather_worship
+		has_owner_religion = yes
+		is_core = ROOT
+}
+
+heros_gate_modifier_trigger = { 
+OR = {
+			culture_group = dwarven
+			culture_is_human = yes
+			culture_group = goblin
+		}
+		has_owner_accepted_culture = yes
+		owner = { 
+			OR = { 
+				culture_group = dwarven
+				culture_is_human = yes
+				culture_group = goblin
+			}
+			NOT = { has_country_modifier = monstrous_nation }
+		}
+}
+
+queens_throne_skewered_drake_modifier_trigger = { 
+owner = { 
+			culture_group = harpy
+			is_subject_of = H73
+		}
+}
+
+golden_palace_skewered_drake_modifier_trigger = { 
+owner = { 
+			tag = H73 
+			has_harimari_accepted_culture = yes
+		}
+}
+
+dd_stramolgiv_modifier_trigger = { 
+owner = { tag = I20 }
+}
+
+dd_frogarsalforn_modifier_trigger = { 
+custom_trigger_tooltip = {
+			tooltip = dwarovar_dungeon_can_use_tooltip
+			owner = { can_use_dungeons = yes }
+		}
+}
+
+dd_stunveigryorth_modifier_trigger = { 
+custom_trigger_tooltip = {
+			tooltip = dwarovar_dungeon_can_use_tooltip
+			owner = { can_use_dungeons = yes }
+		}
+}
+
+dd_wytlramvar_modifier_trigger = { 
+custom_trigger_tooltip = {
+			tooltip = dwarovar_dungeon_can_use_tooltip
+			owner = { can_use_dungeons = yes }
+		}
+}
+
+dd_dimlherd_modifier_trigger = { 
+custom_trigger_tooltip = {
+			tooltip = dwarovar_dungeon_can_use_tooltip
+			owner = { can_use_dungeons = yes }
+		}
+}
+
+dd_grumhardhum_modifier_trigger = { 
+custom_trigger_tooltip = {
+			tooltip = dwarovar_dungeon_can_use_tooltip
+			owner = { can_use_dungeons = yes }
+		}
+}
+
+dd_leforn_modifier_trigger = { 
+custom_trigger_tooltip = {
+			tooltip = dwarovar_dungeon_can_use_tooltip
+			owner = { can_use_dungeons = yes }
+		}
+}
+
+dd_rizvambrethar_modifier_trigger = { 
+custom_trigger_tooltip = {
+			tooltip = dwarovar_dungeon_can_use_tooltip
+			owner = { can_use_dungeons = yes }
+		}
+}
+
+dd_ofralglarf_modifier_trigger = { 
+custom_trigger_tooltip = {
+			tooltip = dwarovar_dungeon_can_use_tooltip
+			owner = { can_use_dungeons = yes }
+		}
+}
+
+dd_yidablaerun_modifier_trigger = { 
+custom_trigger_tooltip = {
+			tooltip = dwarovar_dungeon_can_use_tooltip
+			owner = { can_use_dungeons = yes }
+		}
+}
+
+marrhold_dwarovar_tunnel_modifier_trigger = { 
+
+}
+
+dwarovar_marrhold_tunnel_modifier_trigger = { 
+
+}
+
+redrushes_climb_modifier_trigger = { 
+
+}
+
+spoorland_lift_modifier_trigger = { 
+
+}
+
+walkway_of_thorns_modifier_trigger = { 
+
+}
+
+arca_noruin_modifier_trigger = { 
+
+}
+
+arca_venaan_modifier_trigger = { 
+
+}
+
+arbeloch_ascensor_modifier_trigger = { 
+
+}
+
+the_wormway_modifier_trigger = { 
+
+}
+
+deepwoods_fey_portal_modifier_trigger = { 
+
+}
+
+domandrod_fey_portal_modifier_trigger = { 
+
+}
+
+domandrod_summer_gate_modifier_trigger = { 
+
+}
+
+domandrod_spring_gate_modifier_trigger = { 
+
+}
+
+domandrod_autumn_gate_modifier_trigger = { 
+
+}
+
+domandrod_winter_gate_modifier_trigger = { 
+
+}
+
+domandrod_winter_gate2_modifier_trigger = { 
+
+}
+
+zabyostlar_canal_modifier_trigger = { 
+
+}
+
+kozuurigur_canal_modifier_trigger = { 
+
+}
+
+grand_archives_modifier_trigger = { 
+if = { 
+			limit = {
+				owner = {
+					OR = {
+						tag = I90
+						was_tag = I90 
+					}
+				}
+			}
+			owner = { 
+				custom_trigger_tooltip = {
+					tooltip = I90_can_use_archive_tt_2
+					has_country_flag = I90_can_use_archive 
+				}
+			}
+		}
+		else = {
+			AND = {
+				religion_group = triunic_lake
+				NOT = { religion = yudunyovi }
+				OR = {
+					has_owner_religion = yes
+					owner = { has_harmonized_with = ROOT }
+				}
+				culture_group = triunic
+				owner = { 
+					AND = {
+					culture_group = triunic
+					religion_group = triunic_lake
+					}
+				}
+			}
+		}
+}
+
+amber_palace_modifier_trigger = { 
+OR = {
+		        has_owner_religion = yes
+				owner = { has_harmonized_with = ROOT }
+			}
+        religion_group = triunic_lake
+		NOT = { religion = yudunyovi }
+		culture_group = triunic
+		owner = { 
+		       AND = {
+			   culture_group = triunic
+			   religion_group = triunic_lake
+			   }
+			   }
+}
+
+black_embassy_modifier_trigger = { 
+religion_group = triunic_lake
+		OR = {
+		       has_owner_religion = yes
+			owner = { has_harmonized_with = ROOT }
+		}
+		culture_group = triunic
+		owner = { 
+			AND = {
+			   culture_group = triunic
+			   religion_group = triunic_lake
+			}
+		}
+}
+
+temple_kodave_modifier_trigger = { 
+religion_group = triunic_lake
+		OR = {
+		        has_owner_religion = yes
+				owner = { has_harmonized_with = ROOT }
+			}
+		culture_group = triunic
+		owner = { 
+		       AND = {
+			   culture_group = triunic
+			   religion_group = triunic_lake
+			   }
+			   }
+}
+
+glyphs_irdaeos_modifier_trigger = { 
+if = {
+			limit = {
+				NOT = { owner = { has_country_flag = H90_glyphs_irdaeos_bypass } }
+			}
+			OR = {
+				religion_group = centaur_religion
+				religion = yudunyovi
+			}
+			has_owner_religion = yes
+		}
+}
+
+cloud_ruins_modifier_trigger = { 
+if = {
+			limit = {
+				owner = {
+					OR = {
+						tag = H81
+						was_tag = H81
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mb_mag_ruins_tt
+				owner = { has_country_flag = mb_mag_ruins_flg }
+			}
+		}
+		else = {
+			religion_group = giantkin
+			has_owner_religion = yes
+			OR = {
+				AND = {
+					culture_group = ogre
+					owner = { culture_group = ogre }
+				}
+				AND = {
+					culture_group = giantkind
+					owner = { culture_group = giantkind }
+				}
+			}
+		}
+}
+
+warmrock_bazar_modifier_trigger = { 
+if = {
+			limit = { 
+				NOT = { 
+					owner = { 
+						OR = {
+							has_country_flag = J53_warmrock_bazaar
+							has_country_flag = H90_warmrock_bazar_bypass
+						} 
+					} 
+				}
+			}
+			has_owner_culture = yes
+		}
+		if = {
+			limit = { 
+				NOT = { 
+					owner = { 
+						has_country_flag = H90_warmrock_bazar_bypass
+					} 
+				}
+			}
+			OR = {
+				culture_group = triunic
+				culture_group = centaur
+				culture_group = ogre
+			}
+		}
+}
+
+bone_citadel_modifier_trigger = { 
+OR = {		
+			AND = {
+				religion = death_cult_of_cheshosh
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = regent_court
+				owner = { has_personal_deity = nerat }
+				has_owner_religion = yes
+			}
+		}
+}
+
+dobondotimveb_modifier_trigger = { 
+religion = dotimism
+		has_owner_religion = yes
+}
+
+ynnic_dam_mocbarja_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = ynnic
+			}
+			AND = {
+				culture_group = ynnic_ruinborn_elf
+				province_is_or_accepts_culture = yes
+			}
+		}	
+		owner = { 
+			capital_scope = {
+				superregion = ynn_superregion
+			}
+		}
+}
+
+ynnic_dam_bosancovac_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = ynnic
+			}
+			AND = {
+				culture_group = ynnic_ruinborn_elf
+				province_is_or_accepts_culture = yes
+			}
+		}	
+		owner = { 
+			capital_scope = {
+				superregion = ynn_superregion
+			}
+		}
+}
+
+ynnic_dam_vels_bacar_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = ynnic
+			}
+			AND = {
+				culture_group = ynnic_ruinborn_elf
+				province_is_or_accepts_culture = yes
+			}
+		}	
+		owner = { 
+			capital_scope = {
+				superregion = ynn_superregion
+			}
+		}
+}
+
+ynnic_dam_adbrabohvi_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = ynnic
+			}
+			AND = {
+				culture_group = ynnic_ruinborn_elf
+				province_is_or_accepts_culture = yes
+			}
+		}	
+		owner = { 
+			capital_scope = {
+				superregion = ynn_superregion
+			}
+		}
+}
+
+ynnic_teal_keep_modifier_trigger = { 
+OR = {
+			AND = {
+				culture = sarda
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				culture = malacnari
+				province_is_or_accepts_culture = yes
+			}
+			#AND = {
+			#	culture = castle_veykodan
+			#	province_is_or_accepts_culture = yes
+			#}
+		}
+}
+
+ynnic_tranvit_hippodrome_modifier_trigger = { 
+culture = dolindhan
+		province_is_or_accepts_culture = yes
+}
+
+ynnic_grand_temple_svemel_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dragon_cult
+			}
+			AND = {
+				culture = rzentur
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				OR = {
+					religion = ynn_river_reformed
+					religion = ynn_river_worship
+				}
+				culture = dolindhan
+				province_is_or_accepts_culture = yes
+				has_owner_religion = yes
+			}
+		}
+}
+
+ynnic_precursor_dome_stanyrhrada_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = ynnic
+			}
+			AND = {
+				culture = sarda
+				province_is_or_accepts_culture = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = ynnic_precursor_dome_special_relocation_tt
+				owner = {
+					OR = {
+						tag = A05
+						was_tag = A05
+						tag = H33
+						was_tag = H33
+					}
+				}
+			}
+		}
+}
+
+deathsand_lab_modifier_trigger = { 
+if = {
+			limit = { owner = { has_country_flag = J84_deathwind_lab_enabled_flag } } 
+			OR = {
+				culture_group = taychendi_ruinborn_elf
+				culture_group = kheionai_ruinborn_elf
+				culture = eltibhar
+			}
+		}
+		else = {
+			OR = {
+				culture_group = kheionai_ruinborn_elf
+				culture = eltibhar
+			}
+		}
+		province_is_or_accepts_culture = yes
+}
+
+city_that_never_sleeps_modifier_trigger = { 
+OR = {
+			owner = {
+				OR = {
+					tag = G91 #Isobelin
+					was_tag = G91 #Isobelin
+				}
+			}
+			culture_group = trollsbayer
+			culture = towerfoot_halfling
+		}
+		province_is_or_accepts_culture = yes
+}
+
+heart_of_the_effelai_modifier_trigger = { 
+religion_group = effelai
+		owner = {
+			religion_group = effelai
+		}
+}
+
+gathgob_lighthouse_modifier_trigger = { 
+culture_group = eordan_ruinborn_elf
+		OR = {
+			has_owner_accepted_culture = yes
+			has_owner_culture = yes
+		}
+		owner = { high_tolerance_ruinborn_race_trigger = yes }
+}
+
+gleaming_tower_modifier_trigger = { 
+owner = {
+			high_tolerance_ruinborn_race_trigger = yes
+			capital_scope = { continent = south_america }
+		}
+}
+
+gathyanavaida_modifier_trigger = { 
+if = {
+			limit = { 
+				owner = { 
+					OR = { 
+						tag = G52
+						tag = G00
+					}
+				}
+			}
+			culture = klereyen
+		}
+		else = {
+			culture_group = taychendi_ruinborn_elf
+			owner = { culture_group = taychendi_ruinborn_elf }
+		}
+}
+
+conclavedawn_modifier_trigger = { 
+OR = {
+			religion = oren_nayiru
+			religion_group = bulwari
+		}
+		has_owner_religion = yes
+}
+
+ouraskheion_modifier_trigger = { 
+OR = {
+			culture_group = kheionai_ruinborn_elf
+			culture_group = devandi_ruinborn_elf
+			culture_group = taychendi_ruinborn_elf
+		}
+		if = {
+			limit = { NOT = { owner = { tag = G00 } } }
+			has_owner_culture = yes
+		}
+}
+
+tunnels_of_renewal_modifier_trigger = { 
+owner = {
+			capital_scope = {
+				continent = north_america
+			}
+		}
+}
+
+queens_throne_modifier_trigger = { 
+culture_group = harpy
+		OR = {
+			has_owner_accepted_culture = yes
+			has_owner_culture = yes
+		}
+		OR = {
+			has_owner_religion = yes
+            has_owner_secondary_religion = yes
+        }
+		owner = {
+			culture_group = harpy
+			num_of_subjects = 1
+		}
+}
+
+mount_lazzaward_modifier_trigger = { 
+owner = {
+			OR = {
+				culture_group = bulwari
+				primary_culture = sun_elf
+				primary_culture = desert_elf
+				primary_culture = dawn_elf
+				primary_culture = zanlibi
+			}
+		}
+		owner = {
+			has_estate = estate_mages
+		}
+		OR = {
+			has_owner_accepted_culture = yes
+			has_owner_culture = yes
+		}
+		has_building = mage_tower
+}
+
+bal_dostan_modifier_trigger = { 
+NOT = { has_province_modifier = ruined_castanorian_citadel }
+}
+
+bal_vroren_modifier_trigger = { 
+NOT = { has_province_modifier = ruined_castanorian_citadel }
+}
+
+bal_vertesk_modifier_trigger = { 
+
+}
+
+bal_ouord_modifier_trigger = { 
+NOT = { has_province_modifier = ruined_castanorian_citadel }
+}
+
+bal_hyl_modifier_trigger = { 
+NOT = { has_province_modifier = ruined_castanorian_citadel }
+		owner = {
+			OR = {
+				tag = A30
+				AND = {
+					accepted_culture = wexonard
+					owns_all_provinces = { area = wexhills_area }
+				}
+			}
+		}
+}
+
+bal_mire_modifier_trigger = { 
+NOT = { has_province_modifier = ruined_castanorian_citadel }
+		OR = {
+			primary_culture = green_orc
+			culture_group = escanni
+			development = 14
+		}
+}
+
+the_north_citadel_modifier_trigger = { 
+
+}
+
+aelcandar_modifier_trigger = { 
+
+}
+
+escandar_modifier_trigger = { 
+
+}
+
+calascandar_modifier_trigger = { 
+owner = {
+			OR = {
+				tag = A25
+				tag = A46
+				num_of_merchants = 5
+			}
+		}
+}
+
+the_necropolis_modifier_trigger = { 
+religion_group = cannorian
+		has_owner_religion = yes
+}
+
+the_lake_palace_modifier_trigger = { 
+owner = {
+			accepted_culture = esmari
+		}
+		267 = { culture = esmari }
+}
+
+ciranmyna_the_shimmering_city_modifier_trigger = { 
+culture = wood_elf
+		owner = {
+			OR = {
+				primary_culture = wood_elf
+				accepted_culture = wood_elf
+			}
+		}
+}
+
+mines_of_yfelorr_modifier_trigger = { 
+if = {
+			limit = {
+				owner = {
+					OR = {
+						tag = H81
+						was_tag = H81
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mb_yle_mine_tt
+				owner = { has_country_flag = mb_yle_mine_flg }
+			}
+		}
+		else = {
+			OR = {
+				culture = wood_elf
+				culture = forest_goblin
+				culture = green_orc
+				culture = emerald_orc
+				culture = karakhanbari_orc
+			}
+			owner = {
+				capital_scope = {
+					superregion = deepwoods_superregion
+				}
+				OR = {
+					accepted_culture = wood_elf
+					accepted_culture = forest_goblin
+					accepted_culture = green_orc
+					accepted_culture = emerald_orc
+					accepted_culture = karakhanbari_orc
+				}
+			}
+		}
+}
+
+the_south_citadel_modifier_trigger = { 
+
+}
+
+beikdugang_arsenal_modifier_trigger = { 
+owner = { 
+			OR = {
+				has_idea_group = maritime_ideas
+				has_idea_group = naval_ideas
+			}
+			culture_group = yan
+		}
+		is_core = ROOT
+}
+
+beikdugang_lights_modifier_trigger = { 
+owner = {
+			OR = {
+				has_idea_group = exploration_ideas
+				has_discovered = 8
+			}
+			culture_group = yan
+		}
+		is_core = ROOT
+}
+
+anzarzax_palace_modifier_trigger = { 
+owner = {
+			OR = {
+				culture_group = gnollish
+				tag = F74 #Anzarzax
+			}
+		}
+}
+
+elikhander_pyramid_modifier_trigger = { 
+OR = {
+			religion_group = khetist
+			religion = dalcabba
+			owner = { was_tag = B38 }
+		}
+		has_owner_religion = yes
+		is_core = ROOT
+}
+
+elikhander_orbs_modifier_trigger = { 
+owner = { ruler_has_mage_personality = yes }
+		OR = {
+			religion_group = khetist
+			religion = dalcabba
+			owner = { was_tag = B38 }
+		}
+		has_owner_religion = yes
+		is_core = ROOT
+}
+
+elikhander_sphinx_modifier_trigger = { 
+OR = {
+			religion_group = khetist
+			religion = dalcabba
+			owner = { was_tag = B38 }
+		}
+		has_owner_religion = yes
+		is_core = ROOT
+}
+
+eternal_pillar_1_modifier_trigger = { 
+owner = {
+			OR = {
+				has_reform = black_demesne_reform
+				has_reform = black_acolyte_reform
+			}
+		}
+}
+
+eternal_pillar_2_modifier_trigger = { 
+owner = {
+			OR = {
+				has_reform = black_demesne_reform
+				has_reform = black_acolyte_reform
+			}
+		}
+}
+
+eternal_pillar_3_modifier_trigger = { 
+owner = {
+			OR = {
+				has_reform = black_demesne_reform
+				has_reform = black_acolyte_reform
+			}
+		}
+}
+
+eternal_pillar_4_modifier_trigger = { 
+owner = {
+			OR = {
+				has_reform = black_demesne_reform
+				has_reform = black_acolyte_reform
+			}
+		}
+}
+
+eternal_pillar_5_modifier_trigger = { 
+owner = {
+			OR = {
+				has_reform = black_demesne_reform
+				has_reform = black_acolyte_reform
+			}
+		}
+}
+
+eternal_pillar_6_modifier_trigger = { 
+owner = {
+			OR = {
+				has_reform = black_demesne_reform
+				has_reform = black_acolyte_reform
+			}
+		}
+}
+
+eternal_pillar_7_modifier_trigger = { 
+owner = {
+			OR = {
+				has_reform = black_demesne_reform
+				has_reform = black_acolyte_reform
+			}
+		}
+}
+
+eternal_pillar_8_modifier_trigger = { 
+owner = {
+			OR = {
+				has_reform = black_demesne_reform
+				has_reform = black_acolyte_reform
+			}
+		}
+}
+
+eternal_pillar_9_modifier_trigger = { 
+owner = {
+			OR = {
+				has_reform = black_demesne_reform
+				has_reform = black_acolyte_reform
+			}
+		}
+}
+
+well_of_majesty_modifier_trigger = { 
+owner = {
+			OR = {
+				has_reform = black_demesne_reform
+				has_reform = black_acolyte_reform
+			}
+		}
+}
+
+scp_bureau_hq_modifier_trigger = { 
+OR = {
+			culture_group = trollsbayer
+			culture = towerfoot_halfling
+		}
+		province_is_or_accepts_culture = yes
+		OR = {
+			province_is_or_accepts_religion = {
+				religion = ravelian
+			}
+			owner = { has_idea_group = spy_ideas }
+		}
+		is_core = ROOT
+}
+
+icgm_modifier_trigger = { 
+owner = { tag = I98 }
+}
+
+ravioli_bastion_modifier_trigger = { 
+owner = {tag = Z97}
+}
+
+aksa_sanuyego_modifier_trigger = { 
+if = {
+			limit = { owner = { has_country_flag = aksa_sanuyego_MT_subject_bypass_flag } }
+			owner = { owns_or_non_sovereign_subject_of = 4963 }
+		}
+		else = { owner = { owns_core_province = 4963 } }
+}
+
+balkhangfa_palace_modifier_trigger = { 
+owner = {
+			OR = {
+				has_church_aspect = accretive_path_teachings_of_balris_minor
+				has_church_aspect = accretive_path_teachings_of_balris_major_unimproved
+				has_church_aspect = accretive_path_teachings_of_balris_major_improved
+			}
+		}
+}
+
+feiten_aerodrome_modifier_trigger = { 
+owner = {
+			if = {
+				limit = { has_saved_global_event_target = feiten_or_was_feiten_target }
+				tag = event_target:feiten_or_was_feiten_target
+			}
+		}
+}
+
+hall_of_endless_debate_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_or_harmonizes_religion_group = {
+				religion_group = raheni
+			}
+			province_is_or_accepts_or_harmonizes_religion = {
+				religion = godlost
+			}
+			province_is_or_accepts_or_harmonizes_religion = {
+				religion = the_jadd
+			}
+			province_is_or_accepts_or_harmonizes_religion = {
+				religion = the_thought
+			}
+		}
+}
+
+oracle_mountain_modifier_trigger = { 
+OR = {
+			religion_group = raheni
+			religion = accretive_path
+			religion = transmutative_path
+			religion = mystic_accord
+			religion = bangujonsi
+			religion = saanorgegh
+		}
+		has_owner_religion = yes
+}
+
+golden_palace_modifier_trigger = { 
+OR = {
+			custom_trigger_tooltip = {
+				tooltip = golden_palace_capital_tt
+				owner = { capital = 4411 }
+			}
+			hidden_trigger = { owner = { has_country_flag = dhenijansar_regional_administration_flag } }
+			custom_trigger_tooltip = {
+				tooltip = golden_palace_raheni_tt
+				owner = {
+					OR = {
+						culture_group = harimari
+						culture_group = south_raheni
+						culture_group = middle_raheni
+						culture_group = upper_raheni
+					}
+				}
+			}
+		}
+}
+
+godswall_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_or_harmonizes_religion_group = {
+				religion_group = raheni
+			}
+			province_is_or_accepts_or_harmonizes_religion_group = {
+				religion_group = halessi
+			}
+			province_is_or_accepts_or_harmonizes_religion_group = {
+				religion_group = supreme_spirit
+			}
+		}
+		has_owner_accepted_culture = yes
+}
+
+sarisung_city_modifier_trigger = { 
+owner = {
+			owns_core_province = 4620
+			owns_core_province = 4364
+			owns_core_province = 4470
+			owns_core_province = 4489
+		}
+}
+
+palace_of_divine_call_modifier_trigger = { 
+has_owner_accepted_culture = yes
+		development = 40
+		if = {
+			limit = { owner = { tag = L62 } } 
+			owner = { mission_completed = L62_protectors_of_seas }
+		}
+		else = {
+			is_capital = yes
+		}
+		owner = { government_rank = 2 }
+}
+
+bim_lau_necropolis_modifier_trigger = { 
+owner = {
+			OR = {
+				tag = Y51
+				culture_group = bom
+				custom_trigger_tooltip = {
+					tooltip = monument_bim_lau_tt
+					OR = {
+						religion = mystic_accord
+						religion = bangujonsi
+						religion = saanorgegh
+						secondary_religion = mystic_accord
+						secondary_religion = bangujonsi
+						secondary_religion = saanorgegh
+					}
+				}
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = has_owner_religion_tt
+			OR = {
+				has_owner_religion = yes
+				owner = {
+					secondary_religion = ROOT
+				}
+			}
+		}
+		NOT = { has_province_modifier = Y51_tomb_spirits_furious }
+}
+
+temple_of_undying_flame_modifier_trigger = { 
+has_province_modifier = temple_complex
+		owner = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = monument_undying_flame_tt
+					OR = {
+						religion_group = raheni
+						religion = saanorgegh
+						religion = accretive_path
+						religion = transmutative_path
+						secondary_religion = high_philosophy
+						secondary_religion = suhans_praxis
+						secondary_religion = saanorgegh
+					}
+				}
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = has_owner_religion_tt
+			OR = {
+				has_owner_religion = yes
+				owner = {
+					secondary_religion = ROOT
+				}
+			}
+		}
+}
+
+budanphre_canal_modifier_trigger = { 
+
+}
+
+godswall_tunnel_modifier_trigger = { 
+
+}
+
+dwarovar_valley_tunnel_modifier_trigger = { 
+
+}
+
+valley_dwarovar_tunnel_modifier_trigger = { 
+
+}
+
+elikhet_pyramid_modifier_trigger = { 
+owner = { 
+			is_emperor_of_china = yes
+			religion_group = khetist
+		}
+}
+
+bronze_dragon_academy_modifier_trigger = { 
+owner = { 
+			is_emperor_of_china = yes
+		}
+}
+
+decadence_statues_modifier_trigger = { 
+owner = { 
+			is_emperor_of_china = yes
+		}
+}
+
+shadowroot_matriarch_modifier_trigger = { 
+owner = {
+			OR = {
+				religion = night_coven
+				religion = shadow_pact
+				religion = xhazobkult
+			}
+		}
+}
+
+shadowroot_matriarch_purified_modifier_trigger = { 
+owner = {
+			NOT = {
+				religion = night_coven
+				religion = shadow_pact
+				religion = xhazobkult
+			}
+		}
+}
+
+lizardfolk_port_modifier_trigger = { 
+OR = {
+			owner = {
+				OR = {
+					is_vyzemby_primary_culture = yes
+					culture_group = lizardfolk
+				}
+			}
+			AND = {
+				OR = {
+					is_vyzemby_culture = yes
+					culture_group = lizardfolk
+				}
+				has_owner_accepted_culture = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = lizardfolk_port_mt_enabled
+				owner = { has_country_flag = lizardfolk_port_enabled }
+			}
+		}
+}
+
+first_mihipha_college_modifier_trigger = { 
+owner = {
+			is_vyzemby_primary_culture = yes
+		}
+}
+
+esuvrem_modifier_trigger = { 
+culture_group = gnollish
+		owner = { culture_group = gnollish }
+}
+
+tower_of_muhaqaar_modifier_trigger = { 
+owner = { religion_group = khetist }
+		religion_group = khetist
+}
+
+kuiika_gamyi_modifier_trigger = { 
+owner = {
+			OR = {
+				religion_group = tanibic_religion 
+				religion_group = lizardfolk_religion
+			}
+		}
+		OR = {
+			religion_group = tanibic_religion 
+			religion_group = lizardfolk_religion
+		}
+}
+
+koroshesh_library_modifier_trigger = { 
+culture_group = kheteratan
+		has_owner_accepted_culture = yes
+		owner = { OR = { medium_tolerance_gnomish_race_trigger = yes high_tolerance_gnomish_race_trigger = yes } }
+}
+
+great_merfolk_canal_modifier_trigger = { 
+
+}
+
+aur_kes_akasik_modifier_trigger = { 
+OR = {
+			religion = mother_akasik
+			religion = fangaulan_pantheon
+			}
+			has_owner_religion = yes
+		AND = {
+				culture_group = akasi
+				province_is_or_accepts_culture = yes
+			}
+}
+
+e_arenaginku_adras_modifier_trigger = { 
+owner = {
+			OR = {
+				culture_group = mengi
+				primary_culture = naleni_harpy
+			}
+		}
+		OR ={
+			culture_group = mengi
+			province_is_or_accepts_culture = yes
+		}
+}
+
+hawatli_wizti_tali_modifier_trigger = { 
+owner = {
+			OR = {
+				culture_group = mengi
+				primary_culture = naleni_harpy
+			}
+			has_matching_religion = sky_domain	
+		}
+}
+
+azmeras_wezinmesig_modifier_trigger = { 
+owner = {
+			OR = {
+				culture_group = mengi
+				primary_culture = naleni_harpy
+			}
+		}
+		OR ={
+			culture_group = mengi
+			province_is_or_accepts_culture = yes
+		}
+}
+
+crater_of_the_martyr_modifier_trigger = { 
+province_is_or_accepts_culture = yes
+		 OR = { 
+			religion = sky_domain
+			religion = the_hunt
+		}
+		OR = {
+			has_owner_religion = yes
+			owner = {
+				secondary_religion = ROOT
+			}
+		}
+}
+
+tree_of_tales_modifier_trigger = { 
+religion_group = tanibic_religion
+		has_owner_religion = yes
+}
+
+prukakhin_bazaar_of_blood_and_ivory_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_bomdan
+					OR = {
+						culture_group = bom
+						culture_group = yan
+						culture_group = harimari		
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+phaethmen_di_phaemruk_shipyard_district_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_bomdan
+					OR = {
+						culture_group = bom
+						culture_group = yan
+						culture_group = harimari		
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+phaethmen_di_the_saccharine_garden_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_bomdan
+					OR = {
+						culture_group = bom
+						culture_group = yan
+						culture_group = harimari		
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+lapnam_amrik_weapon_market_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_bomdan
+					OR = {
+						culture_group = bom
+						culture_group = yan
+						culture_group = harimari		
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+lapnam_amrik_teplinbasiet_arena_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_bomdan
+					OR = {
+						culture_group = bom
+						culture_group = yan
+						culture_group = harimari		
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+temple_of_surael_modifier_trigger = { 
+AND = {
+			religion = bulwari_sun_cult
+			has_owner_religion = yes
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_bulwar
+					OR = {
+						culture_group = elven
+						culture_group = bulwari
+						culture_group = gnollish
+						culture_group = harpy
+						culture = exodus_goblin
+						culture = karashari_orc
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+hanging_gardens_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_bulwar
+					OR = {
+						culture_group = elven
+						culture_group = bulwari
+						culture_group = gnollish
+						culture_group = harpy
+						culture = exodus_goblin
+						culture = karashari_orc
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+fortress_azka_szel_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_bulwar
+					OR = {
+						culture_group = elven
+						culture_group = bulwari
+						culture_group = gnollish
+						culture_group = harpy
+						culture = exodus_goblin
+						culture = karashari_orc
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+fortress_azka_sur_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_bulwar
+					OR = {
+						culture_group = elven
+						culture_group = bulwari
+						culture_group = gnollish
+						culture_group = harpy
+						culture = exodus_goblin
+						culture = karashari_orc
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+sun_dial_modifier_trigger = { 
+AND = {
+			OR = {
+				religion = bulwari_sun_cult
+				religion = old_bulwari_sun_cult
+			}
+			has_owner_religion = yes
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_bulwar
+					OR = {
+						culture_group = elven
+						culture_group = bulwari
+						culture_group = gnollish
+						culture_group = harpy
+						culture = exodus_goblin
+						culture = karashari_orc
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+bazaar_brasan_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_bulwar
+					OR = {
+						culture_group = elven
+						culture_group = bulwari
+						culture_group = gnollish
+						culture_group = harpy
+						culture = exodus_goblin
+						culture = karashari_orc
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+port_emperor_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_bulwar
+					OR = {
+						culture_group = elven
+						culture_group = bulwari
+						culture_group = gnollish
+						culture_group = harpy
+						culture = exodus_goblin
+						culture = karashari_orc
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+temple_sun_modifier_trigger = { 
+AND = {
+			religion_group = bulwari
+			has_owner_religion = yes
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_bulwar
+					OR = {
+						culture_group = elven
+						culture_group = bulwari
+						culture_group = gnollish
+						culture_group = harpy
+						culture = exodus_goblin
+						culture = karashari_orc
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+mountain_of_clear_sight_modifier_trigger = { 
+AND = {
+			religion = the_jadd
+			has_owner_religion = yes	
+		}
+}
+
+moon_mountains_modifier_trigger = { 
+AND = {
+			has_owner_religion = yes	
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_mountains_of_the_moon
+					OR = {
+						religion = old_bulwari_sun_cult
+						religion = the_jadd
+						AND = {
+							religion = regent_court
+							owner = {
+								custom_trigger_tooltip = {
+									tooltip = PERSONAL_DEITY_DAME
+									has_personal_deity = the_dame
+								}
+							}
+						}
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+stone_palace_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_bulwar
+					OR = {
+						culture_group = elven
+						culture_group = gnollish
+						culture_group = harpy
+						culture_group = bulwari
+						culture = exodus_goblin
+						culture = karashari_orc
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+eranils_oddities_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_bulwar
+					OR = {
+						culture_group = elven
+						culture_group = bulwari
+						culture_group = gnollish
+						culture_group = harpy
+						culture = exodus_goblin
+						culture = karashari_orc
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+eborthil_toref_citadel_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_businor
+					OR = {
+						culture_group = businori
+						culture_group = kheteratan
+						culture = castanorian
+						culture = hill_gnoll
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+bjarnrik_staple_port_of_konungrhavn_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_dalr
+					OR = {
+						culture_group = gerudian
+						culture_group = reachman
+						culture = blue_reachman_r
+						culture = white_reachman_r
+						culture = fjord_troll
+						culture = black_castanorian
+						culture = castanorian
+						culture = jarnklo_harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+damescrown_grand_exchange_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar
+					OR = {
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+beepeck_the_largest_small_city_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_beepeck
+					OR = {
+						culture_group = anbennarian
+						culture_group = halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+ara_temple_modifier_trigger = { 
+AND = {
+			has_owner_religion = yes
+			religion_group = cannorian
+				custom_trigger_tooltip = {
+					tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar
+						OR = {
+							culture_group = anbennarian
+							culture = imperial_halfling
+							culture = imperial_gnome
+							culture = moon_elf
+							culture = silver_dwarf
+							culture = wexonard
+							culture = vertesker
+							culture = roilsardi
+							culture = castanorian
+						}
+				}
+				province_is_or_accepts_culture = yes
+		}
+}
+
+nathalaire_city_of_pirates_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_nathalaire
+					OR = {
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture_group = dostanorian_g
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+azjakuma_shinukhorchi_the_highest_fire_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_azjakuma
+					OR = {
+						culture = horned_ogre
+						AND = {
+							has_owner_religion = yes
+							religion = devouring_path
+						}
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+azjakuma_ajgriijarul_the_bright_claw_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_azjakuma
+					OR = {
+						culture = horned_ogre
+						AND = {
+							has_owner_religion = yes
+							religion = devouring_path
+						}
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+azjakuma_chumijemoya_the_silent_mist_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_azjakuma
+					OR = {
+						culture = horned_ogre
+						AND = {
+							has_owner_religion = yes
+							religion = devouring_path
+						}
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+azkajuma_kabiurgarko_the_golden_gates_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_azjakuma
+					OR = {
+						culture = horned_ogre
+						AND = {
+							has_owner_religion = yes
+							religion = devouring_path
+						}
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+hubao_the_tiger_fortress_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_hubao_the_tiger_fortress
+					OR = {
+						culture_group = yan
+						culture_group = harimari
+						culture = horned_ogre
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+nimscodd_academy_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_nimscodd
+					OR = {
+					culture_group = gnomish
+					culture = reverian
+					culture_group = kobold
+					culture = castanorian
+					AND = {
+						religion = the_thought
+						has_owner_religion = yes
+					}
+				}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+portnamm_portroy_merchants_guild_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_portroy
+					OR = {
+					culture_group = gnomish
+					culture_group = lencori
+					culture = reverian
+					culture_group = kobold
+					culture = castanorian
+				}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+kobildzan_kobildzex_guild_of_trapsmiths_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_kobildzex
+					OR = {
+						culture_group = kobold
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+the_dragonhoard_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_dragonhoard
+					OR = {
+						culture_group = kobold
+						culture = castanorian
+					}
+				}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+anbenncost_imperial_palace_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar
+					OR = {
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+moonhaven_port_munas_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar
+					OR = {
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+silvelar_silver_spires_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar
+					OR = {
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+menibor_hall_of_the_gallant_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar
+					OR = {
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+damish_temple_moonmount_library_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar
+					OR = {
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+damish_temple_temple_of_the_highest_moon_modifier_trigger = { 
+AND = {
+			has_owner_religion = yes
+			religion_group = cannorian
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar
+					OR = {
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+giberd_academy_of_engineering_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar
+					OR = {
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+telgeir_vanbury_steel_foundry_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar
+					OR = {
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+temple_of_ryala_modifier_trigger = { 
+AND = {
+			has_owner_religion = yes
+			religion_group = cannorian
+				custom_trigger_tooltip = {
+					tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar
+						OR = {
+							culture_group = anbennarian
+							culture = imperial_halfling
+							culture = imperial_gnome
+							culture = moon_elf
+							culture = silver_dwarf
+							culture = wexonard
+							culture = vertesker
+							culture = roilsardi
+							culture = castanorian
+						}
+				}
+				province_is_or_accepts_culture = yes
+		}
+}
+
+konwell_the_imperial_archives_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar
+					OR = {
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+seinathil_institute_of_song_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar
+					OR = {
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+ibevar_temple_of_munas_modifier_trigger = { 
+has_owner_religion = yes
+			OR = {
+				religion_group = cannorian
+				religion = elven_forebears
+			}
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar
+					OR = {
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+urviksten_ebonsteel_armory_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_dalr
+					OR = {
+						culture_group = gerudian
+						culture_group = reachman
+						culture = blue_reachman_r
+						culture = white_reachman_r
+						culture = fjord_troll
+						culture = black_castanorian
+						culture = castanorian
+						culture = jarnklo_harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+draculas_throne_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_sorcerer_king_throne
+					OR = {
+						culture_group = gerudian
+						culture = black_castanorian
+						culture = black_demesner
+						owner = {
+							has_country_flag = witch_king_flag 
+						}
+					}
+			}
+		}
+}
+
+hammerhome_artificers_guild_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_hammerhome
+					OR = {
+						culture_group = escanni
+						culture_group = dostanorian_g
+						culture = marrodic
+						culture_group = dwarven
+						culture_group = gnomish
+						culture_group = kobold
+						culture_group = goblin
+						culture = newfoot_halfling
+						culture_group = orcish
+						culture = moon_elf
+						culture = common_goblin
+						culture = elikhander
+						culture = hapremiti
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+tuwad_dhumakon_gardens_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+gronstunad_trade_halls_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_3_or_higher
+				dwarven_monuments_has_dig_level_3_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+verkal_dromak_mage_academy_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+vurdriz_andriz_bastion_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+emerald_spire_modifier_trigger = { 
+AND = {
+			development = 10
+				custom_trigger_tooltip = {
+					tooltip = dwarven_monuments_can_use_tooltip
+						 dwarven_monuments_has_acceptable_culture_or_race = yes
+				}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+warded_city_deg_modifier_trigger = { 
+AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
+				culture_group = kheionai_ruinborn_elf
+				culture_group = elven
+			}
+		}
+}
+
+warded_city_orm_modifier_trigger = { 
+AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
+				culture_group = kheionai_ruinborn_elf
+				culture_group = elven
+			}
+		}
+}
+
+warded_city_khe_modifier_trigger = { 
+AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
+				culture_group = kheionai_ruinborn_elf
+				culture_group = elven
+			}
+		}
+}
+
+warded_city_lok_modifier_trigger = { 
+AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
+				culture_group = kheionai_ruinborn_elf
+				culture_group = elven
+			}
+		}
+}
+
+warded_city_okt_modifier_trigger = { 
+AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
+				culture_group = kheionai_ruinborn_elf
+				culture_group = elven
+			}
+		}
+}
+
+warded_city_arp_modifier_trigger = { 
+AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
+				culture_group = kheionai_ruinborn_elf
+				culture_group = elven
+			}
+		}
+}
+
+lorentaine_mage_academy_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_lencenor
+					OR = {
+						culture_group = lencori
+						culture = moon_elf
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+lorent_new_adea_naval_school_modifier_trigger = { 
+development = 25
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_lencenor
+					OR = {
+						culture_group = lencori
+						culture = moon_elf
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+deranne_westport_gateway_to_aelantir_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_lencenor
+					OR = {
+						culture_group = lencori
+						culture = moon_elf
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+minara_temple_modifier_trigger = { 
+AND = {
+			has_owner_religion = yes
+			religion_group = cannorian
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_lencenor
+					OR = {
+						culture_group = lencori
+						culture = moon_elf
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+verkal_gulan_golden_delve_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+seghdihr_home_of_the_seg_band_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+hehodovar_school_of_architecture_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+gor_vazumbrog_the_vaulthold_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+gor_ozumbrog_the_topaz_throne_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+lanjinhui_lanjin_hall_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_yanshen
+					OR = {
+						culture_group = yan
+						culture_group = harimari
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+pyramids_of_khet_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_pyramids_of_khet
+					OR = {
+						is_emperor_of_china = yes
+						culture_group = kheteratan
+						culture_group = akasi
+						culture_group = gnollish
+						culture = delta_gnome
+						culture = sun_elf
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+koroshesh_grain_port_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_north_salahad
+					OR = {
+						culture_group = kheteratan
+						culture_group = akasi
+						culture_group = gnollish
+						culture = delta_gnome
+						culture = sun_elf
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+zornartakel_naval_harbor_modifier_trigger = { 
+development = 20
+		AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_north_salahad
+					OR = {
+						culture_group = kheteratan
+						culture_group = akasi
+						culture_group = gnollish
+						culture = delta_gnome
+						culture = sun_elf
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+deshak_temple_of_the_elements_modifier_trigger = { 
+AND = {
+			has_owner_religion = yes
+			OR = {
+				religion_group = khetist
+				religion = mother_akasik
+			}
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_north_salahad
+					OR = {
+						culture_group = kheteratan
+						culture_group = akasi
+						culture_group = gnollish
+						culture = delta_gnome
+						culture = sun_elf
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+ekha_harbor_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_north_salahad
+					OR = {
+						culture_group = kheteratan
+						culture_group = akasi
+						culture_group = gnollish
+						culture = delta_gnome
+						culture = sun_elf
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+aquatbar_great_library_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_aquatbar_library
+					OR = {
+						culture_group = elven
+						culture_group = bulwari
+						culture_group = gnollish
+						culture_group = harpy
+						culture = exodus_goblin
+						culture = karashari_orc
+						culture = ourdi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+dasmati_halls_of_reverence_modifier_trigger = { 
+AND = {
+			has_owner_religion = yes
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_halls_of_reverence
+					OR = {
+						culture_group = bulwari
+				religion = old_bulwari_sun_cult
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+rubyhold_academy_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+ovdal_tungr_port_hold_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+marrhold_gate_to_the_serpentspine_modifier_trigger = { 
+AND = {
+				custom_trigger_tooltip = {
+					tooltip = dwarven_monuments_can_use_tooltip_marrhold
+						OR = {
+							culture = marrodic 
+							culture = newfoot_halfling
+							culture_group = escanni
+							culture_group = dostanorian_g
+							culture_group = dwarven
+							culture_group = goblin
+							culture_group = kobold
+							culture_group = orcish
+							culture = moon_elf
+							culture = newfoot_halfling
+						}
+				}
+				province_is_or_accepts_culture = yes
+		}
+}
+
+verkal_ozovar_phokhao_citadel_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+silverforge_strongbellow_academy_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+					dwarven_monuments_has_dig_level_2_or_higher = yes	
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					OR = {
+						dwarven_monuments_has_acceptable_culture_or_race = yes
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+						culture_group = goblin
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+daengun_hajigaja_library_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_odheongu
+					OR = {
+						culture_group = yan
+						culture_group = odheongun
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+temple_mindanan_modifier_trigger = { 
+AND = {
+			OR = {
+				religion = high_philosophy
+				religion = suhans_praxis
+			}
+			has_owner_religion = yes
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_raheni
+					OR = {
+						culture_group = harimari
+						culture_group = south_raheni
+						culture_group = middle_raheni
+						culture_group = upper_raheni
+						culture_group = south_raheni
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+dye_market_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_raheni
+					OR = {
+						culture_group = harimari
+						culture_group = south_raheni
+						culture_group = middle_raheni
+						culture_group = upper_raheni
+						culture_group = south_raheni
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+dhujati_headquarters_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_raheni
+					OR = {
+						culture_group = harimari
+						culture_group = south_raheni
+						culture_group = middle_raheni
+						culture_group = upper_raheni
+						culture_group = south_raheni
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+sarnihanpur_library_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_raheni
+					OR = {
+						culture_group = harimari
+						culture_group = south_raheni
+						culture_group = middle_raheni
+						culture_group = upper_raheni
+						culture_group = south_raheni
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+khamayodi_camp_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_raheni
+					OR = {
+						culture_group = harimari
+						culture_group = south_raheni
+						culture_group = middle_raheni
+						culture_group = upper_raheni
+						culture_group = south_raheni
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+sheramvi_foundry_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_raheni
+					OR = {
+						culture_group = harimari
+						culture_group = south_raheni
+						culture_group = middle_raheni
+						culture_group = upper_raheni
+						culture_group = south_raheni
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+sardhasi_fields_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_raheni
+					OR = {
+						culture_group = harimari
+						culture_group = south_raheni
+						culture_group = middle_raheni
+						culture_group = upper_raheni
+						culture_group = south_raheni
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+great_market_sramaya_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_raheni
+					OR = {
+						culture_group = harimari
+						culture_group = south_raheni
+						culture_group = middle_raheni
+						culture_group = upper_raheni
+						culture_group = south_raheni
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+brass_palace_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_brass_palace
+					OR = {
+						culture_group = harimari
+						culture_group = south_raheni
+						culture_group = middle_raheni
+						culture_group = upper_raheni
+						culture_group = south_raheni
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+gor_burad_fireglass_forge_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+verkal_skomdihr_warding_gate_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+ovdal_lodhum_tunnel_of_love_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+arg_ordstun_great_clast_shafts_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+orlghelovar_great_waterfall_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+shaztundihr_marble_gate_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+marrhold_the_feather_academy_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_escann
+				cannorian_monuments_can_use_escann = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+bladeskeep_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_bladeskeep
+				cannorian_monuments_can_use_bladeskeep = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+esthili_academy_of_magic_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_escann
+				cannorian_monuments_can_use_escann = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+sorncell_deepwater_harbor_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar
+					OR = {
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+azkare_citadel_of_the_dawn_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_citadel_of_the_dawn
+					OR = {
+						culture_group = yan
+						culture_group = kai
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = sunrise_elf
+						culture = sun_elf
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+kudet_kai_danon_dungcam_mercenary_guild_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_thidnkai
+					OR = {
+						culture_group = yan
+						culture_group = kai
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+chien_binhrung_nha_nuhoanha_temple_modifier_trigger = { 
+AND = {
+			has_owner_religion = yes
+			OR = {
+				religion = accretive_path
+				religion = mystic_accord
+			}
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_thidnkai
+					OR = {
+						culture_group = yan
+						culture_group = kai
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+earthseed_modifier_trigger = { 
+AND = {
+			development = 10
+				custom_trigger_tooltip = {
+					tooltip = dwarven_monuments_can_use_tooltip
+						 dwarven_monuments_has_acceptable_culture_or_race = yes
+				}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+ovdal_kanzad_cannon_foundry_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+grozumdhir_green_gate_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+ovdal_az_an_grand_lake_ballroom_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+hul_as_krakazol_breweries_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+jinquiu_heiyukcheng_the_black_jade_citadel_modifier_trigger = { 
+custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_halessi_religion
+					AND = {
+						province_is_or_accepts_religion_group = {
+							religion_group = halessi
+						}
+					}
+			}
+			province_is_or_accepts_culture = yes
+}
+
+bianfang_huangpo_academy_of_war_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_yanshen
+					OR = {
+						culture_group = yan
+						culture_group = harimari
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+the_zhanying_of_szicheng_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_yanshen
+					OR = {
+						culture_group = yan
+						culture_group = harimari
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+guhe_the_cheng_of_guhe_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_guhe
+					OR = {
+						culture_group = yan
+						culture_group = harimari
+						culture = goldscale_kobold
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+bianfang_vermillion_gate_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_vermillion_gate
+					OR = {
+						culture_group = yan
+						culture_group = harimari
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = sun_elf
+						culture = sunrise_elf
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+kronium_throne_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_3_or_higher
+				dwarven_monuments_has_dig_level_3_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+amlharaz_assembly_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+fortress_of_verkal_vazkron_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+hall_of_the_ancestors_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+er_natvir_railyard_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+kozenad_brothel_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+mithradhum_academy_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+orldhum_estates_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+khugdihr_bank_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+orlazam_food_silos_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+ramvault_mines_modifier_trigger = { 
+AND = {
+			development = 10
+				custom_trigger_tooltip = {
+					tooltip = dwarven_monuments_can_use_tooltip
+						 dwarven_monuments_has_acceptable_culture_or_race = yes
+				}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+vazhatun_observatory_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+krakdhumvror_hold_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+jorkad_aqueduct_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip_dig_level_2_or_higher
+				dwarven_monuments_has_dig_level_2_or_higher = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = dwarven_monuments_can_use_tooltip
+					dwarven_monuments_has_acceptable_culture_or_race = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+sedadhum_mining_settlement_modifier_trigger = { 
+AND = {
+			development = 10
+				custom_trigger_tooltip = {
+					tooltip = dwarven_monuments_can_use_tooltip
+						 dwarven_monuments_has_acceptable_culture_or_race = yes
+				}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+ancardia_escanni_academy_of_war_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_escann
+				cannorian_monuments_can_use_escann = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+adenica_longlance_knights_academy_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_escann
+				cannorian_monuments_can_use_escann = yes
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+neckcliffe_the_imperial_dockyard_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = cannorian_monuments_can_use_tooltip_empire_of_anbennar
+					OR = {
+						culture_group = anbennarian
+						culture = imperial_halfling
+						culture = imperial_gnome
+						culture = moon_elf
+						culture = silver_dwarf
+						culture = wexonard
+						culture = vertesker
+						culture = roilsardi
+						culture = castanorian
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+xiadao_liusibao_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_xianjie
+					OR = {
+						culture_group = yan
+						culture_group = middle_raheni
+						culture_group = harimari
+						culture = goldscale_kobold
+						culture_group = harpy
+						culture_group = hobgoblin
+						culture_group = wuhyun
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+jilin_szienlou_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_xianjie
+					OR = {
+						culture_group = yan
+						culture_group = middle_raheni
+						culture_group = harimari
+						culture = goldscale_kobold
+						culture_group = harpy
+						culture_group = hobgoblin
+						culture_group = wuhyun
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+gundhaghidur_library_of_insight_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_xianjie
+					OR = {
+						culture_group = yan
+						culture_group = middle_raheni
+						culture_group = harimari
+						culture = goldscale_kobold
+						culture_group = harpy
+						culture_group = hobgoblin
+						culture_group = wuhyun
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+aoshan_hanging_temple_modifier_trigger = { 
+AND = {
+			has_owner_religion = yes
+			religion = accretive_path
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_xianjie
+					OR = {
+						culture_group = yan
+						culture_group = middle_raheni
+						culture_group = harimari
+						culture = goldscale_kobold
+						culture_group = harpy
+						culture_group = hobgoblin
+						culture_group = wuhyun
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+lapnam_amrik_khram_ptaa_national_academy_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_bomdan
+					OR = {
+						culture_group = yan
+						culture_group = bom
+						culture_group = harimari		
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+tianlou_jewel_of_yanshen_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_yanshen
+					OR = {
+						culture_group = yan
+						culture_group = harimari
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+tianlou_xuezhefang_eunuch_academy_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_yanshen
+					OR = {
+						culture_group = yan
+						culture_group = harimari
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+jiangdu_haoshitzi_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_yanshen
+					OR = {
+						culture_group = yan
+						culture_group = harimari
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+luoyip_house_of_fire_and_water_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_yanshen
+					OR = {
+						culture_group = yan
+						culture_group = harimari
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+yinquan_the_conquerors_hotspring_modifier_trigger = { 
+AND = {
+			custom_trigger_tooltip = {
+				tooltip = halessi_monuments_can_use_tooltip_hotspring
+					OR = {
+						culture_group = yan
+						culture_group = hobgoblin
+						culture_group = wuhyun
+						culture = goldscale_kobold
+						culture_group = harpy
+						culture = sun_elf #The culture of Jaher
+						culture = sunrise_elf #The culture of Hiderion
+						culture = desert_elf #The culture of Jaddar
+						culture_group = harimari #The culture of Harimar the Great
+					}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+

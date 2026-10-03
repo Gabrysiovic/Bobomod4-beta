@@ -1,0 +1,93 @@
+namespace = Overlording_debug
+normal_or_historical_nations = yes
+
+country_event = { # Debug event
+	id = Overlording_debug.1
+	title = Overlording_debug.1.t
+	desc = Overlording_debug.1.d
+	picture = ORTHODOX_eventPicture
+	
+	trigger = {
+		has_country_flag = dependencylost
+		has_country_flag = subjectmonumentlost
+		# TR2 = { num_of_cities = 0 }
+		has_global_flag = ab_mod_active
+		has_global_flag = anb_mod_active
+		has_global_flag = missions_expanded_mod_active
+		has_global_flag = LotF_mod_active
+		has_global_flag = alexiad_mod_active
+		# has_global_flag = sm_mod_active
+		has_global_flag = pf_mod_active
+		has_global_flag = to_mod_active
+		has_global_flag = mks_mod_active
+		has_global_flag = wu_mod_active
+		has_global_flag = esu_mod_active
+		has_global_flag = wwu_mod_active
+		has_global_flag = sr_mod_active
+		has_global_flag = bt_mod_active
+		has_global_flag = dd_mod_active
+		# is_mod_active = "东正教强化：普世恒光"
+		# is_mod_active = "阿莱克修斯传：科穆宁终耀"
+		is_mod_active = "Lord of Universalis 2"
+		has_global_flag = 1356_mod_active
+		has_global_flag = alb_mod_active
+		has_global_flag = rdl_mod_active
+		has_global_flag = compa_mod_active
+		has_global_flag = lou2_mod_active
+		ai = no
+		# 330 = {
+		# 	Sumera_Monastery_modifier_trigger = yes
+		# }
+		# 151 = {
+		# 	hagia_sophia_modifier_trigger = yes
+		# }
+		# 1775 = { kiel_canal_modifier_trigger = yes }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = catholic_flavor.5.a
+		# set_global_flag = lou2_mod_active
+	}
+}
+
+# country_event = { # Debug event
+# 	id = Overlording_debug.2
+# 	title = Overlording_debug.1.t
+# 	desc = Overlording_debug.1.d
+# 	picture = ORTHODOX_eventPicture
+	
+# 	trigger = {
+# 		# TR2 = { num_of_cities = 0 }
+# 		has_global_flag = ab_mod_active
+# 		has_global_flag = anb_mod_active
+# 		has_global_flag = missions_expanded_mod_active
+# 		has_global_flag = LotF_mod_active
+# 		has_global_flag = alexiad_mod_active
+# 		# has_global_flag = sm_mod_active
+# 		has_global_flag = pf_mod_active
+# 		has_global_flag = to_mod_active
+# 		ai = no
+# 		# 330 = {
+# 		# 	Sumera_Monastery_modifier_trigger = yes
+# 		# }
+# 		151 = {
+# 			hagia_sophia_modifier_trigger = yes
+# 		}
+# 		1775 = { kiel_canal_modifier_trigger = yes }
+# 	}
+
+# 	mean_time_to_happen = {
+# 		days = 1
+# 	}
+	
+# 	option = {
+# 		name = catholic_flavor.5.a
+# 		clr_global_flag = IEO_schism_healed_orthodox
+# 		clr_global_flag = IEO_schism_healed_coptic
+# 		set_global_flag = pf_mod_active
+# 	}
+# }

@@ -1,0 +1,481 @@
+temple_of_arkona_modifier_trigger = { 
+owner = {
+			OR = {
+				religion = slavic_pagan
+				religion = reformed_slavic
+			}
+		}
+}
+
+fortress_veligrad_modifier_trigger = { 
+
+}
+
+szeged_modifier_trigger = { 
+owner = {
+			OR = {
+				AND = {
+					culture_group = carpathian
+					religion = tengri_pagan_reformed
+				}
+				AND = {
+					OR = {
+						tag = CMN
+						was_tag = CMN
+					}
+					mission_completed = cmn_carpathia
+				}
+			}
+		}
+}
+
+lighthouse_alexandria_modifier_trigger = { 
+
+}
+
+ottoman_market_modifier_trigger = { 
+
+}
+
+hohenstaufen_palace_modifier_trigger = { 
+OR = {
+			owner = {
+				dynasty = Hohenstaufen
+			}
+			owner = {
+				AND = {
+					OR = {
+						is_emperor = yes
+						tag = HLR
+					}
+					full_idea_group = imperial_ideas
+				}
+			}
+		}
+}
+
+walls_ston_modifier_trigger = { 
+
+}
+
+nicene_academy_modifier_trigger = { 
+OR = {
+			owner = {
+				dynasty = "Gabras"
+			}
+			OR = {
+				owner = {
+					OR = {
+						full_idea_group = offensive_ideas
+						full_idea_group = quality_ideas
+						full_idea_group = professional_ideas
+					}
+				}
+			}
+		}
+}
+
+preslav_literary_school_modifier_trigger = { 
+OR = {
+			AND = {
+				owner = {
+					culture_group = south_slavic
+					religion = orthodox
+				}
+			}
+			owner = {
+				OR = {
+					mission_completed = mva_bulgaria
+					mission_completed = ser_dissolve_bulgaria
+				}
+			}
+		}
+}
+
+new_world_port_modifier_trigger = { 
+owner = {
+			full_idea_group = exploration_ideas
+		}
+}
+
+pirate_haven_medina_modifier_trigger = { 
+owner = {
+			culture_group = maghrebi
+		}
+}
+
+shrine_ukko_modifier_trigger = { 
+owner = {
+			OR = {
+				religion = suomi_pagan
+				religion = reformed_suomi
+			}
+		}
+}
+
+aachen_modifier_trigger = { 
+owner = {
+			OR = {
+				dynasty = Carolingian
+				is_emperor = yes
+				tag = HLR
+				custom_trigger_tooltip = {
+					tooltip = RHL_AAC_CATHEDRAL_CONDITION
+					has_country_flag = aac_unlock_cathedral_flag
+				}
+			}
+		}
+		WEE = {
+			NOT = {
+				mission_completed = wee_aachen
+			}
+		}
+}
+
+sich_modifier_trigger = { 
+owner = {
+			OR = {
+				has_reform = cossacks_reform
+				has_reform = hetmanate
+			}
+		}
+}
+
+yuelu_academy_modifier_trigger = { 
+owner = {
+			culture_group = east_asian 
+		}
+}
+
+xian_wall_modifier_trigger = { 
+owner = {
+			culture_group = east_asian 
+		}
+}
+
+mukden_modifier_trigger = { 
+owner = {
+			OR = {
+				tag = JIN
+				was_tag = JIN
+				tag = QNG
+				was_tag = QNG
+				mission_completed = tmg_recruit
+			}
+		}
+}
+
+koreana_modifier_trigger = { 
+OR = {
+			culture = korean
+			culture = korean_new
+		}
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+}
+
+southern_canal_modifier_trigger = { 
+
+}
+
+northern_canal_modifier_trigger = { 
+
+}
+
+bergen_modifier_trigger = { 
+1975 = {
+			is_strongest_trade_power = FROM
+		}
+}
+
+nidaros_modifier_trigger = { 
+OR = {
+			owner = {
+				religion = norse_pagan_reformed
+			}
+			owner = {
+				religion = reformed_norse
+			}
+			owner = {
+				mission_completed = lit_norway
+			}
+		}
+}
+
+cursed_modifier_trigger = { 
+owner = {
+			tag = DAI
+		}
+}
+
+tsarevets_modifier_trigger = { 
+OR = {
+			AND = {
+				culture = bulgarian
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			owner = {
+				mission_completed = ser_dissolve_bulgaria
+			}
+		}
+}
+
+saladin_modifier_trigger = { 
+OR = {
+			owner = {
+				tag = HSN
+			}
+			owner = {
+				AND = {
+					religion_group = muslim
+					full_idea_group = religious_ideas
+				}
+			}
+		}
+}
+
+gelati_modifier_trigger = { 
+owner = { religion = orthodox }
+		religion = orthodox
+		culture = georgian
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+}
+
+rhodes_modifier_trigger = { 
+OR = {
+			culture = greek
+			owner = {
+				tag = KNI
+			}
+			owner = {
+				tag = LAT
+			}
+		}
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+}
+
+apollo_modifier_trigger = { 
+OR = {
+			religion_group = pagan
+			religion_group = reformed_pagan
+		}
+		has_owner_religion = yes
+}
+
+hadrian_modifier_trigger = { 
+
+}
+
+portesmutha_modifier_trigger = { 
+
+}
+
+sound_toll_modifier_trigger = { 
+
+}
+
+christ_church_modifier_trigger = { 
+owner = {
+			OR = {
+				primary_culture = irish
+				primary_culture = norse_gael
+				primary_culture = goidelic
+				primary_culture = norse_gael_nordic
+			}
+			OR = {
+				religion = catholic
+				has_church_aspect = construction_gaelic_aspect
+			}
+		}
+		5158 = {
+			OR = {
+				culture = irish
+				culture = norse_gael
+				culture = goidelic
+				culture = norse_gael_nordic
+			}
+			OR = {
+				religion = catholic
+				owner = {
+					has_church_aspect = construction_gaelic_aspect
+				}
+			}
+		}
+}
+
+hill_tara_modifier_trigger = { 
+373 = {
+			OR = {
+				culture = irish
+				culture = norse_gael
+				culture = goidelic
+				culture = norse_gael_nordic
+			}
+			owner = {
+				OR = {
+					primary_culture = irish
+					primary_culture = norse_gael
+					primary_culture = goidelic
+					primary_culture = norse_gael_nordic
+					accepted_culture = norse_gael
+					accepted_culture = irish
+					accepted_culture = goidelic
+					accepted_culture = norse_gael_nordic
+				}
+			}
+		}
+}
+
+iron_ring_modifier_trigger = { 
+242 = {
+			OR = {
+				culture = welsh
+				culture = briton
+				culture = goidelic
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+tomb_timur_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = nestorian
+		}
+}
+
+baghdad_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = muslim
+			}
+			owner = {
+				has_global_modifier_value = {
+					which = tolerance_heathen
+					value = 0.01
+				}
+			}
+		}
+}
+
+nahrawan_modifier_trigger = { 
+
+}
+
+maragheh_modifier_trigger = { 
+
+}
+
+persepolis_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = zoroastrian
+		}
+}
+
+merv_modifier_trigger = { 
+
+}
+
+oblivion_modifier_trigger = { 
+
+}
+
+shapurshahr_modifier_trigger = { 
+
+}
+
+gurgan_modifier_trigger = { 
+
+}
+
+paradise_gardens_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = zoroastrian
+		}
+}
+
+the_colloseum_modifier_trigger = { 
+
+}
+
+leaning_tower_of_pisa_modifier_trigger = { 
+culture = tuscan
+		province_is_or_accepts_culture = yes
+}
+
+palermo_modifier_trigger = { 
+OR = {
+			AND = {
+				culture_group = maghrebi
+				religion_group = muslim
+				owner = {
+					religion_group = muslim
+				}
+			}
+			owner = {
+				OR = {
+					mission_completed = trc_palace
+					mission_completed = frc_sicily
+					mission_completed = tus_restore_trinacria
+					overlord = {
+						mission_completed = tus_restore_trinacria
+					}
+				}
+				
+			}
+		}
+}
+
+royal_palace_of_arles_modifier_trigger = { 
+OR = {
+			culture = occitain
+			culture = aquitaine
+		}
+		province_is_or_accepts_culture = yes
+}
+
+luitpolds_wall_modifier_trigger = { 
+
+}
+
+nurnberg_modifier_trigger = { 
+province_is_or_accepts_culture = yes
+}
+
+frankfurtgp_modifier_trigger = { 
+province_is_or_accepts_culture = yes
+}
+
+hamburg_modifier_trigger = { 
+province_is_or_accepts_culture = yes
+}
+
+krak_modifier_trigger = { 
+
+}
+
+markets_of_lublin_modifier_trigger = { 
+
+}
+
+wieliczka_salt_mine_modifier_trigger = { 
+
+}
+
+piast_throne_hall_modifier_trigger = { 
+province_is_or_accepts_culture = yes
+		owner = {
+			government = monarchy
+		}
+}
+

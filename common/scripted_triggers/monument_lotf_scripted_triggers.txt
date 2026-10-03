@@ -1,0 +1,112 @@
+has_lotf_monument = { 
+	OR = {
+		has_great_project = {
+			type = white_house
+			tier = 1
+		}
+		has_great_project = {
+			type = white_house
+			tier = 2
+		}
+		has_great_project = {
+			type = white_house
+			tier = 3
+		}
+		has_great_project = {
+			type = west_point
+			tier = 1
+		}
+		has_great_project = {
+			type = west_point
+			tier = 2
+		}
+		has_great_project = {
+			type = west_point
+			tier = 3
+		}
+		has_great_project = {
+			type = fort_sumter
+			tier = 1
+		}
+		has_great_project = {
+			type = fort_sumter
+			tier = 2
+		}
+		has_great_project = {
+			type = fort_sumter
+			tier = 3
+		}
+		has_great_project = {
+			type = missions
+			tier = 1
+		}
+		has_great_project = {
+			type = missions
+			tier = 2
+		}
+		has_great_project = {
+			type = missions
+			tier = 3
+		}
+		has_great_project = {
+			type = liberty_bell
+			tier = 1
+		}
+		has_great_project = {
+			type = liberty_bell
+			tier = 2
+		}
+		has_great_project = {
+			type = liberty_bell
+			tier = 3
+		}
+		has_great_project = {
+			type = statue_of_liberty
+			tier = 1
+		}
+		has_great_project = {
+			type = statue_of_liberty
+			tier = 2
+		}
+		has_great_project = {
+			type = statue_of_liberty
+			tier = 3
+		}
+		has_great_project = {
+			type = calumet_and_hecla
+			tier = 1
+		}
+		has_great_project = {
+			type = calumet_and_hecla
+			tier = 2
+		}
+		has_great_project = {
+			type = calumet_and_hecla
+			tier = 3
+		}
+		has_great_project = {
+			type = capitol_of_confederacy
+			tier = 1
+		}
+		has_great_project = {
+			type = capitol_of_confederacy
+			tier = 2
+		}
+		has_great_project = {
+			type = capitol_of_confederacy
+			tier = 3
+		}
+		has_great_project = {
+			type = central_command
+			tier = 1
+		}
+		has_great_project = {
+			type = central_command
+			tier = 2
+		}
+		has_great_project = {
+			type = central_command
+			tier = 3
+		}
+	}
+}

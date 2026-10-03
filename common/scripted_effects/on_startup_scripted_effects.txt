@@ -1,0 +1,174 @@
+run_on_startup_compatability_effects = {
+	#Ante Bellum
+	if = {
+		# limit = {
+		# 	FRC = { num_of_cities = 1 }
+		# }
+		limit = { is_mod_active = "Ante Bellum" }
+		set_global_flag = ab_mod_active
+	}
+	#Touhou Universalis
+	if = {
+		limit = {
+			GNK = { num_of_cities = 1 }
+		}
+		set_global_flag = th_mod_active
+	}
+	#Anbennar
+	if = {
+		# limit = {
+		# 	R71 = { num_of_cities = 0 }
+		# }
+		limit = { is_mod_active = "Anbennar: A Fantasy Total Conversion" }
+		set_global_flag = anb_mod_active
+	}
+	#EE
+	if = {
+		# limit = {
+		# 	# OR = {
+		# 	ZCV = { num_of_cities = 0 }
+		# 		# has_global_flag = missions_expanded_mod_active # paradox_or_mod_missions_events_flag
+		# 	# }
+		# }
+		limit = { is_mod_active = "Europa Expanded" }
+		set_global_flag = missions_expanded_mod_active
+	}
+	#LotF
+	if = {
+		# limit = {
+		# 	CSA = { num_of_cities = 0 }
+		# }
+		limit = { is_mod_active = "Land of the Free (USA Overhaul Mod)" }
+		set_global_flag = LotF_mod_active
+	}
+	#Alexiad
+	if = {
+		limit = {
+			# TR2 = { num_of_cities = 0 }
+			is_mod_active = "阿莱克修斯传：科穆宁终耀"
+		}
+		set_global_flag = alexiad_mod_active
+	}
+	#Post Finem
+	if = {
+		# limit = {
+		# 	ODR = { num_of_cities = 0 }
+		# }
+		limit = { is_mod_active = "Post Finem" }
+		set_global_flag = pf_mod_active
+	}
+	#Third Odyssey
+	if = {
+		limit = {
+			# ER1 = { num_of_cities = 0 }
+			is_mod_active = "Third Odyssey: Back to the Motherland"
+		}
+		set_global_flag = to_mod_active
+	}
+	#MK's Monuments
+	if = {
+		limit = {
+			is_mod_active = "MK's Monuments"
+			# 309 = {
+			# 	has_great_project = {
+			# 		type = kizhi_pogost
+			# 		tier = 0
+			# 	}
+			# }
+		}
+		set_global_flag = mks_mod_active
+	}
+	#Warhammer Fantasy
+	if = {
+		# limit = {
+		# 	A84 = { num_of_cities = 0 } # Carroburg releasable
+		# }
+		limit = { is_mod_active = "Warhammer Fantasy Universalis" }
+		set_global_flag = wu_mod_active
+	}
+	#Elder Scrolls Universalis
+	if = {
+		# limit = {
+		# 	CB8 = { num_of_cities = 0 } # Imperial City releasable
+		# }
+		limit = { is_mod_active = "Elder Scrolls Universalis" }
+		set_global_flag = esu_mod_active
+	}
+	#World of Warcraft Universalis
+	if = {
+		limit = { is_mod_active = "World of Warcraft Universalis" }
+		set_global_flag = wwu_mod_active
+	}
+	#Sola Roma
+	if = {
+		limit = { is_mod_active = "Sola Roma" }
+		set_global_flag = sr_mod_active
+	}
+	#Beyond Typus
+	if = {
+		limit = { is_mod_active = "Beyond Typus" }
+		set_global_flag = bt_mod_active
+	}
+	#The Dream yet to be Dreamed
+	if = {
+		limit = { is_mod_active = "未有之梦 The Dream yet to be Dreamed" }
+		set_global_flag = dd_mod_active
+	}
+	#1356 (currently for vanilla monument requirements compat only; mod's own monuemts are commented out)
+	if = {
+		# limit = { is_mod_active = "[1.35.5]1356 - A Timeline Extension Mod" } # causes CTD for some reason
+		limit = {
+			AND = {
+				IN6 = { num_of_cities = 0 }
+				X01 = { num_of_cities = 0 }
+			}
+		}
+		set_global_flag = 1356_mod_active
+	}
+	#Aevum Lupi Bicipitis
+	if = {
+		limit = { is_mod_active = "Aevum Lupi Bicipitis" }
+		set_global_flag = alb_mod_active
+	}
+	#ReyDeLeon Monument Mods
+	if = {
+		limit = {
+			OR = {
+				is_mod_active = "Eastern European Monuments"
+				is_mod_active = "westmonuments"
+				is_mod_active = "Loading Screens Monuments"
+			}
+		}
+		set_global_flag = rdl_mod_active
+	}
+	#Compa Monument Mods
+	if = {
+		limit = {
+			OR = {
+				is_mod_active = "World Wonders - Middle East"
+				is_mod_active = "World Wonders - The Americas"
+				is_mod_active = "World Wonders - Africa"
+			}
+		}
+		set_global_flag = compa_mod_active
+	}
+	#Lord of Universalis 2
+	# if = {
+	# 	limit = {
+	# 		AND = {
+	# 			WIG = { num_of_cities = 0 }
+	# 			Q30 = { num_of_cities = 0 }
+	# 		}
+	# 	}
+	# 	# limit = { is_mod_active = "Lord of Universalis 2" } # causes CTD
+	# 	set_global_flag = lou2_mod_active
+	# }
+	#Spawning Monuments
+	# if = {
+	# 	limit = {
+	# 		is_mod_active = "2961369621"
+	# 	}
+	# 	set_global_flag = sm_mod_active
+	# }
+	#Vanilla
+}

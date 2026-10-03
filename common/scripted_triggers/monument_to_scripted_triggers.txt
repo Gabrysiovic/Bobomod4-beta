@@ -1,0 +1,256 @@
+has_to_monument = { 
+	OR = {
+		has_great_project = {
+			type = nhs_cothon
+			tier = 1
+		}
+		has_great_project = {
+			type = nhs_cothon
+			tier = 2
+		}
+		has_great_project = {
+			type = nhs_cothon
+			tier = 3
+		}
+		has_great_project = {
+			type = nhs_alexandrian_library
+			tier = 1
+		}
+		has_great_project = {
+			type = nhs_alexandrian_library
+			tier = 2
+		}
+		has_great_project = {
+			type = nhs_alexandrian_library
+			tier = 3
+		}
+		has_great_project = {
+			type = nhs_hippodrome
+			tier = 1
+		}
+		has_great_project = {
+			type = nhs_hippodrome
+			tier = 2
+		}
+		has_great_project = {
+			type = nhs_hippodrome
+			tier = 3
+		}
+		has_great_project = {
+			type = nhs_elysian_arsenal
+			tier = 1
+		}
+		has_great_project = {
+			type = nhs_elysian_arsenal
+			tier = 2
+		}
+		has_great_project = {
+			type = nhs_elysian_arsenal
+			tier = 3
+		}
+		has_great_project = {
+			type = nhs_temple_of_marble_emperors_v1
+			tier = 1
+		}
+		has_great_project = {
+			type = nhs_temple_of_marble_emperors_v1
+			tier = 2
+		}
+		has_great_project = {
+			type = nhs_temple_of_marble_emperors_v1
+			tier = 3
+		}
+		has_great_project = {
+			type = nhs_temple_of_marble_emperors_v2
+			tier = 1
+		}
+		has_great_project = {
+			type = nhs_temple_of_marble_emperors_v2
+			tier = 2
+		}
+		has_great_project = {
+			type = nhs_temple_of_marble_emperors_v2
+			tier = 3
+		}
+		has_great_project = {
+			type = nhs_temple_of_marble_emperors_v3
+			tier = 1
+		}
+		has_great_project = {
+			type = nhs_temple_of_marble_emperors_v3
+			tier = 2
+		}
+		has_great_project = {
+			type = nhs_temple_of_marble_emperors_v3
+			tier = 3
+		}
+		has_great_project = {
+			type = nhs_hagia_theotoke_v1
+			tier = 1
+		}
+		has_great_project = {
+			type = nhs_hagia_theotoke_v1
+			tier = 2
+		}
+		has_great_project = {
+			type = nhs_hagia_theotoke_v1
+			tier = 3
+		}
+		has_great_project = {
+			type = nhs_hagia_theotoke_v2
+			tier = 1
+		}
+		has_great_project = {
+			type = nhs_hagia_theotoke_v2
+			tier = 2
+		}
+		has_great_project = {
+			type = nhs_hagia_theotoke_v2
+			tier = 3
+		}
+		has_great_project = {
+			type = nhs_hagia_theotoke_v3
+			tier = 1
+		}
+		has_great_project = {
+			type = nhs_hagia_theotoke_v3
+			tier = 2
+		}
+		has_great_project = {
+			type = nhs_hagia_theotoke_v3
+			tier = 3
+		}
+		has_great_project = {
+			type = nhs_baalbek_temple_complex
+			tier = 1
+		}
+		has_great_project = {
+			type = nhs_baalbek_temple_complex
+			tier = 2
+		}
+		has_great_project = {
+			type = nhs_baalbek_temple_complex
+			tier = 3
+		}
+		has_great_project = {
+			type = nhs_diocletian_palace
+			tier = 1
+		}
+		has_great_project = {
+			type = nhs_diocletian_palace
+			tier = 2
+		}
+		has_great_project = {
+			type = nhs_diocletian_palace
+			tier = 3
+		}
+		has_great_project = {
+			type = nhs_amphitheatre_of_thysdrus
+			tier = 1
+		}
+		has_great_project = {
+			type = nhs_amphitheatre_of_thysdrus
+			tier = 2
+		}
+		has_great_project = {
+			type = nhs_amphitheatre_of_thysdrus
+			tier = 3
+		}
+		has_great_project = {
+			type = nhs_colosseum
+			tier = 1
+		}
+		has_great_project = {
+			type = nhs_colosseum
+			tier = 2
+		}
+		has_great_project = {
+			type = nhs_colosseum
+			tier = 3
+		}
+		has_great_project = {
+			type = nhs_pantheon
+			tier = 1
+		}
+		has_great_project = {
+			type = nhs_pantheon
+			tier = 2
+		}
+		has_great_project = {
+			type = nhs_pantheon
+			tier = 3
+		}
+		has_great_project = {
+			type = nhs_pantheon_syncretic
+			tier = 1
+		}
+		has_great_project = {
+			type = nhs_pantheon_syncretic
+			tier = 2
+		}
+		has_great_project = {
+			type = nhs_pantheon_syncretic
+			tier = 3
+		}
+		has_great_project = {
+			type = to_akrotirion
+			tier = 1
+		}
+		has_great_project = {
+			type = to_akrotirion
+			tier = 2
+		}
+		has_great_project = {
+			type = to_akrotirion
+			tier = 3
+		}
+		has_great_project = {
+			type = to_elysian_highways_project
+			tier = 1
+		}
+		has_great_project = {
+			type = to_elysian_highways_project
+			tier = 2
+		}
+		has_great_project = {
+			type = to_elysian_highways_project
+			tier = 3
+		}
+		has_great_project = {
+			type = kiel_canal_outward_boost
+			tier = 1
+		}
+		has_great_project = {
+			type = kiel_canal_outward_boost
+			tier = 2
+		}
+		has_great_project = {
+			type = kiel_canal_outward_boost
+			tier = 3
+		}
+		has_great_project = {
+			type = suez_canal_outward_boost
+			tier = 1
+		}
+		has_great_project = {
+			type = suez_canal_outward_boost
+			tier = 2
+		}
+		has_great_project = {
+			type = suez_canal_outward_boost
+			tier = 3
+		}
+		has_great_project = {
+			type = panama_canal_outward_boost
+			tier = 1
+		}
+		has_great_project = {
+			type = panama_canal_outward_boost
+			tier = 2
+		}
+		has_great_project = {
+			type = panama_canal_outward_boost
+			tier = 3
+		}
+	}
+}

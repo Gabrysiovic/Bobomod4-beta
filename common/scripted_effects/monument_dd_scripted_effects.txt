@@ -1,0 +1,837 @@
+check_dd_subject_monuments = { 
+	hidden_effect = {
+		if = {
+			limit = {
+				237 = { DD_oxford_colloge_modifier_trigger = yes }
+				237 = {
+					has_great_project = {
+						type = DD_oxford_colloge
+						tier = 1
+					}
+					NOT = { has_great_project = {
+						type = DD_oxford_colloge
+						tier = 2
+					}}
+					NOT = { has_great_project = {
+						type = DD_oxford_colloge
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			237 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_oxford_colloge1
+							duration = -1
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				237 = { DD_oxford_colloge_modifier_trigger = yes }
+				237 = {
+					has_great_project = {
+						type = DD_oxford_colloge
+						tier = 2
+					}
+					NOT = { has_great_project = {
+						type = DD_oxford_colloge
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			237 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_oxford_colloge2
+							duration = -1
+						}
+						remove_country_modifier = DD_oxford_colloge1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				237 = { DD_oxford_colloge_modifier_trigger = yes }
+				237 = {
+					has_great_project = {
+						type = DD_oxford_colloge
+						tier = 3
+					}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			237 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_oxford_colloge3
+							duration = -1
+						}
+						remove_country_modifier = DD_oxford_colloge2
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					237 = { DD_oxford_colloge_modifier_trigger = no }
+					237 = {
+						owner = {
+							has_country_flag = dependencylost
+						}
+					}
+				}
+			}
+			every_country = {
+				remove_country_modifier = DD_oxford_colloge1
+				remove_country_modifier = DD_oxford_colloge2
+				remove_country_modifier = DD_oxford_colloge3
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = subjectmonumentlost
+				OR ={
+					has_country_modifier = DD_oxford_colloge1
+					has_country_modifier = DD_oxford_colloge2
+					has_country_modifier = DD_oxford_colloge3
+				}
+			}
+			remove_country_modifier = DD_oxford_colloge1
+			remove_country_modifier = DD_oxford_colloge2
+			remove_country_modifier = DD_oxford_colloge3
+		}
+		if = {
+			limit = {
+				183 = { DD_paris_colloge_modifier_trigger = yes }
+				183 = {
+					has_great_project = {
+						type = DD_paris_colloge
+						tier = 1
+					}
+					NOT = { has_great_project = {
+						type = DD_paris_colloge
+						tier = 2
+					}}
+					NOT = { has_great_project = {
+						type = DD_paris_colloge
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			183 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_paris_colloge1
+							duration = -1
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				183 = { DD_paris_colloge_modifier_trigger = yes }
+				183 = {
+					has_great_project = {
+						type = DD_paris_colloge
+						tier = 2
+					}
+					NOT = { has_great_project = {
+						type = DD_paris_colloge
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			183 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_paris_colloge2
+							duration = -1
+						}
+						remove_country_modifier = DD_paris_colloge1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				183 = { DD_paris_colloge_modifier_trigger = yes }
+				183 = {
+					has_great_project = {
+						type = DD_paris_colloge
+						tier = 3
+					}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			183 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_paris_colloge3
+							duration = -1
+						}
+						remove_country_modifier = DD_paris_colloge2
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					183 = { DD_paris_colloge_modifier_trigger = no }
+					183 = {
+						owner = {
+							has_country_flag = dependencylost
+						}
+					}
+				}
+			}
+			every_country = {
+				remove_country_modifier = DD_paris_colloge1
+				remove_country_modifier = DD_paris_colloge2
+				remove_country_modifier = DD_paris_colloge3
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = subjectmonumentlost
+				OR ={
+					has_country_modifier = DD_paris_colloge1
+					has_country_modifier = DD_paris_colloge2
+					has_country_modifier = DD_paris_colloge3
+				}
+			}
+			remove_country_modifier = DD_paris_colloge1
+			remove_country_modifier = DD_paris_colloge2
+			remove_country_modifier = DD_paris_colloge3
+		}
+		if = {
+			limit = {
+				216 = { DD_salamanca_colloge_modifier_trigger = yes }
+				216 = {
+					has_great_project = {
+						type = DD_salamanca_colloge
+						tier = 1
+					}
+					NOT = { has_great_project = {
+						type = DD_salamanca_colloge
+						tier = 2
+					}}
+					NOT = { has_great_project = {
+						type = DD_salamanca_colloge
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			216 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_salamanca_colloge1
+							duration = -1
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				216 = { DD_salamanca_colloge_modifier_trigger = yes }
+				216 = {
+					has_great_project = {
+						type = DD_salamanca_colloge
+						tier = 2
+					}
+					NOT = { has_great_project = {
+						type = DD_salamanca_colloge
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			216 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_salamanca_colloge2
+							duration = -1
+						}
+						remove_country_modifier = DD_salamanca_colloge1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				216 = { DD_salamanca_colloge_modifier_trigger = yes }
+				216 = {
+					has_great_project = {
+						type = DD_salamanca_colloge
+						tier = 3
+					}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			216 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_salamanca_colloge3
+							duration = -1
+						}
+						remove_country_modifier = DD_salamanca_colloge2
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					216 = { DD_salamanca_colloge_modifier_trigger = no }
+					216 = {
+						owner = {
+							has_country_flag = dependencylost
+						}
+					}
+				}
+			}
+			every_country = {
+				remove_country_modifier = DD_salamanca_colloge1
+				remove_country_modifier = DD_salamanca_colloge2
+				remove_country_modifier = DD_salamanca_colloge3
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = subjectmonumentlost
+				OR ={
+					has_country_modifier = DD_salamanca_colloge1
+					has_country_modifier = DD_salamanca_colloge2
+					has_country_modifier = DD_salamanca_colloge3
+				}
+			}
+			remove_country_modifier = DD_salamanca_colloge1
+			remove_country_modifier = DD_salamanca_colloge2
+			remove_country_modifier = DD_salamanca_colloge3
+		}
+		if = {
+			limit = {
+				225 = { DD_cordoba_chruch_modifier_trigger = yes }
+				225 = {
+					has_great_project = {
+						type = DD_cordoba_chruch
+						tier = 1
+					}
+					NOT = { has_great_project = {
+						type = DD_cordoba_chruch
+						tier = 2
+					}}
+					NOT = { has_great_project = {
+						type = DD_cordoba_chruch
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			225 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_cordoba_chruch1
+							duration = -1
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				225 = { DD_cordoba_chruch_modifier_trigger = yes }
+				225 = {
+					has_great_project = {
+						type = DD_cordoba_chruch
+						tier = 2
+					}
+					NOT = { has_great_project = {
+						type = DD_cordoba_chruch
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			225 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_cordoba_chruch2
+							duration = -1
+						}
+						remove_country_modifier = DD_cordoba_chruch1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				225 = { DD_cordoba_chruch_modifier_trigger = yes }
+				225 = {
+					has_great_project = {
+						type = DD_cordoba_chruch
+						tier = 3
+					}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			225 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_cordoba_chruch3
+							duration = -1
+						}
+						remove_country_modifier = DD_cordoba_chruch2
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					225 = { DD_cordoba_chruch_modifier_trigger = no }
+					225 = {
+						owner = {
+							has_country_flag = dependencylost
+						}
+					}
+				}
+			}
+			every_country = {
+				remove_country_modifier = DD_cordoba_chruch1
+				remove_country_modifier = DD_cordoba_chruch2
+				remove_country_modifier = DD_cordoba_chruch3
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = subjectmonumentlost
+				OR ={
+					has_country_modifier = DD_cordoba_chruch1
+					has_country_modifier = DD_cordoba_chruch2
+					has_country_modifier = DD_cordoba_chruch3
+				}
+			}
+			remove_country_modifier = DD_cordoba_chruch1
+			remove_country_modifier = DD_cordoba_chruch2
+			remove_country_modifier = DD_cordoba_chruch3
+		}
+		if = {
+			limit = {
+				341 = { DD_tunis_church_modifier_trigger = yes }
+				341 = {
+					has_great_project = {
+						type = DD_tunis_church
+						tier = 1
+					}
+					NOT = { has_great_project = {
+						type = DD_tunis_church
+						tier = 2
+					}}
+					NOT = { has_great_project = {
+						type = DD_tunis_church
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			341 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_tunis_church1
+							duration = -1
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				341 = { DD_tunis_church_modifier_trigger = yes }
+				341 = {
+					has_great_project = {
+						type = DD_tunis_church
+						tier = 2
+					}
+					NOT = { has_great_project = {
+						type = DD_tunis_church
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			341 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_tunis_church2
+							duration = -1
+						}
+						remove_country_modifier = DD_tunis_church1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				341 = { DD_tunis_church_modifier_trigger = yes }
+				341 = {
+					has_great_project = {
+						type = DD_tunis_church
+						tier = 3
+					}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			341 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_tunis_church3
+							duration = -1
+						}
+						remove_country_modifier = DD_tunis_church2
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					341 = { DD_tunis_church_modifier_trigger = no }
+					341 = {
+						owner = {
+							has_country_flag = dependencylost
+						}
+					}
+				}
+			}
+			every_country = {
+				remove_country_modifier = DD_tunis_church1
+				remove_country_modifier = DD_tunis_church2
+				remove_country_modifier = DD_tunis_church3
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = subjectmonumentlost
+				OR ={
+					has_country_modifier = DD_tunis_church1
+					has_country_modifier = DD_tunis_church2
+					has_country_modifier = DD_tunis_church3
+				}
+			}
+			remove_country_modifier = DD_tunis_church1
+			remove_country_modifier = DD_tunis_church2
+			remove_country_modifier = DD_tunis_church3
+		}
+		if = {
+			limit = {
+				410 = { DD_wisdom_house_modifier_trigger = yes }
+				410 = {
+					has_great_project = {
+						type = DD_wisdom_house
+						tier = 1
+					}
+					NOT = { has_great_project = {
+						type = DD_wisdom_house
+						tier = 2
+					}}
+					NOT = { has_great_project = {
+						type = DD_wisdom_house
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			410 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_wisdom_house1
+							duration = -1
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				410 = { DD_wisdom_house_modifier_trigger = yes }
+				410 = {
+					has_great_project = {
+						type = DD_wisdom_house
+						tier = 2
+					}
+					NOT = { has_great_project = {
+						type = DD_wisdom_house
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			410 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_wisdom_house2
+							duration = -1
+						}
+						remove_country_modifier = DD_wisdom_house1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				410 = { DD_wisdom_house_modifier_trigger = yes }
+				410 = {
+					has_great_project = {
+						type = DD_wisdom_house
+						tier = 3
+					}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			410 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_wisdom_house3
+							duration = -1
+						}
+						remove_country_modifier = DD_wisdom_house2
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					410 = { DD_wisdom_house_modifier_trigger = no }
+					410 = {
+						owner = {
+							has_country_flag = dependencylost
+						}
+					}
+				}
+			}
+			every_country = {
+				remove_country_modifier = DD_wisdom_house1
+				remove_country_modifier = DD_wisdom_house2
+				remove_country_modifier = DD_wisdom_house3
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = subjectmonumentlost
+				OR ={
+					has_country_modifier = DD_wisdom_house1
+					has_country_modifier = DD_wisdom_house2
+					has_country_modifier = DD_wisdom_house3
+				}
+			}
+			remove_country_modifier = DD_wisdom_house1
+			remove_country_modifier = DD_wisdom_house2
+			remove_country_modifier = DD_wisdom_house3
+		}
+		if = {
+			limit = {
+				385 = { DD_mecca_church_modifier_trigger = yes }
+				385 = {
+					has_great_project = {
+						type = DD_mecca_church
+						tier = 1
+					}
+					NOT = { has_great_project = {
+						type = DD_mecca_church
+						tier = 2
+					}}
+					NOT = { has_great_project = {
+						type = DD_mecca_church
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			385 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_mecca_church1
+							duration = -1
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				385 = { DD_mecca_church_modifier_trigger = yes }
+				385 = {
+					has_great_project = {
+						type = DD_mecca_church
+						tier = 2
+					}
+					NOT = { has_great_project = {
+						type = DD_mecca_church
+						tier = 3
+					}}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			385 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_mecca_church2
+							duration = -1
+						}
+						remove_country_modifier = DD_mecca_church1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				385 = { DD_mecca_church_modifier_trigger = yes }
+				385 = {
+					has_great_project = {
+						type = DD_mecca_church
+						tier = 3
+					}
+					owner = {
+						is_subject = yes
+						NOT = { is_subject_of_type = tributary_state }
+					}
+				}
+			}
+			385 = { 
+				owner = { 
+					overlord = {
+						add_country_modifier = {
+							name = DD_mecca_church3
+							duration = -1
+						}
+						remove_country_modifier = DD_mecca_church2
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					385 = { DD_mecca_church_modifier_trigger = no }
+					385 = {
+						owner = {
+							has_country_flag = dependencylost
+						}
+					}
+				}
+			}
+			every_country = {
+				remove_country_modifier = DD_mecca_church1
+				remove_country_modifier = DD_mecca_church2
+				remove_country_modifier = DD_mecca_church3
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = subjectmonumentlost
+				OR ={
+					has_country_modifier = DD_mecca_church1
+					has_country_modifier = DD_mecca_church2
+					has_country_modifier = DD_mecca_church3
+				}
+			}
+			remove_country_modifier = DD_mecca_church1
+			remove_country_modifier = DD_mecca_church2
+			remove_country_modifier = DD_mecca_church3
+		}
+	}
+}

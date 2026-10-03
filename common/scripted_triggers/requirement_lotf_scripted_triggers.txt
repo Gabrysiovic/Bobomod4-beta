@@ -1,0 +1,68 @@
+white_house_modifier_trigger = { 
+owner = { tag = USA }
+}
+
+west_point_modifier_trigger = { 
+owner = {
+			culture_group = american 
+		}
+		OR = {
+			ROOT = { has_owner_accepted_culture = yes }
+			ROOT = { has_owner_culture = yes }
+		}
+}
+
+fort_sumter_modifier_trigger = { 
+owner = {
+			culture_group = american 
+		}
+}
+
+missions_modifier_trigger = { 
+owner = {
+			religion_group = christian 
+		}
+		ROOT = {
+			has_owner_religion = yes
+		}
+}
+
+liberty_bell_modifier_trigger = { 
+owner = {
+			culture_group = american 
+		}
+		OR = {
+			ROOT = { has_owner_accepted_culture = yes }
+			ROOT = { has_owner_culture = yes }
+		}
+}
+
+statue_of_liberty_modifier_trigger = { 
+owner = {
+			culture_group = american 
+		}
+		OR = {
+			ROOT = { has_owner_accepted_culture = yes }
+			ROOT = { has_owner_culture = yes }
+		}
+}
+
+calumet_and_hecla_modifier_trigger = { 
+
+}
+
+capitol_of_confederacy_modifier_trigger = { 
+owner = { 
+			OR = {
+				tag = CSA
+				was_tag = CSA
+			}
+		}
+}
+
+central_command_modifier_trigger = { 
+owner = { 
+			tag = KGC
+		}
+}
+

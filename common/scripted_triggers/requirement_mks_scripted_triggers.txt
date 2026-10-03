@@ -1,0 +1,1619 @@
+mks_meroe_pyramids_modifier_trigger = { 
+culture_group = sudanese
+		province_is_or_accepts_culture = yes
+}
+
+luxor_modifier_trigger = { 
+
+}
+
+sphinx_modifier_trigger = { 
+
+}
+
+mary_zion_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+}
+
+fasil_ghebbi_modifier_trigger = { 
+culture_group = cushitic
+		province_is_or_accepts_culture = yes
+}
+
+stanne_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+}
+
+abomey_modifier_trigger = { 
+OR = {
+			culture_group = mande
+			culture_group = west_african
+			culture_group = sahelian
+		}
+		province_is_or_accepts_culture = yes
+}
+
+marcus_aurelius_arch_modifier_trigger = { 
+
+}
+
+osun_osogbo_modifier_trigger = { 
+OR = {
+			culture_group = mande
+			culture_group = west_african
+			culture_group = sahelian
+		}
+		province_is_or_accepts_culture = yes
+}
+
+landofdogons_modifier_trigger = { 
+OR = {
+			culture_group = mande
+			culture_group = west_african
+			culture_group = sahelian
+		}
+		province_is_or_accepts_culture = yes
+}
+
+ambohimanga_modifier_trigger = { 
+OR = {
+			culture = madagascan
+			culture = madagasque
+		}
+		province_is_or_accepts_culture = yes
+}
+
+askia_modifier_trigger = { 
+
+}
+
+koutammakou_modifier_trigger = { 
+OR = {
+			culture_group = mande
+			culture_group = west_african
+			culture_group = sahelian
+		}
+		province_is_or_accepts_culture = yes
+}
+
+ashanti_modifier_trigger = { 
+culture = aka
+		province_is_or_accepts_culture = yes
+}
+
+larabanga_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+}
+
+rotunda_modifier_trigger = { 
+owner = {
+				OR = {
+					tag = BYZ
+					tag = ROM
+					tag = HLR
+					tag = LAE
+					tag = GRE
+					tag = TRE
+					tag = FEO
+					tag = VEN
+				}
+			}
+}
+
+dura-europos_modifier_trigger = { 
+
+}
+
+mks_mt_athos_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = orthodox
+		}
+}
+
+theodoro_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = orthodox
+		}
+}
+
+carian_modifier_trigger = { 
+culture = greek
+		province_is_or_accepts_culture = yes
+}
+
+mks_painted_churches_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+}
+
+stanthony_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+}
+
+sumela_modifier_trigger = { 
+AND = {
+			province_is_or_accepts_religion_group = {
+				religion_group = christian
+			}
+			AND = {
+				OR = {
+					culture_group = byzantine
+					culture_group = east_slavic
+					culture = roman
+					culture = georgian
+					culture = armenian
+					culture = al_suryah_arabic
+					culture = bulgarian
+					culture = serbian
+					culture = romanian
+				}
+				province_is_or_accepts_culture = yes
+			}
+		}
+}
+
+saint_thaddeus_modifier_trigger = { 
+OR = {
+			religion = orthodox
+			religion = coptic
+			religion = catholic
+			religion_group = muslim
+		}
+		has_owner_religion = yes
+}
+
+gelati_modifier_trigger = { 
+religion = orthodox
+		culture = georgian
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+}
+
+vardzia_modifier_trigger = { 
+religion = orthodox
+		culture = georgian
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+}
+
+kizhi_pogost_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = orthodox
+		}
+}
+
+peterpaul_modifier_trigger = { 
+OR = {
+			culture_group = east_slavic
+			culture_group = slavic
+		}
+		province_is_or_accepts_culture = yes
+}
+
+mir_modifier_trigger = { 
+OR = {
+			culture_group = west_slavic
+			culture_group = east_slavic
+			culture_group = baltic
+		}
+		province_is_or_accepts_culture = yes
+}
+
+mukden_modifier_trigger = { 
+owner = {
+			OR = {
+				tag = MNG
+				tag = QNG
+				tag = MCH
+				tag = MJZ
+			}
+		}
+}
+
+fuling_modifier_trigger = { 
+owner = {
+			OR = {
+				tag = QNG
+				tag = MCH
+				tag = MJZ
+			}
+		}
+}
+
+ama_modifier_trigger = { 
+culture_group = east_asian
+		province_is_or_accepts_culture = yes
+}
+
+whitehorse_modifier_trigger = { 
+province_is_buddhist_or_accepts_buddhism = yes
+}
+
+longmen_modifier_trigger = { 
+province_is_buddhist_or_accepts_buddhism = yes
+}
+
+tai_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+purplecloud_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+zhengyangmen_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+wild_goose_pagoda_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+yellowcranetower_modifier_trigger = { 
+culture_group = east_asian
+		province_is_or_accepts_culture = yes
+}
+
+temple_of_heaven_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+leshan_giant_buddha_modifier_trigger = { 
+province_is_buddhist_or_accepts_buddhism = yes
+}
+
+daming_palace_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+city_god_modifier_trigger = { 
+culture_group = east_asian
+		province_is_or_accepts_culture = yes
+}
+
+xichan_modifier_trigger = { 
+province_is_buddhist_or_accepts_buddhism = yes
+}
+
+yu_garden_modifier_trigger = { 
+culture_group = east_asian
+		province_is_or_accepts_culture = yes
+}
+
+qiao_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+mogao_caves_modifier_trigger = { 
+OR = {
+			culture_group = east_asian
+			culture_group = altaic
+		}
+		province_is_or_accepts_culture = yes
+}
+
+hanging_temple_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+baoen_modifier_trigger = { 
+province_is_buddhist_or_accepts_buddhism = yes
+}
+
+six_harmonies_pagoda_modifier_trigger = { 
+culture_group = east_asian
+		province_is_or_accepts_culture = yes
+}
+
+ming_palace_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+mks_imperial_gardens_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+ming_tombs_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+donglin_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+yuelu_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+penglai_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+iron_pagoda_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+diaoyucheng_modifier_trigger = { 
+culture_group = east_asian
+		province_is_or_accepts_culture = yes
+}
+
+gongchen_modifier_trigger = { 
+culture_group = east_asian
+		province_is_or_accepts_culture = yes
+}
+
+hwangnyongsa_modifier_trigger = { 
+culture_group = east_asian
+		province_is_or_accepts_culture = yes
+}
+
+tripitaka_koreana_modifier_trigger = { 
+culture_group = east_asian
+		province_is_or_accepts_culture = yes
+}
+
+hwaseong_modifier_trigger = { 
+culture_group = east_asian
+		province_is_or_accepts_culture = yes
+}
+
+onepillar_modifier_trigger = { 
+province_is_buddhist_or_accepts_buddhism = yes
+}
+
+banaue_modifier_trigger = { 
+
+}
+
+myson_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = dharmic
+		}
+}
+
+nakhonluang_modifier_trigger = { 
+
+}
+
+tigersnest_modifier_trigger = { 
+province_is_buddhist_or_accepts_buddhism = yes
+}
+
+tengwang_modifier_trigger = { 
+culture_group = east_asian
+		province_is_or_accepts_culture = yes
+}
+
+yumbu_lakhang_modifier_trigger = { 
+culture_group = east_asian
+		province_is_or_accepts_culture = yes
+}
+
+mandalay_modifier_trigger = { 
+province_is_buddhist_or_accepts_buddhism = yes
+}
+
+me_nu_modifier_trigger = { 
+province_is_buddhist_or_accepts_buddhism = yes
+}
+
+wpp_modifier_trigger = { 
+province_is_buddhist_or_accepts_buddhism = yes
+}
+
+malacca_palace_modifier_trigger = { 
+culture_group = malay
+		province_is_or_accepts_culture = yes
+}
+
+kasteel_batavia_modifier_trigger = { 
+technology_group = western
+}
+
+afamosa_modifier_trigger = { 
+owner = {
+			OR = {
+				tag = POR
+				tag = BRZ
+				tag = HOL
+				tag = NED
+				tag = ENG
+				tag = GBR
+			}
+		}
+}
+
+three_pagodas_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+blackdragonpool_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+shanhai_pass_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+jiayu_pass_modifier_trigger = { 
+owner = {
+			has_reform = celestial_empire
+		}
+}
+
+pena_palace_modifier_trigger = { 
+
+}
+
+castel_monte_modifier_trigger = { 
+OR = {
+			culture = roman
+			culture_group = latin
+			culture_group = byzantine
+		}
+		province_is_or_accepts_culture = yes
+}
+
+rock_of_cashel_modifier_trigger = { 
+owner = {
+			OR = {
+				tag = IRE
+				tag = MTH
+				tag = ULS
+				tag = TYR
+				tag = TRY
+				tag = SLN
+				tag = FLY
+				tag = KID
+				tag = LEI
+				tag = CNN
+				tag = MNS
+				tag = ORD
+				tag = DMS
+				tag = MCM
+				tag = SCO
+				tag = WLS
+				tag = CLT
+			}
+		}
+}
+
+mks_mont_saint_michel_modifier_trigger = { 
+OR = {
+			culture_group = french
+			culture_group = british
+		}
+		province_is_or_accepts_culture = yes
+}
+
+chateau_gaillard_modifier_trigger = { 
+OR = {
+			culture_group = british
+			culture = normand
+		}
+		province_is_or_accepts_culture = yes
+}
+
+speyer_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = catholic
+		}
+}
+
+chambord_modifier_trigger = { 
+culture_group = french
+		owner = { government = monarchy }
+		province_is_or_accepts_culture = yes
+}
+
+castelvecchio_modifier_trigger = { 
+
+}
+
+batalha_monastery_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = catholic
+		}
+}
+
+basilica_pillar_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = catholic
+		}
+}
+
+golubac_modifier_trigger = { 
+
+}
+
+torrechiara_modifier_trigger = { 
+OR = {
+			culture = roman
+			culture_group = latin
+		}
+		province_is_or_accepts_culture = yes
+}
+
+sanluca_modifier_trigger = { 
+OR = {
+			culture = roman
+			culture_group = latin
+		}
+		province_is_or_accepts_culture = yes
+}
+
+mks_colosseum_modifier_trigger = { 
+OR = {
+			culture = roman
+			culture_group = latin
+			culture_group = byzantine
+			culture_group = iberian
+		}
+		province_is_or_accepts_culture = yes
+}
+
+chateau_angers_modifier_trigger = { 
+culture_group = french
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+}
+
+chenonceau_modifier_trigger = { 
+culture_group = french
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+}
+
+bastille_modifier_trigger = { 
+culture_group = french
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+}
+
+vitre_modifier_trigger = { 
+OR = {
+			culture_group = french
+			culture_group = gaelic
+			culture_group = british
+		}
+		province_is_or_accepts_culture = yes
+}
+
+largoet_modifier_trigger = { 
+OR = {
+			culture_group = french
+			culture_group = gaelic
+			culture_group = british
+		}
+		province_is_or_accepts_culture = yes
+}
+
+mks_beaune_hospices_modifier_trigger = { 
+OR = {
+			has_owner_culture = yes
+			owner = {
+				culture_group = french
+				has_cultural_union = yes
+			}
+		}
+}
+
+mks_aachen_cathedral_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+}
+
+holstentor_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+herrenhausen_gardens_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+mks_chillon_castle_modifier_trigger = { 
+
+}
+
+chatham_modifier_trigger = { 
+
+}
+
+mks_york_minster_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+}
+
+kreuzenstein_modifier_trigger = { 
+
+}
+
+lanterna_modifier_trigger = { 
+
+}
+
+san_marco_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+}
+
+borgund_stavkirke_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+}
+
+jagiellonian_modifier_trigger = { 
+culture_group = west_slavic
+		province_is_or_accepts_culture = yes
+}
+
+wawel_modifier_trigger = { 
+culture_group = west_slavic
+		province_is_or_accepts_culture = yes
+}
+
+lublin_castle_modifier_trigger = { 
+culture_group = west_slavic
+		province_is_or_accepts_culture = yes
+}
+
+zolkiew_modifier_trigger = { 
+OR = {
+			culture_group = west_slavic
+			culture_group = east_slavic
+			culture_group = carpathian
+		}
+		province_is_or_accepts_culture = yes
+}
+
+pinczow_modifier_trigger = { 
+culture_group = west_slavic
+		province_is_or_accepts_culture = yes
+}
+
+burresheim_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+segovia_castle_modifier_trigger = { 
+culture_group = iberian
+		province_is_or_accepts_culture = yes
+}
+
+alcazar_cristianos_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = catholic
+		}
+}
+
+vaduz_modifier_trigger = { 
+OR = {
+			culture = roman
+			culture_group = latin
+			culture_group = germanic
+			culture_group = french
+		}
+		province_is_or_accepts_culture = yes
+}
+
+santiago_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = catholic
+		}
+}
+
+vilnius_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+}
+
+tower_of_hercules_modifier_trigger = { 
+
+}
+
+trajan_arch_modifier_trigger = { 
+
+}
+
+charles_bridge_modifier_trigger = { 
+
+}
+
+charlottenburg_modifier_trigger = { 
+
+}
+
+marburg_university_modifier_trigger = { 
+
+}
+
+oxford_modifier_trigger = { 
+
+}
+
+calvin_modifier_trigger = { 
+
+}
+
+monreale_cathedral_modifier_trigger = { 
+
+}
+
+ara_pacis_modifier_trigger = { 
+OR = {
+			culture = roman
+			culture_group = latin
+			culture_group = byzantine
+			culture_group = iberian
+		}
+		province_is_or_accepts_culture = yes
+}
+
+valere_basilica_modifier_trigger = { 
+OR = {
+			culture = roman
+			culture_group = french
+			culture_group = germanic
+			culture_group = latin
+			culture_group = byzantine
+		}
+		province_is_or_accepts_culture = yes
+}
+
+hohensalzburg_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+church_jacobins_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = catholic
+		}
+}
+
+st_patricks_cathedral_modifier_trigger = { 
+owner = {
+			OR = {
+				tag = IRE
+				tag = MTH
+				tag = ULS
+				tag = TYR
+				tag = TRY
+				tag = SLN
+				tag = FLY
+				tag = KID
+				tag = LEI
+				tag = CNN
+				tag = MNS
+				tag = ORD
+				tag = DMS
+				tag = MCM
+				tag = SCO
+				tag = WLS
+				tag = CLT
+			}
+		}
+}
+
+rhodes_palace_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = catholic
+		}
+}
+
+place_des_terreaux_modifier_trigger = { 
+OR = {
+			culture = roman
+			culture_group = french
+			culture_group = latin
+		}
+		province_is_or_accepts_culture = yes
+}
+
+cluny_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = catholic
+		}
+}
+
+blarney_castle_modifier_trigger = { 
+owner = {
+			OR = {
+				tag = IRE
+				tag = MTH
+				tag = ULS
+				tag = TYR
+				tag = TRY
+				tag = SLN
+				tag = FLY
+				tag = KID
+				tag = LEI
+				tag = CNN
+				tag = MNS
+				tag = ORD
+				tag = DMS
+				tag = MCM
+				tag = SCO
+				tag = WLS
+				tag = CLT
+			}
+		}
+}
+
+hohenstein_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+predjama_modifier_trigger = { 
+
+}
+
+konigstein_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+mainz_cathedral_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = catholic
+		}
+}
+
+sanleo_modifier_trigger = { 
+OR = {
+			culture = roman
+			culture_group = latin
+			culture_group = byzantine
+		}
+		province_is_or_accepts_culture = yes
+}
+
+monteriggioni_modifier_trigger = { 
+culture = tuscan
+		province_is_or_accepts_culture = yes
+}
+
+conwy_modifier_trigger = { 
+OR = {
+			culture_group = gaelic
+			culture_group = british
+		}
+		province_is_or_accepts_culture = yes
+}
+
+schwerin_modifier_trigger = { 
+OR = {
+			culture_group = germanic
+			culture_group = west_slavic
+		}
+		province_is_or_accepts_culture = yes
+}
+
+wernigerode_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+piedigrotta_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+}
+
+duomo_di_ancona_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+}
+
+marksburg_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+marialaach_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+}
+
+burg_eltz_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+pfeffingen_modifier_trigger = { 
+
+}
+
+triererdom_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = catholic
+		}
+}
+
+limburg_cathedral_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = catholic
+		}
+}
+
+kempen_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+carcassonne_modifier_trigger = { 
+OR = {
+			culture = roman
+			culture_group = french
+			culture_group = latin
+		}
+		province_is_or_accepts_culture = yes
+}
+
+zulpich_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+visegrad_citadel_modifier_trigger = { 
+OR = {
+			culture = hungarian
+			culture = slovak
+		}
+		province_is_or_accepts_culture = yes
+}
+
+eger_modifier_trigger = { 
+OR = {
+			culture = hungarian
+			culture = slovak
+		}
+		province_is_or_accepts_culture = yes
+}
+
+viaden_modifier_trigger = { 
+
+}
+
+varazdin_modifier_trigger = { 
+
+}
+
+veszprem_castle_modifier_trigger = { 
+culture = hungarian
+		province_is_or_accepts_culture = yes
+}
+
+eszterhaza_modifier_trigger = { 
+
+}
+
+hohenschwangau_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+hohenzollern_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+sigmaringen_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+wartburg_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+burghausen_modifier_trigger = { 
+culture_group = germanic
+		province_is_or_accepts_culture = yes
+}
+
+glucksburg_modifier_trigger = { 
+OR = {
+			culture_group = germanic
+			culture_group = scandinavian
+		}
+		province_is_or_accepts_culture = yes
+}
+
+bamburgh_modifier_trigger = { 
+OR = {
+			culture = normand
+			culture = saxon
+			culture = lower_saxon
+			culture_group = gaelic
+			culture_group = british
+			culture_group = scandinavian
+		}
+		province_is_or_accepts_culture = yes
+}
+
+dunnottar_modifier_trigger = { 
+
+}
+
+warwick_modifier_trigger = { 
+OR = {
+			culture = normand
+			culture_group = british
+		}
+		province_is_or_accepts_culture = yes
+}
+
+grande_chartreuse_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = catholic
+		}
+}
+
+brussels_town_hall_modifier_trigger = { 
+
+}
+
+kamianets_modifier_trigger = { 
+OR = {
+			culture_group = west_slavic
+			culture_group = east_slavic
+			culture_group = carpathian
+		}
+		province_is_or_accepts_culture = yes
+}
+
+olsztyn_modifier_trigger = { 
+
+}
+
+spis_modifier_trigger = { 
+
+}
+
+diosgyor_modifier_trigger = { 
+
+}
+
+kisvarda_modifier_trigger = { 
+
+}
+
+akkerman_modifier_trigger = { 
+
+}
+
+dunluce_modifier_trigger = { 
+culture_group = gaelic
+		province_is_or_accepts_culture = yes
+}
+
+trinity_college_modifier_trigger = { 
+OR = {
+			culture_group = gaelic
+			culture_group = british
+		}
+		province_is_or_accepts_culture = yes
+}
+
+newgrange_modifier_trigger = { 
+owner = {
+			OR = {
+				tag = IRE
+				tag = MTH
+				tag = ULS
+				tag = TYR
+				tag = TRY
+				tag = SLN
+				tag = FLY
+				tag = KID
+				tag = LEI
+				tag = CNN
+				tag = MNS
+				tag = ORD
+				tag = DMS
+				tag = MCM
+				tag = SCO
+				tag = WLS
+				tag = CLT
+			}
+		}
+}
+
+marienberg_modifier_trigger = { 
+
+}
+
+klingentorturm_modifier_trigger = { 
+
+}
+
+khotyn_modifier_trigger = { 
+
+}
+
+domtoren_modifier_trigger = { 
+OR = {
+			primary_culture = dutch
+			primary_culture = flemish
+			has_owner_accepted_culture = yes
+		}
+}
+
+ise_shrine_modifier_trigger = { 
+culture_group = japanese_g
+		province_is_or_accepts_culture = yes
+}
+
+itsukushima_modifier_trigger = { 
+culture_group = japanese_g
+		province_is_or_accepts_culture = yes
+}
+
+mks_hongan_ji_modifier_trigger = { 
+culture_group = japanese_g
+		province_is_or_accepts_culture = yes
+}
+
+nishi_modifier_trigger = { 
+culture_group = japanese_g
+		province_is_or_accepts_culture = yes
+}
+
+shuri_modifier_trigger = { 
+culture = kyushuan
+		province_is_or_accepts_culture = yes
+}
+
+azuchi_castle_modifier_trigger = { 
+culture_group = japanese_g
+		province_is_or_accepts_culture = yes
+}
+
+edo_castle_modifier_trigger = { 
+culture_group = japanese_g
+		province_is_or_accepts_culture = yes
+}
+
+kotokuin_modifier_trigger = { 
+culture_group = japanese_g
+		province_is_or_accepts_culture = yes
+}
+
+seigantoji_modifier_trigger = { 
+culture_group = japanese_g
+		province_is_or_accepts_culture = yes
+}
+
+kumamoto_modifier_trigger = { 
+culture = kyushuan
+		province_is_or_accepts_culture = yes
+}
+
+ki_castle_modifier_trigger = { 
+culture_group = japanese_g
+		province_is_or_accepts_culture = yes
+}
+
+hagi_castle_modifier_trigger = { 
+culture_group = japanese_g
+		province_is_or_accepts_culture = yes
+}
+
+gojuto_modifier_trigger = { 
+culture_group = japanese_g
+		province_is_or_accepts_culture = yes
+}
+
+hokkaido_shrine_modifier_trigger = { 
+culture_group = japanese_g
+		province_is_or_accepts_culture = yes
+}
+
+takeda_modifier_trigger = { 
+culture_group = japanese_g
+		province_is_or_accepts_culture = yes
+}
+
+kotohira_modifier_trigger = { 
+culture_group = japanese_g
+		province_is_or_accepts_culture = yes
+}
+
+al_mustansiriya_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+}
+
+ctesiphon_modifier_trigger = { 
+owner = {
+			government_rank = 3
+		}
+}
+
+krak_des_chevaliers_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+}
+
+masyaf_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+}
+
+bazaar_tabriz_modifier_trigger = { 
+
+}
+
+mks_umayyad_mosque_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+}
+
+al-azm_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+}
+
+sheikh_safi_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+}
+
+mks_shibam_hadramawt_modifier_trigger = { 
+culture = yemeni_culture
+		province_is_or_accepts_culture = yes
+}
+
+behistun_modifier_trigger = { 
+AND = {
+			owner = {
+				is_great_power = yes
+			}
+			culture_group = iranian
+			province_is_or_accepts_culture = yes
+		}
+}
+
+alkarak_castle_modifier_trigger = { 
+
+}
+
+kasbah_marrakesh_modifier_trigger = { 
+
+}
+
+madghacen_modifier_trigger = { 
+culture = berber
+		province_is_or_accepts_culture = yes
+}
+
+tomb_timur_modifier_trigger = { 
+OR = {
+			culture_group = altaic
+			culture_group = iranian
+		}
+		province_is_or_accepts_culture = yes
+}
+
+yazd_windcatchers_modifier_trigger = { 
+culture_group = iranian
+		province_is_or_accepts_culture = yes
+}
+
+herat_modifier_trigger = { 
+
+}
+
+hasankeyf_modifier_trigger = { 
+owner = {
+			OR = {
+				dynasty = "Ayyubid"
+				tag = HSN
+			}
+		}
+}
+
+ghazni_modifier_trigger = { 
+
+}
+
+alamut_modifier_trigger = { 
+
+}
+
+mks_teotihuacan_modifier_trigger = { 
+culture_group = central_american
+		province_is_or_accepts_culture = yes
+}
+
+el_tajin_modifier_trigger = { 
+AND = {
+			OR = {
+				owner = {
+					culture_group = central_american
+				}
+				owner = {
+					culture_group = maya
+				}
+				owner = {
+					culture_group = aridoamerican
+				}
+				owner = {
+					culture_group = otomanguean
+				}
+				owner = {
+					culture_group = chibchan
+				}
+			}
+			province_is_or_accepts_culture = yes
+		}
+}
+
+xochicalco_modifier_trigger = { 
+culture_group = maya
+		province_is_or_accepts_culture = yes
+}
+
+malinalco_modifier_trigger = { 
+culture_group = central_american
+		province_is_or_accepts_culture = yes
+}
+
+tula_modifier_trigger = { 
+culture_group = aridoamerican
+		province_is_or_accepts_culture = yes
+}
+
+monte_alban_modifier_trigger = { 
+culture_group = otomanguean
+		province_is_or_accepts_culture = yes
+}
+
+holmul_modifier_trigger = { 
+culture_group = maya
+		province_is_or_accepts_culture = yes
+}
+
+uxmal_modifier_trigger = { 
+culture_group = maya
+		province_is_or_accepts_culture = yes
+}
+
+copan_modifier_trigger = { 
+culture_group = maya
+		province_is_or_accepts_culture = yes
+}
+
+palenque_modifier_trigger = { 
+culture_group = maya
+		province_is_or_accepts_culture = yes
+}
+
+coba_modifier_trigger = { 
+culture_group = maya
+		province_is_or_accepts_culture = yes
+}
+
+nazca_lines_modifier_trigger = { 
+AND = {
+			province_is_or_accepts_religion_group = {
+				religion_group = inti
+			}
+			culture_group = andean_group
+			province_is_or_accepts_culture = yes
+		}
+}
+
+cahuachi_modifier_trigger = { 
+AND = {
+			province_is_or_accepts_religion_group = {
+				religion_group = inti
+			}
+			culture_group = andean_group
+			province_is_or_accepts_culture = yes
+		}
+}
+
+huacaypata_modifier_trigger = { 
+AND = {
+			province_is_or_accepts_religion_group = {
+				religion_group = inti
+			}
+			culture_group = andean_group
+			province_is_or_accepts_culture = yes
+		}
+}
+
+tlatelolco_modifier_trigger = { 
+culture_group = central_american
+		province_is_or_accepts_culture = yes
+}
+
+tecpan_modifier_trigger = { 
+owner = {
+			tag = AZT
+		}
+}
+
+calmecac_modifier_trigger = { 
+culture_group = central_american
+		province_is_or_accepts_culture = yes
+}
+
+guachimontones_modifier_trigger = { 
+culture_group = aridoamerican
+		province_is_or_accepts_culture = yes
+}
+
+mitla_modifier_trigger = { 
+culture_group = otomanguean
+		province_is_or_accepts_culture = yes
+}
+
+la_venta_modifier_trigger = { 
+culture_group = maya
+		province_is_or_accepts_culture = yes
+}
+
+budj_bim_modifier_trigger = { 
+owner = {
+			OR = {
+				tag = WRU
+				tag = PLW
+				tag = KAU
+				tag = EOR
+				tag = GMI
+				tag = MIA
+				tag = AWN
+				tag = YNU
+				tag = YOL
+				tag = LAR
+				tag = TIW
+				tag = MLG
+				tag = NOO
+			}
+		}
+}
+
+walgarock_modifier_trigger = { 
+owner = {
+			OR = {
+				tag = WRU
+				tag = PLW
+				tag = KAU
+				tag = EOR
+				tag = GMI
+				tag = MIA
+				tag = AWN
+				tag = YNU
+				tag = YOL
+				tag = LAR
+				tag = TIW
+				tag = MLG
+				tag = NOO
+			}
+		}
+}
+
+carrizo_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = totemism
+		}
+}
+
+kuelap_modifier_trigger = { 
+AND = {
+			province_is_or_accepts_religion_group = {
+				religion_group = inti
+			}
+			culture_group = maranon
+			province_is_or_accepts_culture = yes
+		}
+}
+
+tonga_trilithon_modifier_trigger = { 
+culture_group = pacific
+		province_is_or_accepts_culture = yes
+}
+
+iipona_modifier_trigger = { 
+culture_group = pacific
+		province_is_or_accepts_culture = yes
+}
+
+adamspeak_modifier_trigger = { 
+
+}
+
+munneswaram_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = dharmic
+		}
+}
+
+suntemple_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = dharmic
+		}
+}
+
+gyantse_modifier_trigger = { 
+culture = tibetan
+		has_owner_culture = yes
+}
+

@@ -1,0 +1,448 @@
+has_compa_monument = { 
+	OR = {
+		has_great_project = {
+			type = ww_pharos
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_pharos
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_pharos
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_jebel_barkal
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_jebel_barkal
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_jebel_barkal
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_cothon_carthage
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_cothon_carthage
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_cothon_carthage
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_loropeni
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_loropeni
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_loropeni
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_senegambian_circles
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_senegambian_circles
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_senegambian_circles
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_ghadames
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_ghadames
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_ghadames
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_ambohimanga
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_ambohimanga
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_ambohimanga
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_table_mountain
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_table_mountain
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_table_mountain
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_axum_obelisk
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_axum_obelisk
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_axum_obelisk
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_victoria_buganda
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_victoria_buganda
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_victoria_buganda
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_victoria_busoga
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_victoria_busoga
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_victoria_busoga
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_victoria_karagwe
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_victoria_karagwe
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_victoria_karagwe
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_victoria_buzinza
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_victoria_buzinza
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_victoria_buzinza
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_victoria_shaga
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_victoria_shaga
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_victoria_shaga
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_victoria_kuria
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_victoria_kuria
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_victoria_kuria
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_crater_lake
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_crater_lake
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_crater_lake
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_matho_thipila
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_matho_thipila
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_matho_thipila
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_medicine_wheel
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_medicine_wheel
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_medicine_wheel
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_tree_peace
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_tree_peace
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_tree_peace
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_agustin_statues
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_agustin_statues
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_agustin_statues
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_nazca_lines
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_nazca_lines
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_nazca_lines
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_qhapaq_cajamarca
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_qhapaq_cajamarca
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_qhapaq_cajamarca
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_qhapaq_huanuco
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_qhapaq_huanuco
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_qhapaq_huanuco
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_qhapaq_cuzco
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_qhapaq_cuzco
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_qhapaq_cuzco
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_qhapaq_tiahuanaco
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_qhapaq_tiahuanaco
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_qhapaq_tiahuanaco
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_qhapaq_potosi
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_qhapaq_potosi
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_qhapaq_potosi
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_qhapaq_jujuy
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_qhapaq_jujuy
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_qhapaq_jujuy
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_qhapaq_tucuman
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_qhapaq_tucuman
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_qhapaq_tucuman
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_qhapaq_mendoza
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_qhapaq_mendoza
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_qhapaq_mendoza
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_hanging_gardens
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_hanging_gardens
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_hanging_gardens
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_house_wisdom
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_house_wisdom
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_house_wisdom
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_apadana
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_apadana
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_apadana
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_gelati_monastery
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_gelati_monastery
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_gelati_monastery
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_acre
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_acre
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_acre
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_masjid_nabawi
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_masjid_nabawi
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_masjid_nabawi
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_fort_bahla
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_fort_bahla
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_fort_bahla
+			tier = 3
+		}
+		has_great_project = {
+			type = ww_asha_mosque
+			tier = 1
+		}
+		has_great_project = {
+			type = ww_asha_mosque
+			tier = 2
+		}
+		has_great_project = {
+			type = ww_asha_mosque
+			tier = 3
+		}
+	}
+}

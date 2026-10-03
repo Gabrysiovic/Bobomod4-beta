@@ -1,0 +1,46 @@
+﻿l_english:
+#########  NAME CHANGE  #########
+ HIE_SPA_POR_LUSITANIA: "Lusitania"
+ HIE_SPA_POR_LUSITANIA_ADJ: "Lusitanian"
+
+
+#########  Modifiers  #########
+ hie_zoroastrian_revolt: "Zoroastrian Revolt"
+ desc_hie_zoroastrian_revolt: ""
+
+ hie_jewish_rebirth: "Jewish Rebirth"
+ desc_hie_jewish_rebirth: ""
+
+ hie_aramaic_resurgence: "Aramaic Resurgence"
+ desc_hie_aramaic_resurgence: ""
+
+### Events
+ HIE_Events.1.T: "Imperial Crown of Iberia"
+ HIE_Events.1.D: "The old Visigoths were the last people to unify the peninsula when they conquered the Galicians in  585. Ever since the Moorish invasion destroyed the Visigothic kingdom, the peninsula has been a place of struggle. Many have claimed the title of Spaniae and sought to reunify the old Roman borders of Hispania, but none have succeeded. Until now, that is. The Portuguese, corresponding to the Lusitaniae of old and maintaining their spirit of fierce independence, have triumphed where the haughty Castilians and the greedy Aragonese couldn't, establishing their own empire. \n\nNow, the question only remains what our imperial title should be. Traditionalists in the court argue that keeping the long-sought for title of Hispania is best for unifying thr lands and keeping the support of our people, while revisionists argue that we should keep the title of Lusitanians, forging it into a new empire by right of conquest. The decision is up to you, my King."
+ HIE_Events.1.OPT1: "We shall be the Empire of the Lusitanians!"
+ HIE_Events.1.OPT2: "Only the Crown of Espanha can unify the land!"
+
+ HIE_Events.2.T: "The Kingdom of God on Earth"
+ HIE_Events.2.D: "Having united the whole of Italy under the banner of Catholicism, the Pope has seen fit to declare it 'The Kingdom of God'. Catholics from all over Europe flock to his banner, eager to live in this model nation of Christian virtue. Foreign powers can no longer control the College of Cardinals, but neither will they pay much heed to any Papal bulls or decrees."
+ HIE_Events.2.OPT1: "All Men under one God!"
+ HIE_Events.2.OPT2: "Amen."
+
+ HIE_Events.3.T: "Accepting Christianity?"
+ HIE_Events.3.D: "In the shadow of the towering pyramids, amidst the ancient groves where the spirits of our ancestors still whisper, a great dilemma weighs heavy upon the hearts of our people. For centuries, we have walked in harmony with the old gods of our land, offering prayers and sacrifices to appease their divine will. But now, a new force has emerged from the distant shores of Europe, bearing the emblem of the cross and the teachings of the one they call Jesus Christ. \nAs the missionaries from across the great ocean speak of salvation and redemption, of a single god who reigns supreme over all creation, we are torn between the faith of our forefathers and the allure of this new divine revelation. The stories of miracles and divine intervention captivate our minds, stirring within us a longing for a higher power beyond the pantheon of our ancient gods. Yet, to abandon the traditions that have sustained us for generations is to betray the very essence of our identity as a people. \nIn this time of uncertainty, we stand at a crossroads, torn between the whispers of our ancestors and the promises of a new faith. Will we remain steadfast in our devotion to the old gods, or will we embrace the monotheistic creed brought by the missionaries from afar? The decision weighs heavy upon our souls, for it will shape the destiny of our people for generations to come."
+ HIE_Events.3.OPT1: "We are righteous!"
+ HIE_Events.3.OPT2: "Amen."
+
+ HIE_Events.4.T: "The Hidden Way"
+ HIE_Events.4.D: "Amidst the echoes of our illustrious lineage, whispers of a restoration of the Zoroastrian faith stir within our realm. The lineage of Eshaqvand, tracing back to the noble line of Isaac, son of Abraham, carries profound significance. While our current adherence to Islam serves as a facade, our true allegiance lies with the god of the eternal fire, Ahura Mazda. As descendants of one of the greatest prophets, we bear the weight of a legacy stretching through millennia of Persian history. \n\nOur lineage connects us to the Achaemenid, Ashkanid, and Bavandid dynasties, tracing back to the mighty Sassanids and legendary figures like Darius and Cyrus the Great. As the last of the great lines, we stand as symbols of continuity and resilience. The burden falls upon us to honour the past while embracing the future, ensuring that the flame of Persian greatness burns bright for eternity. \n\nWhile the flame of Ahura burns inside our heart fueling our spirits we must recognise how over the centuries Allah has guided us and renouncing its fate will mean forgetting part of our history and tradition and angering all our brothers in faith..."
+ HIE_Events.4.OPT1: "Embrace the Rebirth of Ahura Mazda"
+ HIE_Events.4.OPT2: "Maintain the Veil of Islam"
+
+ HIE_Events.5.T: "The Jewish Legacy"
+ HIE_Events.5.D: "As you immerse yourself in the timeless texts and chronicles housed within the esteemed halls of Isfahan's university, a captivating narrative emerges, the tale of the Jewish population in Persia, woven intricately into the fabric of our city's history. Through the annals of time, the descendants of ancient Israelites have found solace and prosperity within the embrace of Isfahan's storied walls. Their contributions, spanning generations, have left an indelible mark on our society, enriching its cultural tapestry with their wisdom, craftsmanship, and resilience. Now, presented with this revelation, you stand at a crossroads, pondering the path forward: whether to honour the traditions of our forefathers or embrace the Abrahamic faith that has endured throughout the ages."
+ HIE_Events.5.OPT1: "Embrace the Abrahamic Faith"
+ HIE_Events.5.OPT2: "Uphole the Teachings of the Prophet"
+
+ HIE_Events.6.T: "Emerging from Obscurity"
+ HIE_Events.6.D: "For almost as long as Islam has existed, the plains of Mesopotamia have been at the centre of Islamic cultures, societies, and learning. The Islamic Golden Age itself had its heartland here, with Baghdad taking its place among the world’s great cities. And yet... \n\nAnd yet, Islam has never been the only religion to dwell in these lands. The ancient Christian Assyrian Church of the East, descended from the Apostle Thomas and solidified by Nestorius, has existed in these lands for as long as Christianity itself, predating the arrival of Islam by centuries. Islamic rulers gave them a degree of tolerance, although certainly never treating them as equals, allowing a remnant to survive. Notably, the Assyrian Church of the East is the last refuge of the ancient Aramaic language, speaking in the language of Jesus Christ himself. \n\nNow, the world is changing, and a reexamination of long-held faith is happening across the known world, from Sufi mystics to rumours of a reformation in Europe. Perhaps a closer look at this faith isn’t such a bad idea..."
+ HIE_Events.6.OPT1: "Perhaps they are right…"
+ HIE_Events.6.OPT2: "They will continue to be tolerated, but we must heed the words of Mohammad…"

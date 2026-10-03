@@ -1,0 +1,916 @@
+# has_lou2_monument = { 
+# 	OR = {
+# 		has_great_project = {
+# 			type = minas_tirith_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = minas_tirith_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = minas_tirith_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = library_of_minas_tirith_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = library_of_minas_tirith_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = library_of_minas_tirith_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = amon_hen_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = amon_hen_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = amon_hen_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = amon_lhaw_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = amon_lhaw_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = amon_lhaw_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = dol_amroth_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = dol_amroth_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = dol_amroth_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = minas_morgul_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = minas_morgul_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = minas_morgul_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = minas_ithil_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = minas_ithil_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = minas_ithil_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = edhellond_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = edhellond_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = edhellond_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = gobel_tolfalas_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = gobel_tolfalas_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = gobel_tolfalas_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = imloth_melui_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = imloth_melui_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = imloth_melui_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = argonath_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = argonath_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = argonath_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = henneth_annun_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = henneth_annun_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = henneth_annun_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = calembel_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = calembel_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = calembel_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = blackgate_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = blackgate_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = blackgate_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = baraddur_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = baraddur_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = baraddur_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = cirithungol_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = cirithungol_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = cirithungol_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = durthang_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = durthang_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = durthang_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = ostigurth_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = ostigurth_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = ostigurth_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = helmsdeep_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = helmsdeep_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = helmsdeep_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = edoras_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = edoras_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = edoras_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = isengard_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = isengard_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = isengard_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = amrun_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = amrun_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = amrun_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = umbar_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = umbar_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = umbar_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = pillar_of_umbar_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = pillar_of_umbar_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = pillar_of_umbar_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = gobel_ancalimon_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = gobel_ancalimon_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = gobel_ancalimon_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = gobel_mirlond_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = gobel_mirlond_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = gobel_mirlond_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = dolguldur_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = dolguldur_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = dolguldur_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = dains_halls_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = dains_halls_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = dains_halls_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = erebor_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = erebor_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = erebor_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = dale_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = dale_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = dale_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = laketown_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = laketown_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = laketown_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = rivendell_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = rivendell_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = rivendell_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = michel_delving_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = michel_delving_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = michel_delving_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = hobbiton_factory_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = hobbiton_factory_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = hobbiton_factory_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = sarn_ford_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = sarn_ford_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = sarn_ford_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = moria_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = moria_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = moria_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = ost_in_edhil_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = ost_in_edhil_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = ost_in_edhil_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = entmoot_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = entmoot_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = entmoot_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = cerin_amroth_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = cerin_amroth_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = cerin_amroth_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = thalls_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = thalls_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = thalls_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = gundabad_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = gundabad_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = gundabad_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = goblintown_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = goblintown_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = goblintown_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = framsburg_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = framsburg_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = framsburg_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = fornost_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = fornost_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = fornost_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = greyhavens_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = greyhavens_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = greyhavens_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = bree_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = bree_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = bree_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = barrow_downs_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = barrow_downs_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = barrow_downs_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = carndum_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = carndum_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = carndum_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = amon_sul_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = amon_sul_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = amon_sul_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = relerindu_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = relerindu_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = relerindu_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = arentaurr_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = arentaurr_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = arentaurr_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = bozisha_dar_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = bozisha_dar_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = bozisha_dar_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = niluloni_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = niluloni_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = niluloni_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = nordinbad_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = nordinbad_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = nordinbad_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = argond_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = argond_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = argond_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = druins_tower_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = druins_tower_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = druins_tower_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = xyunai_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = xyunai_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = xyunai_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = chaiapun_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = chaiapun_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = chaiapun_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = elostirion_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = elostirion_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = elostirion_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = ekhalshar_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = ekhalshar_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = ekhalshar_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = high_fells_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = high_fells_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = high_fells_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = mount_gram_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = mount_gram_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = mount_gram_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = mistrand_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = mistrand_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = mistrand_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = hyvat_kalat_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = hyvat_kalat_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = hyvat_kalat_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = dun_larach_hall_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = dun_larach_hall_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = dun_larach_hall_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = pukelman_staue_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = pukelman_staue_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = pukelman_staue_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = tharbad_bridge_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = tharbad_bridge_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = tharbad_bridge_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = fortress_of_maedhros_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = fortress_of_maedhros_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = fortress_of_maedhros_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = annuminas_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = annuminas_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = annuminas_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = osgiliath_bridge_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = osgiliath_bridge_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = osgiliath_bridge_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = dome_of_stars_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = dome_of_stars_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = dome_of_stars_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = rammas_echor_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = rammas_echor_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = rammas_echor_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = corrupted_king_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = corrupted_king_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = corrupted_king_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = fallen_king_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = fallen_king_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = fallen_king_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = port_pelargir_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = port_pelargir_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = port_pelargir_monument
+# 			tier = 3
+# 		}
+# 		has_great_project = {
+# 			type = stone_erech_monument
+# 			tier = 1
+# 		}
+# 		has_great_project = {
+# 			type = stone_erech_monument
+# 			tier = 2
+# 		}
+# 		has_great_project = {
+# 			type = stone_erech_monument
+# 			tier = 3
+# 		}
+# 	}
+# }

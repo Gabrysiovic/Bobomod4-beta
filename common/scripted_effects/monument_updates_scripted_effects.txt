@@ -1,0 +1,399 @@
+update_monuments_self = {
+	check_subject_monuments = yes
+	if = {
+		limit = {
+			has_global_flag = great_monuments_expanded_mod_active
+		}
+		check_gme_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = anb_mod_active
+		}
+		check_anb_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = alexiad_mod_active
+		}
+		check_alexiad_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = lotf_mod_active
+		}
+		check_lotf_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = ab_mod_active
+		}
+		check_ab_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = pf_mod_active
+		}
+		check_pf_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = to_mod_active
+		}
+		check_to_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = mks_mod_active
+		}
+		check_mks_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = wu_mod_active
+		}
+		check_wu_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = esu_mod_active
+		}
+		check_esu_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = wwu_mod_active
+		}
+		check_wwu_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = sr_mod_active
+		}
+		check_sr_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = bt_mod_active
+		}
+		check_bt_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = dd_mod_active
+		}
+		check_dd_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = alb_mod_active
+		}
+		check_alb_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = rdl_mod_active
+		}
+		check_rdl_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = compa_mod_active
+		}
+		check_compa_subject_monuments = yes
+	}
+	# if = {
+	# 	limit = {
+	# 		has_global_flag = lou2_mod_active
+	# 	}
+	# 	check_lou2_subject_monuments = yes
+	# }
+	if = {
+		limit = {
+			NOT = { has_global_flag = overlording_mod_active }
+		}
+		set_global_flag = overlording_mod_active
+	}
+}
+
+update_monuments_dependence = {
+	if = {
+		limit = {
+			has_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = great_monuments_expanded_mod_active
+			has_gme_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_gme_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_gme_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = anb_mod_active
+			has_anb_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_anb_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_anb_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = alexiad_mod_active
+			has_alexiad_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_alexiad_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_alexiad_subject_monuments = yes
+	}
+	# if = {
+	# 	limit = {
+	# 		has_sm_monument = yes
+	# 		has_global_flag = sm_mod_active
+	# 	}
+	# 	FROM = {
+	# 		overlord = {
+	# 			set_country_flag = subjectmonumentlost 
+	# 			check_sm_subject_monuments = yes
+	# 			clr_country_flag = subjectmonumentlost
+	# 		} 
+	# 	}
+	# 	check_sm_subject_monuments = yes
+	# }
+	if = {
+		limit = {
+			has_global_flag = lotf_mod_active
+			has_lotf_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_lotf_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_lotf_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = ab_mod_active
+			has_ab_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_ab_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_ab_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = pf_mod_active
+			has_pf_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_pf_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_pf_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = to_mod_active
+			has_to_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_to_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_to_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = mks_mod_active
+			has_mks_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_mks_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_mks_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = wu_mod_active
+			has_wu_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_wu_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_wu_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = esu_mod_active
+			has_esu_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_esu_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_esu_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = wwu_mod_active
+			has_wow_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_wwu_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_wwu_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = sr_mod_active
+			has_sr_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_sr_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_sr_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = bt_mod_active
+			has_bt_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_bt_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_bt_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = dd_mod_active
+			has_dd_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_dd_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_dd_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = alb_mod_active
+			has_alb_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_alb_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_alb_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = rdl_mod_active
+			has_rdl_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_rdl_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_rdl_subject_monuments = yes
+	}
+	if = {
+		limit = {
+			has_global_flag = compa_mod_active
+			has_compa_monument = yes
+		}
+		FROM = {
+			overlord = {
+				set_country_flag = subjectmonumentlost 
+				check_compa_subject_monuments = yes
+				clr_country_flag = subjectmonumentlost
+			} 
+		}
+		check_compa_subject_monuments = yes
+	}
+	# if = {
+	# 	limit = {
+	# 		has_lou2_monument = yes
+	# 		has_global_flag = lou2_mod_active
+	# 	}
+	# 	FROM = {
+	# 		overlord = {
+	# 			set_country_flag = subjectmonumentlost 
+	# 			check_lou2_subject_monuments = yes
+	# 			clr_country_flag = subjectmonumentlost
+	# 		} 
+	# 	}
+	# 	check_lou2_subject_monuments = yes
+	# }
+}

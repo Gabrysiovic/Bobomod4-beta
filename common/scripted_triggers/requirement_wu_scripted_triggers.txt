@@ -1,0 +1,867 @@
+uzkulak_canal_modifier_trigger = { 
+
+}
+
+nippon_imperial_palaces_modifier_trigger = { 
+
+}
+
+mount_jifu_modifier_trigger = { 
+
+}
+
+jade_tower_modifier_trigger = { 
+culture_group = cathayan_cg
+		province_is_or_accepts_culture = yes
+}
+
+shang_wu_river_district_modifier_trigger = { 
+
+}
+
+mei_wan_port_city_modifier_trigger = { 
+
+}
+
+flaming_canals_modifier_trigger = { 
+
+}
+
+jade_pillar_port_modifier_trigger = { 
+
+}
+
+infinite_libraries_of_tien_chi_modifier_trigger = { 
+
+}
+
+pagoda_of_feng_pei_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = yin_yang
+		}
+}
+
+theaters_of_the_monkey_court_modifier_trigger = { 
+
+}
+
+port_of_fu_chow_modifier_trigger = { 
+
+}
+
+great_tea_fields_modifier_trigger = { 
+culture_group = cathayan_cg
+		province_is_or_accepts_culture = yes
+}
+
+jadeblooded_mage_academy_modifier_trigger = { 
+culture_group = cathayan_cg
+		province_is_or_accepts_culture = yes
+}
+
+foundries_of_nan_gau_modifier_trigger = { 
+
+}
+
+silk_road_nexus_modifier_trigger = { 
+#anyone
+}
+
+temple_of_the_moon_empress_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = yin_yang
+		}
+}
+
+emperors_palace_modifier_trigger = { 
+
+}
+
+great_bastion_modifier_trigger = { 
+
+}
+
+fishguts_cove_modifier_trigger = { 
+
+}
+
+ivory_pass_modifier_trigger = { 
+
+}
+
+goldeater_mines_modifier_trigger = { 
+
+}
+
+arena_of_the_mawbite_tribes_modifier_trigger = { 
+OR = {
+			owner = { has_country_modifier = ogre_administration }
+			owner = { has_country_modifier = ogre_military }
+		}
+}
+
+firemouth_volcano_modifier_trigger = { 
+OR = {
+			owner = { has_country_modifier = ogre_administration }
+			owner = { has_country_modifier = ogre_military }
+		}
+}
+
+sky_titan_ruins_modifier_trigger = { 
+
+}
+
+the_great_maw_modifier_trigger = { 
+religion = the_great_maw_religion
+		has_owner_religion = yes
+}
+
+zharr_naggrund_modifier_trigger = { 
+
+}
+
+tower_of_gorgoth_modifier_trigger = { 
+
+}
+
+gates_of_zharr_modifier_trigger = { 
+
+}
+
+black_fortress_modifier_trigger = { 
+
+}
+
+road_of_skulls_modifier_trigger = { 
+
+}
+
+daemons_stump_modifier_trigger = { 
+
+}
+
+tower_of_skulls_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = ruinous_powers_denominations
+		}
+}
+
+temple_of_vaati_the_binder_modifier_trigger = { 
+#anyone
+}
+
+fortress_of_celestial_spears_modifier_trigger = { 
+#anyone
+}
+
+pillars_of_dharasala_modifier_trigger = { 
+
+}
+
+garden_of_the_eternal_peace_modifier_trigger = { 
+
+}
+
+grand_library_of_lashara_modifier_trigger = { 
+
+}
+
+tower_of_kala_the_sage_modifier_trigger = { 
+
+}
+
+shrine_of_the_lotus_king_modifier_trigger = { 
+
+}
+
+ziggurat_of_the_serpent_kings_modifier_trigger = { 
+
+}
+
+temple_of_the_coiled_sun_modifier_trigger = { 
+
+}
+
+shadowfang_citadel_modifier_trigger = { 
+#anyone
+}
+
+sacred_grove_of_zhaqlah_modifier_trigger = { 
+
+}
+
+temple_city_of_hexoatl_modifier_trigger = { 
+OR = {
+			AND = {
+				culture_group = lizardmen_group
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				province_is_or_accepts_religion_group = {
+					religion_group = lizardmen_denominations
+				}
+			}
+		}
+}
+
+great_pyramid_of_itza_modifier_trigger = { 
+OR = {
+			AND = {
+				culture_group = lizardmen_group
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				province_is_or_accepts_religion_group = {
+					religion_group = lizardmen_denominations
+				}
+			}
+		}
+}
+
+altar_of_the_horned_rat_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = skaven_denominations
+		}
+}
+
+shrine_of_sotek_modifier_trigger = { 
+OR = {
+			AND = {
+				culture_group = lizardmen_group
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				province_is_or_accepts_religion_group = {
+					religion_group = lizardmen_denominations
+				}
+			}
+		}
+}
+
+pyramid_of_xahutec_modifier_trigger = { 
+OR = {
+			AND = {
+				culture_group = lizardmen_group
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				province_is_or_accepts_religion_group = {
+					religion_group = lizardmen_denominations
+				}
+			}
+		}
+}
+
+citadel_of_dusk_modifier_trigger = { 
+
+}
+
+monument_of_the_moon_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = lizardmen_denominations
+			}
+			province_is_or_accepts_religion_group = {
+				religion_group = ruinous_powers_denominations
+			}
+			province_is_or_accepts_religion = {
+				religion = vampiric
+			}
+			province_is_or_accepts_religion = {
+				religion = nagash_worship
+			}
+		}
+}
+
+pyramid_of_the_world_serpent_modifier_trigger = { 
+OR = {
+			AND = {
+				culture_group = lizardmen_group
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				province_is_or_accepts_religion_group = {
+					religion_group = lizardmen_denominations
+				}
+			}
+		}
+}
+
+obsidian_column_modifier_trigger = { 
+
+}
+
+lost_city_of_tzetek_modifier_trigger = { 
+OR = {
+			AND = {
+				culture_group = lizardmen_group
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				province_is_or_accepts_religion_group = {
+					religion_group = lizardmen_denominations
+				}
+			}
+		}
+}
+
+amaxonia_headwaters_modifier_trigger = { 
+
+}
+
+great_temple_at_spektazuma_modifier_trigger = { 
+
+}
+
+chaul_crystal_reef_modifier_trigger = { 
+
+}
+
+city_of_the_dead_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = lizardmen_denominations
+			}
+			owner = { 
+				has_country_modifier = undead_administration
+				has_country_modifier = undead_military
+			}
+		}
+}
+
+gilded_pit_of_the_old_ones_modifier_trigger = { 
+OR = {
+			AND = {
+				culture_group = lizardmen_group
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				province_is_or_accepts_religion_group = {
+					religion_group = lizardmen_denominations
+				}
+			}
+		}
+}
+
+black_tower_of_malekith_modifier_trigger = { 
+OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
+		}
+}
+
+the_dark_crag_modifier_trigger = { 
+
+}
+
+convent_of_sorcery_modifier_trigger = { 
+OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
+		}
+}
+
+lairs_of_clar_karond_modifier_trigger = { 
+
+}
+
+karond_kar_modifier_trigger = { 
+OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
+		}
+}
+
+har_ganeth_modifier_trigger = { 
+OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
+		}
+}
+
+ashward_slave_pits_modifier_trigger = { 
+
+}
+
+witchwood_monument_modifier_trigger = { 
+
+}
+
+imperial_gunnery_school_modifier_trigger = { 
+AND = {
+			culture_group = imperial_group
+			province_is_or_accepts_culture = yes
+		}
+}
+
+pfeildorf_wine_market_modifier_trigger = { 
+AND = {
+				culture_group = imperial_group
+				province_is_or_accepts_culture = yes
+			}
+}
+
+grand_cauldron_modifier_trigger = { 
+AND = {
+				culture_group = halfling_group
+				province_is_or_accepts_culture = yes
+			}
+}
+
+imperial_palace_modifier_trigger = { 
+AND = {
+				culture_group = imperial_group
+				province_is_or_accepts_culture = yes
+			}
+}
+
+holy_temple_of_sigmar_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = old_world_denominations
+		}
+}
+
+altdorf_college_of_mages_modifier_trigger = { 
+AND = {
+			province_is_or_accepts_culture = yes
+				culture_group = imperial_group
+			}
+}
+
+averburg_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = old_world_denominations
+		}
+}
+
+great_temple_of_taal_rhya_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = old_world_denominations
+		}
+}
+
+great_temple_ulric_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = old_world_denominations
+		}
+}
+
+suiddock_gp_modifier_trigger = { 
+
+}
+
+bokha_palace_gp_modifier_trigger = { 
+OR = {
+			AND = {
+				culture_group = kislevite_group
+				province_is_or_accepts_culture = yes
+			}
+
+		}
+}
+
+citadel_of_praag_gp_modifier_trigger = { 
+OR = {
+			AND = {
+				culture_group = kislevite_group
+				province_is_or_accepts_culture = yes
+			}
+
+		}
+}
+
+erengrad_port_gp_modifier_trigger = { 
+OR = {
+			AND = {
+				culture_group = kislevite_group
+				province_is_or_accepts_culture = yes
+			}
+
+		}
+}
+
+the_great_ogham_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = the_old_faith
+			}
+			owner = {
+				has_country_modifier = fimir_administration
+			}
+		}
+}
+
+citadel_of_lead_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = ruinous_powers_denominations
+		}
+}
+
+abbey_of_the_grail_companions_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = lady_of_the_lake
+		}
+}
+
+oak_of_ages_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = asrai_cadai
+		}
+}
+
+kings_glade_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = asrai_cadai
+		}
+}
+
+bells_of_luccini_modifier_trigger = { 
+
+}
+
+cathedra_of_myrmidia_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = old_world_denominations
+		}
+}
+
+the_estelian_citadel_modifier_trigger = { 
+
+}
+
+old_dwarf_road_modifier_trigger = { 
+#anyone
+}
+
+palazzo_della_virtu_modifier_trigger = { 
+#anyone
+}
+
+alcazar_of_magritta_modifier_trigger = { 
+
+}
+
+royal_university_of_bilbali_modifier_trigger = { 
+
+}
+
+sagrada_hermandad_of_myrmidia_modifier_trigger = { 
+province_is_or_accepts_religion_group = {
+			religion_group = old_world_denominations
+		}
+}
+
+el_torre_del_sol_modifier_trigger = { 
+#anyone
+}
+
+barak_varr_modifier_trigger = { 
+#anyone
+}
+
+black_fire_pass_modifier_trigger = { 
+
+}
+
+forest_of_gloom_modifier_trigger = { 
+
+}
+
+blackcliff_bay_modifier_trigger = { 
+
+}
+
+mortensholm_marketplaces_modifier_trigger = { 
+
+}
+
+monument_to_the_old_gods_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion = {
+				religion = norscan
+			}
+			province_is_or_accepts_religion_group = {
+				religion_group = the_old_faith
+			}
+		}
+}
+
+skjold_fjords_modifier_trigger = { 
+
+}
+
+uzkulak_caravan_stop_modifier_trigger = { 
+#anyone
+}
+
+zanbaijin_fallen_city_modifier_trigger = { 
+
+}
+
+the_inevitable_city_modifier_trigger = { 
+religion_group = ruinous_powers_denominations
+		has_owner_religion = yes
+}
+
+council_of_thirteen_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = horned_rat
+		}
+}
+
+hellpit_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = horned_rat
+		}
+}
+
+under_alchemy_laboratories_modifier_trigger = { 
+
+}
+
+nest_of_corruption_modifier_trigger = { 
+owner = { has_country_modifier = skaven_military }
+}
+
+castle_drakenhof_modifier_trigger = { 
+religion = vampiric	
+		has_owner_religion = yes
+}
+
+karaz_a_karak_modifier_trigger = { 
+
+}
+
+dwarven_mints_modifier_trigger = { 
+
+}
+
+black_crag_modifier_trigger = { 
+OR = {
+			owner = { has_country_modifier = dwarven_military }
+			owner = { has_country_modifier = orcish_military }
+		}
+}
+
+orc_proving_pits_modifier_trigger = { 
+OR = {
+			owner = { has_country_modifier = orcish_administration }
+			owner = { has_country_modifier = orcish_military }
+		}
+}
+
+mount_bloodhorn_modifier_trigger = { 
+
+}
+
+idol_of_gork_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = gork_n_mork_religion
+		}
+}
+
+offices_of_karak_azul_modifier_trigger = { 
+
+}
+
+harbor_of_lashiek_modifier_trigger = { 
+
+}
+
+university_of_alshir_modifier_trigger = { 
+
+}
+
+library_of_medes_modifier_trigger = { 
+
+}
+
+palace_of_the_wizard_caliph_modifier_trigger = { 
+culture_group = arabyan_group
+		province_is_or_accepts_culture = yes
+}
+
+martek_pilgrimage_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = the_one_faith
+		}
+}
+
+bay_of_zlatlan_modifier_trigger = { 
+#anyone
+}
+
+tomb_of_settra_modifier_trigger = { 
+
+}
+
+black_pyramid_of_nagash_modifier_trigger = { 
+OR = {
+			owner = { has_country_modifier = undead_administration }
+			owner = { has_country_modifier = undead_military }
+		}
+}
+
+great_necropolis_of_khemri_modifier_trigger = { 
+OR = {
+			owner = { has_country_modifier = undead_administration }
+			owner = { has_country_modifier = undead_military }
+		}
+}
+
+mortuary_temple_of_quaph_modifier_trigger = { 
+OR = {
+			province_is_or_accepts_religion = {
+				religion = vampiric
+			}
+			province_is_or_accepts_religion_group = {
+				religion_group = arabyn_denominations
+			}
+		}
+}
+
+great_sphinx_of_numasis_modifier_trigger = { 
+
+}
+
+oasis_of_the_gods_modifier_trigger = { 
+
+}
+
+valley_of_kings_modifier_trigger = { 
+
+}
+
+obelisk_of_eternity_modifier_trigger = { 
+OR = {
+			owner = { has_country_modifier = undead_administration }
+			owner = { has_country_modifier = undead_military }
+		}
+}
+
+colossus_of_zandri_modifier_trigger = { 
+
+}
+
+crater_ritual_site_modifier_trigger = { 
+OR = {
+			owner = { has_country_modifier = undead_administration }
+			owner = { has_country_modifier = undead_military }
+		}
+}
+
+the_maelstrom_modifier_trigger = { 
+owner = {
+			has_country_modifier = undead_administration
+			OR = {
+				has_reform = pirate_republic
+				has_reform = pirate_kingdom
+				has_reform = pirate_republic_reform
+				has_faction = pr_buccaneers
+				has_faction = pr_smugglers
+				has_faction = pr_captains
+				AND = {
+					full_idea_group = naval_ideas
+					full_idea_group = maritime_ideas
+				}
+			}
+		}
+		is_capital = yes
+}
+
+gp_court_of_the_phoenix_king_modifier_trigger = { 
+OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
+		}
+}
+
+gp_court_of_the_everqueen_modifier_trigger = { 
+
+}
+
+gp_white_tower_of_hoeth_modifier_trigger = { 
+OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
+		}
+}
+
+gp_amphitheatre_of_yvresse_modifier_trigger = { 
+
+}
+
+gp_black_citadel_of_anlec_modifier_trigger = { 
+OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
+		}
+}
+
+gp_hall_of_charioteers_modifier_trigger = { 
+OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
+		}
+}
+
+gp_gates_of_lothern_modifier_trigger = { 
+
+}
+
+gp_hall_of_dragons_modifier_trigger = { 
+
+}
+
+gp_royal_ellyrian_stables_modifier_trigger = { 
+
+}
+
+gp_ancient_subterranean_palace_modifier_trigger = { 
+
+}
+
+gp_white_lion_hunting_grounds_modifier_trigger = { 
+
+}
+
+gp_great_vortex_modifier_trigger = { 
+owner = { NOT = { religion_group = ruinous_powers_denominations } }
+}
+
+gp_great_vortex_corrupted_modifier_trigger = { 
+owner = { religion_group = ruinous_powers_denominations }
+}
+

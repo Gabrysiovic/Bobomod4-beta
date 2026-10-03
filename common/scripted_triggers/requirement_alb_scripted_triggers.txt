@@ -1,0 +1,188 @@
+sie_mil_quarter_modifier_trigger = { 
+OR = {
+			owner = {
+				tag = SI0
+			}
+			custom_trigger_tooltip = {
+				tooltip = alb_monument_unlocked_by_mission_tt
+				owner = {
+					has_country_flag = alb_get_access_to_siescheng_monuments
+				}
+			}
+		}
+}
+
+sie_dip_quarter_modifier_trigger = { 
+OR = {
+			owner = {
+				tag = SI0
+			}
+			custom_trigger_tooltip = {
+				tooltip = alb_monument_unlocked_by_mission_tt
+				owner = {
+					has_country_flag = alb_get_access_to_siescheng_monuments
+				}
+			}
+		}
+}
+
+sie_adm_quarter_modifier_trigger = { 
+OR = {
+			owner = {
+				tag = SI0
+			}
+			custom_trigger_tooltip = {
+				tooltip = alb_monument_unlocked_by_mission_tt
+				owner = {
+					has_country_flag = alb_get_access_to_siescheng_monuments
+				}
+			}
+		}
+}
+
+sie_council_quarter_modifier_trigger = { 
+OR = {
+			owner = {
+				tag = SI0
+			}
+			owner = {
+				tag = TH1
+			}
+			custom_trigger_tooltip = {
+				tooltip = alb_monument_unlocked_by_mission_tt
+				owner = {
+					has_country_flag = alb_get_access_to_siescheng_monuments
+				}
+			}
+		}
+}
+
+njord_harbor_modifier_trigger = { 
+
+}
+
+goth_castle_modifier_trigger = { 
+owner = {
+			OR = {
+				tag = CO0
+				custom_trigger_tooltip = {
+					tooltip = alb_monument_unlocked_by_mission_tt
+					has_country_flag = allow_goth_monument_flag
+				}
+			}
+		}
+}
+
+dutch_port_modifier_trigger = { 
+
+}
+
+baldr_temple_modifier_trigger = { 
+religion = norse_ragnaroked
+		owner = {
+			religion = norse_ragnaroked
+		}
+}
+
+giant_windmills_modifier_trigger = { 
+
+}
+
+alexandria_library_modifier_trigger = { 
+
+}
+
+hippodrome_byz_modifier_trigger = { 
+
+}
+
+tun_cothon_modifier_trigger = { 
+
+}
+
+indictian_cathedral_modifier_trigger = { 
+owner = {
+			religion = indictian
+		}
+		religion = indictian
+}
+
+aldabba_palace_modifier_trigger = { 
+owner = {
+			OR = {
+				primary_culture = aldabban
+				AND = {
+					accepted_culture = aldabban
+					religion = indictian
+				}
+				mission_completed = rho_africanus
+			}
+		}
+}
+
+ruined_city_modifier_trigger = { 
+
+}
+
+the_rock_modifier_trigger = { 
+
+}
+
+tomb_charlesmagne_modifier_trigger = { 
+owner = {
+			OR = {
+				culture_group = frankish
+				accepted_culture = franken
+				dynasty = "Martel" 
+				dynasty = "Karling" 
+			}
+		}
+}
+
+italy_altar_modifier_trigger = { 
+owner = {
+			OR = {
+				culture_group = latin
+				is_emperor = yes
+			}
+		}
+}
+
+roman_imperial_admin_modifier_trigger = { 
+
+}
+
+duscia_monument_modifier_trigger = { 
+
+}
+
+grand_fort_longbard_modifier_trigger = { 
+
+}
+
+bavarian_royal_palace_modifier_trigger = { 
+
+}
+
+palace_of_germania_modifier_trigger = { 
+
+}
+
+arian_cathedral_modifier_trigger = { 
+religion = arian
+		owner = {
+			religion = arian
+		}
+}
+
+sweb_arian_monastery_modifier_trigger = { 
+religion = arian
+		owner = {
+			religion = arian
+		}
+}
+
+vinland_eriksbay_company_modifier_trigger = { 
+
+}
+

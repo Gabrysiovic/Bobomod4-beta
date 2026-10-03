@@ -1,0 +1,495 @@
+sie_mil_quarter1 = {
+	
+		
+}
+
+sie_mil_quarter2 = {
+	
+			land_forcelimit_modifier = 0.1
+		
+}
+
+sie_mil_quarter3 = {
+	
+			land_forcelimit_modifier = 0.15
+			land_maintenance_modifier = -0.15
+		
+}
+
+sie_dip_quarter1 = {
+	
+		
+}
+
+sie_dip_quarter2 = {
+	
+			trade_efficiency = 0.1
+		
+}
+
+sie_dip_quarter3 = {
+	
+			trade_efficiency = 0.1
+			merchants = 1 
+		
+}
+
+sie_adm_quarter1 = {
+	
+			inflation_action_cost = -0.5
+		
+}
+
+sie_adm_quarter2 = {
+	
+			inflation_action_cost = -0.5
+			inflation_reduction = 0.05
+			interest = -1
+		
+}
+
+sie_adm_quarter3 = {
+	
+			inflation_action_cost = -0.5
+			inflation_reduction = 0.1
+			interest = -1
+		
+}
+
+sie_council_quarter1 = {
+	
+			prestige = 0.5
+			monthly_splendor = 1
+		
+}
+
+sie_council_quarter2 = {
+	
+			prestige = 1
+			advisor_cost = -0.15
+			monthly_splendor = 5
+		
+}
+
+sie_council_quarter3 = {
+	
+			prestige = 1
+			advisor_cost = -0.25
+			monthly_splendor = 10
+			max_absolutism = 10
+		
+}
+
+njord_harbor1 = {
+	
+		
+}
+
+njord_harbor2 = {
+	
+		
+}
+
+njord_harbor3 = {
+	
+			trade_efficiency = 0.15
+		
+}
+
+goth_castle1 = {
+	
+		
+}
+
+goth_castle2 = {
+	
+		
+}
+
+goth_castle3 = {
+	
+			defensiveness = 0.1
+			local_hostile_attrition = 2
+			max_attrition = 2
+		
+}
+
+dutch_port1 = {
+	
+		
+}
+
+dutch_port2 = {
+	
+			trade_range_modifier = 0.25
+		
+}
+
+dutch_port3 = {
+	
+			trade_range_modifier = 0.25
+			merchants = 1
+		
+}
+
+baldr_temple1 = {
+	
+			global_missionary_strength = 0.01
+			warscore_cost_vs_other_religion = -0.05
+		
+}
+
+baldr_temple2 = {
+	
+			global_missionary_strength = 0.02
+			warscore_cost_vs_other_religion = -0.1
+			shock_damage = 0.05
+		
+}
+
+baldr_temple3 = {
+	
+			global_missionary_strength = 0.03
+			warscore_cost_vs_other_religion = -0.15
+			shock_damage = 0.1
+		
+}
+
+giant_windmills1 = {
+	
+			drill_gain_modifier = 0.25
+			drill_decay_modifier = -0.25
+		
+}
+
+giant_windmills2 = {
+	
+			drill_gain_modifier = 0.5
+			drill_decay_modifier = -0.5
+		
+}
+
+giant_windmills3 = {
+	
+			drill_gain_modifier = 0.75
+			drill_decay_modifier = -0.75
+
+		
+}
+
+alexandria_library1 = {
+	
+			innovativeness_gain = 0.25
+		
+}
+
+alexandria_library2 = {
+	
+			innovativeness_gain = 0.5
+		
+}
+
+alexandria_library3 = {
+	
+			innovativeness_gain = 0.5
+			technology_cost = -0.1
+		
+}
+
+hippodrome_byz1 = {
+	
+			prestige = 0.25
+		
+}
+
+hippodrome_byz2 = {
+	
+			cavalry_power = 0.05
+			prestige = 0.5
+		
+}
+
+hippodrome_byz3 = {
+	
+			leader_land_shock = 1
+			cavalry_power = 0.1
+			prestige = 1
+		
+}
+
+tun_cothon1 = {
+	
+			ship_power_propagation = 0.15
+		
+}
+
+tun_cothon2 = {
+	
+			ship_power_propagation = 0.33
+		
+}
+
+tun_cothon3 = {
+	
+			ship_durability = 0.05
+			hull_size_modifier = 0.25
+			ship_power_propagation = 0.5
+		
+}
+
+indictian_cathedral1 = {
+	
+		
+}
+
+indictian_cathedral2 = {
+	
+			prestige = 1
+		
+}
+
+indictian_cathedral3 = {
+	
+			prestige = 1
+			prestige_per_development_from_conversion = 1
+		
+}
+
+aldabba_palace1 = {
+	
+			monarch_lifespan = 0.1
+			legitimacy = 0.25
+		
+}
+
+aldabba_palace2 = {
+	
+			improve_relation_modifier = 0.25
+			monarch_lifespan = 0.2
+			legitimacy = 0.5
+		
+}
+
+aldabba_palace3 = {
+	
+			improve_relation_modifier = 0.33
+			monarch_lifespan = 0.33
+			legitimacy = 1
+		
+}
+
+ruined_city1 = {
+	
+
+		
+}
+
+ruined_city2 = {
+	
+		
+}
+
+ruined_city3 = {
+	
+			
+		
+}
+
+the_rock1 = {
+	
+			
+		
+}
+
+the_rock2 = {
+	
+			
+		
+}
+
+the_rock3 = {
+	
+		
+}
+
+tomb_charlesmagne1 = {
+	
+			prestige = 0.5
+		
+}
+
+tomb_charlesmagne2 = {
+	
+			prestige = 1
+		
+}
+
+tomb_charlesmagne3 = {
+	
+			prestige = 1
+			leader_land_shock = 1
+		
+}
+
+italy_altar1 = {
+	
+			prestige = 0.5
+		
+}
+
+italy_altar2 = {
+	
+			prestige = 1
+		
+}
+
+italy_altar3 = {
+	
+			prestige = 1
+			monthly_splendor = 2
+		
+}
+
+roman_imperial_admin1 = {
+	
+		
+}
+
+roman_imperial_admin2 = {
+	
+		
+}
+
+roman_imperial_admin3 = {
+	
+		
+}
+
+duscia_monument1 = {
+	
+		
+}
+
+duscia_monument2 = {
+	
+		
+}
+
+duscia_monument3 = {
+	
+			global_unrest = -4
+		
+}
+
+grand_fort_longbard1 = {
+	
+		
+}
+
+grand_fort_longbard2 = {
+	
+		
+}
+
+grand_fort_longbard3 = {
+	
+			defensiveness = 0.1
+			garrison_size = 0.1
+		
+}
+
+bavarian_royal_palace1 = {
+	
+			prestige = 0.5
+			legitimacy = 1
+		
+}
+
+bavarian_royal_palace2 = {
+	
+			prestige = 1
+			legitimacy = 1
+		
+}
+
+bavarian_royal_palace3 = {
+	
+			prestige = 1
+			prestige_decay = -0.1
+			legitimacy = 1
+			no_stability_loss_on_monarch_death = yes
+		
+}
+
+palace_of_germania1 = {
+	
+		
+}
+
+palace_of_germania2 = {
+	
+		
+}
+
+palace_of_germania3 = {
+	
+		
+}
+
+arian_cathedral1 = {
+	
+			global_missionary_strength = 0.01
+			prestige_per_development_from_conversion = 0.1
+		
+}
+
+arian_cathedral2 = {
+	
+			global_missionary_strength = 0.02
+			prestige_per_development_from_conversion = 0.2
+		
+}
+
+arian_cathedral3 = {
+	
+			global_missionary_strength = 0.03
+			prestige_per_development_from_conversion = 0.5
+			missionaries = 1
+		
+}
+
+sweb_arian_monastery1 = {
+	
+		
+}
+
+sweb_arian_monastery2 = {
+	
+			global_missionary_strength = 0.01
+		
+}
+
+sweb_arian_monastery3 = {
+	
+			global_missionary_strength = 0.03
+			missionaries = 1
+		
+}
+
+vinland_eriksbay_company1 = {
+	
+		
+}
+
+vinland_eriksbay_company2 = {
+	
+			trade_efficiency = 0.1
+		
+}
+
+vinland_eriksbay_company3 = {
+	
+			trade_efficiency = 0.15
+		
+}
+

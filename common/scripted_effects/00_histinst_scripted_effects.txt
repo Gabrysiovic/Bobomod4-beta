@@ -1,0 +1,19 @@
+#Unsorted Scripted effects:
+
+#General effect for extending or adding province modifier
+#Province Scope
+remove_other_tech_modifiers_effect = {
+	remove_country_modifier = western_modifier
+	remove_country_modifier = eastern_modifier
+	remove_country_modifier = muslim_modifier
+	remove_country_modifier = oriental_modifier
+	remove_country_modifier = african_modifier
+	remove_country_modifier = indigenous_modifier
+	
+	remove_country_modifier = western_modifier_1600
+	remove_country_modifier = eastern_modifier_1600
+	remove_country_modifier = muslim_modifier_1600
+	remove_country_modifier = oriental_modifier_1600
+	remove_country_modifier = african_modifier_1600
+	remove_country_modifier = indigenous_modifier_1600
+}

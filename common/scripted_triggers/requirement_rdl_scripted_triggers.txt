@@ -1,0 +1,158 @@
+blackheads_modifier_trigger = { 
+
+}
+
+danzigcrane_modifier_trigger = { 
+
+}
+
+magnupkale_modifier_trigger = { 
+
+}
+
+mircastle_modifier_trigger = { 
+OR = {
+			culture_group = east_slavic
+			culture_group = slavic
+		}
+		province_is_or_accepts_culture = yes
+}
+
+spiscastle_modifier_trigger = { 
+
+}
+
+talinnwalls_modifier_trigger = { 
+
+}
+
+trekronor_modifier_trigger = { 
+
+}
+
+turkucastle_modifier_trigger = { 
+#anyone
+}
+
+dubrovnikwalls_modifier_trigger = { 
+#anyone
+}
+
+warsawroyalcastle_modifier_trigger = { 
+
+}
+
+wilanowpalace_modifier_trigger = { 
+
+}
+
+mostarbridge_modifier_trigger = { 
+has_owner_accepted_culture = yes
+}
+
+belgradefortress_modifier_trigger = { 
+
+}
+
+pulaarena_modifier_trigger = { 
+#anyone
+}
+
+casadecontratacion_modifier_trigger = { 
+#anyone
+}
+
+corvincastle_modifier_trigger = { 
+#anyone
+}
+
+heidelbergcastle_modifier_trigger = { 
+#anyone
+}
+
+jasnagora_modifier_trigger = { 
+
+}
+
+redfortdelhi_modifier_trigger = { 
+#anyone
+}
+
+mukdenpalace_modifier_trigger = { 
+#anyone
+}
+
+jagiellonuni_modifier_trigger = { 
+
+}
+
+theowalls_modifier_trigger = { 
+owner = {
+			OR = {
+				NOT = {
+					tag = BYZ
+				}
+				mission_completed = BYZ_reinforce_constantinople
+				#has_country_flag = BYZ_unlock_decision_to_upgrade_theodosian_wall_flag
+			}
+		}
+}
+
+arcdetriomphe_modifier_trigger = { 
+#anyone
+}
+
+pisatower_modifier_trigger = { 
+owner = {
+			culture_group = latin
+		}
+		has_owner_accepted_culture = yes
+}
+
+colosseum_modifier_trigger = { 
+#anyone
+}
+
+louvre_modifier_trigger = { 
+#anyone
+}
+
+brusselscityhall_modifier_trigger = { 
+#anyone
+}
+
+cashel_modifier_trigger = { 
+
+}
+
+rdl_globe_theatre_modifier_trigger = { 
+#famous for Shakespeare plays, this limitation represents that
+		accepted_culture = english
+		province_is_or_accepts_culture = yes
+}
+
+mont_saint_michel_modifier_trigger = { 
+OR = {
+			culture_group = french
+			culture_group = british
+		}
+		province_is_or_accepts_culture = yes
+}
+
+compostela_cathedral_modifier_trigger = { 
+province_is_or_accepts_religion = {
+			religion = catholic
+		}
+}
+
+sanktgallabbey_modifier_trigger = { 
+
+}
+
+saintmarkbasilica_modifier_trigger = { 
+owner = {
+			culture_group = latin
+		}
+		has_owner_accepted_culture = yes
+}
+
